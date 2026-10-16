@@ -9,7 +9,7 @@ Private project review · Watch **2.0.15** · Hub **1.0.8** · Evidence dated **
 
 [Project journey](docs/PROJECT_JOURNEY.md) · [Demonstration videos](docs/DEMONSTRATIONS.md) · [Requirements & results](docs/VALIDATION.md) · [Build guide](docs/BUILD_AND_SETUP.md)
 
-<img src="media/hardware/prototype-in-use-01.jpg" alt="KU Watch and its companion display during a real demonstration" width="650">
+<img src="media/hardware/prototype-in-use-01.jpg" alt="KU Watch and its companion display during a real demonstration" width="440">
 
 </div>
 

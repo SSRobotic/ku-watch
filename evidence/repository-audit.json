@@ -1,13 +1,13 @@
 {
-  "recorded_utc": "2026-10-16T16:35:17.652109+00:00",
+  "recorded_utc": "2026-10-16T16:38:26.900798+00:00",
   "scope": "Actual Git staging bytes and recursive private-release attachments; no secrets are printed or saved in the report. Media contact sheets and complete image geometry were reviewed separately.",
-  "tracked_files": 804,
-  "tracked_bytes": 91385991,
-  "scanned_payloads_including_archive_members": 2529,
+  "tracked_files": 805,
+  "tracked_bytes": 91387807,
+  "scanned_payloads_including_archive_members": 2530,
   "archive_members_checked": 1722,
   "known_secret_scan_passed": true,
   "private_key_and_token_pattern_scan_passed": true,
-  "local_document_links_checked": 209,
+  "local_document_links_checked": 210,
   "broken_local_links": [],
   "firmware_source_matches_reviewed_handoff": true,
   "ignored_private_paths_verified": {

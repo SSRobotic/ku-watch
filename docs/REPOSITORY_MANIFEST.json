@@ -30,7 +30,7 @@
       "bytes": 5598
     },
     "README.md": {
-      "sha256": "53c0058c8d077d986d240edf04cef0f5a01bea58ee720efb03e2bb714aa441b9",
+      "sha256": "444bc42908f6595b9cdad91842b454eb493d867aacb6d66a2b265067e0b691e4",
       "bytes": 7631
     },
     "README_เริ่มตรงนี้.md": {
@@ -66,8 +66,8 @@
       "bytes": 3049
     },
     "docs/ARCHIVE_GUIDE.md": {
-      "sha256": "952b3b4d32ce57dc002ed8569cce11c678df46549f00686f8084aec6375da5f5",
-      "bytes": 793
+      "sha256": "47e43bc61f0920072a6d2fb04d26603c680520d008d52057703662269a166397",
+      "bytes": 1004
     },
     "docs/BUILD_AND_SETUP.md": {
       "sha256": "0ee15b05cdcd852804af3d4a75313d72578aa15f706b1c43b5237d2b2bcf1949",
@@ -114,8 +114,8 @@
       "bytes": 2768
     },
     "docs/VALIDATION.md": {
-      "sha256": "f22a4dc8902e893880cdb2b1b1f3e27c2adb3dac8832150d25ef7ef0ef98e79f",
-      "bytes": 6545
+      "sha256": "31345090ebb352039dd3519eff211caf15c51c5531ad2d64fb6b1c0491f71140",
+      "bytes": 6745
     },
     "docs/release-artifacts.json": {
       "sha256": "59d0deaa6bf7344472d8a7b7396673b58c7bff0d98de0aec25051deaff3ef8dc",
@@ -712,6 +712,10 @@
     "evidence/replay_phone_drain_20261010.json": {
       "sha256": "69e4465db3b922f09a094bb93c51d04a620eb3d3feb5e03f6da66fa0868bcaef",
       "bytes": 74525
+    },
+    "evidence/repository-upload-verification.json": {
+      "sha256": "d62198a8a6a8f77d55113587d237117fe8ac6b76ca4d19576a9ab2d257f44b58",
+      "bytes": 1405
     },
     "evidence/rtc_bridge_live.json": {
       "sha256": "b67e310452be76717180476ab88f2fc67fb3e390eccf237b9036a2e781409859",

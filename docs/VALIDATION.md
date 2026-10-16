@@ -25,7 +25,7 @@ The original watch-side QMI8658/MicroSD specification was implemented with repor
 | NFR-02 | Survive a 10 min network/broker outage and reconnect automatically with backoff | **Accepted in the recorded outage test.** Watch kept running during actual 614 s Wi-Fi interruption and recovered automatically |
 | NFR-03 | Online sensor-to-Grafana <=5 s and touch response <=300 ms; 10 timing observations | **Incomplete.** Some query-latency observations exist; full physical sensor-to-painted-browser and quantitative touch boundary are not established |
 | NFR-04 | 1000 mAh Li-Po operation >=6 h, measured until 20% | **Not tested.** Bench tests used USB. Portable use and estimated battery percentage do not establish endurance |
-| NFR-05 | No confidential credentials in GitHub source; authenticated broker | Source archive already audited. The repository audit accompanying this import checks the actual staged tree and Git history. Review its recorded result; do not retroactively change the original Word checklist |
+| NFR-05 | No confidential credentials in GitHub source; authenticated broker | **Accepted for the audited private repository snapshot.** Actual committed blobs, ignored private paths and recursive release attachments were checked; no known credentials or private keys were found. Authenticated MQTT operation is separately evidenced. The earlier Word checklist is retained unchanged |
 | NFR-06 | Temperature within +/-3 C of reference over 10 points; label health values preliminary | Health estimates are labeled experimental. **Calibration incomplete:** no 10-point reference-temperature dataset supplied |
 | NFR-07 | Actual complete hardware BOM <=3,000 THB | **Incomplete.** Actual purchase prices have not been filled for a verified total |
 | NFR-08 | Modular code, A/B rollback and OTA battery gate; 3 power-cut recovery trials | Modules and A/B OTA are implemented; successful updates observed. **Power-cut acceptance incomplete:** three interruption/rollback trials have not been performed |
@@ -42,6 +42,8 @@ The original watch-side QMI8658/MicroSD specification was implemented with repor
 - [Assertions-enabled host regression report](../evidence/final-2026-10-16/host-regressions-assertions-enabled.json)
 - [Original failed soak audit](../evidence/final-2026-10-16/historical/failed_soak_original.json)
 - [Original final Word checklist, Thai](../archive/acceptance-thai/KU_Watch_FR_Status_2.0.15_ready15.docx)
+
+- [Actual private repository and release verification](../evidence/repository-upload-verification.json)
 
 ## Failed and partial attempts
 

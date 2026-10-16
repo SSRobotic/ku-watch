@@ -1,0 +1,38 @@
+{
+  "scope": "Post-upload verification of the initial import commit; later documentation commits descend from this checked source import.",
+  "verified_import_commit": "c8e34b49f78d77fa1b64d583f899dd388ee07045",
+  "repository": "https://github.com/SSRobotic/ku-watch",
+  "visibility": "private",
+  "anonymous_access_http": 404,
+  "collaborator_logins": [
+    "SSRobotic"
+  ],
+  "remote_tree_files": 804,
+  "readme_matches_local": true,
+  "committed_blobs_secret_scanned": 773,
+  "known_secret_scan_passed": true,
+  "forbidden_private_paths_absent": true,
+  "recursive_release_scan_passed": true,
+  "server_release_digests_match_local": true,
+  "release_assets": [
+    {
+      "name": "KU-Watch-Academic-Presentation-2026-10-16-Original-Thai.pptx",
+      "bytes": 65998104,
+      "state": "uploaded",
+      "digest_matches": true
+    },
+    {
+      "name": "KU-Watch-Development-Presentation-2026-10-16-Original-Thai.pptx",
+      "bytes": 81131460,
+      "state": "uploaded",
+      "digest_matches": true
+    },
+    {
+      "name": "KU-Watch-Functional-Evidence-2.0.15.zip",
+      "bytes": 6253532,
+      "state": "uploaded",
+      "digest_matches": true
+    }
+  ],
+  "NFR05_repository_review": "Accepted for this audited private snapshot; authenticated MQTT delivery is separately evidenced by the final hardware reception run. This does not modify earlier dated checklist status or accept other NFRs."
+}
