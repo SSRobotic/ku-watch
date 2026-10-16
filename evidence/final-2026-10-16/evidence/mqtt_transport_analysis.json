@@ -1,0 +1,31 @@
+{
+  "derived_from": "2026-10-16T14-24-08-963Z/comparison.json",
+  "primary_pass": false,
+  "worst_intervals": {
+    "qos1_no_delay": {
+      "before_id": "9aeeab08-0000116b",
+      "after_id": "9aeeab08-0000116c",
+      "source_gap_ms": 860,
+      "receive_gap_ms": 4961.902899999986,
+      "mean_receive_ms": 997.2894617449664,
+      "disconnects": 0
+    },
+    "qos1_nagle_control": {
+      "before_id": "9aeeab08-0000116b",
+      "after_id": "9aeeab08-0000116c",
+      "source_gap_ms": 860,
+      "receive_gap_ms": 4968.407999999996,
+      "mean_receive_ms": 997.3263211409397,
+      "disconnects": 0
+    },
+    "qos0_diagnostic": {
+      "before_id": "9aeeab08-000010d5",
+      "after_id": "9aeeab08-000010d6",
+      "source_gap_ms": 870,
+      "receive_gap_ms": 5675.568899999998,
+      "mean_receive_ms": 997.3622889261743,
+      "disconnects": 0
+    }
+  },
+  "boundary": "NoDelay did not meet the prior receive-gap check. No pass threshold or production configuration was changed."
+}

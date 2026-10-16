@@ -1,0 +1,34 @@
+{
+  "port": "COM15",
+  "seconds": 8.0,
+  "lines": [
+    {
+      "at": 0.89,
+      "text": "OTA version=2.0.6 current=app0 next=app1 state=4294967295 confirmed=1 busy=0 server_configured=0 battery_allowed=1"
+    },
+    {
+      "at": 0.89,
+      "text": "NETWORK cloud=1 wifi=1 mqtt=1 error=0 sent=14 heap=141976"
+    },
+    {
+      "at": 0.89,
+      "text": "NETDNS fallback_result=0 main=192.168.137.1 backup=0.0.0.0 fallback=1.1.1.1 error_type=0 tls=0 socket=0"
+    },
+    {
+      "at": 0.89,
+      "text": "QUEUE ready=1 pending=203 acked=14 dropped=0 errors=0 max_encoded=452 capacity=768 reserve=131072"
+    },
+    {
+      "at": 0.89,
+      "text": "QUEUE write_max_us=650473 ingress=0 free=598016"
+    },
+    {
+      "at": 0.89,
+      "text": "CLOCK utc=1791622773 valid=1 source=NET TIME restored=1 sync_utc=1791622761 checkpoint=1791622735 uptime=31712"
+    },
+    {
+      "at": 0.89,
+      "text": "ESPNOW ready=1 paired=1 online=1 tx=18 rx=5 rejected=0 dropped=0"
+    }
+  ]
+}

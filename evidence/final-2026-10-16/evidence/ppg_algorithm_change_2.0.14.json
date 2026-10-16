@@ -1,0 +1,16 @@
+{
+  "recorded_utc": "2026-10-16T15:18:42.162002+00:00",
+  "planned_version": "2.0.14",
+  "basis": "https://github.com/aromring/MAX30102_by_RF",
+  "method": "Linear detrending, first supported autocorrelation maximum, published lag-zero-normalized threshold 0.5; require BOTH IR and red with Pearson >=0.90 and RMS >=10 counts",
+  "difference_from_2.0.13": "Replace peak-counter-dependent period validation with a fresh independently derived optical period; previous custom normalized-pair thresholds 0.85/0.75 are replaced by the published method, not silently treated as equivalent",
+  "bpm_range": [
+    40,
+    180
+  ],
+  "retained_guards": "Real ADC samples, contact/clipping bounds, SpO2 reference validity and 70-100 range, signal/perfusion guards, consecutive stable oxygen windows; reject flat, drifting, inverted, mismatched or aperiodic input",
+  "acceptance_unchanged": "Actual real valid BPM/SpO2 continuously >=60 s, display >=1 Hz, nominal IAQ 3 s and no FIFO loss; no stale hold, clamping or fake measurements",
+  "raw_waveform_saved": false,
+  "clinical_calibration": false,
+  "prior_real_evidence": "ppg_summary_20261016T150838Z.json"
+}

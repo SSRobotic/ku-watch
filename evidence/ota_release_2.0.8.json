@@ -1,0 +1,8 @@
+{
+  "version": "2.0.8",
+  "bytes": 1263888,
+  "sha256": "304b1dfce0c8a74022e65f9a0e096d4be2f651323e9356c8db4092c2c62179f4",
+  "template": true,
+  "boundary": "Local files only; no server started, URL deployed, or automatic update tested",
+  "version_check": "Source version and ESP image version literal; Arduino app descriptor contains ESP-IDF build version"
+}

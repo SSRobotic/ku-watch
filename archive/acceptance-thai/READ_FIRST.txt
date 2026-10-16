@@ -1,0 +1,9 @@
+KU Watch FR evidence, watch 2.0.15, hub 1.0.8
+Open KU_Watch_FR_Status_2.0.15_ready15.docx for the original-criteria checklist.
+FR_Status_2.0.15_ready15.md explains the current results in Thai.
+Both successful and failed real tests are retained. Read comparison.json for current acceptance.
+FR-06 uses permitted isolated simulated input. FR-08 was automatic HTTPS OTA; both displays confirmed.
+Earlier dated firmware tests are historical, not retests of 2.0.14.
+Use host_assertions_enabled.json for actual host-test proof.
+Cumulative MQTT time does not prove continuous 24h operation or battery endurance.
+Private configs, TLS keys, device flash backup and firmware binaries are excluded.

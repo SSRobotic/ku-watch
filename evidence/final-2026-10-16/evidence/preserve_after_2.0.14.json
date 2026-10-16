@@ -1,0 +1,34 @@
+{
+  "checked_utc": "2026-10-16T15:30:35.224212+00:00",
+  "firmware": "2.0.14",
+  "settings_excluding_manifest_sha256": "22b149774549540b43f15a2b576ba7f21761da8528fba291d6ddf2ba3c3d3ccd",
+  "activity_files": {
+    "3": {
+      "bytes": 672,
+      "sha256": "32d78505994ec2058c5e92b5be6075c942f805e264d4689dc9014c91c483bd00"
+    },
+    "6": {
+      "bytes": 896,
+      "sha256": "379ee137a328e4e54178bf89d5ef1bf8f3e630caf1f0e7b12d60ef0324cc9bdb"
+    },
+    "7": {
+      "bytes": 352,
+      "sha256": "8f2ffbe0efc42e964b42c25595f4b256d08b43006c1fb5075e2efe54b776a18c"
+    },
+    "8": {
+      "bytes": 192,
+      "sha256": "9c4b0f1b3564b5245dcc3b9dbd0d61fb645455da64a19a980235158ea26c5335"
+    },
+    "9": {
+      "bytes": 3136,
+      "sha256": "ecbcb722b7d9687bc6319aad3400afebf9c0116f858309363594659ee6555b84"
+    },
+    "10": {
+      "bytes": 2912,
+      "sha256": "623a7925ceb5fe30a7eae29b79d2fee4fa5d6b59e4be77905ae52a19564a9f46"
+    }
+  },
+  "recording": 0,
+  "private_settings_logged": false,
+  "raw_activity_data_saved": false
+}

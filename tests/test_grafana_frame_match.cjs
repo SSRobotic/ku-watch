@@ -1,0 +1,10 @@
+const assert=require('assert'),{containsCapture}=require('../tools/grafana_frame_match.cjs');
+const capture={sample_id:'11111111-00000001',timestamp:1704067200};
+const response=(ids,times)=>({results:{A:{frames:[{schema:{fields:[{name:'time',type:'time'},{name:'sample_id',type:'string'}]},data:{values:[times,ids]}}]}}});
+assert(containsCapture(response([capture.sample_id],[capture.timestamp*1000]),capture));
+assert(!containsCapture(response(['11111111-00000002'],[capture.timestamp*1000]),capture));
+assert(!containsCapture(response([capture.sample_id],[capture.timestamp*1000+1000]),capture));
+assert(!containsCapture({results:{A:{frames:[{schema:{fields:[{name:'time',type:'time'}]},data:{values:[[capture.timestamp*1000+1000]]}}]}}},capture));
+assert(!containsCapture({results:{A:{error:'unavailable'}}},capture));
+assert(!containsCapture(response([capture.sample_id],[]),capture));
+console.log('Exact capture/time matching, unrelated rows and unavailable queries passed');

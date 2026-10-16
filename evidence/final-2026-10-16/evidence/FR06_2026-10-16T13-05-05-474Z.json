@@ -1,0 +1,312 @@
+{
+  "started_utc": "2026-10-16T13:05:05.477Z",
+  "boundary": "Explicit 1-Hz diagnostic inputs on real watch, through production alert model and physical display SPI writes; separate MQTT test topic, same alert UI template. Browser DOM + two animation frames measured. Does not establish physical BSEC three-reading latency or optical LCD latency.",
+  "tests": [
+    {
+      "id": 155908440,
+      "channel": "TEMP",
+      "serial": [
+        {
+          "kind": "host_sent",
+          "test_id": 155908440,
+          "channel": "TEMP",
+          "utc": "2026-10-16T13:05:08.569697+00:00",
+          "host_epoch_ms": 1792155908569.6978
+        },
+        {
+          "kind": "serial",
+          "elapsed_ms": 16.00000000325963,
+          "host_epoch_ms": 1792155908584.3113,
+          "text": "ALERTTEST BEGIN id=155908440 channel=TEMP uptime_ms=186088 simulated=1 real_telemetry_unchanged=1"
+        },
+        {
+          "kind": "serial",
+          "elapsed_ms": 16.00000000325963,
+          "host_epoch_ms": 1792155908585.3115,
+          "text": "ALERTTEST INPUT id=155908440 sequence=1 elapsed_ms=1 mask=0"
+        },
+        {
+          "kind": "serial",
+          "elapsed_ms": 1016.0000000032596,
+          "host_epoch_ms": 1792155909584.5889,
+          "text": "ALERTTEST INPUT id=155908440 sequence=2 elapsed_ms=1001 mask=0"
+        },
+        {
+          "kind": "serial",
+          "elapsed_ms": 1125,
+          "host_epoch_ms": 1792155909696.823,
+          "text": "ALERTTEST DISPLAY {\"kind\":\"alert_fixture\",\"simulated\":true,\"phase\":\"displayed\",\"test_id\":155908440,\"sequence\":1,\"channel\":\"TEMP\",\"input_elapsed_ms\":1,\"display_elapsed_ms\":1110,\"alert_mask\":0,\"alert_temp_state\":1,\"alert_iaq_state\":1,\"alert_pixels\":0,\"firmware\":\"2.0.11\",\"timestamp\":1792155908,\"alert_temp_limit\":35,\"alert_iaq_limit\":150} queued=1"
+        },
+        {
+          "kind": "serial",
+          "elapsed_ms": 1829.0000000270084,
+          "host_epoch_ms": 1792155910397.541,
+          "text": "ALERTTEST DISPLAY {\"kind\":\"alert_fixture\",\"simulated\":true,\"phase\":\"displayed\",\"test_id\":155908440,\"sequence\":2,\"channel\":\"TEMP\",\"input_elapsed_ms\":1001,\"display_elapsed_ms\":1811,\"alert_mask\":0,\"alert_temp_state\":1,\"alert_iaq_state\":1,\"alert_pixels\":0,\"firmware\":\"2.0.11\",\"timestamp\":1792155909,\"alert_temp_limit\":35,\"alert_iaq_limit\":150} queued=1"
+        },
+        {
+          "kind": "serial",
+          "elapsed_ms": 2032.0000000065193,
+          "host_epoch_ms": 1792155910598.5347,
+          "text": "ALERTTEST INPUT id=155908440 sequence=3 elapsed_ms=2016 mask=1"
+        },
+        {
+          "kind": "serial",
+          "elapsed_ms": 3079.0000000270084,
+          "host_epoch_ms": 1792155911653.664,
+          "text": "ALERTTEST DISPLAY {\"kind\":\"alert_fixture\",\"simulated\":true,\"phase\":\"displayed\",\"test_id\":155908440,\"sequence\":3,\"channel\":\"TEMP\",\"input_elapsed_ms\":2016,\"display_elapsed_ms\":3067,\"alert_mask\":1,\"alert_temp_state\":2,\"alert_iaq_state\":1,\"alert_pixels\":241,\"firmware\":\"2.0.11\",\"timestamp\":1792155910,\"alert_temp_limit\":35,\"alert_iaq_limit\":150} queued=1"
+        }
+      ],
+      "mqtt": [
+        {
+          "received_epoch_ms": 1792155910029,
+          "payload": {
+            "kind": "alert_fixture",
+            "simulated": true,
+            "phase": "displayed",
+            "test_id": 155908440,
+            "sequence": 1,
+            "channel": "TEMP",
+            "input_elapsed_ms": 1,
+            "display_elapsed_ms": 1110,
+            "alert_mask": 0,
+            "alert_temp_state": 1,
+            "alert_iaq_state": 1,
+            "alert_pixels": 0,
+            "firmware": "2.0.11",
+            "timestamp": 1792155908,
+            "alert_temp_limit": 35,
+            "alert_iaq_limit": 150
+          }
+        },
+        {
+          "received_epoch_ms": 1792155911604,
+          "payload": {
+            "kind": "alert_fixture",
+            "simulated": true,
+            "phase": "displayed",
+            "test_id": 155908440,
+            "sequence": 2,
+            "channel": "TEMP",
+            "input_elapsed_ms": 1001,
+            "display_elapsed_ms": 1811,
+            "alert_mask": 0,
+            "alert_temp_state": 1,
+            "alert_iaq_state": 1,
+            "alert_pixels": 0,
+            "firmware": "2.0.11",
+            "timestamp": 1792155909,
+            "alert_temp_limit": 35,
+            "alert_iaq_limit": 150
+          }
+        },
+        {
+          "received_epoch_ms": 1792155913461,
+          "payload": {
+            "kind": "alert_fixture",
+            "simulated": true,
+            "phase": "displayed",
+            "test_id": 155908440,
+            "sequence": 3,
+            "channel": "TEMP",
+            "input_elapsed_ms": 2016,
+            "display_elapsed_ms": 3067,
+            "alert_mask": 1,
+            "alert_temp_state": 2,
+            "alert_iaq_state": 1,
+            "alert_pixels": 241,
+            "firmware": "2.0.11",
+            "timestamp": 1792155910,
+            "alert_temp_limit": 35,
+            "alert_iaq_limit": 150
+          }
+        }
+      ],
+      "browser": [
+        {
+          "id": 155908440,
+          "seq": 1,
+          "high": false,
+          "visible": true,
+          "epoch_ms": 1792155910033,
+          "text": "FR-06 TEST — ค่าจำลองเพื่อทดสอบระบบ\n\nป้อนค่าใหม่ 1 Hz จากนาฬิกาจริง · แยกจากข้อมูลเซ็นเซอร์จริงและฐานข้อมูล\n\nแจ้งเตือนและสถานะนาฬิกา\nอุณหภูมิ: ยังไม่ถึงเงื่อนไขเตือน\nเกิน 35 °C ติดต่อกัน 3 รอบ\nIAQ: ยังไม่ถึงเงื่อนไขเตือน\nเกิน 150 ติดต่อกัน 3 รอบ · รอ BSEC พร้อมก่อน\nแบตเตอรี่: รอข้อมูล\n—% โดยประมาณ · เตือนที่ ≤20% · ยกเลิกที่ ≥22%\nเฟิร์มแวร์ 2.0.11\nสถานะจากนาฬิกา · อุณหภูมิบริเวณบอร์ด · ข้อมูลย้อนหลังไม่เปลี่ยนสถานะสด"
+        },
+        {
+          "id": 155908440,
+          "seq": 2,
+          "high": false,
+          "visible": true,
+          "epoch_ms": 1792155911612,
+          "text": "FR-06 TEST — ค่าจำลองเพื่อทดสอบระบบ\n\nป้อนค่าใหม่ 1 Hz จากนาฬิกาจริง · แยกจากข้อมูลเซ็นเซอร์จริงและฐานข้อมูล\n\nแจ้งเตือนและสถานะนาฬิกา\nอุณหภูมิ: ยังไม่ถึงเงื่อนไขเตือน\nเกิน 35 °C ติดต่อกัน 3 รอบ\nIAQ: ยังไม่ถึงเงื่อนไขเตือน\nเกิน 150 ติดต่อกัน 3 รอบ · รอ BSEC พร้อมก่อน\nแบตเตอรี่: รอข้อมูล\n—% โดยประมาณ · เตือนที่ ≤20% · ยกเลิกที่ ≥22%\nเฟิร์มแวร์ 2.0.11\nสถานะจากนาฬิกา · อุณหภูมิบริเวณบอร์ด · ข้อมูลย้อนหลังไม่เปลี่ยนสถานะสด"
+        },
+        {
+          "id": 155908440,
+          "seq": 3,
+          "high": true,
+          "visible": true,
+          "epoch_ms": 1792155913470,
+          "text": "FR-06 TEST — ค่าจำลองเพื่อทดสอบระบบ\n\nป้อนค่าใหม่ 1 Hz จากนาฬิกาจริง · แยกจากข้อมูลเซ็นเซอร์จริงและฐานข้อมูล\n\nแจ้งเตือนและสถานะนาฬิกา\nอุณหภูมิ: เกินเกณฑ์\nเกิน 35 °C ติดต่อกัน 3 รอบ\nIAQ: ยังไม่ถึงเงื่อนไขเตือน\nเกิน 150 ติดต่อกัน 3 รอบ · รอ BSEC พร้อมก่อน\nแบตเตอรี่: รอข้อมูล\n—% โดยประมาณ · เตือนที่ ≤20% · ยกเลิกที่ ≥22%\nเฟิร์มแวร์ 2.0.11\nสถานะจากนาฬิกา · อุณหภูมิบริเวณบอร์ด · ข้อมูลย้อนหลังไม่เปลี่ยนสถานะสด"
+        }
+      ],
+      "display_elapsed_ms": 3067,
+      "browser_elapsed_ms": 4900.30224609375,
+      "passed": true,
+      "screenshot": "FR06_TEMP_155908440.png",
+      "screenshot_sha256": "7c76134beac5893ea095ccf95ebc04e76cc183f26a639150b97ae4eefdcfe36b"
+    },
+    {
+      "id": 155917681,
+      "channel": "IAQ",
+      "serial": [
+        {
+          "kind": "host_sent",
+          "test_id": 155917681,
+          "channel": "IAQ",
+          "utc": "2026-10-16T13:05:17.807340+00:00",
+          "host_epoch_ms": 1792155917807.3408
+        },
+        {
+          "kind": "serial",
+          "elapsed_ms": 14.999999955762178,
+          "host_epoch_ms": 1792155917821.2827,
+          "text": "ALERTTEST BEGIN id=155917681 channel=IAQ uptime_ms=195324 simulated=1 real_telemetry_unchanged=1"
+        },
+        {
+          "kind": "serial",
+          "elapsed_ms": 14.999999955762178,
+          "host_epoch_ms": 1792155917821.2827,
+          "text": "ALERTTEST INPUT id=155917681 sequence=1 elapsed_ms=1 mask=0"
+        },
+        {
+          "kind": "serial",
+          "elapsed_ms": 1000,
+          "host_epoch_ms": 1792155918805.385,
+          "text": "ALERTTEST DISPLAY {\"kind\":\"alert_fixture\",\"simulated\":true,\"phase\":\"displayed\",\"test_id\":155917681,\"sequence\":1,\"channel\":\"IAQ\",\"input_elapsed_ms\":1,\"display_elapsed_ms\":982,\"alert_mask\":0,\"alert_temp_state\":1,\"alert_iaq_state\":1,\"alert_pixels\":0,\"firmware\":\"2.0.11\",\"timestamp\":1792155916,\"alert_temp_limit\":35,\"alert_iaq_limit\":150} queued=1"
+        },
+        {
+          "kind": "serial",
+          "elapsed_ms": 1061.9999999762513,
+          "host_epoch_ms": 1792155918867.1162,
+          "text": "ALERTTEST INPUT id=155917681 sequence=2 elapsed_ms=1046 mask=0"
+        },
+        {
+          "kind": "serial",
+          "elapsed_ms": 2077.999999979511,
+          "host_epoch_ms": 1792155919878.0823,
+          "text": "ALERTTEST INPUT id=155917681 sequence=3 elapsed_ms=2058 mask=2"
+        },
+        {
+          "kind": "serial",
+          "elapsed_ms": 2421.9999999622814,
+          "host_epoch_ms": 1792155920220.9,
+          "text": "ALERTTEST DISPLAY {\"kind\":\"alert_fixture\",\"simulated\":true,\"phase\":\"displayed\",\"test_id\":155917681,\"sequence\":2,\"channel\":\"IAQ\",\"input_elapsed_ms\":1046,\"display_elapsed_ms\":2398,\"alert_mask\":0,\"alert_temp_state\":1,\"alert_iaq_state\":1,\"alert_pixels\":0,\"firmware\":\"2.0.11\",\"timestamp\":1792155918,\"alert_temp_limit\":35,\"alert_iaq_limit\":150} queued=1"
+        },
+        {
+          "kind": "serial",
+          "elapsed_ms": 2983.9999999967404,
+          "host_epoch_ms": 1792155920783.6619,
+          "text": "ALERTTEST DISPLAY {\"kind\":\"alert_fixture\",\"simulated\":true,\"phase\":\"displayed\",\"test_id\":155917681,\"sequence\":3,\"channel\":\"IAQ\",\"input_elapsed_ms\":2058,\"display_elapsed_ms\":2960,\"alert_mask\":2,\"alert_temp_state\":1,\"alert_iaq_state\":2,\"alert_pixels\":109,\"firmware\":\"2.0.11\",\"timestamp\":1792155918,\"alert_temp_limit\":35,\"alert_iaq_limit\":150} queued=1"
+        }
+      ],
+      "mqtt": [
+        {
+          "received_epoch_ms": 1792155920319,
+          "payload": {
+            "kind": "alert_fixture",
+            "simulated": true,
+            "phase": "displayed",
+            "test_id": 155917681,
+            "sequence": 1,
+            "channel": "IAQ",
+            "input_elapsed_ms": 1,
+            "display_elapsed_ms": 982,
+            "alert_mask": 0,
+            "alert_temp_state": 1,
+            "alert_iaq_state": 1,
+            "alert_pixels": 0,
+            "firmware": "2.0.11",
+            "timestamp": 1792155916,
+            "alert_temp_limit": 35,
+            "alert_iaq_limit": 150
+          }
+        },
+        {
+          "received_epoch_ms": 1792155921571,
+          "payload": {
+            "kind": "alert_fixture",
+            "simulated": true,
+            "phase": "displayed",
+            "test_id": 155917681,
+            "sequence": 2,
+            "channel": "IAQ",
+            "input_elapsed_ms": 1046,
+            "display_elapsed_ms": 2398,
+            "alert_mask": 0,
+            "alert_temp_state": 1,
+            "alert_iaq_state": 1,
+            "alert_pixels": 0,
+            "firmware": "2.0.11",
+            "timestamp": 1792155918,
+            "alert_temp_limit": 35,
+            "alert_iaq_limit": 150
+          }
+        },
+        {
+          "received_epoch_ms": 1792155922557,
+          "payload": {
+            "kind": "alert_fixture",
+            "simulated": true,
+            "phase": "displayed",
+            "test_id": 155917681,
+            "sequence": 3,
+            "channel": "IAQ",
+            "input_elapsed_ms": 2058,
+            "display_elapsed_ms": 2960,
+            "alert_mask": 2,
+            "alert_temp_state": 1,
+            "alert_iaq_state": 2,
+            "alert_pixels": 109,
+            "firmware": "2.0.11",
+            "timestamp": 1792155918,
+            "alert_temp_limit": 35,
+            "alert_iaq_limit": 150
+          }
+        }
+      ],
+      "browser": [
+        {
+          "id": 155917681,
+          "seq": 1,
+          "high": false,
+          "visible": true,
+          "epoch_ms": 1792155920280,
+          "text": "FR-06 TEST — ค่าจำลองเพื่อทดสอบระบบ\n\nป้อนค่าใหม่ 1 Hz จากนาฬิกาจริง · แยกจากข้อมูลเซ็นเซอร์จริงและฐานข้อมูล\n\nแจ้งเตือนและสถานะนาฬิกา\nอุณหภูมิ: ยังไม่ถึงเงื่อนไขเตือน\nเกิน 35 °C ติดต่อกัน 3 รอบ\nIAQ: ยังไม่ถึงเงื่อนไขเตือน\nเกิน 150 ติดต่อกัน 3 รอบ · รอ BSEC พร้อมก่อน\nแบตเตอรี่: รอข้อมูล\n—% โดยประมาณ · เตือนที่ ≤20% · ยกเลิกที่ ≥22%\nเฟิร์มแวร์ 2.0.11\nสถานะจากนาฬิกา · อุณหภูมิบริเวณบอร์ด · ข้อมูลย้อนหลังไม่เปลี่ยนสถานะสด"
+        },
+        {
+          "id": 155917681,
+          "seq": 2,
+          "high": false,
+          "visible": true,
+          "epoch_ms": 1792155921585,
+          "text": "FR-06 TEST — ค่าจำลองเพื่อทดสอบระบบ\n\nป้อนค่าใหม่ 1 Hz จากนาฬิกาจริง · แยกจากข้อมูลเซ็นเซอร์จริงและฐานข้อมูล\n\nแจ้งเตือนและสถานะนาฬิกา\nอุณหภูมิ: ยังไม่ถึงเงื่อนไขเตือน\nเกิน 35 °C ติดต่อกัน 3 รอบ\nIAQ: ยังไม่ถึงเงื่อนไขเตือน\nเกิน 150 ติดต่อกัน 3 รอบ · รอ BSEC พร้อมก่อน\nแบตเตอรี่: รอข้อมูล\n—% โดยประมาณ · เตือนที่ ≤20% · ยกเลิกที่ ≥22%\nเฟิร์มแวร์ 2.0.11\nสถานะจากนาฬิกา · อุณหภูมิบริเวณบอร์ด · ข้อมูลย้อนหลังไม่เปลี่ยนสถานะสด"
+        },
+        {
+          "id": 155917681,
+          "seq": 3,
+          "high": true,
+          "visible": true,
+          "epoch_ms": 1792155922810,
+          "text": "FR-06 TEST — ค่าจำลองเพื่อทดสอบระบบ\n\nป้อนค่าใหม่ 1 Hz จากนาฬิกาจริง · แยกจากข้อมูลเซ็นเซอร์จริงและฐานข้อมูล\n\nแจ้งเตือนและสถานะนาฬิกา\nอุณหภูมิ: ยังไม่ถึงเงื่อนไขเตือน\nเกิน 35 °C ติดต่อกัน 3 รอบ\nIAQ: เกินเกณฑ์\nเกิน 150 ติดต่อกัน 3 รอบ · รอ BSEC พร้อมก่อน\nแบตเตอรี่: รอข้อมูล\n—% โดยประมาณ · เตือนที่ ≤20% · ยกเลิกที่ ≥22%\nเฟิร์มแวร์ 2.0.11\nสถานะจากนาฬิกา · อุณหภูมิบริเวณบอร์ด · ข้อมูลย้อนหลังไม่เปลี่ยนสถานะสด"
+        }
+      ],
+      "display_elapsed_ms": 2960,
+      "browser_elapsed_ms": 5002.6591796875,
+      "passed": false,
+      "screenshot": "FR06_IAQ_155917681.png",
+      "screenshot_sha256": "79772656aea2de592c9185da69e50722621600d18367c52bf69187fa54b1394c"
+    }
+  ],
+  "normal_data_samples": 21,
+  "normal_data_simulated": 0,
+  "passed": false,
+  "completed_utc": "2026-10-16T13:05:28.587Z"
+}

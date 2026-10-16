@@ -1,0 +1,35 @@
+{
+  "boundary": "Read-only authenticated status; no manual/USB clock set. Windows outgoing hotspot is 2.4GHz; incoming PC Wi-Fi is a separate interface connection.",
+  "before": {
+    "firmware": "2.0.5",
+    "uptime_ms": 111629,
+    "recording": 0,
+    "ota_allowed": true,
+    "wifi": true,
+    "mqtt": true,
+    "pending": 725,
+    "dropped": 32,
+    "storage_errors": 0,
+    "environment_sequence": 26,
+    "clock_source": "NET TIME",
+    "utc": 1791620893
+  },
+  "after": {
+    "firmware": "2.0.5",
+    "uptime_ms": 120235,
+    "recording": 0,
+    "ota_allowed": true,
+    "wifi": true,
+    "mqtt": true,
+    "pending": 723,
+    "dropped": 32,
+    "storage_errors": 0,
+    "environment_sequence": 29,
+    "clock_source": "NET TIME",
+    "utc": 1791620901
+  },
+  "elapsed_s": 8.828000000001339,
+  "utc_advance": 8,
+  "host_utc_delta_s": 2.2408130168914795,
+  "passed": true
+}

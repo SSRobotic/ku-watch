@@ -1,0 +1,27 @@
+{
+  "started_utc": "2026-10-16T12:48:59.123020+00:00",
+  "firmware_sha256": "bbd47357198700c5ae58f9a5b2b78cfd0f268c160a7848d061f243efed4adeb6",
+  "steps": [
+    {
+      "operation": "bootstrap_identity",
+      "exit_code": 0,
+      "finished_utc": "2026-10-16T12:49:03.217475+00:00"
+    },
+    {
+      "operation": "bootstrap_flash_backup",
+      "exit_code": 0,
+      "finished_utc": "2026-10-16T12:49:58.767730+00:00"
+    },
+    {
+      "operation": "bootstrap_app0_write",
+      "exit_code": 0,
+      "finished_utc": "2026-10-16T12:50:13.446716+00:00"
+    }
+  ],
+  "filesystem_erased": false,
+  "nvs_erased": false,
+  "app0_only": true,
+  "backup_sha256": "29361ade253bef0db851b158d1d3bdec09086120e9a134dee2f221a6715f95a1",
+  "completed_utc": "2026-10-16T12:50:13.447223+00:00",
+  "app0_written": true
+}

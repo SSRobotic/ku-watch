@@ -1,0 +1,78 @@
+{
+  "recorded_utc": "2026-10-16T16:34:08.788101+00:00",
+  "scope": "New host regression run in the sanitized GitHub checkout; no connected hardware was flashed or changed.",
+  "boundary": "Host-only regressions, never hardware acceptance or published telemetry",
+  "assertions_enabled": true,
+  "compiler_flags_include": "-UNDEBUG",
+  "results": [
+    {
+      "name": "frame_cache_build",
+      "passed": true
+    },
+    {
+      "name": "frame_cache",
+      "passed": true
+    },
+    {
+      "name": "alert_fixture_build",
+      "passed": true
+    },
+    {
+      "name": "alert_fixture",
+      "passed": true
+    },
+    {
+      "name": "pulse_25hz_build",
+      "passed": true
+    },
+    {
+      "name": "pulse_25hz",
+      "passed": true
+    },
+    {
+      "name": "pulse_periodicity_build",
+      "passed": true
+    },
+    {
+      "name": "pulse_periodicity",
+      "passed": true
+    },
+    {
+      "name": "alerts_build",
+      "passed": true
+    },
+    {
+      "name": "alerts",
+      "passed": true
+    },
+    {
+      "name": "watch_extensions_build",
+      "passed": true
+    },
+    {
+      "name": "watch_extensions",
+      "passed": true
+    },
+    {
+      "name": "sensors_build",
+      "passed": true
+    },
+    {
+      "name": "sensors",
+      "passed": true
+    },
+    {
+      "name": "environment_build",
+      "passed": true
+    },
+    {
+      "name": "environment",
+      "passed": true
+    },
+    {
+      "name": "ota_gateway",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,10 @@
+{
+  "checked_utc": "2026-10-16T14:09:28.7371788Z",
+  "source": "Direct human reply in this chat",
+  "watch_version_seen": "2.0.12",
+  "hub_watch_version_seen": "2.0.12",
+  "both_visible_versions_match_installed": true,
+  "tail_40s_trace_was_after_finger_removed": true,
+  "raw_tail_trace_must_not_be_used_as_wearer_signal_failure": true,
+  "fr08_visual_acceptance_confirmed": true
+}

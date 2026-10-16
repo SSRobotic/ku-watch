@@ -1,0 +1,43 @@
+{
+  "started_utc": "2026-10-16T08:02:01.555510+00:00",
+  "old_topic": "ku_watch/live",
+  "new_topic": "ku/iot/ku_watch/ku-watch-449205d4/env",
+  "configuration_only": true,
+  "firmware_unchanged": true,
+  "restored_on_failure": false,
+  "passed": true,
+  "other_form_fields_unchanged": true,
+  "database": {
+    "rows": 5,
+    "captures": 5
+  },
+  "status_before": {
+    "firmware": "2.0.9",
+    "uptime_ms": 2521821,
+    "recording": 0,
+    "ota_allowed": true,
+    "wifi": true,
+    "mqtt": true,
+    "pending": 1,
+    "dropped": 0,
+    "storage_errors": 0,
+    "environment_sequence": 834,
+    "clock_source": "NET TIME",
+    "utc": 1792137721
+  },
+  "status_after": {
+    "firmware": "2.0.9",
+    "uptime_ms": 2532590,
+    "recording": 0,
+    "ota_allowed": true,
+    "wifi": true,
+    "mqtt": true,
+    "pending": 1,
+    "dropped": 0,
+    "storage_errors": 0,
+    "environment_sequence": 838,
+    "clock_source": "NET TIME",
+    "utc": 1792137732
+  },
+  "finished_utc": "2026-10-16T08:02:13.257971+00:00"
+}

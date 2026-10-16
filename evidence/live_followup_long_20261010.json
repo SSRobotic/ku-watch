@@ -1,0 +1,10 @@
+{
+  "boundary": "Actual received live captures only; not Grafana DOM paint or a 24-hour result",
+  "live": 178,
+  "observed_s": 175.893,
+  "sessions": 1,
+  "sequence_gaps": [],
+  "max_receive_gap_ms": 2428,
+  "mean_receive_gap_ms": 993.7457627118644,
+  "short_live_pass": true
+}

@@ -1,0 +1,42 @@
+{
+  "port": "COM15",
+  "seconds": 5.0,
+  "lines": [
+    {
+      "at": 0.89,
+      "text": "NETWORK cloud=1 wifi=1 mqtt=1 error=0 sent=544 heap=139004"
+    },
+    {
+      "at": 0.89,
+      "text": "NETDNS fallback_result=0 main=192.168.137.1 backup=0.0.0.0 fallback=1.1.1.1 error_type=0 tls=0 socket=0"
+    },
+    {
+      "at": 0.89,
+      "text": "QUEUE ready=1 pending=56 acked=544 dropped=1 errors=0 max_encoded=454 capacity=768 reserve=131072"
+    },
+    {
+      "at": 0.89,
+      "text": "QUEUE write_max_us=1378637 ingress=0 free=696320"
+    },
+    {
+      "at": 0.89,
+      "text": "CLOCK utc=1791623166 valid=1 source=NET TIME restored=1 sync_utc=1791622761 checkpoint=1791623044 uptime=425309"
+    },
+    {
+      "at": 1.86,
+      "text": "E (429946) MQTT_CLIENT: Writing didn't complete in specified timeout: errno=119"
+    },
+    {
+      "at": 1.86,
+      "text": "E (429947) MQTT_CLIENT: Error to resend data"
+    },
+    {
+      "at": 2.12,
+      "text": "MQTT ERROR code=0 type=1 tls=0 socket=0"
+    },
+    {
+      "at": 2.34,
+      "text": "NETWORK wifi=1 mqtt=0 error=0 sent=547 heap=178928"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "recorded_utc": "2026-10-16T14:59:19.352250+00:00",
+  "planned_duration_s": 120,
+  "measurement_result_available": false,
+  "accepted": false,
+  "error": "KeyError frames in post-collection analysis; diagnostic observations were not persisted before failure",
+  "corrective_action": "Accumulate serial fragments until newline, journal allowed diagnostics during acquisition, fail closed on incomplete responses; no old evidence overwritten"
+}

@@ -1,0 +1,8 @@
+{
+  "boundary": "Actual unique IDs observed in the 65-second live sensor follow-up only; not all captures or 24h continuity",
+  "observed": 67,
+  "stored_once": 67,
+  "missing": [],
+  "duplicates": [],
+  "passed": true
+}

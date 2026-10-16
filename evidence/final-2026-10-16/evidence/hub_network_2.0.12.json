@@ -1,0 +1,34 @@
+{
+  "port": "COM8",
+  "seconds": 3.0,
+  "commands": [
+    "PAGE 5",
+    "HUBINFO"
+  ],
+  "lines": [
+    {
+      "at": 0.94,
+      "text": "HUBINFO version=1.0.8 mac=28:84:85:88:0B:0C lcd=1 frames=86976 touch=1 toucherr=0 receiver=1 ready=1 seq=1390 acks=4313 timeouts=4 page=5 watchpage=5 flags=3955 area=1 zoom=1 recording=0 rtc=1 rtcvalid=1 psram=6123312"
+    },
+    {
+      "at": 0.94,
+      "text": "HUB RADIO channel=6 incoming=51297 hellos=14843 rejected=0"
+    },
+    {
+      "at": 0.94,
+      "text": "HUB PERFORMANCE render_us=90044 max_render_us=111573 touch_samples=5449110"
+    },
+    {
+      "at": 0.94,
+      "text": "HUB INPUT task=1 samples=5449110 dropped=0 max_gap_ms=7 max_age_ms=113"
+    },
+    {
+      "at": 0.95,
+      "text": "HUB COMMAND action=3 arg=5 sent=1"
+    },
+    {
+      "at": 1.36,
+      "text": "HUB ACK result=0 count=4314"
+    }
+  ]
+}

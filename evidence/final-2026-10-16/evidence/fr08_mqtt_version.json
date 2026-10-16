@@ -1,0 +1,408 @@
+{
+  "started_utc": "2026-10-16T13:01:04.391Z",
+  "boundary": "Real MQTT version, source identity and readiness metadata only; no coordinates or raw pulse samples",
+  "status": [
+    {
+      "received_utc": "2026-10-16T13:01:05.983Z",
+      "retained": true,
+      "online": true,
+      "version": "2.0.10",
+      "device": "ku-watch-ac51449205d4"
+    },
+    {
+      "received_utc": "2026-10-16T13:02:11.288Z",
+      "retained": false,
+      "online": false,
+      "version": "2.0.10",
+      "device": "ku-watch-ac51449205d4"
+    },
+    {
+      "received_utc": "2026-10-16T13:02:12.537Z",
+      "retained": false,
+      "online": true,
+      "version": "2.0.11",
+      "device": "ku-watch-ac51449205d4"
+    }
+  ],
+  "telemetry": [
+    {
+      "received_utc": "2026-10-16T13:01:06.246Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-00000287",
+      "uptime_ms": 652188,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:08.459Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-00000288",
+      "uptime_ms": 653530,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:08.737Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-00000289",
+      "uptime_ms": 654235,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:10.001Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-0000028a",
+      "uptime_ms": 655584,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:10.256Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-0000028b",
+      "uptime_ms": 656334,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:11.540Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-0000028c",
+      "uptime_ms": 657096,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:12.796Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-0000028d",
+      "uptime_ms": 658460,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:14.057Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-0000028e",
+      "uptime_ms": 659189,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:15.668Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-0000028f",
+      "uptime_ms": 660602,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:16.938Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-00000290",
+      "uptime_ms": 661422,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:17.183Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-00000291",
+      "uptime_ms": 662859,
+      "env_live": true,
+      "pulse_live": false
+    },
+    {
+      "received_utc": "2026-10-16T13:01:18.458Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-00000292",
+      "uptime_ms": 663695,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:18.719Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-00000293",
+      "uptime_ms": 664506,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:19.972Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-00000294",
+      "uptime_ms": 665438,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:21.232Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-00000295",
+      "uptime_ms": 666416,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:21.493Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-00000296",
+      "uptime_ms": 667274,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:22.775Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-00000297",
+      "uptime_ms": 668009,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:24.210Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-00000298",
+      "uptime_ms": 669353,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:24.478Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-00000299",
+      "uptime_ms": 670144,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:26.559Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-0000029a",
+      "uptime_ms": 671522,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:27.129Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-0000029b",
+      "uptime_ms": 672300,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:27.657Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-0000029c",
+      "uptime_ms": 673054,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:29.545Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-0000029d",
+      "uptime_ms": 674444,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:29.968Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-0000029e",
+      "uptime_ms": 675188,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:33.386Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-0000029f",
+      "uptime_ms": 676018,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:36.768Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-000002a0",
+      "uptime_ms": 677394,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:40.149Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-000002a4",
+      "uptime_ms": 682502,
+      "env_live": true,
+      "pulse_live": false
+    },
+    {
+      "received_utc": "2026-10-16T13:01:41.419Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-000002a5",
+      "uptime_ms": 683312,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:41.689Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-000002a6",
+      "uptime_ms": 684166,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:42.952Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-000002a7",
+      "uptime_ms": 685011,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:45.241Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-000002a8",
+      "uptime_ms": 686681,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:55.176Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-000002b3",
+      "uptime_ms": 697770,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:56.446Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-000002b4",
+      "uptime_ms": 698651,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:56.698Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-000002b5",
+      "uptime_ms": 699505,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:01:58.973Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-000002b6",
+      "uptime_ms": 700336,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:02:00.556Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-000002b8",
+      "uptime_ms": 702789,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:02:01.830Z",
+      "firmware": "2.0.10",
+      "sample_id": "d7856000-000002b9",
+      "uptime_ms": 703634,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:02:25.685Z",
+      "firmware": "2.0.11",
+      "sample_id": "caeb94b6-0000000d",
+      "uptime_ms": 18192,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:02:25.932Z",
+      "firmware": "2.0.11",
+      "sample_id": "caeb94b6-0000000e",
+      "uptime_ms": 19526,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:02:26.180Z",
+      "firmware": "2.0.11",
+      "sample_id": "caeb94b6-0000000f",
+      "uptime_ms": 20197,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:02:26.437Z",
+      "firmware": "2.0.11",
+      "sample_id": "caeb94b6-00000010",
+      "uptime_ms": 21532,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:02:26.770Z",
+      "firmware": "2.0.11",
+      "sample_id": "caeb94b6-00000011",
+      "uptime_ms": 22274,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:02:27.026Z",
+      "firmware": "2.0.11",
+      "sample_id": "caeb94b6-00000012",
+      "uptime_ms": 23004,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:02:28.208Z",
+      "firmware": "2.0.11",
+      "sample_id": "caeb94b6-00000013",
+      "uptime_ms": 24383,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:02:28.446Z",
+      "firmware": "2.0.11",
+      "sample_id": "caeb94b6-00000014",
+      "uptime_ms": 25128,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:02:30.732Z",
+      "firmware": "2.0.11",
+      "sample_id": "caeb94b6-00000015",
+      "uptime_ms": 26436,
+      "env_live": true,
+      "pulse_live": true
+    },
+    {
+      "received_utc": "2026-10-16T13:02:31.001Z",
+      "firmware": "2.0.11",
+      "sample_id": "caeb94b6-00000016",
+      "uptime_ms": 27226,
+      "env_live": true,
+      "pulse_live": true
+    }
+  ],
+  "new_version_samples": 10,
+  "completed_utc": "2026-10-16T13:02:31.001Z",
+  "passed": true
+}

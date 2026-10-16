@@ -1,0 +1,9 @@
+{
+  "method": "Actual display SPI completion counters and installed version; not an optical photo",
+  "lines": [
+    "SCREEN page=6 painted=6 frames=862 body_pixels=977 button=1 rst=1 spi=2000000 render_us=11740 max_render_us=75308",
+    "SCREEN alert_mask=1 alert_pixels=241",
+    "OTA version=2.0.12 current=app0 next=app1 state=2 confirmed=1 busy=0 server_configured=1 battery_allowed=1",
+    "RATES uptime_ms=606604 pulse_samples=14570 pulse_sample_ms=606598 pulse_dropped=358 env_sequence=199 env_sample_ms=605227 motion_reads=864 motion_ms=606367 frames=864 paint_ms=606364 paint_max_gap_ms=2958"
+  ]
+}

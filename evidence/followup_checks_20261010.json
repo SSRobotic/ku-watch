@@ -1,0 +1,33 @@
+{
+  "boundary": "Offline Python/Node regressions and existing ESP firmware image integrity; no new firmware flash or hardware acceptance",
+  "results": [
+    {
+      "name": "python_regressions",
+      "passed": true,
+      "seconds": 1.66,
+      "runtime": "bundled Python"
+    },
+    {
+      "name": "test_influx_flow",
+      "passed": true,
+      "seconds": 0.05
+    },
+    {
+      "name": "test_alert_dashboard",
+      "passed": true,
+      "seconds": 0.05
+    },
+    {
+      "name": "test_grafana_frame_match",
+      "passed": true,
+      "seconds": 0.06
+    },
+    {
+      "name": "esp_image_integrity",
+      "passed": true,
+      "seconds": 0.19
+    }
+  ],
+  "passed": true,
+  "initial_runtime_issue": "PlatformIO Python lacks tkinter and lxml; full Python suite rerun using the bundled document/runtime Python"
+}

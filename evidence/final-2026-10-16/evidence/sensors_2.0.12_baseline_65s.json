@@ -1,0 +1,404 @@
+{
+  "boundary": "Real MQTT readiness over 65 seconds; does not measure optical accuracy or conversion cadence",
+  "duration_s": 65,
+  "live": 65,
+  "malformed": 0,
+  "disconnects": 0,
+  "sessions": [
+    "9aeeab08"
+  ],
+  "versions": [
+    "2.0.12"
+  ],
+  "readiness": {
+    "env_live": {
+      "true": 65,
+      "false": 0,
+      "missing": 0
+    },
+    "pulse_live": {
+      "true": 65,
+      "false": 0,
+      "missing": 0
+    },
+    "acc_live": {
+      "true": 65,
+      "false": 0,
+      "missing": 0
+    },
+    "mag_live": {
+      "true": 65,
+      "false": 0,
+      "missing": 0
+    },
+    "battery_valid": {
+      "true": 65,
+      "false": 0,
+      "missing": 0
+    },
+    "ina226_detected": {
+      "true": 65,
+      "false": 0,
+      "missing": 0
+    },
+    "iaq_valid": {
+      "true": 0,
+      "false": 65,
+      "missing": 0
+    },
+    "spo2_valid": {
+      "true": 0,
+      "false": 65,
+      "missing": 0
+    },
+    "finger": {
+      "true": 65,
+      "false": 0,
+      "missing": 0
+    },
+    "current_valid": {
+      "true": 0,
+      "false": 65,
+      "missing": 0
+    },
+    "gps_fix": {
+      "true": 48,
+      "false": 17,
+      "missing": 0
+    }
+  },
+  "bsec_errors": 0,
+  "invalid_env": 0,
+  "samples": [
+    {
+      "received_ms": 550,
+      "uptime_ms": 65580,
+      "id": "9aeeab08-0000003d"
+    },
+    {
+      "received_ms": 839,
+      "uptime_ms": 66207,
+      "id": "9aeeab08-0000003e"
+    },
+    {
+      "received_ms": 1153,
+      "uptime_ms": 67069,
+      "id": "9aeeab08-0000003f"
+    },
+    {
+      "received_ms": 2699,
+      "uptime_ms": 68439,
+      "id": "9aeeab08-00000040"
+    },
+    {
+      "received_ms": 2955,
+      "uptime_ms": 69198,
+      "id": "9aeeab08-00000041"
+    },
+    {
+      "received_ms": 4760,
+      "uptime_ms": 70496,
+      "id": "9aeeab08-00000042"
+    },
+    {
+      "received_ms": 6029,
+      "uptime_ms": 71336,
+      "id": "9aeeab08-00000043"
+    },
+    {
+      "received_ms": 6294,
+      "uptime_ms": 72155,
+      "id": "9aeeab08-00000044"
+    },
+    {
+      "received_ms": 7567,
+      "uptime_ms": 73445,
+      "id": "9aeeab08-00000045"
+    },
+    {
+      "received_ms": 9056,
+      "uptime_ms": 74189,
+      "id": "9aeeab08-00000046"
+    },
+    {
+      "received_ms": 10515,
+      "uptime_ms": 75522,
+      "id": "9aeeab08-00000047"
+    },
+    {
+      "received_ms": 10999,
+      "uptime_ms": 76446,
+      "id": "9aeeab08-00000048"
+    },
+    {
+      "received_ms": 11456,
+      "uptime_ms": 77147,
+      "id": "9aeeab08-00000049"
+    },
+    {
+      "received_ms": 12396,
+      "uptime_ms": 78414,
+      "id": "9aeeab08-0000004a"
+    },
+    {
+      "received_ms": 13436,
+      "uptime_ms": 79122,
+      "id": "9aeeab08-0000004b"
+    },
+    {
+      "received_ms": 15428,
+      "uptime_ms": 80362,
+      "id": "9aeeab08-0000004c"
+    },
+    {
+      "received_ms": 15946,
+      "uptime_ms": 81137,
+      "id": "9aeeab08-0000004d"
+    },
+    {
+      "received_ms": 16422,
+      "uptime_ms": 82382,
+      "id": "9aeeab08-0000004e"
+    },
+    {
+      "received_ms": 17775,
+      "uptime_ms": 83144,
+      "id": "9aeeab08-0000004f"
+    },
+    {
+      "received_ms": 18982,
+      "uptime_ms": 84408,
+      "id": "9aeeab08-00000050"
+    },
+    {
+      "received_ms": 19239,
+      "uptime_ms": 85147,
+      "id": "9aeeab08-00000051"
+    },
+    {
+      "received_ms": 20491,
+      "uptime_ms": 86464,
+      "id": "9aeeab08-00000052"
+    },
+    {
+      "received_ms": 22018,
+      "uptime_ms": 87337,
+      "id": "9aeeab08-00000053"
+    },
+    {
+      "received_ms": 22522,
+      "uptime_ms": 88143,
+      "id": "9aeeab08-00000054"
+    },
+    {
+      "received_ms": 24077,
+      "uptime_ms": 89480,
+      "id": "9aeeab08-00000055"
+    },
+    {
+      "received_ms": 24349,
+      "uptime_ms": 90348,
+      "id": "9aeeab08-00000056"
+    },
+    {
+      "received_ms": 25561,
+      "uptime_ms": 91099,
+      "id": "9aeeab08-00000057"
+    },
+    {
+      "received_ms": 26850,
+      "uptime_ms": 92299,
+      "id": "9aeeab08-00000058"
+    },
+    {
+      "received_ms": 27100,
+      "uptime_ms": 93024,
+      "id": "9aeeab08-00000059"
+    },
+    {
+      "received_ms": 28353,
+      "uptime_ms": 94252,
+      "id": "9aeeab08-0000005a"
+    },
+    {
+      "received_ms": 29646,
+      "uptime_ms": 95500,
+      "id": "9aeeab08-0000005b"
+    },
+    {
+      "received_ms": 30158,
+      "uptime_ms": 96309,
+      "id": "9aeeab08-0000005c"
+    },
+    {
+      "received_ms": 31416,
+      "uptime_ms": 97042,
+      "id": "9aeeab08-0000005d"
+    },
+    {
+      "received_ms": 32198,
+      "uptime_ms": 98293,
+      "id": "9aeeab08-0000005e"
+    },
+    {
+      "received_ms": 33462,
+      "uptime_ms": 99124,
+      "id": "9aeeab08-0000005f"
+    },
+    {
+      "received_ms": 35014,
+      "uptime_ms": 100427,
+      "id": "9aeeab08-00000060"
+    },
+    {
+      "received_ms": 35290,
+      "uptime_ms": 101266,
+      "id": "9aeeab08-00000061"
+    },
+    {
+      "received_ms": 36572,
+      "uptime_ms": 102073,
+      "id": "9aeeab08-00000062"
+    },
+    {
+      "received_ms": 37948,
+      "uptime_ms": 103465,
+      "id": "9aeeab08-00000063"
+    },
+    {
+      "received_ms": 38214,
+      "uptime_ms": 104181,
+      "id": "9aeeab08-00000064"
+    },
+    {
+      "received_ms": 39392,
+      "uptime_ms": 105447,
+      "id": "9aeeab08-00000065"
+    },
+    {
+      "received_ms": 40661,
+      "uptime_ms": 106206,
+      "id": "9aeeab08-00000066"
+    },
+    {
+      "received_ms": 41938,
+      "uptime_ms": 107547,
+      "id": "9aeeab08-00000067"
+    },
+    {
+      "received_ms": 42210,
+      "uptime_ms": 108272,
+      "id": "9aeeab08-00000068"
+    },
+    {
+      "received_ms": 43482,
+      "uptime_ms": 109001,
+      "id": "9aeeab08-00000069"
+    },
+    {
+      "received_ms": 44774,
+      "uptime_ms": 110227,
+      "id": "9aeeab08-0000006a"
+    },
+    {
+      "received_ms": 45058,
+      "uptime_ms": 111054,
+      "id": "9aeeab08-0000006b"
+    },
+    {
+      "received_ms": 46336,
+      "uptime_ms": 112319,
+      "id": "9aeeab08-0000006c"
+    },
+    {
+      "received_ms": 47627,
+      "uptime_ms": 113069,
+      "id": "9aeeab08-0000006d"
+    },
+    {
+      "received_ms": 49010,
+      "uptime_ms": 114356,
+      "id": "9aeeab08-0000006e"
+    },
+    {
+      "received_ms": 49274,
+      "uptime_ms": 115167,
+      "id": "9aeeab08-0000006f"
+    },
+    {
+      "received_ms": 51415,
+      "uptime_ms": 116502,
+      "id": "9aeeab08-00000070"
+    },
+    {
+      "received_ms": 51700,
+      "uptime_ms": 117413,
+      "id": "9aeeab08-00000071"
+    },
+    {
+      "received_ms": 52018,
+      "uptime_ms": 118082,
+      "id": "9aeeab08-00000072"
+    },
+    {
+      "received_ms": 53294,
+      "uptime_ms": 119302,
+      "id": "9aeeab08-00000073"
+    },
+    {
+      "received_ms": 54596,
+      "uptime_ms": 120054,
+      "id": "9aeeab08-00000074"
+    },
+    {
+      "received_ms": 55884,
+      "uptime_ms": 121294,
+      "id": "9aeeab08-00000075"
+    },
+    {
+      "received_ms": 56139,
+      "uptime_ms": 122097,
+      "id": "9aeeab08-00000076"
+    },
+    {
+      "received_ms": 57418,
+      "uptime_ms": 123385,
+      "id": "9aeeab08-00000077"
+    },
+    {
+      "received_ms": 58665,
+      "uptime_ms": 124117,
+      "id": "9aeeab08-00000078"
+    },
+    {
+      "received_ms": 58707,
+      "uptime_ms": 125394,
+      "id": "9aeeab08-00000079"
+    },
+    {
+      "received_ms": 58974,
+      "uptime_ms": 126238,
+      "id": "9aeeab08-0000007a"
+    },
+    {
+      "received_ms": 61122,
+      "uptime_ms": 127538,
+      "id": "9aeeab08-0000007b"
+    },
+    {
+      "received_ms": 61598,
+      "uptime_ms": 128291,
+      "id": "9aeeab08-0000007c"
+    },
+    {
+      "received_ms": 61841,
+      "uptime_ms": 129076,
+      "id": "9aeeab08-0000007d"
+    }
+  ],
+  "observed_s": 63.765,
+  "mean_interval_ms": 957.671875,
+  "max_interval_ms": 2148,
+  "transport_pass": false,
+  "required_sensors_live": true
+}

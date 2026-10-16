@@ -1,0 +1,242 @@
+{
+  "port": "COM15",
+  "seconds": 210.0,
+  "lines": [
+    {
+      "at": 0.91,
+      "text": "NETWORK cloud=1 wifi=1 mqtt=1 error=0 sent=523 heap=133576"
+    },
+    {
+      "at": 0.91,
+      "text": "NETDNS fallback_result=0 main=192.168.137.1 backup=0.0.0.0 fallback=1.1.1.1 error_type=0 tls=0 socket=0"
+    },
+    {
+      "at": 0.91,
+      "text": "QUEUE ready=1 pending=57 acked=523 dropped=0 errors=0 max_encoded=453 capacity=768 reserve=131072"
+    },
+    {
+      "at": 0.91,
+      "text": "QUEUE write_max_us=835790 mqtt_call_max_us=414260 ingress=0 ingress_capacity=32 free=729088"
+    },
+    {
+      "at": 0.91,
+      "text": "CLOCK utc=1791635435 valid=1 source=NET TIME restored=1 sync_utc=1791635234 checkpoint=1791635215 uptime=221111"
+    },
+    {
+      "at": 0.91,
+      "text": "ESPNOW ready=1 paired=1 online=1 tx=302 rx=68 rejected=0 dropped=0"
+    },
+    {
+      "at": 30.97,
+      "text": "NETWORK cloud=1 wifi=1 mqtt=1 error=0 sent=609 heap=146536"
+    },
+    {
+      "at": 30.97,
+      "text": "NETDNS fallback_result=0 main=192.168.137.1 backup=0.0.0.0 fallback=1.1.1.1 error_type=0 tls=0 socket=0"
+    },
+    {
+      "at": 30.97,
+      "text": "QUEUE ready=1 pending=1 acked=609 dropped=0 errors=0 max_encoded=453 capacity=768 reserve=131072"
+    },
+    {
+      "at": 30.97,
+      "text": "QUEUE write_max_us=835790 mqtt_call_max_us=414260 ingress=0 ingress_capacity=32 free=757760"
+    },
+    {
+      "at": 30.97,
+      "text": "CLOCK utc=1791635465 valid=1 source=NET TIME restored=1 sync_utc=1791635234 checkpoint=1791635215 uptime=251175"
+    },
+    {
+      "at": 30.97,
+      "text": "ESPNOW ready=1 paired=1 online=1 tx=347 rx=75 rejected=0 dropped=0"
+    },
+    {
+      "at": 61.03,
+      "text": "NETWORK cloud=1 wifi=1 mqtt=1 error=0 sent=629 heap=139196"
+    },
+    {
+      "at": 61.03,
+      "text": "NETDNS fallback_result=0 main=192.168.137.1 backup=0.0.0.0 fallback=1.1.1.1 error_type=0 tls=0 socket=0"
+    },
+    {
+      "at": 61.03,
+      "text": "QUEUE ready=1 pending=4 acked=629 dropped=0 errors=0 max_encoded=453 capacity=768 reserve=131072"
+    },
+    {
+      "at": 61.03,
+      "text": "QUEUE write_max_us=835790 mqtt_call_max_us=414260 ingress=0 ingress_capacity=32 free=741376"
+    },
+    {
+      "at": 61.03,
+      "text": "CLOCK utc=1791635495 valid=1 source=NET TIME restored=1 sync_utc=1791635234 checkpoint=1791635215 uptime=281232"
+    },
+    {
+      "at": 61.03,
+      "text": "ESPNOW ready=1 paired=1 online=1 tx=394 rx=83 rejected=0 dropped=0"
+    },
+    {
+      "at": 63.95,
+      "text": "E (301222) MQTT_CLIENT: Writing didn't complete in specified timeout: errno=119"
+    },
+    {
+      "at": 63.95,
+      "text": "E (301222) MQTT_CLIENT: Error to resend data"
+    },
+    {
+      "at": 64.28,
+      "text": "MQTT ERROR code=0 type=1 tls=0 socket=0"
+    },
+    {
+      "at": 64.89,
+      "text": "NETWORK wifi=1 mqtt=0 error=0 sent=629 heap=183900"
+    },
+    {
+      "at": 80.28,
+      "text": "E (317553) MQTT_CLIENT: Error transport connect"
+    },
+    {
+      "at": 80.53,
+      "text": "MQTT ERROR code=32774 type=1 tls=0 socket=0"
+    },
+    {
+      "at": 91.11,
+      "text": "NETWORK cloud=1 wifi=1 mqtt=0 error=32774 sent=629 heap=184128"
+    },
+    {
+      "at": 91.11,
+      "text": "NETDNS fallback_result=0 main=192.168.137.1 backup=0.0.0.0 fallback=1.1.1.1 error_type=1 tls=0 socket=0"
+    },
+    {
+      "at": 91.11,
+      "text": "QUEUE ready=1 pending=41 acked=629 dropped=0 errors=0 max_encoded=453 capacity=768 reserve=131072"
+    },
+    {
+      "at": 91.11,
+      "text": "QUEUE write_max_us=1040657 mqtt_call_max_us=9842486 ingress=0 ingress_capacity=32 free=708608"
+    },
+    {
+      "at": 91.11,
+      "text": "CLOCK utc=1791635525 valid=1 source=NET TIME restored=1 sync_utc=1791635234 checkpoint=1791635516 uptime=311306"
+    },
+    {
+      "at": 91.11,
+      "text": "ESPNOW ready=1 paired=1 online=1 tx=438 rx=94 rejected=0 dropped=0"
+    },
+    {
+      "at": 116.86,
+      "text": "NETWORK wifi=1 mqtt=1 error=0 sent=629 heap=139440"
+    },
+    {
+      "at": 121.12,
+      "text": "NETWORK cloud=1 wifi=1 mqtt=1 error=0 sent=632 heap=134952"
+    },
+    {
+      "at": 121.12,
+      "text": "NETDNS fallback_result=0 main=192.168.137.1 backup=0.0.0.0 fallback=1.1.1.1 error_type=0 tls=0 socket=0"
+    },
+    {
+      "at": 121.12,
+      "text": "QUEUE ready=1 pending=68 acked=632 dropped=0 errors=0 max_encoded=453 capacity=768 reserve=131072"
+    },
+    {
+      "at": 121.12,
+      "text": "QUEUE write_max_us=1040657 mqtt_call_max_us=9842486 ingress=0 ingress_capacity=32 free=679936"
+    },
+    {
+      "at": 121.12,
+      "text": "CLOCK utc=1791635555 valid=1 source=NET TIME restored=1 sync_utc=1791635234 checkpoint=1791635516 uptime=341326"
+    },
+    {
+      "at": 121.12,
+      "text": "ESPNOW ready=1 paired=1 online=1 tx=481 rx=102 rejected=0 dropped=0"
+    },
+    {
+      "at": 151.14,
+      "text": "NETWORK cloud=1 wifi=1 mqtt=1 error=0 sent=703 heap=134908"
+    },
+    {
+      "at": 151.14,
+      "text": "NETDNS fallback_result=0 main=192.168.137.1 backup=0.0.0.0 fallback=1.1.1.1 error_type=0 tls=0 socket=0"
+    },
+    {
+      "at": 151.14,
+      "text": "QUEUE ready=1 pending=27 acked=703 dropped=0 errors=0 max_encoded=453 capacity=768 reserve=131072"
+    },
+    {
+      "at": 151.14,
+      "text": "QUEUE write_max_us=1040657 mqtt_call_max_us=9842486 ingress=0 ingress_capacity=32 free=708608"
+    },
+    {
+      "at": 151.14,
+      "text": "CLOCK utc=1791635585 valid=1 source=NET TIME restored=1 sync_utc=1791635234 checkpoint=1791635516 uptime=371341"
+    },
+    {
+      "at": 151.14,
+      "text": "ESPNOW ready=1 paired=1 online=1 tx=526 rx=110 rejected=0 dropped=0"
+    },
+    {
+      "at": 158.39,
+      "text": "E (395652) MQTT_CLIENT: Writing didn't complete in specified timeout: errno=119"
+    },
+    {
+      "at": 158.39,
+      "text": "E (395652) MQTT_CLIENT: Error to resend data"
+    },
+    {
+      "at": 158.39,
+      "text": "MQTT ERROR code=0 type=1 tls=0 socket=0"
+    },
+    {
+      "at": 158.67,
+      "text": "NETWORK wifi=1 mqtt=0 error=0 sent=703 heap=181232"
+    },
+    {
+      "at": 162.72,
+      "text": "NETWORK wifi=1 mqtt=1 error=0 sent=703 heap=139404"
+    },
+    {
+      "at": 181.19,
+      "text": "NETWORK cloud=1 wifi=1 mqtt=1 error=0 sent=716 heap=134880"
+    },
+    {
+      "at": 181.19,
+      "text": "NETDNS fallback_result=0 main=192.168.137.1 backup=0.0.0.0 fallback=1.1.1.1 error_type=0 tls=0 socket=0"
+    },
+    {
+      "at": 181.19,
+      "text": "QUEUE ready=1 pending=44 acked=716 dropped=0 errors=0 max_encoded=453 capacity=768 reserve=131072"
+    },
+    {
+      "at": 181.19,
+      "text": "QUEUE write_max_us=1040657 mqtt_call_max_us=9842486 ingress=0 ingress_capacity=32 free=737280"
+    },
+    {
+      "at": 181.19,
+      "text": "CLOCK utc=1791635615 valid=1 source=NET TIME restored=1 sync_utc=1791635234 checkpoint=1791635516 uptime=401384"
+    },
+    {
+      "at": 181.19,
+      "text": "ESPNOW ready=1 paired=1 online=1 tx=574 rx=118 rejected=0 dropped=0"
+    },
+    {
+      "at": 201.19,
+      "text": "E (438453) MQTT_CLIENT: Writing didn't complete in specified timeout: errno=119"
+    },
+    {
+      "at": 201.19,
+      "text": "E (438454) MQTT_CLIENT: Error to resend data"
+    },
+    {
+      "at": 201.61,
+      "text": "MQTT ERROR code=0 type=1 tls=0 socket=0"
+    },
+    {
+      "at": 201.83,
+      "text": "NETWORK wifi=1 mqtt=0 error=0 sent=734 heap=181260"
+    },
+    {
+      "at": 207.72,
+      "text": "NETWORK wifi=1 mqtt=1 error=0 sent=734 heap=139412"
+    }
+  ]
+}

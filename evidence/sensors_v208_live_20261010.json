@@ -1,0 +1,74 @@
+{
+  "boundary": "Real MQTT readiness over 65 seconds; does not measure optical accuracy or conversion cadence",
+  "duration_s": 65,
+  "live": 0,
+  "malformed": 0,
+  "disconnects": 0,
+  "sessions": [],
+  "versions": [],
+  "readiness": {
+    "env_live": {
+      "true": 0,
+      "false": 0,
+      "missing": 0
+    },
+    "pulse_live": {
+      "true": 0,
+      "false": 0,
+      "missing": 0
+    },
+    "acc_live": {
+      "true": 0,
+      "false": 0,
+      "missing": 0
+    },
+    "mag_live": {
+      "true": 0,
+      "false": 0,
+      "missing": 0
+    },
+    "battery_valid": {
+      "true": 0,
+      "false": 0,
+      "missing": 0
+    },
+    "ina226_detected": {
+      "true": 0,
+      "false": 0,
+      "missing": 0
+    },
+    "iaq_valid": {
+      "true": 0,
+      "false": 0,
+      "missing": 0
+    },
+    "spo2_valid": {
+      "true": 0,
+      "false": 0,
+      "missing": 0
+    },
+    "finger": {
+      "true": 0,
+      "false": 0,
+      "missing": 0
+    },
+    "current_valid": {
+      "true": 0,
+      "false": 0,
+      "missing": 0
+    },
+    "gps_fix": {
+      "true": 0,
+      "false": 0,
+      "missing": 0
+    }
+  },
+  "bsec_errors": 0,
+  "invalid_env": 0,
+  "samples": [],
+  "observed_s": 65.002,
+  "mean_interval_ms": null,
+  "max_interval_ms": null,
+  "transport_pass": false,
+  "required_sensors_live": false
+}

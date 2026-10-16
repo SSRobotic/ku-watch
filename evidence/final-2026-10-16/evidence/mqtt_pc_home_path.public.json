@@ -1,0 +1,9 @@
+{
+  "checked_utc": "2026-10-16T14:53:57.3377306+00:00",
+  "pc_on_saved_home_profile": true,
+  "private_ssid_saved": false,
+  "watch_network": "SS hotspot, unchanged",
+  "scope": "FR-03 receive path comparison; original 300 s QoS1 and receive gap guard retained",
+  "audit": "mqtt_2.0.13_pc_home_5min.json",
+  "preservation_check": "HTTP unavailable because PC left watch LAN; no evidence overwritten"
+}

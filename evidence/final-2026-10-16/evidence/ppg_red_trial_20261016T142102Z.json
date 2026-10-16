@@ -1,0 +1,18 @@
+{
+  "started_utc": "2026-10-16T14:21:02.486010+00:00",
+  "completed_utc": "2026-10-16T14:21:05.489064+00:00",
+  "purpose": "Test whether stronger red-channel illumination improves real optical signal. No estimate, quality threshold or reference value is changed.",
+  "reference": "https://www.analog.com/media/en/technical-documentation/data-sheets/max30102.pdf",
+  "red_led_before": 63,
+  "red_led_after": 95,
+  "ir_led_unchanged": 63,
+  "configuration_write_verified": true,
+  "intentionally_persisted_setting": "red",
+  "revert_command": "MAXRED 63",
+  "acceptance_result": "Not measured; requires a new real-contact test",
+  "responses": [
+    "MAX30102 REG FF=15 FE=03 08=9F 09=03 0A=2F 0C=3F 0D=3F 04=1D 05=00 06=1D",
+    "MAXRED OK level=95",
+    "MAX30102 REG FF=15 FE=03 08=9F 09=03 0A=2F 0C=5F 0D=3F 04=00 05=00 06=00"
+  ]
+}

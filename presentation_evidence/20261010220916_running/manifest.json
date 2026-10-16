@@ -1,0 +1,29 @@
+{
+  "captured_utc": "2026-10-10T15:09:16.178Z",
+  "captured_bangkok": "10 ต.ค. 2026 22:09:16",
+  "timezone": "Asia/Bangkok",
+  "audit_pid": 38304,
+  "status": "running",
+  "observed_hours": 1.2398455115833333,
+  "samples": 4463,
+  "gaps": 0,
+  "disconnects": 0,
+  "continuity_pass": false,
+  "baseline_dropped": 26,
+  "sources": {
+    "soak_status.json": {
+      "sha256": "b7b14a03f252dad20840047abb31643455aa570392370a2f0723aef7aaf8b3d0",
+      "bytes": 1219,
+      "source": "output/soak_audit/status.json",
+      "file_saved_utc": "2026-10-10T15:09:07.893Z"
+    }
+  },
+  "images": [
+    {
+      "file": "01_soak.png",
+      "sha256": "bd076f100d699e2beb0ab6ddfbd8a95cc2040804474f6ae068e29033ec855313"
+    }
+  ],
+  "boundary": "Rendered evidence reports from saved real JSON; not hardware photographs, Grafana screenshots, or browser-paint measurements",
+  "layout_verified": true
+}

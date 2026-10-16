@@ -1,0 +1,13 @@
+{
+  "recorded_utc": "2026-10-16T16:04:12.501711+00:00",
+  "firmware": "2.0.15",
+  "fr01_pass": true,
+  "fr01_valid_span_s": 69.70400000002701,
+  "fr01_evidence": "[original-workspace]\\output\\fr_completion_20261016\\fr01_local_runs\\20261016T160220Z\\result.json",
+  "fr01_sha256": "8183b75700e285c242492260858d23ad0fe5e6f969cb5601ffa3d81dcb35230e",
+  "fr01_frame_interval_upper_bound_ms": 861,
+  "fr03_pass": true,
+  "fr03_live": 300,
+  "fr03_max_receive_gap_ms": 1782.848100000003,
+  "scope": "Functional acceptance only. NFR calibration, battery and continuous 24 h are separate."
+}

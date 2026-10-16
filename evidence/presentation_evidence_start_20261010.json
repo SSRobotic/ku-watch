@@ -1,0 +1,91 @@
+{
+  "captured_evidence": {
+    "folder": "20261010212911_running",
+    "captured_utc": "2026-10-10T14:29:11.607Z",
+    "captured_bangkok": "10 ต.ค. 2026 21:29:11",
+    "timezone": "Asia/Bangkok",
+    "audit_pid": 38304,
+    "status": "running",
+    "observed_hours": 0.5726827164166667,
+    "samples": 2061,
+    "gaps": 0,
+    "disconnects": 0,
+    "continuity_pass": false,
+    "baseline_dropped": 26,
+    "sources": {
+      "soak_status.json": {
+        "sha256": "192943574ef12d30b0ba5aa6837621c2dd99aa1018dc21124165eb6a609834ba",
+        "bytes": 1220,
+        "source": "output/soak_audit/status.json",
+        "file_saved_utc": "2026-10-10T14:29:06.107Z"
+      },
+      "grafana_latency_phone_20261010.json": {
+        "sha256": "a8401f2731e7415b7888b05bc5ff2feb47da155b30989a1a9f7c1aa71c88a46e",
+        "bytes": 2703,
+        "source": "output/requirements_audit_20261009/grafana_latency_phone_20261010.json",
+        "file_saved_utc": "2026-10-10T13:49:36.128Z"
+      },
+      "clock_reference_phone_20261010.json": {
+        "sha256": "f05d04e2883d4ca2e1d95ca094b659e384d97f6fd22d82f71c53d260674d8da0",
+        "bytes": 923,
+        "source": "output/requirements_audit_20261009/clock_reference_phone_20261010.json",
+        "file_saved_utc": "2026-10-10T13:49:17.764Z"
+      },
+      "phone_drain_database_20261010.json": {
+        "sha256": "7b4922fcfe027786f6205f3af953c46856a3353c16a5ac0f1173c552e125a49a",
+        "bytes": 258,
+        "source": "output/requirements_audit_20261009/phone_drain_database_20261010.json",
+        "file_saved_utc": "2026-10-10T13:54:15.569Z"
+      },
+      "live_phone_20261010.json": {
+        "sha256": "5b7332e1659d77bcab5789bd55d2fd67fec26bb1347e9a9a9d53cb00091f6303",
+        "bytes": 287,
+        "source": "output/requirements_audit_20261009/live_phone_20261010.json",
+        "file_saved_utc": "2026-10-10T13:54:15.476Z"
+      },
+      "replay_phone_drain_20261010.json": {
+        "sha256": "69e4465db3b922f09a094bb93c51d04a620eb3d3feb5e03f6da66fa0868bcaef",
+        "bytes": 74525,
+        "source": "output/requirements_audit_20261009/replay_phone_drain_20261010.json",
+        "file_saved_utc": "2026-10-10T13:51:09.675Z"
+      },
+      "network_phone_evidence_20261010.json": {
+        "sha256": "35e8ed12ae5075145752fe4d717d02c07abc1a7400dac8ef24d5489a7b8a9564",
+        "bytes": 2603,
+        "source": "output/requirements_audit_20261009/network_phone_evidence_20261010.json",
+        "file_saved_utc": "2026-10-10T14:20:58.721Z"
+      },
+      "phone_network_transition_20261010.json": {
+        "sha256": "fb1d6c21ef08e052d21a5001aac0799aa1dddf096c5ab58f80b1aa1269fd7cb9",
+        "bytes": 1776,
+        "source": "output/requirements_audit_20261009/phone_network_transition_20261010.json",
+        "file_saved_utc": "2026-10-10T13:56:25.612Z"
+      }
+    },
+    "images": [
+      {
+        "file": "01_soak.png",
+        "sha256": "1cb6e41d1c42a929ee0b5809cd361cfd46b2f635c51d772c08bc5db803f119f8"
+      },
+      {
+        "file": "02_query_latency.png",
+        "sha256": "c49c6133b483d8b0bb481c4586275db558cda29e2b447264acc4c3a78176c606"
+      },
+      {
+        "file": "03_database.png",
+        "sha256": "d5aefcb49f516786b56494ee264ff5f8e4746b5cc15104eeedcb9f0bb172b90e"
+      },
+      {
+        "file": "04_remaining.png",
+        "sha256": "dc04cbf204313304239d95d8b120a13df86db08df8b485c968b2bdb8e1639ccb"
+      }
+    ],
+    "boundary": "Rendered evidence reports from saved real JSON; not hardware photographs, Grafana screenshots, or browser-paint measurements",
+    "layout_verified": true
+  },
+  "boundary": "Snapshot at handoff; future snapshots remain in presentation_evidence, not retroactively a 24-hour pass",
+  "collector_pid": 20500,
+  "collector_interval_seconds": 300,
+  "audit_pid": 38304,
+  "hardware_flash_or_reboot": false
+}

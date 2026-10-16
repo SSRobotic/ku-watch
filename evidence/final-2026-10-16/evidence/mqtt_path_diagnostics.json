@@ -1,0 +1,91 @@
+{
+  "created_utc": "2026-10-16T13:50:53.882581+00:00",
+  "method": "Read-only analysis of immutable observations. No new pass criteria.",
+  "observations": [
+    {
+      "evidence_file": "mqtt_2.0.11_5min.json",
+      "audit_result_unchanged": true,
+      "unique_live": 301,
+      "sequence_gaps": 0,
+      "duplicates": 0,
+      "disconnects": 0,
+      "mean_source_interval_ms": 998.4566666666667,
+      "max_source_interval_ms": 1531,
+      "worst_receive_interval": {
+        "receive_gap_ms": 2687,
+        "source_gap_ms": 1349,
+        "before_id": "caeb94b6-000000f0",
+        "after_id": "caeb94b6-000000f1",
+        "following_receive_intervals_ms": [
+          265,
+          1572,
+          590,
+          568,
+          1586,
+          256,
+          1277,
+          272
+        ]
+      }
+    },
+    {
+      "evidence_file": "mqtt_2.0.12_5min_monotonic.json",
+      "audit_result_unchanged": false,
+      "unique_live": 300,
+      "sequence_gaps": 0,
+      "duplicates": 0,
+      "disconnects": 0,
+      "mean_source_interval_ms": 1004.0234113712374,
+      "max_source_interval_ms": 1952,
+      "worst_receive_interval": {
+        "receive_gap_ms": 3039.7550999999803,
+        "source_gap_ms": 1301,
+        "before_id": "9aeeab08-00000232",
+        "after_id": "9aeeab08-00000233",
+        "following_receive_intervals_ms": [
+          306.1439000000246,
+          380.8796999999904,
+          923.2576999999874,
+          274.6935999999987,
+          1257.07190000001,
+          1283.1358999999939,
+          1274.3169000000053,
+          281.9976000000024
+        ]
+      }
+    },
+    {
+      "evidence_file": "mqtt_2.0.12_normal_5min.json",
+      "audit_result_unchanged": false,
+      "unique_live": 301,
+      "sequence_gaps": 0,
+      "duplicates": 1,
+      "disconnects": 0,
+      "mean_source_interval_ms": 1000.28,
+      "max_source_interval_ms": 1463,
+      "worst_receive_interval": {
+        "receive_gap_ms": 5979.408199999991,
+        "source_gap_ms": 821,
+        "before_id": "9aeeab08-000004c3",
+        "after_id": "9aeeab08-000004c4",
+        "following_receive_intervals_ms": [
+          2421.4600999999966,
+          6.353900000016438,
+          217.58660000000964,
+          252.1808000000019,
+          0.2557999999844469,
+          0.08770000000367872,
+          719.5383999999904,
+          384.89340000000084
+        ]
+      }
+    }
+  ],
+  "network_path_test": {
+    "attempted_pc_profile": "previous_saved_home_profile",
+    "result": "Profile was not available, including after a fresh scan. PC remained connected to SS.",
+    "watch_network_changed": false,
+    "receive_path_changed": false
+  },
+  "interpretation": "A receive interval longer than the corresponding source interval shows post-capture delay. These counters alone do not distinguish device queue, LTE, broker and PC receive scheduling."
+}

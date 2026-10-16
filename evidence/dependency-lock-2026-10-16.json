@@ -1,0 +1,79 @@
+{
+  "platformio_platform": "espressif32@7.1.1",
+  "recorded_utc": "2026-10-16T16:28:39.800918+00:00",
+  "installed_libraries": [
+    {
+      "name": "bsec2",
+      "version": "1.10.2610",
+      "source": "installed PlatformIO library.json"
+    },
+    {
+      "name": "PubSubClient",
+      "version": "2.8",
+      "source": "installed PlatformIO library.json"
+    },
+    {
+      "name": "TinyGPSPlus",
+      "version": "1.1.0",
+      "source": "installed PlatformIO library.json"
+    },
+    {
+      "name": "SparkFun MAX3010x Pulse and Proximity Sensor Library",
+      "git_head": "72d5308df500ae1a64cc9d63e950c68c96dc78d5"
+    }
+  ],
+  "note": "Metadata from the final workstation; this is not a new compiler/hardware acceptance run.",
+  "platformio_packages": [
+    {
+      "directory": "Adafruit BusIO",
+      "name": "Adafruit BusIO",
+      "version": "1.17.4",
+      "source_uri": null
+    },
+    {
+      "directory": "Adafruit GC9A01A",
+      "name": "Adafruit GC9A01A",
+      "version": "1.1.1",
+      "source_uri": "https://github.com/adafruit/Adafruit_GC9A01A/archive/refs/tags/1.1.1.zip"
+    },
+    {
+      "directory": "Adafruit GFX Library",
+      "name": "Adafruit GFX Library",
+      "version": "1.12.6",
+      "source_uri": null
+    },
+    {
+      "directory": "Adafruit GFX Library@1.12.4",
+      "name": "Adafruit GFX Library",
+      "version": "1.12.4",
+      "source_uri": null
+    },
+    {
+      "directory": "BME68x Sensor library",
+      "name": "BME68x Sensor library",
+      "version": "1.3.40408",
+      "source_uri": null
+    },
+    {
+      "directory": "bsec2",
+      "name": "bsec2",
+      "version": "1.10.2610",
+      "source_uri": "https://github.com/boschsensortec/Bosch-BSEC2-Library/archive/refs/tags/1.10.2610.zip"
+    },
+    {
+      "directory": "PubSubClient",
+      "name": "PubSubClient",
+      "version": "2.8.0",
+      "source_uri": null
+    },
+    {
+      "directory": "TinyGPSPlus",
+      "name": "TinyGPSPlus",
+      "version": "1.1.0",
+      "source_uri": null
+    }
+  ],
+  "installed_hub_core_versions": [
+    "3.3.10"
+  ]
+}

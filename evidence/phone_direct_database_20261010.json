@@ -1,0 +1,12 @@
+{
+  "boundary": "Only actual capture IDs observed over MQTT; historical timestamps included",
+  "observed": 646,
+  "stored_once": 646,
+  "missing": [],
+  "duplicates": [],
+  "spool": {
+    "pending": 0,
+    "written": 22802
+  },
+  "passed": true
+}

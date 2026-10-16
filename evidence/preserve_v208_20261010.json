@@ -1,0 +1,28 @@
+{
+  "version": "2.0.8",
+  "settings": {
+    "led": "63",
+    "average": "1",
+    "idle": "0",
+    "logging": "1",
+    "shunt": "0.00000",
+    "temperature_limit": "35.00",
+    "iaq_limit": "150.00"
+  },
+  "activities": {
+    "3": {
+      "bytes": 672,
+      "sha256": "32d78505994ec2058c5e92b5be6075c942f805e264d4689dc9014c91c483bd00"
+    },
+    "6": {
+      "bytes": 896,
+      "sha256": "379ee137a328e4e54178bf89d5ef1bf8f3e630caf1f0e7b12d60ef0324cc9bdb"
+    },
+    "7": {
+      "bytes": 352,
+      "sha256": "8f2ffbe0efc42e964b42c25595f4b256d08b43006c1fb5075e2efe54b776a18c"
+    }
+  },
+  "active": 0,
+  "unchanged": true
+}

@@ -1,0 +1,29 @@
+{
+  "boundary": "Offline slide/package/layout/link validation; not native PowerPoint click or slideshow execution",
+  "slide_count": 14,
+  "unchanged_slides_pixel_equal": [
+    2,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    12,
+    13
+  ],
+  "native_table_slides": [
+    3,
+    6,
+    7,
+    8,
+    10,
+    12,
+    13
+  ],
+  "source_sha256": "e57afeacf6449142de087db52146ab1553f70b471050c828917f9ffd0155bde6",
+  "final_sha256": "c07deea9cfda76445bc0133f950146491467e526c0ea1e826eebb5e6b1cdd7e9",
+  "links_present_and_local_target_exists": true,
+  "finalizer_passed": true,
+  "passed": true
+}

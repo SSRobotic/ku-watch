@@ -1,0 +1,7 @@
+{
+  "boundary": "Offline production audit-coverage regressions only; fixtures never sent to telemetry services",
+  "node_syntax_check": true,
+  "quiet_start_end_middle_regressions": true,
+  "completion_duration_session_gap_disconnect_malformed_checks": true,
+  "passed": true
+}

@@ -1,0 +1,22 @@
+{
+  "started_utc": "2026-10-16T14:27:52.984744+00:00",
+  "completed_utc": "2026-10-16T14:27:56.341973+00:00",
+  "purpose": "Increase ADC headroom after red=95 trial produced finite BPM but no complete SpO2 window. Saturation is a hypothesis until actual optical levels are observed during renewed contact.",
+  "red_before": 95,
+  "ir_before": 63,
+  "red_after": 31,
+  "ir_after": 31,
+  "configuration_write_verified": true,
+  "intentionally_persisted_settings": [
+    "led",
+    "red"
+  ],
+  "baseline_restore_command": "MAXLED 63",
+  "acceptance_result": "Pending a new real-contact test",
+  "raw_waveform_saved": false,
+  "responses": [
+    "MAX30102 REG FF=15 FE=03 08=9F 09=03 0A=2F 0C=5F 0D=3F 04=13 05=00 06=12",
+    "MAXLED OK level=31",
+    "MAX30102 REG FF=15 FE=03 08=9F 09=03 0A=2F 0C=1F 0D=1F 04=00 05=00 06=00"
+  ]
+}

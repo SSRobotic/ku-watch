@@ -1,0 +1,83 @@
+{
+  "captured_utc": "2026-10-10T14:26:16.404Z",
+  "captured_bangkok": "10 ต.ค. 2026 21:26:16",
+  "timezone": "Asia/Bangkok",
+  "audit_pid": 38304,
+  "status": "running",
+  "observed_hours": 0.5254357314166667,
+  "samples": 1890,
+  "gaps": 0,
+  "disconnects": 0,
+  "continuity_pass": false,
+  "baseline_dropped": 26,
+  "sources": {
+    "soak_status.json": {
+      "sha256": "edbf018dc051c6ab8f9e6558616dfe95a2acbc7ebac583e8392ac9e01a0e6d50",
+      "bytes": 1220,
+      "source": "output/soak_audit/status.json",
+      "file_saved_utc": "2026-10-10T14:26:16.018Z"
+    },
+    "grafana_latency_phone_20261010.json": {
+      "sha256": "a8401f2731e7415b7888b05bc5ff2feb47da155b30989a1a9f7c1aa71c88a46e",
+      "bytes": 2703,
+      "source": "output/requirements_audit_20261009/grafana_latency_phone_20261010.json",
+      "file_saved_utc": "2026-10-10T13:49:36.128Z"
+    },
+    "clock_reference_phone_20261010.json": {
+      "sha256": "f05d04e2883d4ca2e1d95ca094b659e384d97f6fd22d82f71c53d260674d8da0",
+      "bytes": 923,
+      "source": "output/requirements_audit_20261009/clock_reference_phone_20261010.json",
+      "file_saved_utc": "2026-10-10T13:49:17.764Z"
+    },
+    "phone_drain_database_20261010.json": {
+      "sha256": "7b4922fcfe027786f6205f3af953c46856a3353c16a5ac0f1173c552e125a49a",
+      "bytes": 258,
+      "source": "output/requirements_audit_20261009/phone_drain_database_20261010.json",
+      "file_saved_utc": "2026-10-10T13:54:15.569Z"
+    },
+    "live_phone_20261010.json": {
+      "sha256": "5b7332e1659d77bcab5789bd55d2fd67fec26bb1347e9a9a9d53cb00091f6303",
+      "bytes": 287,
+      "source": "output/requirements_audit_20261009/live_phone_20261010.json",
+      "file_saved_utc": "2026-10-10T13:54:15.476Z"
+    },
+    "replay_phone_drain_20261010.json": {
+      "sha256": "69e4465db3b922f09a094bb93c51d04a620eb3d3feb5e03f6da66fa0868bcaef",
+      "bytes": 74525,
+      "source": "output/requirements_audit_20261009/replay_phone_drain_20261010.json",
+      "file_saved_utc": "2026-10-10T13:51:09.675Z"
+    },
+    "network_phone_evidence_20261010.json": {
+      "sha256": "35e8ed12ae5075145752fe4d717d02c07abc1a7400dac8ef24d5489a7b8a9564",
+      "bytes": 2603,
+      "source": "output/requirements_audit_20261009/network_phone_evidence_20261010.json",
+      "file_saved_utc": "2026-10-10T14:20:58.721Z"
+    },
+    "phone_network_transition_20261010.json": {
+      "sha256": "fb1d6c21ef08e052d21a5001aac0799aa1dddf096c5ab58f80b1aa1269fd7cb9",
+      "bytes": 1776,
+      "source": "output/requirements_audit_20261009/phone_network_transition_20261010.json",
+      "file_saved_utc": "2026-10-10T13:56:25.612Z"
+    }
+  },
+  "images": [
+    {
+      "file": "01_soak.png",
+      "sha256": "657caecc2ab150d89441a03fa2eee7c77d141d627f229ed2a04d81d1da0db37b"
+    },
+    {
+      "file": "02_query_latency.png",
+      "sha256": "acca62ae72b935a63a3c74f914cfbab57df343a985e05789a10cef1658e15535"
+    },
+    {
+      "file": "03_database.png",
+      "sha256": "6374d363ba450f7bed11f7cf4954ae62166f0800635d02467164b3d9ab797ba1"
+    },
+    {
+      "file": "04_remaining.png",
+      "sha256": "46015212cee57d0214021b3d4b9aa302c0f5357e0fd99b95412314b0907b0a61"
+    }
+  ],
+  "boundary": "Rendered evidence reports from saved real JSON; not hardware photographs, Grafana screenshots, or browser-paint measurements",
+  "layout_verified": true
+}

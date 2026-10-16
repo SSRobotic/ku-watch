@@ -1,0 +1,9 @@
+{
+  "checked_utc": "2026-10-16T15:32:17.540482+00:00",
+  "from_version": "2.0.13",
+  "to_version": "2.0.14",
+  "all_activity_hashes_and_sizes_match": true,
+  "all_settings_excluding_manifest_match": true,
+  "activity_count": 6,
+  "intended_led_red_changes_already_present_before_upgrade": true
+}

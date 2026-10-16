@@ -1,0 +1,2140 @@
+{
+  "requirement": "FR-03",
+  "duration_s": 300,
+  "topic": "ku/iot/ku_watch/ku-watch-449205d4/env",
+  "subscription_qos": 1,
+  "connected": true,
+  "packets": 301,
+  "live": 301,
+  "backfill": 0,
+  "duplicates": 0,
+  "malformed": 0,
+  "disconnects": 0,
+  "sequence_gaps": 0,
+  "sessions": 1,
+  "status_versions": [
+    "2.0.11"
+  ],
+  "samples": [
+    {
+      "id": "caeb94b6-000000d9",
+      "receive_ms": 314,
+      "uptime_ms": 222517,
+      "capture_utc": 1792155943,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000da",
+      "receive_ms": 597,
+      "uptime_ms": 223267,
+      "capture_utc": 1792155943,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000db",
+      "receive_ms": 843,
+      "uptime_ms": 224078,
+      "capture_utc": 1792155944,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000dc",
+      "receive_ms": 2109,
+      "uptime_ms": 225330,
+      "capture_utc": 1792155945,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000dd",
+      "receive_ms": 3393,
+      "uptime_ms": 226028,
+      "capture_utc": 1792155946,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000de",
+      "receive_ms": 4667,
+      "uptime_ms": 227379,
+      "capture_utc": 1792155948,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000df",
+      "receive_ms": 4931,
+      "uptime_ms": 228029,
+      "capture_utc": 1792155948,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000e0",
+      "receive_ms": 6203,
+      "uptime_ms": 229313,
+      "capture_utc": 1792155949,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000e1",
+      "receive_ms": 7470,
+      "uptime_ms": 230557,
+      "capture_utc": 1792155951,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000e2",
+      "receive_ms": 8763,
+      "uptime_ms": 231264,
+      "capture_utc": 1792155951,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000e3",
+      "receive_ms": 9135,
+      "uptime_ms": 232089,
+      "capture_utc": 1792155952,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000e4",
+      "receive_ms": 10500,
+      "uptime_ms": 233457,
+      "capture_utc": 1792155954,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000e5",
+      "receive_ms": 12079,
+      "uptime_ms": 234140,
+      "capture_utc": 1792155954,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000e6",
+      "receive_ms": 12635,
+      "uptime_ms": 235455,
+      "capture_utc": 1792155956,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000e7",
+      "receive_ms": 13876,
+      "uptime_ms": 236171,
+      "capture_utc": 1792155956,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000e8",
+      "receive_ms": 14393,
+      "uptime_ms": 237019,
+      "capture_utc": 1792155957,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000e9",
+      "receive_ms": 15885,
+      "uptime_ms": 238323,
+      "capture_utc": 1792155958,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000ea",
+      "receive_ms": 17232,
+      "uptime_ms": 239557,
+      "capture_utc": 1792155960,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000eb",
+      "receive_ms": 17719,
+      "uptime_ms": 240241,
+      "capture_utc": 1792155960,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000ec",
+      "receive_ms": 19004,
+      "uptime_ms": 241539,
+      "capture_utc": 1792155962,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000ed",
+      "receive_ms": 19239,
+      "uptime_ms": 242294,
+      "capture_utc": 1792155962,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000ee",
+      "receive_ms": 20486,
+      "uptime_ms": 243014,
+      "capture_utc": 1792155963,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000ef",
+      "receive_ms": 21754,
+      "uptime_ms": 244311,
+      "capture_utc": 1792155964,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000f0",
+      "receive_ms": 22012,
+      "uptime_ms": 245003,
+      "capture_utc": 1792155965,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000f1",
+      "receive_ms": 24699,
+      "uptime_ms": 246352,
+      "capture_utc": 1792155966,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000f2",
+      "receive_ms": 24964,
+      "uptime_ms": 247151,
+      "capture_utc": 1792155967,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000f3",
+      "receive_ms": 26536,
+      "uptime_ms": 248480,
+      "capture_utc": 1792155969,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000f4",
+      "receive_ms": 27126,
+      "uptime_ms": 249289,
+      "capture_utc": 1792155969,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000f5",
+      "receive_ms": 27694,
+      "uptime_ms": 250065,
+      "capture_utc": 1792155970,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000f6",
+      "receive_ms": 29280,
+      "uptime_ms": 251494,
+      "capture_utc": 1792155972,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000f7",
+      "receive_ms": 29536,
+      "uptime_ms": 252195,
+      "capture_utc": 1792155973,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000f8",
+      "receive_ms": 30813,
+      "uptime_ms": 253486,
+      "capture_utc": 1792155974,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000f9",
+      "receive_ms": 31085,
+      "uptime_ms": 254155,
+      "capture_utc": 1792155975,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000fa",
+      "receive_ms": 32354,
+      "uptime_ms": 255427,
+      "capture_utc": 1792155976,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000fb",
+      "receive_ms": 33644,
+      "uptime_ms": 256116,
+      "capture_utc": 1792155977,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000fc",
+      "receive_ms": 34908,
+      "uptime_ms": 257455,
+      "capture_utc": 1792155978,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000fd",
+      "receive_ms": 35150,
+      "uptime_ms": 258164,
+      "capture_utc": 1792155979,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000fe",
+      "receive_ms": 36428,
+      "uptime_ms": 259537,
+      "capture_utc": 1792155980,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000000ff",
+      "receive_ms": 37712,
+      "uptime_ms": 260250,
+      "capture_utc": 1792155981,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000100",
+      "receive_ms": 39280,
+      "uptime_ms": 261553,
+      "capture_utc": 1792155982,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000101",
+      "receive_ms": 39528,
+      "uptime_ms": 262407,
+      "capture_utc": 1792155983,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000102",
+      "receive_ms": 40806,
+      "uptime_ms": 263113,
+      "capture_utc": 1792155984,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000103",
+      "receive_ms": 42083,
+      "uptime_ms": 264444,
+      "capture_utc": 1792155985,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000104",
+      "receive_ms": 42331,
+      "uptime_ms": 265349,
+      "capture_utc": 1792155986,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000105",
+      "receive_ms": 43607,
+      "uptime_ms": 266012,
+      "capture_utc": 1792155987,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000106",
+      "receive_ms": 44878,
+      "uptime_ms": 267366,
+      "capture_utc": 1792155988,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000107",
+      "receive_ms": 45128,
+      "uptime_ms": 268073,
+      "capture_utc": 1792155989,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000108",
+      "receive_ms": 46402,
+      "uptime_ms": 269370,
+      "capture_utc": 1792155990,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000109",
+      "receive_ms": 47662,
+      "uptime_ms": 270068,
+      "capture_utc": 1792155991,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000010a",
+      "receive_ms": 48968,
+      "uptime_ms": 271388,
+      "capture_utc": 1792155992,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000010b",
+      "receive_ms": 49227,
+      "uptime_ms": 272172,
+      "capture_utc": 1792155993,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000010c",
+      "receive_ms": 50571,
+      "uptime_ms": 273492,
+      "capture_utc": 1792155994,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000010d",
+      "receive_ms": 51785,
+      "uptime_ms": 274225,
+      "capture_utc": 1792155995,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000010e",
+      "receive_ms": 52039,
+      "uptime_ms": 275013,
+      "capture_utc": 1792155996,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000010f",
+      "receive_ms": 54327,
+      "uptime_ms": 276358,
+      "capture_utc": 1792155997,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000110",
+      "receive_ms": 54584,
+      "uptime_ms": 277179,
+      "capture_utc": 1792155998,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000111",
+      "receive_ms": 55857,
+      "uptime_ms": 278530,
+      "capture_utc": 1792155999,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000112",
+      "receive_ms": 56119,
+      "uptime_ms": 279366,
+      "capture_utc": 1792156000,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000113",
+      "receive_ms": 57637,
+      "uptime_ms": 280049,
+      "capture_utc": 1792156001,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000114",
+      "receive_ms": 58725,
+      "uptime_ms": 281309,
+      "capture_utc": 1792156002,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000115",
+      "receive_ms": 58974,
+      "uptime_ms": 282052,
+      "capture_utc": 1792156003,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000116",
+      "receive_ms": 60261,
+      "uptime_ms": 283359,
+      "capture_utc": 1792156004,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000117",
+      "receive_ms": 61522,
+      "uptime_ms": 284059,
+      "capture_utc": 1792156005,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000118",
+      "receive_ms": 62806,
+      "uptime_ms": 285337,
+      "capture_utc": 1792156006,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000119",
+      "receive_ms": 63052,
+      "uptime_ms": 286082,
+      "capture_utc": 1792156007,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000011a",
+      "receive_ms": 64328,
+      "uptime_ms": 287475,
+      "capture_utc": 1792156008,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000011b",
+      "receive_ms": 65602,
+      "uptime_ms": 288190,
+      "capture_utc": 1792156009,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000011c",
+      "receive_ms": 66888,
+      "uptime_ms": 289511,
+      "capture_utc": 1792156010,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000011d",
+      "receive_ms": 67170,
+      "uptime_ms": 290244,
+      "capture_utc": 1792156011,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000011e",
+      "receive_ms": 68492,
+      "uptime_ms": 291020,
+      "capture_utc": 1792156012,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000011f",
+      "receive_ms": 69713,
+      "uptime_ms": 292551,
+      "capture_utc": 1792156013,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000120",
+      "receive_ms": 70011,
+      "uptime_ms": 293213,
+      "capture_utc": 1792156014,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000121",
+      "receive_ms": 71268,
+      "uptime_ms": 294476,
+      "capture_utc": 1792156015,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000122",
+      "receive_ms": 72575,
+      "uptime_ms": 295140,
+      "capture_utc": 1792156016,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000123",
+      "receive_ms": 73837,
+      "uptime_ms": 296403,
+      "capture_utc": 1792156017,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000124",
+      "receive_ms": 74113,
+      "uptime_ms": 297183,
+      "capture_utc": 1792156018,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000125",
+      "receive_ms": 75389,
+      "uptime_ms": 298478,
+      "capture_utc": 1792156019,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000126",
+      "receive_ms": 76658,
+      "uptime_ms": 299154,
+      "capture_utc": 1792156020,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000127",
+      "receive_ms": 77953,
+      "uptime_ms": 300444,
+      "capture_utc": 1792156021,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000128",
+      "receive_ms": 78217,
+      "uptime_ms": 301171,
+      "capture_utc": 1792156022,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000129",
+      "receive_ms": 79485,
+      "uptime_ms": 302030,
+      "capture_utc": 1792156023,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000012a",
+      "receive_ms": 80773,
+      "uptime_ms": 303347,
+      "capture_utc": 1792156024,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000012b",
+      "receive_ms": 81017,
+      "uptime_ms": 304109,
+      "capture_utc": 1792156025,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000012c",
+      "receive_ms": 83340,
+      "uptime_ms": 305502,
+      "capture_utc": 1792156026,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000012d",
+      "receive_ms": 83771,
+      "uptime_ms": 306343,
+      "capture_utc": 1792156027,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000012e",
+      "receive_ms": 84020,
+      "uptime_ms": 307077,
+      "capture_utc": 1792156028,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000012f",
+      "receive_ms": 85087,
+      "uptime_ms": 308355,
+      "capture_utc": 1792156029,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000130",
+      "receive_ms": 86361,
+      "uptime_ms": 309026,
+      "capture_utc": 1792156030,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000131",
+      "receive_ms": 87645,
+      "uptime_ms": 310297,
+      "capture_utc": 1792156031,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000132",
+      "receive_ms": 87906,
+      "uptime_ms": 311003,
+      "capture_utc": 1792156032,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000133",
+      "receive_ms": 89166,
+      "uptime_ms": 312372,
+      "capture_utc": 1792156033,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000134",
+      "receive_ms": 90731,
+      "uptime_ms": 313113,
+      "capture_utc": 1792156034,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000135",
+      "receive_ms": 92034,
+      "uptime_ms": 314414,
+      "capture_utc": 1792156035,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000136",
+      "receive_ms": 92758,
+      "uptime_ms": 315116,
+      "capture_utc": 1792156036,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000137",
+      "receive_ms": 94039,
+      "uptime_ms": 316462,
+      "capture_utc": 1792156037,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000138",
+      "receive_ms": 94605,
+      "uptime_ms": 317290,
+      "capture_utc": 1792156038,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000139",
+      "receive_ms": 95757,
+      "uptime_ms": 318055,
+      "capture_utc": 1792156039,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000013a",
+      "receive_ms": 97025,
+      "uptime_ms": 319404,
+      "capture_utc": 1792156040,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000013b",
+      "receive_ms": 97744,
+      "uptime_ms": 320245,
+      "capture_utc": 1792156041,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000013c",
+      "receive_ms": 99288,
+      "uptime_ms": 321496,
+      "capture_utc": 1792156042,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000013d",
+      "receive_ms": 99535,
+      "uptime_ms": 322238,
+      "capture_utc": 1792156043,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000013e",
+      "receive_ms": 100797,
+      "uptime_ms": 323535,
+      "capture_utc": 1792156044,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000013f",
+      "receive_ms": 101056,
+      "uptime_ms": 324183,
+      "capture_utc": 1792156045,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000140",
+      "receive_ms": 102498,
+      "uptime_ms": 325492,
+      "capture_utc": 1792156046,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000141",
+      "receive_ms": 103768,
+      "uptime_ms": 326178,
+      "capture_utc": 1792156047,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000142",
+      "receive_ms": 105054,
+      "uptime_ms": 327543,
+      "capture_utc": 1792156048,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000143",
+      "receive_ms": 105334,
+      "uptime_ms": 328262,
+      "capture_utc": 1792156049,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000144",
+      "receive_ms": 106567,
+      "uptime_ms": 329002,
+      "capture_utc": 1792156050,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000145",
+      "receive_ms": 108474,
+      "uptime_ms": 330330,
+      "capture_utc": 1792156051,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000146",
+      "receive_ms": 108837,
+      "uptime_ms": 331077,
+      "capture_utc": 1792156052,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000147",
+      "receive_ms": 110123,
+      "uptime_ms": 332478,
+      "capture_utc": 1792156053,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000148",
+      "receive_ms": 110383,
+      "uptime_ms": 333210,
+      "capture_utc": 1792156054,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000149",
+      "receive_ms": 111643,
+      "uptime_ms": 334076,
+      "capture_utc": 1792156055,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000014a",
+      "receive_ms": 112934,
+      "uptime_ms": 335313,
+      "capture_utc": 1792156056,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000014b",
+      "receive_ms": 114201,
+      "uptime_ms": 336559,
+      "capture_utc": 1792156057,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000014c",
+      "receive_ms": 114471,
+      "uptime_ms": 337325,
+      "capture_utc": 1792156058,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000014d",
+      "receive_ms": 115729,
+      "uptime_ms": 338010,
+      "capture_utc": 1792156059,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000014e",
+      "receive_ms": 117016,
+      "uptime_ms": 339309,
+      "capture_utc": 1792156060,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000014f",
+      "receive_ms": 117271,
+      "uptime_ms": 340020,
+      "capture_utc": 1792156061,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000150",
+      "receive_ms": 118537,
+      "uptime_ms": 341319,
+      "capture_utc": 1792156062,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000151",
+      "receive_ms": 119837,
+      "uptime_ms": 342086,
+      "capture_utc": 1792156063,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000152",
+      "receive_ms": 121448,
+      "uptime_ms": 343387,
+      "capture_utc": 1792156064,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000153",
+      "receive_ms": 122070,
+      "uptime_ms": 344097,
+      "capture_utc": 1792156065,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000154",
+      "receive_ms": 123455,
+      "uptime_ms": 345427,
+      "capture_utc": 1792156066,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000155",
+      "receive_ms": 123984,
+      "uptime_ms": 346169,
+      "capture_utc": 1792156067,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000156",
+      "receive_ms": 125445,
+      "uptime_ms": 347546,
+      "capture_utc": 1792156068,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000157",
+      "receive_ms": 126050,
+      "uptime_ms": 348409,
+      "capture_utc": 1792156069,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000158",
+      "receive_ms": 126607,
+      "uptime_ms": 349087,
+      "capture_utc": 1792156070,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000159",
+      "receive_ms": 128001,
+      "uptime_ms": 350367,
+      "capture_utc": 1792156071,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000015a",
+      "receive_ms": 128519,
+      "uptime_ms": 351057,
+      "capture_utc": 1792156072,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000015b",
+      "receive_ms": 129782,
+      "uptime_ms": 352439,
+      "capture_utc": 1792156073,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000015c",
+      "receive_ms": 130167,
+      "uptime_ms": 353138,
+      "capture_utc": 1792156074,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000015d",
+      "receive_ms": 131448,
+      "uptime_ms": 354414,
+      "capture_utc": 1792156075,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000015e",
+      "receive_ms": 132703,
+      "uptime_ms": 355132,
+      "capture_utc": 1792156076,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000015f",
+      "receive_ms": 133979,
+      "uptime_ms": 356411,
+      "capture_utc": 1792156077,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000160",
+      "receive_ms": 134248,
+      "uptime_ms": 357195,
+      "capture_utc": 1792156078,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000161",
+      "receive_ms": 136535,
+      "uptime_ms": 358515,
+      "capture_utc": 1792156079,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000162",
+      "receive_ms": 137266,
+      "uptime_ms": 359216,
+      "capture_utc": 1792156080,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000163",
+      "receive_ms": 137607,
+      "uptime_ms": 360498,
+      "capture_utc": 1792156081,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000164",
+      "receive_ms": 138918,
+      "uptime_ms": 361353,
+      "capture_utc": 1792156082,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000165",
+      "receive_ms": 139203,
+      "uptime_ms": 362064,
+      "capture_utc": 1792156083,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000166",
+      "receive_ms": 140500,
+      "uptime_ms": 363312,
+      "capture_utc": 1792156084,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000167",
+      "receive_ms": 141802,
+      "uptime_ms": 364554,
+      "capture_utc": 1792156085,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000168",
+      "receive_ms": 142046,
+      "uptime_ms": 365218,
+      "capture_utc": 1792156086,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000169",
+      "receive_ms": 144356,
+      "uptime_ms": 366517,
+      "capture_utc": 1792156087,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000016a",
+      "receive_ms": 144622,
+      "uptime_ms": 367296,
+      "capture_utc": 1792156088,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000016b",
+      "receive_ms": 145894,
+      "uptime_ms": 368567,
+      "capture_utc": 1792156089,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000016c",
+      "receive_ms": 146163,
+      "uptime_ms": 369262,
+      "capture_utc": 1792156090,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000016d",
+      "receive_ms": 147423,
+      "uptime_ms": 370006,
+      "capture_utc": 1792156091,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000016e",
+      "receive_ms": 148708,
+      "uptime_ms": 371374,
+      "capture_utc": 1792156092,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000016f",
+      "receive_ms": 149993,
+      "uptime_ms": 372170,
+      "capture_utc": 1792156092,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000170",
+      "receive_ms": 151261,
+      "uptime_ms": 373491,
+      "capture_utc": 1792156094,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000171",
+      "receive_ms": 151553,
+      "uptime_ms": 374253,
+      "capture_utc": 1792156094,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000172",
+      "receive_ms": 151819,
+      "uptime_ms": 375102,
+      "capture_utc": 1792156095,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000173",
+      "receive_ms": 154106,
+      "uptime_ms": 376373,
+      "capture_utc": 1792156097,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000174",
+      "receive_ms": 154376,
+      "uptime_ms": 377099,
+      "capture_utc": 1792156097,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000175",
+      "receive_ms": 155642,
+      "uptime_ms": 378386,
+      "capture_utc": 1792156099,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000176",
+      "receive_ms": 155967,
+      "uptime_ms": 379043,
+      "capture_utc": 1792156099,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000177",
+      "receive_ms": 157194,
+      "uptime_ms": 380362,
+      "capture_utc": 1792156101,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000178",
+      "receive_ms": 158475,
+      "uptime_ms": 381057,
+      "capture_utc": 1792156101,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000179",
+      "receive_ms": 159937,
+      "uptime_ms": 382486,
+      "capture_utc": 1792156103,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000017a",
+      "receive_ms": 160182,
+      "uptime_ms": 383169,
+      "capture_utc": 1792156103,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000017b",
+      "receive_ms": 161247,
+      "uptime_ms": 384467,
+      "capture_utc": 1792156105,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000017c",
+      "receive_ms": 162522,
+      "uptime_ms": 385210,
+      "capture_utc": 1792156105,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000017d",
+      "receive_ms": 163812,
+      "uptime_ms": 386500,
+      "capture_utc": 1792156107,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000017e",
+      "receive_ms": 165160,
+      "uptime_ms": 387360,
+      "capture_utc": 1792156108,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000017f",
+      "receive_ms": 165398,
+      "uptime_ms": 388088,
+      "capture_utc": 1792156108,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000180",
+      "receive_ms": 166608,
+      "uptime_ms": 389527,
+      "capture_utc": 1792156110,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000181",
+      "receive_ms": 166857,
+      "uptime_ms": 390180,
+      "capture_utc": 1792156110,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000182",
+      "receive_ms": 169188,
+      "uptime_ms": 391435,
+      "capture_utc": 1792156112,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000183",
+      "receive_ms": 169452,
+      "uptime_ms": 392145,
+      "capture_utc": 1792156112,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000184",
+      "receive_ms": 170796,
+      "uptime_ms": 393468,
+      "capture_utc": 1792156114,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000185",
+      "receive_ms": 171391,
+      "uptime_ms": 394121,
+      "capture_utc": 1792156114,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000186",
+      "receive_ms": 172748,
+      "uptime_ms": 395447,
+      "capture_utc": 1792156116,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000187",
+      "receive_ms": 174133,
+      "uptime_ms": 396130,
+      "capture_utc": 1792156116,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000188",
+      "receive_ms": 174664,
+      "uptime_ms": 397503,
+      "capture_utc": 1792156118,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000189",
+      "receive_ms": 176274,
+      "uptime_ms": 398247,
+      "capture_utc": 1792156118,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000018a",
+      "receive_ms": 176702,
+      "uptime_ms": 399516,
+      "capture_utc": 1792156120,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000018b",
+      "receive_ms": 178119,
+      "uptime_ms": 400249,
+      "capture_utc": 1792156120,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000018c",
+      "receive_ms": 178610,
+      "uptime_ms": 401001,
+      "capture_utc": 1792156121,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000018d",
+      "receive_ms": 179897,
+      "uptime_ms": 402496,
+      "capture_utc": 1792156123,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000018e",
+      "receive_ms": 180150,
+      "uptime_ms": 403375,
+      "capture_utc": 1792156124,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000018f",
+      "receive_ms": 181452,
+      "uptime_ms": 404024,
+      "capture_utc": 1792156124,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000190",
+      "receive_ms": 182743,
+      "uptime_ms": 405269,
+      "capture_utc": 1792156125,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000191",
+      "receive_ms": 184022,
+      "uptime_ms": 406520,
+      "capture_utc": 1792156127,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000192",
+      "receive_ms": 184307,
+      "uptime_ms": 407269,
+      "capture_utc": 1792156127,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000193",
+      "receive_ms": 185573,
+      "uptime_ms": 408542,
+      "capture_utc": 1792156129,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000194",
+      "receive_ms": 186900,
+      "uptime_ms": 409285,
+      "capture_utc": 1792156129,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000195",
+      "receive_ms": 187168,
+      "uptime_ms": 410021,
+      "capture_utc": 1792156130,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000196",
+      "receive_ms": 188453,
+      "uptime_ms": 411352,
+      "capture_utc": 1792156132,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000197",
+      "receive_ms": 189753,
+      "uptime_ms": 412130,
+      "capture_utc": 1792156132,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000198",
+      "receive_ms": 191006,
+      "uptime_ms": 413469,
+      "capture_utc": 1792156134,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000199",
+      "receive_ms": 191263,
+      "uptime_ms": 414212,
+      "capture_utc": 1792156134,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000019a",
+      "receive_ms": 192547,
+      "uptime_ms": 415577,
+      "capture_utc": 1792156136,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000019b",
+      "receive_ms": 193997,
+      "uptime_ms": 416317,
+      "capture_utc": 1792156136,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000019c",
+      "receive_ms": 194261,
+      "uptime_ms": 417171,
+      "capture_utc": 1792156137,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000019d",
+      "receive_ms": 195347,
+      "uptime_ms": 418431,
+      "capture_utc": 1792156139,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000019e",
+      "receive_ms": 196632,
+      "uptime_ms": 419146,
+      "capture_utc": 1792156139,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-0000019f",
+      "receive_ms": 197993,
+      "uptime_ms": 420405,
+      "capture_utc": 1792156141,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001a0",
+      "receive_ms": 198494,
+      "uptime_ms": 421074,
+      "capture_utc": 1792156141,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001a1",
+      "receive_ms": 200150,
+      "uptime_ms": 422543,
+      "capture_utc": 1792156143,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001a2",
+      "receive_ms": 200706,
+      "uptime_ms": 423223,
+      "capture_utc": 1792156143,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001a3",
+      "receive_ms": 201731,
+      "uptime_ms": 424547,
+      "capture_utc": 1792156145,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001a4",
+      "receive_ms": 203113,
+      "uptime_ms": 425272,
+      "capture_utc": 1792156145,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001a5",
+      "receive_ms": 203529,
+      "uptime_ms": 426000,
+      "capture_utc": 1792156146,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001a6",
+      "receive_ms": 204943,
+      "uptime_ms": 427454,
+      "capture_utc": 1792156148,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001a7",
+      "receive_ms": 205328,
+      "uptime_ms": 428199,
+      "capture_utc": 1792156148,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001a8",
+      "receive_ms": 206739,
+      "uptime_ms": 429516,
+      "capture_utc": 1792156150,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001a9",
+      "receive_ms": 207147,
+      "uptime_ms": 430352,
+      "capture_utc": 1792156151,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001aa",
+      "receive_ms": 208447,
+      "uptime_ms": 431024,
+      "capture_utc": 1792156151,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001ab",
+      "receive_ms": 209724,
+      "uptime_ms": 432342,
+      "capture_utc": 1792156152,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001ac",
+      "receive_ms": 209977,
+      "uptime_ms": 433004,
+      "capture_utc": 1792156153,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001ad",
+      "receive_ms": 211234,
+      "uptime_ms": 434310,
+      "capture_utc": 1792156154,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001ae",
+      "receive_ms": 212504,
+      "uptime_ms": 435028,
+      "capture_utc": 1792156155,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001af",
+      "receive_ms": 213956,
+      "uptime_ms": 436310,
+      "capture_utc": 1792156156,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001b0",
+      "receive_ms": 214244,
+      "uptime_ms": 437108,
+      "capture_utc": 1792156157,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001b1",
+      "receive_ms": 215541,
+      "uptime_ms": 438435,
+      "capture_utc": 1792156159,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001b2",
+      "receive_ms": 216811,
+      "uptime_ms": 439114,
+      "capture_utc": 1792156159,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001b3",
+      "receive_ms": 218144,
+      "uptime_ms": 440430,
+      "capture_utc": 1792156161,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001b4",
+      "receive_ms": 218414,
+      "uptime_ms": 441176,
+      "capture_utc": 1792156161,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001b5",
+      "receive_ms": 219739,
+      "uptime_ms": 442557,
+      "capture_utc": 1792156163,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001b6",
+      "receive_ms": 221033,
+      "uptime_ms": 443311,
+      "capture_utc": 1792156163,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001b7",
+      "receive_ms": 221359,
+      "uptime_ms": 444150,
+      "capture_utc": 1792156164,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001b8",
+      "receive_ms": 222607,
+      "uptime_ms": 445408,
+      "capture_utc": 1792156166,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001b9",
+      "receive_ms": 222899,
+      "uptime_ms": 446118,
+      "capture_utc": 1792156166,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001ba",
+      "receive_ms": 224137,
+      "uptime_ms": 447452,
+      "capture_utc": 1792156168,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001bb",
+      "receive_ms": 225413,
+      "uptime_ms": 448127,
+      "capture_utc": 1792156168,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001bc",
+      "receive_ms": 226704,
+      "uptime_ms": 449419,
+      "capture_utc": 1792156170,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001bd",
+      "receive_ms": 227024,
+      "uptime_ms": 450103,
+      "capture_utc": 1792156170,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001be",
+      "receive_ms": 229316,
+      "uptime_ms": 451431,
+      "capture_utc": 1792156172,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001bf",
+      "receive_ms": 229642,
+      "uptime_ms": 452211,
+      "capture_utc": 1792156172,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001c0",
+      "receive_ms": 230920,
+      "uptime_ms": 453513,
+      "capture_utc": 1792156174,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001c1",
+      "receive_ms": 231245,
+      "uptime_ms": 454236,
+      "capture_utc": 1792156174,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001c2",
+      "receive_ms": 232532,
+      "uptime_ms": 455013,
+      "capture_utc": 1792156175,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001c3",
+      "receive_ms": 233788,
+      "uptime_ms": 456339,
+      "capture_utc": 1792156176,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001c4",
+      "receive_ms": 235087,
+      "uptime_ms": 457197,
+      "capture_utc": 1792156177,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001c5",
+      "receive_ms": 235338,
+      "uptime_ms": 458041,
+      "capture_utc": 1792156178,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001c6",
+      "receive_ms": 236679,
+      "uptime_ms": 459280,
+      "capture_utc": 1792156179,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001c7",
+      "receive_ms": 237974,
+      "uptime_ms": 460526,
+      "capture_utc": 1792156181,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001c8",
+      "receive_ms": 238221,
+      "uptime_ms": 461229,
+      "capture_utc": 1792156181,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001c9",
+      "receive_ms": 239505,
+      "uptime_ms": 462018,
+      "capture_utc": 1792156182,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001ca",
+      "receive_ms": 240768,
+      "uptime_ms": 463295,
+      "capture_utc": 1792156183,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001cb",
+      "receive_ms": 241025,
+      "uptime_ms": 464003,
+      "capture_utc": 1792156184,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001cc",
+      "receive_ms": 242297,
+      "uptime_ms": 465297,
+      "capture_utc": 1792156185,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001cd",
+      "receive_ms": 243543,
+      "uptime_ms": 466016,
+      "capture_utc": 1792156186,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001ce",
+      "receive_ms": 244822,
+      "uptime_ms": 467445,
+      "capture_utc": 1792156188,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001cf",
+      "receive_ms": 245087,
+      "uptime_ms": 468151,
+      "capture_utc": 1792156188,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001d0",
+      "receive_ms": 246361,
+      "uptime_ms": 469484,
+      "capture_utc": 1792156190,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001d1",
+      "receive_ms": 247643,
+      "uptime_ms": 470270,
+      "capture_utc": 1792156190,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001d2",
+      "receive_ms": 248899,
+      "uptime_ms": 471568,
+      "capture_utc": 1792156192,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001d3",
+      "receive_ms": 249354,
+      "uptime_ms": 472432,
+      "capture_utc": 1792156193,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001d4",
+      "receive_ms": 250607,
+      "uptime_ms": 473153,
+      "capture_utc": 1792156193,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001d5",
+      "receive_ms": 251868,
+      "uptime_ms": 474420,
+      "capture_utc": 1792156195,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001d6",
+      "receive_ms": 252128,
+      "uptime_ms": 475103,
+      "capture_utc": 1792156195,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001d7",
+      "receive_ms": 253397,
+      "uptime_ms": 476393,
+      "capture_utc": 1792156197,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001d8",
+      "receive_ms": 254665,
+      "uptime_ms": 477158,
+      "capture_utc": 1792156197,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001d9",
+      "receive_ms": 255951,
+      "uptime_ms": 478468,
+      "capture_utc": 1792156199,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001da",
+      "receive_ms": 256203,
+      "uptime_ms": 479196,
+      "capture_utc": 1792156199,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001db",
+      "receive_ms": 257568,
+      "uptime_ms": 480524,
+      "capture_utc": 1792156201,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001dc",
+      "receive_ms": 258745,
+      "uptime_ms": 481217,
+      "capture_utc": 1792156201,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001dd",
+      "receive_ms": 259023,
+      "uptime_ms": 482026,
+      "capture_utc": 1792156202,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001de",
+      "receive_ms": 260310,
+      "uptime_ms": 483424,
+      "capture_utc": 1792156204,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001df",
+      "receive_ms": 261596,
+      "uptime_ms": 484141,
+      "capture_utc": 1792156204,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001e0",
+      "receive_ms": 262865,
+      "uptime_ms": 485569,
+      "capture_utc": 1792156206,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001e1",
+      "receive_ms": 263093,
+      "uptime_ms": 486224,
+      "capture_utc": 1792156206,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001e2",
+      "receive_ms": 264410,
+      "uptime_ms": 487539,
+      "capture_utc": 1792156208,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001e3",
+      "receive_ms": 265648,
+      "uptime_ms": 488237,
+      "capture_utc": 1792156208,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001e4",
+      "receive_ms": 266947,
+      "uptime_ms": 489514,
+      "capture_utc": 1792156210,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001e5",
+      "receive_ms": 267193,
+      "uptime_ms": 490190,
+      "capture_utc": 1792156210,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001e6",
+      "receive_ms": 268464,
+      "uptime_ms": 491498,
+      "capture_utc": 1792156212,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001e7",
+      "receive_ms": 270083,
+      "uptime_ms": 492257,
+      "capture_utc": 1792156213,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001e8",
+      "receive_ms": 270370,
+      "uptime_ms": 493520,
+      "capture_utc": 1792156214,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001e9",
+      "receive_ms": 271642,
+      "uptime_ms": 494298,
+      "capture_utc": 1792156215,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001ea",
+      "receive_ms": 271894,
+      "uptime_ms": 495014,
+      "capture_utc": 1792156216,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001eb",
+      "receive_ms": 274156,
+      "uptime_ms": 496381,
+      "capture_utc": 1792156217,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001ec",
+      "receive_ms": 274420,
+      "uptime_ms": 497207,
+      "capture_utc": 1792156218,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001ed",
+      "receive_ms": 275690,
+      "uptime_ms": 498573,
+      "capture_utc": 1792156219,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001ee",
+      "receive_ms": 277010,
+      "uptime_ms": 499420,
+      "capture_utc": 1792156220,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001ef",
+      "receive_ms": 277881,
+      "uptime_ms": 500096,
+      "capture_utc": 1792156221,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001f0",
+      "receive_ms": 279082,
+      "uptime_ms": 501365,
+      "capture_utc": 1792156222,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001f1",
+      "receive_ms": 279083,
+      "uptime_ms": 502072,
+      "capture_utc": 1792156223,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001f2",
+      "receive_ms": 281412,
+      "uptime_ms": 503466,
+      "capture_utc": 1792156224,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001f3",
+      "receive_ms": 282056,
+      "uptime_ms": 504115,
+      "capture_utc": 1792156225,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001f4",
+      "receive_ms": 282644,
+      "uptime_ms": 505452,
+      "capture_utc": 1792156226,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001f5",
+      "receive_ms": 284087,
+      "uptime_ms": 506153,
+      "capture_utc": 1792156227,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001f6",
+      "receive_ms": 284762,
+      "uptime_ms": 507508,
+      "capture_utc": 1792156228,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001f7",
+      "receive_ms": 285542,
+      "uptime_ms": 508212,
+      "capture_utc": 1792156229,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001f8",
+      "receive_ms": 287021,
+      "uptime_ms": 509527,
+      "capture_utc": 1792156230,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001f9",
+      "receive_ms": 287488,
+      "uptime_ms": 510257,
+      "capture_utc": 1792156231,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001fa",
+      "receive_ms": 288864,
+      "uptime_ms": 511567,
+      "capture_utc": 1792156232,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001fb",
+      "receive_ms": 290169,
+      "uptime_ms": 512419,
+      "capture_utc": 1792156233,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001fc",
+      "receive_ms": 290434,
+      "uptime_ms": 513240,
+      "capture_utc": 1792156234,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001fd",
+      "receive_ms": 291711,
+      "uptime_ms": 514501,
+      "capture_utc": 1792156235,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001fe",
+      "receive_ms": 291966,
+      "uptime_ms": 515184,
+      "capture_utc": 1792156236,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-000001ff",
+      "receive_ms": 294269,
+      "uptime_ms": 516469,
+      "capture_utc": 1792156237,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000200",
+      "receive_ms": 294618,
+      "uptime_ms": 517202,
+      "capture_utc": 1792156238,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000201",
+      "receive_ms": 295926,
+      "uptime_ms": 518486,
+      "capture_utc": 1792156239,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000202",
+      "receive_ms": 296190,
+      "uptime_ms": 519165,
+      "capture_utc": 1792156240,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000203",
+      "receive_ms": 297446,
+      "uptime_ms": 520466,
+      "capture_utc": 1792156241,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000204",
+      "receive_ms": 298709,
+      "uptime_ms": 521233,
+      "capture_utc": 1792156242,
+      "qos": 1
+    },
+    {
+      "id": "caeb94b6-00000205",
+      "receive_ms": 298975,
+      "uptime_ms": 522054,
+      "capture_utc": 1792156243,
+      "qos": 1
+    }
+  ],
+  "start_utc": "2026-10-16T13:05:46.374Z",
+  "observed_s": 300.018,
+  "max_receive_gap_ms": 2687,
+  "mean_receive_interval_ms": 995.5366666666666,
+  "full_duration": true,
+  "pass": true,
+  "topic_matches_original_requirement": true,
+  "transport_pass": true,
+  "qos1_observed": true,
+  "count_matches_1hz": true,
+  "lwt_offline_verified": true,
+  "lwt_evidence_sha256": "bf840b4374a80b0afee289113977344127615884957ec435eb20719edf60ebf2",
+  "full_requirement_pass": true
+}

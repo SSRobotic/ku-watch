@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\pomma\OneDrive\Desktop\KU_Watch_Display_First\hardware\KU_Watch\KU_Watch.kicad_sch</source>
+    <date>2026-09-16T13:28:21</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>KU Watch - system schematic</title>
+        <company>ESP32-S3 Super Mini + wireless touch display</company>
+        <rev>B</rev>
+        <date>2026-09-16</date>
+        <source>KU_Watch.kicad_sch</source>
+        <comment number="1" value="GPIOs from firmware; GPS proposed; battery power stage pending"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="AE1">
+      <value>GNSS antenna</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Antenna" description="Antenna"/>
+      <property name="Sheetname" value="KU_Watch"/>
+      <property name="Sheetfile" value="KU_Watch.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_keywords" value="antenna"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe502f97-e0ba-5063-8870-f9a1bd2ec698</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="BT1">
+      <value>3.7V / 600mAh</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Sheetname" value="KU_Watch"/>
+      <property name="Sheetfile" value="KU_Watch.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_keywords" value="battery cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0288594d-290d-5bd1-b3a6-8f0ac58a6981</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="DS1">
+      <value>GC9A01(A) 240x240</value>
+      <description>Round 1.28-inch GC9A01(A) 240x240 SPI breakout; verify VIN rating and optional BL header on actual module.</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Round 1.28-inch GC9A01(A) 240x240 SPI breakout; verify VIN rating and optional BL header on actual module.</field>
+      </fields>
+      <libsource lib="KU_Watch" part="GC9A01_Module" description="Round 1.28-inch GC9A01(A) 240x240 SPI breakout; verify VIN rating and optional BL header on actual module."/>
+      <property name="Sheetname" value="KU_Watch"/>
+      <property name="Sheetfile" value="KU_Watch.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70aec615-999a-5689-9d91-46916acd4deb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="SCK"/>
+            <pin num="MOSI"/>
+            <pin num="CS"/>
+            <pin num="DC"/>
+            <pin num="RST"/>
+            <pin num="VCC"/>
+            <pin num="GND"/>
+            <pin num="BL"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>AMP INPUT (reserved)</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="KU_Watch"/>
+      <property name="Sheetfile" value="KU_Watch.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99183867-0f30-5f25-b753-a7e2f6d9eb05</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>3-wire pack</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="KU_Watch"/>
+      <property name="Sheetfile" value="KU_Watch.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8876ad9-ea75-573b-a4d7-5404bdf02c8a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="LS1">
+      <value>Speaker</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Speaker" description="Speaker"/>
+      <property name="Sheetname" value="KU_Watch"/>
+      <property name="Sheetfile" value="KU_Watch.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_keywords" value="speaker sound"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81994454-fad7-5d2f-b498-fb8e129e539a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW1">
+      <value>MENU</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value="KU_Watch"/>
+      <property name="Sheetfile" value="KU_Watch.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3fa56078-fe1d-55c6-9719-65753e249ce0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>ESP32-S3 Super Mini</value>
+      <description>Module-level ESP32-S3 Super Mini. Functional GPIO IDs, not package/header numbers. Powered by its existing USB-C regulator in this draft. Only used terminals shown. GPS pins are proposed.</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Module-level ESP32-S3 Super Mini. Functional GPIO IDs, not package/header numbers. Powered by its existing USB-C regulator in this draft. Only used terminals shown. GPS pins are proposed.</field>
+      </fields>
+      <libsource lib="KU_Watch" part="SuperMini_Functional" description="Module-level ESP32-S3 Super Mini. Functional GPIO IDs, not package/header numbers. Powered by its existing USB-C regulator in this draft. Only used terminals shown. GPS pins are proposed."/>
+      <property name="Sheetname" value="KU_Watch"/>
+      <property name="Sheetfile" value="KU_Watch.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d67567b-d24e-5fc8-9daa-7e0e8b135d85</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3V3"/>
+            <pin num="GND"/>
+            <pin num="GPIO4"/>
+            <pin num="GPIO2"/>
+            <pin num="GPIO12"/>
+            <pin num="GPIO13"/>
+            <pin num="GPIO10"/>
+            <pin num="GPIO11"/>
+            <pin num="GPIO6"/>
+            <pin num="GPIO7"/>
+            <pin num="GPIO5"/>
+            <pin num="GPIO8"/>
+            <pin num="GPIO9"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>BME680</value>
+      <description>BME680 breakout in I2C mode: CS to 3V3; SDO to GND selects 0x76.</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">BME680 breakout in I2C mode: CS to 3V3; SDO to GND selects 0x76.</field>
+      </fields>
+      <libsource lib="KU_Watch" part="BME680_Module" description="BME680 breakout in I2C mode: CS to 3V3; SDO to GND selects 0x76."/>
+      <property name="Sheetname" value="KU_Watch"/>
+      <property name="Sheetfile" value="KU_Watch.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>949b0bc0-2ef0-50a2-950f-63efd9b1285e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="VCC"/>
+            <pin num="GND"/>
+            <pin num="SDA"/>
+            <pin num="SCL"/>
+            <pin num="CS"/>
+            <pin num="SDO"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>MAX30102 breakout</value>
+      <description>MAX30102 breakout with onboard regulator/level interface. Bare IC is not represented; verify breakout accepts 3.3V supply and logic.</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">MAX30102 breakout with onboard regulator/level interface. Bare IC is not represented; verify breakout accepts 3.3V supply and logic.</field>
+      </fields>
+      <libsource lib="KU_Watch" part="MAX30102_Module" description="MAX30102 breakout with onboard regulator/level interface. Bare IC is not represented; verify breakout accepts 3.3V supply and logic."/>
+      <property name="Sheetname" value="KU_Watch"/>
+      <property name="Sheetfile" value="KU_Watch.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59f1e4c0-ff6c-574a-a101-102dc513b115</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="VCC"/>
+            <pin num="GND"/>
+            <pin num="SDA"/>
+            <pin num="SCL"/>
+            <pin num="INT"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>GY-51 (variant TBD)</value>
+      <description>GY-51 as named by firmware. Reads accelerometer 0x18 and magnetometer 0x1E. Actual silicon/module variant unverified.</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">GY-51 as named by firmware. Reads accelerometer 0x18 and magnetometer 0x1E. Actual silicon/module variant unverified.</field>
+      </fields>
+      <libsource lib="KU_Watch" part="GY51_Module" description="GY-51 as named by firmware. Reads accelerometer 0x18 and magnetometer 0x1E. Actual silicon/module variant unverified."/>
+      <property name="Sheetname" value="KU_Watch"/>
+      <property name="Sheetfile" value="KU_Watch.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d58a23a2-c4b8-5da3-9d35-372176742c43</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="VCC"/>
+            <pin num="GND"/>
+            <pin num="SDA"/>
+            <pin num="SCL"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U5">
+      <value>INA226 (ACK only)</value>
+      <description>INA226 candidate at 0x40. Firmware checks ACK only. Current path/shunt and address strap must be confirmed; sense terminals not connected.</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">INA226 candidate at 0x40. Firmware checks ACK only. Current path/shunt and address strap must be confirmed; sense terminals not connected.</field>
+      </fields>
+      <libsource lib="KU_Watch" part="INA226_Module" description="INA226 candidate at 0x40. Firmware checks ACK only. Current path/shunt and address strap must be confirmed; sense terminals not connected."/>
+      <property name="Sheetname" value="KU_Watch"/>
+      <property name="Sheetfile" value="KU_Watch.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c1e34ab-910f-5124-b33e-bb23a7922fd8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="VCC"/>
+            <pin num="GND"/>
+            <pin num="SDA"/>
+            <pin num="SCL"/>
+            <pin num="IN+"/>
+            <pin num="IN-"/>
+            <pin num="ALERT"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U6">
+      <value>ATGM336H + antenna</value>
+      <description>ATGM336H GPS/BeiDou breakout with supplied antenna. UART pins proposed; header order, exact variant and VIN range pending verification.</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">ATGM336H GPS/BeiDou breakout with supplied antenna. UART pins proposed; header order, exact variant and VIN range pending verification.</field>
+      </fields>
+      <libsource lib="KU_Watch" part="ATGM336H_Module" description="ATGM336H GPS/BeiDou breakout with supplied antenna. UART pins proposed; header order, exact variant and VIN range pending verification."/>
+      <property name="Sheetname" value="KU_Watch"/>
+      <property name="Sheetfile" value="KU_Watch.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97dbdad7-d0a2-5129-bf96-6c6b9fbe5cf9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="VCC"/>
+            <pin num="GND"/>
+            <pin num="TXD"/>
+            <pin num="RXD"/>
+            <pin num="PPS"/>
+            <pin num="ANT"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U7">
+      <value>ESP32-S3-Touch-LCD-2.1</value>
+      <description>Complete ESP32-S3-Touch-LCD-2.1 board with own USB-C power. Wireless peer only; no wired net to Super Mini. Internal circuits are not reproduced.</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Complete ESP32-S3-Touch-LCD-2.1 board with own USB-C power. Wireless peer only; no wired net to Super Mini. Internal circuits are not reproduced.</field>
+      </fields>
+      <libsource lib="KU_Watch" part="Waveshare_Remote" description="Complete ESP32-S3-Touch-LCD-2.1 board with own USB-C power. Wireless peer only; no wired net to Super Mini. Internal circuits are not reproduced."/>
+      <property name="Sheetname" value="KU_Watch"/>
+      <property name="Sheetfile" value="KU_Watch.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f4723df-5050-503f-ab4e-e6f30225b4ba</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Antenna">
+      <description>Antenna</description>
+      <fields>
+        <field name="Reference">AE</field>
+        <field name="Value">Antenna</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Antenna</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Single-cell battery</field>
+        <field name="Sim.Device">V</field>
+        <field name="Sim.Type">DC</field>
+        <field name="Sim.Pins">1=+ 2=-</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Speaker">
+      <description>Speaker</description>
+      <fields>
+        <field name="Reference">LS</field>
+        <field name="Value">Speaker</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Speaker</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="KU_Watch" part="ATGM336H_Module">
+      <description>ATGM336H GPS/BeiDou breakout with supplied antenna. UART pins proposed; header order, exact variant and VIN range pending verification.</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATGM336H_Module</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">ATGM336H GPS/BeiDou breakout with supplied antenna. UART pins proposed; header order, exact variant and VIN range pending verification.</field>
+      </fields>
+      <pins>
+        <pin num="ANT" name="ANT_socket" type="passive"/>
+        <pin num="GND" name="GND" type="power_in"/>
+        <pin num="PPS" name="PPS*" type="output"/>
+        <pin num="RXD" name="RXD" type="input"/>
+        <pin num="TXD" name="TXD" type="output"/>
+        <pin num="VCC" name="VCC_/_VIN*" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="KU_Watch" part="BME680_Module">
+      <description>BME680 breakout in I2C mode: CS to 3V3; SDO to GND selects 0x76.</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BME680_Module</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">BME680 breakout in I2C mode: CS to 3V3; SDO to GND selects 0x76.</field>
+      </fields>
+      <pins>
+        <pin num="CS" name="CS_/_CSB" type="input"/>
+        <pin num="GND" name="GND" type="power_in"/>
+        <pin num="SCL" name="SCL" type="input"/>
+        <pin num="SDA" name="SDA" type="bidirectional"/>
+        <pin num="SDO" name="SDO" type="input"/>
+        <pin num="VCC" name="VCC_/_VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="KU_Watch" part="GC9A01_Module">
+      <description>Round 1.28-inch GC9A01(A) 240x240 SPI breakout; verify VIN rating and optional BL header on actual module.</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">GC9A01_Module</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Round 1.28-inch GC9A01(A) 240x240 SPI breakout; verify VIN rating and optional BL header on actual module.</field>
+      </fields>
+      <pins>
+        <pin num="BL" name="BL_/_BLK*" type="passive"/>
+        <pin num="CS" name="CS" type="input"/>
+        <pin num="DC" name="DC" type="input"/>
+        <pin num="GND" name="GND" type="power_in"/>
+        <pin num="MOSI" name="SDA_/_DIN" type="input"/>
+        <pin num="RST" name="RST" type="input"/>
+        <pin num="SCK" name="SCL_/_SCK" type="input"/>
+        <pin num="VCC" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="KU_Watch" part="GY51_Module">
+      <description>GY-51 as named by firmware. Reads accelerometer 0x18 and magnetometer 0x1E. Actual silicon/module variant unverified.</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">GY51_Module</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">GY-51 as named by firmware. Reads accelerometer 0x18 and magnetometer 0x1E. Actual silicon/module variant unverified.</field>
+      </fields>
+      <pins>
+        <pin num="GND" name="GND" type="power_in"/>
+        <pin num="SCL" name="SCL" type="input"/>
+        <pin num="SDA" name="SDA" type="bidirectional"/>
+        <pin num="VCC" name="VCC_/_VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="KU_Watch" part="INA226_Module">
+      <description>INA226 candidate at 0x40. Firmware checks ACK only. Current path/shunt and address strap must be confirmed; sense terminals not connected.</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">INA226_Module</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">INA226 candidate at 0x40. Firmware checks ACK only. Current path/shunt and address strap must be confirmed; sense terminals not connected.</field>
+      </fields>
+      <pins>
+        <pin num="ALERT" name="ALERT" type="open_collector"/>
+        <pin num="GND" name="GND" type="power_in"/>
+        <pin num="IN+" name="IN+" type="passive"/>
+        <pin num="IN-" name="IN-" type="passive"/>
+        <pin num="SCL" name="SCL" type="input"/>
+        <pin num="SDA" name="SDA" type="bidirectional"/>
+        <pin num="VCC" name="VCC_/_VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="KU_Watch" part="MAX30102_Module">
+      <description>MAX30102 breakout with onboard regulator/level interface. Bare IC is not represented; verify breakout accepts 3.3V supply and logic.</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX30102_Module</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">MAX30102 breakout with onboard regulator/level interface. Bare IC is not represented; verify breakout accepts 3.3V supply and logic.</field>
+      </fields>
+      <pins>
+        <pin num="GND" name="GND" type="power_in"/>
+        <pin num="INT" name="INT" type="output"/>
+        <pin num="SCL" name="SCL" type="input"/>
+        <pin num="SDA" name="SDA" type="bidirectional"/>
+        <pin num="VCC" name="VCC_/_VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="KU_Watch" part="SuperMini_Functional">
+      <description>Module-level ESP32-S3 Super Mini. Functional GPIO IDs, not package/header numbers. Powered by its existing USB-C regulator in this draft. Only used terminals shown. GPS pins are proposed.</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SuperMini_Functional</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Module-level ESP32-S3 Super Mini. Functional GPIO IDs, not package/header numbers. Powered by its existing USB-C regulator in this draft. Only used terminals shown. GPS pins are proposed.</field>
+      </fields>
+      <pins>
+        <pin num="3V3" name="3V3_(USB_regulator)" type="power_out"/>
+        <pin num="GND" name="GND" type="power_out"/>
+        <pin num="GPIO2" name="GPIO2_/_AUDIO" type="output"/>
+        <pin num="GPIO4" name="GPIO4_/_MENU" type="input"/>
+        <pin num="GPIO5" name="GPIO5_/_RST" type="output"/>
+        <pin num="GPIO6" name="GPIO6_/_CS" type="output"/>
+        <pin num="GPIO7" name="GPIO7_/_DC" type="output"/>
+        <pin num="GPIO8" name="GPIO8_/_SDA" type="bidirectional"/>
+        <pin num="GPIO9" name="GPIO9_/_SCL" type="output"/>
+        <pin num="GPIO10" name="GPIO10_/_SCK" type="output"/>
+        <pin num="GPIO11" name="GPIO11_/_MOSI" type="output"/>
+        <pin num="GPIO12" name="GPIO12_/_GPS_RX*" type="input"/>
+        <pin num="GPIO13" name="GPIO13_/_GPS_TX*" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="KU_Watch" part="Waveshare_Remote">
+      <description>Complete ESP32-S3-Touch-LCD-2.1 board with own USB-C power. Wireless peer only; no wired net to Super Mini. Internal circuits are not reproduced.</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Waveshare_Remote</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Complete ESP32-S3-Touch-LCD-2.1 board with own USB-C power. Wireless peer only; no wired net to Super Mini. Internal circuits are not reproduced.</field>
+      </fields>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+    <library logical="KU_Watch">
+      <uri>${KIPRJMOD}/KU_Watch.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>${KICAD10_SYMBOL_DIR}/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3" class="Default">
+      <node ref="DS1" pin="VCC" pinfunction="VCC_VCC" pintype="power_in"/>
+      <node ref="U1" pin="3V3" pinfunction="3V3_(USB_regulator)_3V3" pintype="power_out"/>
+      <node ref="U2" pin="CS" pinfunction="CS_/_CSB_CS" pintype="input"/>
+      <node ref="U2" pin="VCC" pinfunction="VCC_/_VIN_VCC" pintype="power_in"/>
+      <node ref="U3" pin="VCC" pinfunction="VCC_/_VIN_VCC" pintype="power_in"/>
+      <node ref="U4" pin="VCC" pinfunction="VCC_/_VIN_VCC" pintype="power_in"/>
+      <node ref="U5" pin="VCC" pinfunction="VCC_/_VIN_VCC" pintype="power_in"/>
+      <node ref="U6" pin="VCC" pinfunction="VCC_/_VIN*_VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="/AUDIO_OFF" class="Default">
+      <node ref="J1" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="U1" pin="GPIO2" pinfunction="GPIO2_/_AUDIO_GPIO2" pintype="output"/>
+    </net>
+    <net code="3" name="/GNSS_RF" class="Default">
+      <node ref="AE1" pin="1" pinfunction="A_1" pintype="input"/>
+      <node ref="U6" pin="ANT" pinfunction="ANT_socket_ANT" pintype="passive"/>
+    </net>
+    <net code="4" name="/GPS_RX_FROM_TX13" class="Default">
+      <node ref="U1" pin="GPIO13" pinfunction="GPIO13_/_GPS_TX*_GPIO13" pintype="output"/>
+      <node ref="U6" pin="RXD" pinfunction="RXD_RXD" pintype="input"/>
+    </net>
+    <net code="5" name="/GPS_TX_TO_RX12" class="Default">
+      <node ref="U1" pin="GPIO12" pinfunction="GPIO12_/_GPS_RX*_GPIO12" pintype="input"/>
+      <node ref="U6" pin="TXD" pinfunction="TXD_TXD" pintype="output"/>
+    </net>
+    <net code="6" name="/I2C_SCL" class="Default">
+      <node ref="U1" pin="GPIO9" pinfunction="GPIO9_/_SCL_GPIO9" pintype="output"/>
+      <node ref="U2" pin="SCL" pinfunction="SCL_SCL" pintype="input"/>
+      <node ref="U3" pin="SCL" pinfunction="SCL_SCL" pintype="input"/>
+      <node ref="U4" pin="SCL" pinfunction="SCL_SCL" pintype="input"/>
+      <node ref="U5" pin="SCL" pinfunction="SCL_SCL" pintype="input"/>
+    </net>
+    <net code="7" name="/I2C_SDA" class="Default">
+      <node ref="U1" pin="GPIO8" pinfunction="GPIO8_/_SDA_GPIO8" pintype="bidirectional"/>
+      <node ref="U2" pin="SDA" pinfunction="SDA_SDA" pintype="bidirectional"/>
+      <node ref="U3" pin="SDA" pinfunction="SDA_SDA" pintype="bidirectional"/>
+      <node ref="U4" pin="SDA" pinfunction="SDA_SDA" pintype="bidirectional"/>
+      <node ref="U5" pin="SDA" pinfunction="SDA_SDA" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/LCD_CS" class="Default">
+      <node ref="DS1" pin="CS" pinfunction="CS_CS" pintype="input"/>
+      <node ref="U1" pin="GPIO6" pinfunction="GPIO6_/_CS_GPIO6" pintype="output"/>
+    </net>
+    <net code="9" name="/LCD_DC" class="Default">
+      <node ref="DS1" pin="DC" pinfunction="DC_DC" pintype="input"/>
+      <node ref="U1" pin="GPIO7" pinfunction="GPIO7_/_DC_GPIO7" pintype="output"/>
+    </net>
+    <net code="10" name="/LCD_MOSI" class="Default">
+      <node ref="DS1" pin="MOSI" pinfunction="SDA_/_DIN_MOSI" pintype="input"/>
+      <node ref="U1" pin="GPIO11" pinfunction="GPIO11_/_MOSI_GPIO11" pintype="output"/>
+    </net>
+    <net code="11" name="/LCD_RST" class="Default">
+      <node ref="DS1" pin="RST" pinfunction="RST_RST" pintype="input"/>
+      <node ref="U1" pin="GPIO5" pinfunction="GPIO5_/_RST_GPIO5" pintype="output"/>
+    </net>
+    <net code="12" name="/LCD_SCK" class="Default">
+      <node ref="DS1" pin="SCK" pinfunction="SCL_/_SCK_SCK" pintype="input"/>
+      <node ref="U1" pin="GPIO10" pinfunction="GPIO10_/_SCK_GPIO10" pintype="output"/>
+    </net>
+    <net code="13" name="/MENU" class="Default">
+      <node ref="SW1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="GPIO4" pinfunction="GPIO4_/_MENU_GPIO4" pintype="input"/>
+    </net>
+    <net code="14" name="GND" class="Default">
+      <node ref="DS1" pin="GND" pinfunction="GND_GND" pintype="power_in"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="GND" pinfunction="GND_GND" pintype="power_out"/>
+      <node ref="U2" pin="GND" pinfunction="GND_GND" pintype="power_in"/>
+      <node ref="U2" pin="SDO" pinfunction="SDO_SDO" pintype="input"/>
+      <node ref="U3" pin="GND" pinfunction="GND_GND" pintype="power_in"/>
+      <node ref="U4" pin="GND" pinfunction="GND_GND" pintype="power_in"/>
+      <node ref="U5" pin="GND" pinfunction="GND_GND" pintype="power_in"/>
+      <node ref="U6" pin="GND" pinfunction="GND_GND" pintype="power_in"/>
+    </net>
+    <net code="15" name="unconnected-(BT1-+-Pad1)" class="Default">
+      <node ref="BT1" pin="1" pinfunction="+_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(BT1---Pad2)" class="Default">
+      <node ref="BT1" pin="2" pinfunction="-_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(DS1-BL_{slash}_BLK*-PadBL)" class="Default">
+      <node ref="DS1" pin="BL" pinfunction="BL_/_BLK*_BL" pintype="passive+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(J2-Pin_1-Pad1)" class="Default">
+      <node ref="J2" pin="1" pinfunction="Pin_1_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(J2-Pin_2-Pad2)" class="Default">
+      <node ref="J2" pin="2" pinfunction="Pin_2_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(J2-Pin_3-Pad3)" class="Default">
+      <node ref="J2" pin="3" pinfunction="Pin_3_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(LS1-Pad1)" class="Default">
+      <node ref="LS1" pin="1" pinfunction="1_1" pintype="input+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(LS1-Pad2)" class="Default">
+      <node ref="LS1" pin="2" pinfunction="2_2" pintype="input+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U3-PadINT)" class="Default">
+      <node ref="U3" pin="INT" pinfunction="INT_INT" pintype="output+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U5-PadALERT)" class="Default">
+      <node ref="U5" pin="ALERT" pinfunction="ALERT_ALERT" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U5-PadIN+)" class="Default">
+      <node ref="U5" pin="IN+" pinfunction="IN+_IN+" pintype="passive+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U5-PadIN-)" class="Default">
+      <node ref="U5" pin="IN-" pinfunction="IN-_IN-" pintype="passive+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U6-PPS*-PadPPS)" class="Default">
+      <node ref="U6" pin="PPS" pinfunction="PPS*_PPS" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>

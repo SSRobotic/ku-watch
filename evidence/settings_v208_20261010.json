@@ -1,0 +1,10 @@
+{
+  "port": "8883",
+  "tls": "1",
+  "topic": "ku_watch/live",
+  "logging": "1",
+  "shunt": "0.00000",
+  "ssid_expected": true,
+  "host_expected": true,
+  "user_expected": true
+}

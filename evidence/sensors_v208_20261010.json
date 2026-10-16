@@ -1,0 +1,214 @@
+{
+  "boundary": "Real MQTT readiness over 65 seconds; does not measure optical accuracy or conversion cadence",
+  "duration_s": 65,
+  "live": 27,
+  "malformed": 0,
+  "disconnects": 0,
+  "sessions": [
+    "8d3c769b"
+  ],
+  "versions": [
+    "2.0.8"
+  ],
+  "readiness": {
+    "env_live": {
+      "true": 27,
+      "false": 0,
+      "missing": 0
+    },
+    "pulse_live": {
+      "true": 0,
+      "false": 27,
+      "missing": 0
+    },
+    "acc_live": {
+      "true": 27,
+      "false": 0,
+      "missing": 0
+    },
+    "mag_live": {
+      "true": 27,
+      "false": 0,
+      "missing": 0
+    },
+    "battery_valid": {
+      "true": 27,
+      "false": 0,
+      "missing": 0
+    },
+    "ina226_detected": {
+      "true": 27,
+      "false": 0,
+      "missing": 0
+    },
+    "iaq_valid": {
+      "true": 27,
+      "false": 0,
+      "missing": 0
+    },
+    "spo2_valid": {
+      "true": 0,
+      "false": 27,
+      "missing": 0
+    },
+    "finger": {
+      "true": 0,
+      "false": 27,
+      "missing": 0
+    },
+    "current_valid": {
+      "true": 0,
+      "false": 27,
+      "missing": 0
+    },
+    "gps_fix": {
+      "true": 0,
+      "false": 27,
+      "missing": 0
+    }
+  },
+  "bsec_errors": 0,
+  "invalid_env": 0,
+  "samples": [
+    {
+      "received_ms": 984,
+      "uptime_ms": 243387,
+      "id": "8d3c769b-000000e8"
+    },
+    {
+      "received_ms": 1475,
+      "uptime_ms": 244170,
+      "id": "8d3c769b-000000e9"
+    },
+    {
+      "received_ms": 2952,
+      "uptime_ms": 245368,
+      "id": "8d3c769b-000000ea"
+    },
+    {
+      "received_ms": 3444,
+      "uptime_ms": 246454,
+      "id": "8d3c769b-000000eb"
+    },
+    {
+      "received_ms": 3965,
+      "uptime_ms": 247053,
+      "id": "8d3c769b-000000ec"
+    },
+    {
+      "received_ms": 5416,
+      "uptime_ms": 248163,
+      "id": "8d3c769b-000000ed"
+    },
+    {
+      "received_ms": 6895,
+      "uptime_ms": 249312,
+      "id": "8d3c769b-000000ee"
+    },
+    {
+      "received_ms": 7384,
+      "uptime_ms": 250412,
+      "id": "8d3c769b-000000ef"
+    },
+    {
+      "received_ms": 8855,
+      "uptime_ms": 251085,
+      "id": "8d3c769b-000000f0"
+    },
+    {
+      "received_ms": 9853,
+      "uptime_ms": 252215,
+      "id": "8d3c769b-000000f1"
+    },
+    {
+      "received_ms": 10844,
+      "uptime_ms": 253342,
+      "id": "8d3c769b-000000f2"
+    },
+    {
+      "received_ms": 11317,
+      "uptime_ms": 254096,
+      "id": "8d3c769b-000000f3"
+    },
+    {
+      "received_ms": 12796,
+      "uptime_ms": 255265,
+      "id": "8d3c769b-000000f4"
+    },
+    {
+      "received_ms": 14267,
+      "uptime_ms": 256438,
+      "id": "8d3c769b-000000f5"
+    },
+    {
+      "received_ms": 14760,
+      "uptime_ms": 257210,
+      "id": "8d3c769b-000000f6"
+    },
+    {
+      "received_ms": 15253,
+      "uptime_ms": 258285,
+      "id": "8d3c769b-000000f7"
+    },
+    {
+      "received_ms": 16730,
+      "uptime_ms": 259408,
+      "id": "8d3c769b-000000f8"
+    },
+    {
+      "received_ms": 17464,
+      "uptime_ms": 260041,
+      "id": "8d3c769b-000000f9"
+    },
+    {
+      "received_ms": 17961,
+      "uptime_ms": 261130,
+      "id": "8d3c769b-000000fa"
+    },
+    {
+      "received_ms": 19454,
+      "uptime_ms": 262228,
+      "id": "8d3c769b-000000fb"
+    },
+    {
+      "received_ms": 20932,
+      "uptime_ms": 263335,
+      "id": "8d3c769b-000000fc"
+    },
+    {
+      "received_ms": 21414,
+      "uptime_ms": 264039,
+      "id": "8d3c769b-000000fd"
+    },
+    {
+      "received_ms": 23592,
+      "uptime_ms": 265175,
+      "id": "8d3c769b-000000fe"
+    },
+    {
+      "received_ms": 24392,
+      "uptime_ms": 266314,
+      "id": "8d3c769b-000000ff"
+    },
+    {
+      "received_ms": 25191,
+      "uptime_ms": 267470,
+      "id": "8d3c769b-00000100"
+    },
+    {
+      "received_ms": 25993,
+      "uptime_ms": 268224,
+      "id": "8d3c769b-00000101"
+    },
+    {
+      "received_ms": 26793,
+      "uptime_ms": 269483,
+      "id": "8d3c769b-00000102"
+    }
+  ],
+  "observed_s": 65.014,
+  "mean_interval_ms": 992.6538461538462,
+  "max_interval_ms": 2178,
+  "transport_pass": false,
+  "required_sensors_live": false
+}

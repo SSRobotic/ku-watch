@@ -1,0 +1,239 @@
+{
+  "updated_thai": "2026-10-16T23:07:19.209890+07:00",
+  "watch_version": "2.0.15",
+  "hub_version": "1.0.8",
+  "accepted": [
+    "FR-01",
+    "FR-02",
+    "FR-03",
+    "FR-04",
+    "FR-05",
+    "FR-06",
+    "FR-07",
+    "FR-08",
+    "NFR-02"
+  ],
+  "requirements": [
+    {
+      "id": "FR-01",
+      "category": "การอ่านค่า",
+      "requirement": "อ่านค่าดิบจาก MAX30102 อย่างต่อเนื่องเพื่อประมวลผลชีพจร/SpO₂, อ่านค่าการเคลื่อนไหวจาก QMI8658 (ความเร่งและไจโรสโคป) และอ่านค่าจาก BME680 (อุณหภูมิ/ความชื้น)",
+      "acceptance": "ค่าชีพจร/SpO₂ และการเคลื่อนไหวอัปเดตบนจออย่างน้อย 1 ครั้ง/วินาที และค่า IAQ อัปเดตทุก 3 วินาที โดยระบบสามารถทำงานต่อเนื่อง 1 นาทีโดยไม่มีข้อผิดพลาด",
+      "implemented": true,
+      "implementation_label": "แล้ว",
+      "accepted": true,
+      "acceptance_label": "ผ่าน",
+      "evidence_summary": "รุ่น 2.0.15 อ่าน PPG จริง 25 Hz และตรวจจอหลังส่ง SPI; IAQ ใช้รอบ BSEC 3 s\nตรวจ USB โดยตรง ผ่านช่วง BPM/SpO₂ valid ต่อเนื่อง ≥60 s พร้อมความถี่จอ; ไม่ใช้ความช้า MQTT มาตัดช่วงจอ"
+    },
+    {
+      "id": "FR-02",
+      "category": "การแสดงผล",
+      "requirement": "แสดงค่าล่าสุด เวลา ระดับแบตเตอรี่ (อ้างอิงแรงดันจาก INA226) และสถานะการเชื่อมต่อบนจอ Touch Screen Micro Snow ESP32 โดยรีเฟรชทุก 500 มิลลิวินาที และรองรับการสั่งงานด้วยการสัมผัส",
+      "acceptance": "จอแสดงค่าต่างๆ อย่างถูกต้อง ไอคอน Wi-Fi ตรงกับสถานะจริง และผู้ใช้สามารถสัมผัสหน้าจอเพื่อเปลี่ยนหน้าจอหรือตอบสนองการสั่งงาน",
+      "implemented": true,
+      "implementation_label": "แล้ว",
+      "accepted": true,
+      "acceptance_label": "ผ่าน",
+      "evidence_summary": "ผู้ใช้ยืนยันเวลา แบต และสถานะตรงจริง; จอใหญ่แตะเปลี่ยนหน้าได้\nรุ่น 2.0.9/1.0.8 ตรวจคำสั่ง 11 หน้าและคืนหน้าเดิมได้; ไม่แทนทัช ≤300 ms"
+    },
+    {
+      "id": "FR-03",
+      "category": "การเชื่อมต่อ",
+      "requirement": "ส่งข้อมูลรูปแบบ JSON ขึ้น MQTT broker ที่ topic ku/iot/<group>/<device>/env ทุก 1 วินาที ด้วย QoS 1 และตั้งค่า Last Will (LWT) ไว้ที่ topic /status",
+      "acceptance": "MQTT client ฝั่งรับได้รับข้อความครบทุกรอบตามช่วงเวลาตลอดการทดสอบ 5 นาที",
+      "implemented": true,
+      "implementation_label": "แล้ว",
+      "accepted": true,
+      "acceptance_label": "ผ่าน",
+      "evidence_summary": "รุ่น 2.0.15 คอมผ่าน Wi-Fi บ้าน รับ 300 รายการ/300 s หาย 0 หลุด 0\nQoS1/LWT ตรวจจริง ช่องว่างรับสูงสุด 1.78 s; ใช้ guard เดิม <3 s"
+    },
+    {
+      "id": "FR-04",
+      "category": "การเก็บข้อมูล",
+      "requirement": "บันทึกค่าลง MicroSD เป็นไฟล์ CSV ทุก 5 วินาที พร้อมเวลาที่อ้างอิงจาก PCF85063 RTC และปิดไฟล์เป็นระยะเพื่อป้องกันไฟล์เสียหาย",
+      "acceptance": "สามารถเปิดไฟล์ใน Excel ได้ คอลัมน์เวลาบันทึกได้ถูกต้อง และไม่มีแถวข้อมูลขาดหาย",
+      "implemented": true,
+      "implementation_label": "แล้ว",
+      "accepted": true,
+      "acceptance_label": "ช่วงที่ตรวจ",
+      "evidence_summary": "ไฟล์ 14 ต.ค. 1,408 แถว; รอบ 16 ต.ค. 61 แถว/5 นาที 1 วินาที เปิด Excel ครบ 26 คอลัมน์\nรอบ 16 ต.ค. RTC ต่าง ≤1 s; บันทึกห่าง 4–6 s; ไม่เหมารวมทุกช่วงหรือ 24 ชั่วโมง"
+    },
+    {
+      "id": "FR-05",
+      "category": "Offline",
+      "requirement": "เมื่อ Wi-Fi หรือ broker หลุด ต้องเก็บข้อมูลลง MicroSD/NVS อย่างต่อเนื่อง และทยอยส่งข้อมูลค้างย้อนหลังขึ้น MQTT อัตโนมัติเมื่อกลับมาออนไลน์เพื่อป้องกันระบบค้าง",
+      "acceptance": "จำลองตัด Wi-Fi 10 นาที แล้วต่อกลับ ข้อมูลที่ค้างถูกทยอยส่งขึ้นครบถ้วนโดยไม่มีแถวขาดหาย และการอ่านค่าเซ็นเซอร์หลักในระบบไม่หยุดชะงัก",
+      "implemented": true,
+      "implementation_label": "แล้ว",
+      "accepted": true,
+      "acceptance_label": "ผ่าน",
+      "evidence_summary": "ตัด Wi-Fi จริง 614.0 s; แฟลชเก็บค้างและส่งกลับเอง\nรับย้อนหลัง 852 รหัส; DB ครบ 877 รหัสในช่วงตรวจ; แยกจาก hub-offline CSV"
+    },
+    {
+      "id": "FR-06",
+      "category": "การแจ้งเตือน",
+      "requirement": "แจ้งเตือนบนจอและบนแดชบอร์ดเมื่อ IAQ > 150 หรืออุณหภูมิ > 35 °C ติดต่อกัน 3 รอบการอ่านค่า",
+      "acceptance": "จำลองป้อนค่าเกินเกณฑ์เข้าสู่ระบบ → ระบบแสดงการแจ้งเตือนภายใน 5 วินาที",
+      "implemented": true,
+      "implementation_label": "แล้ว",
+      "accepted": true,
+      "acceptance_label": "ผ่าน\nค่าจำลอง",
+      "evidence_summary": "ทดสอบ TEMP และ IAQ โดยป้อน 3 ค่าใหม่ที่ 1 Hz ตามวิธีจำลองในเกณฑ์\nรอบล่าสุด 2/2 จอช้าสุด 2.95 s และ browser 2.66 s; TEST ไม่ลงข้อมูลจริง"
+    },
+    {
+      "id": "FR-07",
+      "category": "การตั้งค่า",
+      "requirement": "ตั้งค่า SSID / รหัสผ่าน Wi-Fi, ที่อยู่ MQTT broker และค่าขีดจำกัดการแจ้งเตือนได้ โดยไม่ต้องแก้โค้ดหรือแฟลชใหม่ (จัดเก็บผ่าน NVS / Preferences)",
+      "acceptance": "เมื่อเปลี่ยนค่าแล้วรีบูตระบบใหม่ ค่ายังคงถูกบันทึกไว้และมีผลการทำงานทันที",
+      "implemented": true,
+      "implementation_label": "แล้ว",
+      "accepted": true,
+      "acceptance_label": "ผ่าน",
+      "evidence_summary": "เปลี่ยน topic และค่าเตือนจริง รีบูตตรวจการคงค่า แล้วคืนเกณฑ์ 35°C/IAQ150 และรีบูตซ้ำ\nSSID/broker/topic คงเดิม; รายการกิจกรรมและขนาดไม่เปลี่ยน; ไม่ดาวน์โหลดพิกัดดิบ"
+    },
+    {
+      "id": "FR-08",
+      "category": "OTA Update ",
+      "requirement": "ตรวจสอบเวอร์ชันเฟิร์มแวร์กับเซิร์ฟเวอร์ตอนบูตและทุกๆ 24 ชั่วโมง หากมีเวอร์ชันใหม่ให้ดาวน์โหลดและอัปเดตเองผ่าน Wi-Fi พร้อมแสดงเลขเวอร์ชันบนจอและรายงานขึ้น topic /status",
+      "acceptance": "อัปโหลดไฟล์ .bin เวอร์ชันใหม่ขึ้นเซิร์ฟเวอร์ → อุปกรณ์ดาวน์โหลดและอัปเดตตัวเองภายใน 24 ชม. และเลขเวอร์ชันบนจอตรงกับที่ติดตั้งใหม่",
+      "implemented": true,
+      "implementation_label": "แล้ว",
+      "accepted": true,
+      "acceptance_label": "ผ่าน",
+      "evidence_summary": "OTA อัตโนมัติ HTTPS สำเร็จถึง 2.0.15 ตรวจ SHA256 และบูตยืนยันสุขภาพ; /status ตรง 2.0.15\nผู้ใช้ยืนยันเห็น FW 2.0.15 บนตัวเล็กและ WATCH 2.0.15 บนจอใหญ่ตรงกันแล้ว"
+    },
+    {
+      "id": "NFR-01",
+      "category": "ความน่าเชื่อถือ ",
+      "requirement": "ระบบต้องทำงานต่อเนื่องได้อย่างน้อย 24 ชั่วโมงโดยไม่ต้องรีบูตด้วยมือ",
+      "acceptance": "ทดสอบเดินระบบ 24 ชั่วโมงต่อเนื่องโดยระบบไม่ค้างและยังส่งข้อมูลได้ปกติ",
+      "implemented": false,
+      "implementation_label": "ทดสอบอยู่",
+      "accepted": false,
+      "acceptance_label": "รอครบ",
+      "evidence_summary": "MQTT สะสม 29 ชม. 35 นาที; ต่อเนื่องยาวสุด 8 ชม. 10 นาที\nยังไม่ครบ 24 ชั่วโมงต่อเนื่อง; แยกรอบล้มเหลวเดิม และไม่ใช้ผลนี้แทนอายุแบตเตอรี่"
+    },
+    {
+      "id": "NFR-02",
+      "category": "ความทนต่อความล้มเหลว ",
+      "requirement": "เมื่อ Wi-Fi หรือ broker ล่ม ระบบต้องทำงานต่อได้ในโหมดออฟไลน์ และเชื่อมกลับอัตโนมัติด้วยกลไก Exponential Backoff",
+      "acceptance": "จำลองปิด Broker หรือเร้าเตอร์ 10 นาที ระบบไม่ค้าง และเชื่อมต่อส่งข้อมูลเองได้เมื่อเปิดกลับมา",
+      "implemented": true,
+      "implementation_label": "แล้ว",
+      "accepted": true,
+      "acceptance_label": "ผ่าน",
+      "evidence_summary": "ทดสอบ Wi-Fi หลุดจริง 614.0 s นาฬิกายังอ่านเซ็นเซอร์และคิวทำงาน\nกลับ Wi-Fi/MQTT และระบายคิวเอง; ตรวจรหัสถึง DB ในผลเดียวกับ FR-05"
+    },
+    {
+      "id": "NFR-03",
+      "category": "ประสิทธิภาพ ",
+      "requirement": "เวลาตั้งแต่เซนเซอร์อ่านค่าจนแสดงบนแดชบอร์ด Grafana ไม่เกิน 5 วินาทีเมื่อออนไลน์ และหน้าจอสัมผัสต้องตอบสนองการสั่งงาน (Touch Latency) ภายใน 300 มิลลิวินาที",
+      "acceptance": "จับเวลาส่งขึ้น Grafana 10 ครั้ง เฉลี่ยไม่เกิน 5 วินาที และทดสอบการปัด/แตะหน้าจอต้องไม่รู้สึกถึงความหน่วง",
+      "implemented": true,
+      "implementation_label": "แล้ว",
+      "accepted": false,
+      "acceptance_label": "ยังไม่ครบ",
+      "evidence_summary": "Grafana query เดิม 10 รหัสเฉลี่ย 3.091 s; ภาพและคลิปจริงรอบ 16 ต.ค. เก็บแล้ว\nยังไม่ใช่ผลจับ sensor-to-browser paint และทัชถึงภาพ ≤300 ms; ไม่ใช้ ACK แทนภาพจริง"
+    },
+    {
+      "id": "NFR-04",
+      "category": "พลังงาน ",
+      "requirement": "เมื่อใช้แบตเตอรี่ Li-Po 1000 mAh โดยมีการตั้งเวลาหรี่/พักหน้าจอเมื่อไม่มีการสัมผัส ต้องบันทึกและส่งข้อมูลต่อเนื่องได้อย่างน้อย 6 ชั่วโมง",
+      "acceptance": "ทดสอบจับเวลาการใช้งานจริงจนแบตเตอรี่ลดลงเหลือ 20% (อ่านค่าแรงดันอย่างแม่นยำจากโมดูล INA226)",
+      "implemented": false,
+      "implementation_label": "พักไว้",
+      "accepted": false,
+      "acceptance_label": "ไม่ทดสอบ",
+      "evidence_summary": "ผู้ใช้ไม่มีที่ชาร์จ รอบนี้ใช้ USB; กลางแจ้งใช้แบต 1000 mAh เปลี่ยนเมื่อหมด\nยังไม่ทดสอบแบตถึง 20% นาน ≥6 h และกระแส INA226 ยังไม่สอบเทียบ"
+    },
+    {
+      "id": "NFR-05",
+      "category": "ความปลอดภัย ",
+      "requirement": "รหัสผ่าน Wi-Fi และ broker ต้องไม่ hardcode ในซอร์สโค้ดที่ขึ้น GitHub (เก็บใน NVS หรือ secrets.h ที่ถูก .gitignore) และ broker ต้องเปิดการยืนยันตัวตน (Username/Password)",
+      "acceptance": "ตรวจสอบซอร์สโค้ดใน Repository ต้องไม่พบข้อมูล Credentials ที่เป็นความลับ",
+      "implemented": true,
+      "implementation_label": "แล้ว",
+      "accepted": false,
+      "acceptance_label": "เฉพาะ ZIP",
+      "evidence_summary": "Source ZIP รุ่น 2.0.15 ตรวจค่ารหัสลับที่รู้จัก ไม่รวม config ส่วนตัวและไฟล์เฟิร์มแวร์\nเพิ่ม ignore กุญแจ TLS ส่วนตัว; ยังไม่ได้เผยแพร่ Git repo จึงไม่อ้างผลตรวจ repo"
+    },
+    {
+      "id": "NFR-06",
+      "category": "ความถูกต้องของข้อมูล ",
+      "requirement": "ค่าอุณหภูมิคลาดเคลื่อนไม่เกิน ±3 °C เทียบกับเครื่องมือมาตรฐาน (เผื่อค่าความร้อนสะสมจากตัวบอร์ด) และค่าชีพจร/SpO₂ ต้องระบุชัดเจนว่าเป็นค่าอ้างอิงเบื้องต้น ไม่ใช่อุปกรณ์ทางการแพทย์",
+      "acceptance": "นำไปเปรียบเทียบกับเทอร์โมมิเตอร์อ้างอิงที่เชื่อถือได้จำนวน 10 จุด",
+      "implemented": false,
+      "implementation_label": "บางส่วน",
+      "accepted": false,
+      "acceptance_label": "รออ้างอิง",
+      "evidence_summary": "ไม่มีเทอร์โมมิเตอร์สำหรับเทียบ 10 จุด ±3°C\nชีพจร/SpO₂ เป็นค่าทดลอง; อุณหภูมิอาจได้รับความร้อนบอร์ด ไม่ปรับค่าเดาให้ตรงผลอ้างอิง"
+    },
+    {
+      "id": "NFR-07",
+      "category": "ต้นทุน ",
+      "requirement": "ต้นทุนอุปกรณ์ฮาร์ดแวร์ต่อชุดต้องไม่เกิน 3,000 บาท",
+      "acceptance": "รวมราคาจากตาราง BOM จริง (ครอบคลุมจอ Touch Screen, INA226 และ QMI8658)",
+      "implemented": false,
+      "implementation_label": "รอราคา",
+      "accepted": false,
+      "acceptance_label": "รอรวมงบ",
+      "evidence_summary": "เว้นราคาซื้อจริงและชื่อสมาชิกตามคำขอผู้ใช้\nยังไม่รวม BOM ทั้งชุดเทียบ ≤3,000 บาท ไม่ใช้ราคาประมาณเป็นผลผ่าน"
+    },
+    {
+      "id": "NFR-08",
+      "category": "การบำรุงรักษา & OTA",
+      "requirement": "โค้ดมีการแยกไฟล์ตามโมดูล (Driver → Model → Service → UI) มีการใช้ A/B Partition เพื่อย้อนกลับเฟิร์มแวร์ได้หาก OTA ผิดพลาด และไม่อนุญาตให้อัปเดต OTA หากแบตเตอรี่ต่ำกว่า 30%",
+      "acceptance": "ตรวจโครงสร้างไฟล์โค้ด + ทดสอบตัดไฟระหว่างอัปเดต OTA 3 ครั้ง อุปกรณ์ต้อง Rollback และบูตกลับมาทำงานได้",
+      "implemented": true,
+      "implementation_label": "แล้ว",
+      "accepted": false,
+      "acceptance_label": "รอทดสอบ",
+      "evidence_summary": "อัปเดต A/B ผ่าน Wi-Fi จริง app0→app1→app0 และตรวจ hash/health หลังบูต\nยังไม่ทดสอบตัดไฟระหว่าง OTA 3 ครั้งและ rollback จึงยังไม่ผ่าน NFR-08"
+    }
+  ],
+  "source_docx_sha256": "6b348512951bbf809343c89a01837d7c1e433c59b9347012b7140842fe159a25",
+  "docx_sha256": "20a41a5d50e377dec61a847494304747beb1d7ef7e14f79eb7b553c4f5a82ed6",
+  "original_criteria_unchanged": true,
+  "native_checkbox_count": 32,
+  "fr01_observer_at_snapshot": {
+    "pid": 48008,
+    "run_id": "2026-10-16T13-25-47-533Z",
+    "status": "stopped_without_acceptance",
+    "passed": false,
+    "started_utc": "2026-10-16T13:25:47.535Z",
+    "updated_utc": "2026-10-16T14:04:25.976Z",
+    "longest_ready_ms": 23184,
+    "candidate_samples": 8,
+    "result": "C:\\Users\\pomma\\OneDrive\\Desktop\\02_Projects\\KU_Watch_Display_First\\output\\fr_completion_20261016\\fr01_runs\\2026-10-16T13-25-47-533Z\\result.json",
+    "reasons": {
+      "session_change_or_live_gap": 35,
+      "spo2_valid,pulse_estimates": 2073,
+      "no_fresh_live_data": 12,
+      "pulse_estimates": 1
+    }
+  },
+  "fr01_local_observation": {
+    "result": "C:\\Users\\pomma\\OneDrive\\Desktop\\02_Projects\\KU_Watch_Display_First\\output\\fr_completion_20261016\\fr01_local_runs\\20261016T160220Z\\result.json",
+    "completed_utc": "2026-10-16T16:03:30.979574+00:00",
+    "mode": "one_minute_valid_estimates",
+    "cadence_pass": true,
+    "fr01_full_pass": true,
+    "longest_observed_valid_span_s": 69.70400000002701
+  },
+  "fr08_visual_confirmation": {
+    "recorded_utc": "2026-10-16T15:57:01.976814+00:00",
+    "firmware": "2.0.15",
+    "watch_display_confirmed": true,
+    "hub_display_confirmed": true,
+    "fr08_visual_acceptance_confirmed": true,
+    "full_watch_image_confirmed": true,
+    "source": "Direct user confirmation in this chat",
+    "user_answer": "ตรงกัน 2.0.15 และภาพครบปกติ"
+  },
+  "latest_ota_evidence": "C:\\Users\\pomma\\OneDrive\\Desktop\\02_Projects\\KU_Watch_Display_First\\output\\fr_completion_20261016\\fr08_auto_update_2.0.15.json",
+  "latest_mqtt_version_evidence": "C:\\Users\\pomma\\OneDrive\\Desktop\\02_Projects\\KU_Watch_Display_First\\output\\fr_completion_20261016\\fr08_mqtt_version_2.0.15.json",
+  "latest_fr06": "C:\\Users\\pomma\\OneDrive\\Desktop\\02_Projects\\KU_Watch_Display_First\\output\\fr_completion_20261016\\fr06_runs\\2026-10-16T16-04-02-772Z\\fr06_hardware_browser.json",
+  "latest_mqtt_transport_comparison": "C:\\Users\\pomma\\OneDrive\\Desktop\\02_Projects\\KU_Watch_Display_First\\output\\fr_completion_20261016\\mqtt_transport_runs\\2026-10-16T14-24-08-963Z\\comparison.json",
+  "latest_mqtt_audit": "C:\\Users\\pomma\\OneDrive\\Desktop\\02_Projects\\KU_Watch_Display_First\\output\\fr_completion_20261016\\mqtt_2.0.15_pc_home_5min.json",
+  "boundary": "A dated snapshot. No pending, failed or partial result counts as accepted."
+}

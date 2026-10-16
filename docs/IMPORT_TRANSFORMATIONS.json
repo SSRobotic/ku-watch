@@ -1,0 +1,20 @@
+[
+  {
+    "path": "evidence/grafana_config_20261010.json",
+    "original_sha256": "0b34aa7f8a4b752812524afb062d53099c5d022f83ca3eb5494a4f687adbe3f1",
+    "repository_sha256": "1e965306e71e1477b36f14115573945f9d0fd18a473efbff9ac3744bbf208a49",
+    "reason": "Portable workstation path; observations and outcomes unchanged"
+  },
+  {
+    "path": "evidence/final-2026-10-16/evidence/fr01_active_status.json",
+    "original_sha256": "5f30ef9845b9cea8c850a2a6c4137f0929168e93d977cb6e8fb11a6fda835d42",
+    "repository_sha256": "916eeb15cf7200aadb36bff7d6a9aa20afe72969317e951f44458062ea5020a5",
+    "reason": "Portable workstation path; observations and outcomes unchanged"
+  },
+  {
+    "path": "evidence/final-2026-10-16/evidence/fr01_fr03_confirmed_2.0.15.json",
+    "original_sha256": "3a9f00228ceb26958fdc309ea53f659ca08f9a066e3141542daece8054c35f25",
+    "repository_sha256": "42207eb60ef959eadacc58f0b4b5627de24bb151c8411daeda2c3dea2946ceb8",
+    "reason": "Portable workstation path; observations and outcomes unchanged"
+  }
+]

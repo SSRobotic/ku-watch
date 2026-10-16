@@ -1,0 +1,28 @@
+# Local firmware settings and generated identities
+.pio/
+.vscode/
+__pycache__/
+*.pyc
+include/config.h
+include/cloud_private.h
+include/espnow_private.h
+include/build_stamp.h
+config/*.local.json
+config/ota_tls.local/
+*.private.*
+*.key
+*.p12
+*.pfx
+*.env
+.env*
+# Credential-bearing firmware, runtime state and personal recordings
+*.bin
+*.elf
+*.exe
+*.dll
+activities/
+output/
+node_modules/
+flows_cred.json
+*.kua
+*.tcx

@@ -1,0 +1,78 @@
+{
+  "port": "COM15",
+  "seconds": 25.0,
+  "lines": [
+    {
+      "at": 0.86,
+      "text": "NETWORK cloud=1 wifi=1 mqtt=1 error=0 sent=3276 heap=147676"
+    },
+    {
+      "at": 0.86,
+      "text": "NETDNS fallback_result=0 main=192.168.137.1 backup=0.0.0.0 fallback=1.1.1.1 error_type=0 tls=0 socket=0"
+    },
+    {
+      "at": 0.86,
+      "text": "QUEUE ready=1 pending=1 acked=3276 dropped=0 errors=0 max_encoded=457 capacity=768 reserve=131072"
+    },
+    {
+      "at": 0.86,
+      "text": "QUEUE write_max_us=1062250 mqtt_call_max_us=9861480 ingress=0 ingress_capacity=32 free=737280"
+    },
+    {
+      "at": 0.86,
+      "text": "CLOCK utc=1791638136 valid=1 source=NET TIME restored=1 sync_utc=1791637936 checkpoint=1791637919 uptime=2921749"
+    },
+    {
+      "at": 0.86,
+      "text": "ESPNOW ready=1 paired=1 online=1 tx=4482 rx=855 rejected=0 dropped=0"
+    },
+    {
+      "at": 10.84,
+      "text": "NETWORK cloud=1 wifi=1 mqtt=1 error=0 sent=3286 heap=147672"
+    },
+    {
+      "at": 10.84,
+      "text": "NETDNS fallback_result=0 main=192.168.137.1 backup=0.0.0.0 fallback=1.1.1.1 error_type=0 tls=0 socket=0"
+    },
+    {
+      "at": 10.84,
+      "text": "QUEUE ready=1 pending=1 acked=3286 dropped=0 errors=0 max_encoded=458 capacity=768 reserve=131072"
+    },
+    {
+      "at": 10.84,
+      "text": "QUEUE write_max_us=1062250 mqtt_call_max_us=9861480 ingress=0 ingress_capacity=32 free=729088"
+    },
+    {
+      "at": 10.84,
+      "text": "CLOCK utc=1791638146 valid=1 source=NET TIME restored=1 sync_utc=1791637936 checkpoint=1791637919 uptime=2931725"
+    },
+    {
+      "at": 10.84,
+      "text": "ESPNOW ready=1 paired=1 online=1 tx=4496 rx=858 rejected=0 dropped=0"
+    },
+    {
+      "at": 20.94,
+      "text": "NETWORK cloud=1 wifi=1 mqtt=1 error=0 sent=3295 heap=149728"
+    },
+    {
+      "at": 20.94,
+      "text": "NETDNS fallback_result=0 main=192.168.137.1 backup=0.0.0.0 fallback=1.1.1.1 error_type=0 tls=0 socket=0"
+    },
+    {
+      "at": 20.94,
+      "text": "QUEUE ready=1 pending=1 acked=3295 dropped=0 errors=0 max_encoded=458 capacity=768 reserve=131072"
+    },
+    {
+      "at": 20.97,
+      "text": "QUEUE write_max_us=1062250 mqtt_call_max_us=9861480 ingress=0 ingress_capacity=32 free=720896"
+    },
+    {
+      "at": 20.97,
+      "text": "CLOCK utc=1791638156 valid=1 source=NET TIME restored=1 sync_utc=1791637936 checkpoint=1791637919 uptime=2941850"
+    },
+    {
+      "at": 20.97,
+      "text": "ESPNOW ready=1 paired=1 online=1 tx=4513 rx=861 rejected=0 dropped=0"
+    }
+  ]
+}

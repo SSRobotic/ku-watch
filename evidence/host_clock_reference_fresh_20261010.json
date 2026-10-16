@@ -1,0 +1,34 @@
+{
+  "boundary": "NTP comparison only; no system clock change",
+  "measured_at_host_ms": 1791636437765.4695,
+  "samples": [
+    {
+      "server": "time.google.com",
+      "offset_ms": -1373.286247253418,
+      "roundtrip_ms": 187.17050552368164,
+      "uncertainty_ms": 93.67680549621582,
+      "stratum": 1,
+      "valid": true
+    },
+    {
+      "server": "time.cloudflare.com",
+      "offset_ms": -1510.675072669983,
+      "roundtrip_ms": 160.20989418029785,
+      "uncertainty_ms": 173.14541339874268,
+      "stratum": 3,
+      "valid": true
+    },
+    {
+      "server": "pool.ntp.org",
+      "offset_ms": -1445.6497430801392,
+      "roundtrip_ms": 97.55730628967285,
+      "uncertainty_ms": 80.91366291046143,
+      "stratum": 2,
+      "valid": true
+    }
+  ],
+  "offset_ms": -1445.6497430801392,
+  "uncertainty_ms": 80.91366291046143,
+  "agreement_ms": 137.38882541656494,
+  "usable": true
+}

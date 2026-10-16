@@ -1,0 +1,13 @@
+{
+  "boundary": "Configuration prepared on disk; service restart and runtime verification required",
+  "changed": [
+    "D:\\iot2026\\Grafana\\grafana\\conf\\provisioning\\dashboards\\ku-watch.yaml",
+    "[original-workspace]\\integration\\grafana\\ku-watch.yaml",
+    "[original-workspace]\\integration\\grafana\\ku-watch-live.json",
+    "D:\\iot2026\\Grafana\\grafana\\conf\\custom.ini"
+  ],
+  "backup": "[original-workspace]\\output\\grafana_config_backup\\20261010_195631",
+  "database_modified": false,
+  "live_refresh": "1s",
+  "friends_refresh": "10s"
+}

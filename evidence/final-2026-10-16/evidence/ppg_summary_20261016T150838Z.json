@@ -1,0 +1,456 @@
+{
+  "started_utc": "2026-10-16T15:08:38.129206+00:00",
+  "completed_utc": "2026-10-16T15:09:20.708290+00:00",
+  "boundary": "Actual 25 Hz FIFO trace summarized in process memory only. No raw optical waveform persisted or sent to a service. Serial dump occurs after the capture and may itself pause acquisition; it is not an acceptance window.",
+  "actual_records": 1000,
+  "trace_headers": [
+    "PULSETRACE START 25Hz 1000 samples",
+    "PULSETRACE DATA count=1000 complete=1"
+  ],
+  "complete": true,
+  "raw_waveform_saved": false,
+  "segments": [
+    {
+      "start_s": 0.0,
+      "duration_s": 5,
+      "ir_mean": 103719.064,
+      "red_mean": 94842.752,
+      "perfusion_ir": 0.008020327125551974,
+      "perfusion_red": 0.0036789484910175695,
+      "ir_red_correlation": 0.9922547316594438,
+      "ir_spectral_peak_bpm": 61.5234375,
+      "red_spectral_peak_bpm": 61.5234375,
+      "ir_detrended_rms": 661.1439230973846,
+      "red_detrended_rms": 251.55757291799114
+    },
+    {
+      "start_s": 5.0,
+      "duration_s": 5,
+      "ir_mean": 101480.176,
+      "red_mean": 93672.088,
+      "perfusion_ir": 0.007881382336647954,
+      "perfusion_red": 0.004297764305541235,
+      "ir_red_correlation": 0.9781928687000904,
+      "ir_spectral_peak_bpm": 62.255859375,
+      "red_spectral_peak_bpm": 61.8896484375,
+      "ir_detrended_rms": 443.8819660130178,
+      "red_detrended_rms": 169.76200221884574
+    },
+    {
+      "start_s": 10.0,
+      "duration_s": 5,
+      "ir_mean": 102065.864,
+      "red_mean": 93773.28,
+      "perfusion_ir": 0.015548368647609343,
+      "perfusion_red": 0.007146567628394926,
+      "ir_red_correlation": 0.9978174307939796,
+      "ir_spectral_peak_bpm": 58.59375,
+      "red_spectral_peak_bpm": 58.59375,
+      "ir_detrended_rms": 805.879427006243,
+      "red_detrended_rms": 317.69406341134123
+    },
+    {
+      "start_s": 15.0,
+      "duration_s": 5,
+      "ir_mean": 102975.816,
+      "red_mean": 94037.384,
+      "perfusion_ir": 0.007379720169695253,
+      "perfusion_red": 0.003376480559140845,
+      "ir_red_correlation": 0.9810590601968493,
+      "ir_spectral_peak_bpm": 60.4248046875,
+      "red_spectral_peak_bpm": 60.4248046875,
+      "ir_detrended_rms": 747.1802267858419,
+      "red_detrended_rms": 294.3193678894651
+    },
+    {
+      "start_s": 20.0,
+      "duration_s": 5,
+      "ir_mean": 102491.152,
+      "red_mean": 93642.528,
+      "perfusion_ir": 0.006761784833328929,
+      "perfusion_red": 0.002873177089911149,
+      "ir_red_correlation": 0.9790045629037477,
+      "ir_spectral_peak_bpm": 58.2275390625,
+      "red_spectral_peak_bpm": 58.2275390625,
+      "ir_detrended_rms": 634.4996998636568,
+      "red_detrended_rms": 253.1009424156178
+    },
+    {
+      "start_s": 25.0,
+      "duration_s": 5,
+      "ir_mean": 102202.848,
+      "red_mean": 93348.12,
+      "perfusion_ir": 0.006025330695070952,
+      "perfusion_red": 0.0027917068532130863,
+      "ir_red_correlation": 0.9694617535363851,
+      "ir_spectral_peak_bpm": 60.791015625,
+      "red_spectral_peak_bpm": 60.791015625,
+      "ir_detrended_rms": 577.6274026354258,
+      "red_detrended_rms": 229.95214711935475
+    },
+    {
+      "start_s": 30.0,
+      "duration_s": 5,
+      "ir_mean": 102747.176,
+      "red_mean": 93460.424,
+      "perfusion_ir": 0.008902278039081113,
+      "perfusion_red": 0.0036998931885029915,
+      "ir_red_correlation": 0.995901688558197,
+      "ir_spectral_peak_bpm": 59.6923828125,
+      "red_spectral_peak_bpm": 59.6923828125,
+      "ir_detrended_rms": 831.7058438247033,
+      "red_detrended_rms": 315.17642991930677
+    },
+    {
+      "start_s": 35.0,
+      "duration_s": 5,
+      "ir_mean": 103629.44,
+      "red_mean": 93766.032,
+      "perfusion_ir": 0.009527121584760519,
+      "perfusion_red": 0.003919511844546769,
+      "ir_red_correlation": 0.9987575169156993,
+      "ir_spectral_peak_bpm": 59.326171875,
+      "red_spectral_peak_bpm": 59.326171875,
+      "ir_detrended_rms": 941.0355029212828,
+      "red_detrended_rms": 352.4965959742623
+    }
+  ],
+  "period_windows": [
+    {
+      "start_s": 0.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9992230478318981,
+      "fundamental_lag": 25,
+      "period_bpm": 60.0,
+      "autocorrelation_ir": 0.9229056179845232,
+      "autocorrelation_red": 0.9187877373080986
+    },
+    {
+      "start_s": 1.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9990364782464849,
+      "fundamental_lag": null,
+      "period_bpm": null,
+      "autocorrelation_ir": null,
+      "autocorrelation_red": null
+    },
+    {
+      "start_s": 2.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9988691410072628,
+      "fundamental_lag": 23,
+      "period_bpm": 65.21739130434783,
+      "autocorrelation_ir": 0.8864932356946478,
+      "autocorrelation_red": 0.8830533756335284
+    },
+    {
+      "start_s": 3.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.998256728231016,
+      "fundamental_lag": null,
+      "period_bpm": null,
+      "autocorrelation_ir": null,
+      "autocorrelation_red": null
+    },
+    {
+      "start_s": 4.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.998264008764688,
+      "fundamental_lag": 25,
+      "period_bpm": 60.0,
+      "autocorrelation_ir": 0.8677305358556738,
+      "autocorrelation_red": 0.8716958094403633
+    },
+    {
+      "start_s": 5.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9978682417439659,
+      "fundamental_lag": 25,
+      "period_bpm": 60.0,
+      "autocorrelation_ir": 0.8815270645127316,
+      "autocorrelation_red": 0.8850972952313555
+    },
+    {
+      "start_s": 6.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9977300745494265,
+      "fundamental_lag": 25,
+      "period_bpm": 60.0,
+      "autocorrelation_ir": 0.9036303715356189,
+      "autocorrelation_red": 0.9062351709272732
+    },
+    {
+      "start_s": 7.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9987418643291728,
+      "fundamental_lag": 25,
+      "period_bpm": 60.0,
+      "autocorrelation_ir": 0.87911658788802,
+      "autocorrelation_red": 0.8770014580703087
+    },
+    {
+      "start_s": 8.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9986604196833783,
+      "fundamental_lag": 25,
+      "period_bpm": 60.0,
+      "autocorrelation_ir": 0.8720058868458205,
+      "autocorrelation_red": 0.870448048922595
+    },
+    {
+      "start_s": 9.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9986593118835787,
+      "fundamental_lag": null,
+      "period_bpm": null,
+      "autocorrelation_ir": null,
+      "autocorrelation_red": null
+    },
+    {
+      "start_s": 10.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9989242438333752,
+      "fundamental_lag": null,
+      "period_bpm": null,
+      "autocorrelation_ir": null,
+      "autocorrelation_red": null
+    },
+    {
+      "start_s": 11.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.999053102360786,
+      "fundamental_lag": null,
+      "period_bpm": null,
+      "autocorrelation_ir": null,
+      "autocorrelation_red": null
+    },
+    {
+      "start_s": 12.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9992234079110761,
+      "fundamental_lag": null,
+      "period_bpm": null,
+      "autocorrelation_ir": null,
+      "autocorrelation_red": null
+    },
+    {
+      "start_s": 13.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9994156243886866,
+      "fundamental_lag": null,
+      "period_bpm": null,
+      "autocorrelation_ir": null,
+      "autocorrelation_red": null
+    },
+    {
+      "start_s": 14.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9994611952226323,
+      "fundamental_lag": null,
+      "period_bpm": null,
+      "autocorrelation_ir": null,
+      "autocorrelation_red": null
+    },
+    {
+      "start_s": 15.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9993705818794625,
+      "fundamental_lag": 24,
+      "period_bpm": 62.5,
+      "autocorrelation_ir": 0.8891694881830199,
+      "autocorrelation_red": 0.8911417276042662
+    },
+    {
+      "start_s": 16.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9992880963684434,
+      "fundamental_lag": 25,
+      "period_bpm": 60.0,
+      "autocorrelation_ir": 0.898293039862637,
+      "autocorrelation_red": 0.8986339469314705
+    },
+    {
+      "start_s": 17.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9992829759543295,
+      "fundamental_lag": null,
+      "period_bpm": null,
+      "autocorrelation_ir": null,
+      "autocorrelation_red": null
+    },
+    {
+      "start_s": 18.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9994828476947855,
+      "fundamental_lag": 26,
+      "period_bpm": 57.69230769230769,
+      "autocorrelation_ir": 0.9204751268847529,
+      "autocorrelation_red": 0.9169990929926539
+    },
+    {
+      "start_s": 19.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9995399804069475,
+      "fundamental_lag": 26,
+      "period_bpm": 57.69230769230769,
+      "autocorrelation_ir": 0.9563884882624383,
+      "autocorrelation_red": 0.9534143290773844
+    },
+    {
+      "start_s": 20.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9994816432068405,
+      "fundamental_lag": 26,
+      "period_bpm": 57.69230769230769,
+      "autocorrelation_ir": 0.8866490157840327,
+      "autocorrelation_red": 0.8789087503877173
+    },
+    {
+      "start_s": 21.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9995857010099617,
+      "fundamental_lag": 26,
+      "period_bpm": 57.69230769230769,
+      "autocorrelation_ir": 0.9136286596859603,
+      "autocorrelation_red": 0.9109110105363717
+    },
+    {
+      "start_s": 22.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9995658622156668,
+      "fundamental_lag": null,
+      "period_bpm": null,
+      "autocorrelation_ir": null,
+      "autocorrelation_red": null
+    },
+    {
+      "start_s": 23.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9993614785538126,
+      "fundamental_lag": null,
+      "period_bpm": null,
+      "autocorrelation_ir": null,
+      "autocorrelation_red": null
+    },
+    {
+      "start_s": 24.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9991475667483586,
+      "fundamental_lag": null,
+      "period_bpm": null,
+      "autocorrelation_ir": null,
+      "autocorrelation_red": null
+    },
+    {
+      "start_s": 25.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.999081816012292,
+      "fundamental_lag": null,
+      "period_bpm": null,
+      "autocorrelation_ir": null,
+      "autocorrelation_red": null
+    },
+    {
+      "start_s": 26.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9991277760904723,
+      "fundamental_lag": null,
+      "period_bpm": null,
+      "autocorrelation_ir": null,
+      "autocorrelation_red": null
+    },
+    {
+      "start_s": 27.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9989479144461999,
+      "fundamental_lag": 25,
+      "period_bpm": 60.0,
+      "autocorrelation_ir": 0.8535519321592712,
+      "autocorrelation_red": 0.8528879156721629
+    },
+    {
+      "start_s": 28.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9990248610887462,
+      "fundamental_lag": null,
+      "period_bpm": null,
+      "autocorrelation_ir": null,
+      "autocorrelation_red": null
+    },
+    {
+      "start_s": 29.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9992422398601679,
+      "fundamental_lag": 26,
+      "period_bpm": 57.69230769230769,
+      "autocorrelation_ir": 0.9017430701131021,
+      "autocorrelation_red": 0.9025796743856707
+    },
+    {
+      "start_s": 30.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9992841648619548,
+      "fundamental_lag": null,
+      "period_bpm": null,
+      "autocorrelation_ir": null,
+      "autocorrelation_red": null
+    },
+    {
+      "start_s": 31.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9995032657370032,
+      "fundamental_lag": 25,
+      "period_bpm": 60.0,
+      "autocorrelation_ir": 0.9444000709379224,
+      "autocorrelation_red": 0.9478887668218158
+    },
+    {
+      "start_s": 32.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9995119251002299,
+      "fundamental_lag": 25,
+      "period_bpm": 60.0,
+      "autocorrelation_ir": 0.9498019519731731,
+      "autocorrelation_red": 0.9498041625938904
+    },
+    {
+      "start_s": 33.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9996968873325882,
+      "fundamental_lag": 25,
+      "period_bpm": 60.0,
+      "autocorrelation_ir": 0.9528050616291353,
+      "autocorrelation_red": 0.9516180523064052
+    },
+    {
+      "start_s": 34.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9997063438845534,
+      "fundamental_lag": 25,
+      "period_bpm": 60.0,
+      "autocorrelation_ir": 0.9084484252191305,
+      "autocorrelation_red": 0.9089891835964145
+    },
+    {
+      "start_s": 35.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9996881364268134,
+      "fundamental_lag": 25,
+      "period_bpm": 60.0,
+      "autocorrelation_ir": 0.9156353103256889,
+      "autocorrelation_red": 0.9140425103038686
+    },
+    {
+      "start_s": 36.0,
+      "duration_s": 4,
+      "ir_red_detrended_correlation": 0.9997017479456224,
+      "fundamental_lag": 25,
+      "period_bpm": 60.0,
+      "autocorrelation_ir": 0.91251549065697,
+      "autocorrelation_red": 0.9113322411816792
+    }
+  ],
+  "indices_sequential": true,
+  "ir_below_contact_threshold": 0,
+  "clipped_records": 0
+}

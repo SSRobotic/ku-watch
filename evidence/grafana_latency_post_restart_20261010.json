@@ -1,0 +1,83 @@
+{
+  "boundary": "telemetry capture UTC -> Grafana query response; browser refresh/paint not measured",
+  "identity_match": "Exact sample_id and capture UTC in the same Grafana response row",
+  "clock_resolution_ms": 1000,
+  "samples": [
+    {
+      "sample_id": "8d3c769b-000009f3",
+      "mqtt_received_raw_delay_ms": 3395,
+      "query_available_delay_ms": 4743,
+      "query_after_mqtt_ms": 1348,
+      "reference_corrected_delay_ms": 3326.1092596054077
+    },
+    {
+      "sample_id": "8d3c769b-000009f4",
+      "mqtt_received_raw_delay_ms": 3870,
+      "query_available_delay_ms": 4656,
+      "query_after_mqtt_ms": 786,
+      "reference_corrected_delay_ms": 3239.1092596054077
+    },
+    {
+      "sample_id": "8d3c769b-000009f6",
+      "mqtt_received_raw_delay_ms": 3839,
+      "query_available_delay_ms": 4611,
+      "query_after_mqtt_ms": 772,
+      "reference_corrected_delay_ms": 3194.1092596054077
+    },
+    {
+      "sample_id": "8d3c769b-000009f8",
+      "mqtt_received_raw_delay_ms": 3812,
+      "query_available_delay_ms": 4626,
+      "query_after_mqtt_ms": 814,
+      "reference_corrected_delay_ms": 3209.1092596054077
+    },
+    {
+      "sample_id": "8d3c769b-000009f9",
+      "mqtt_received_raw_delay_ms": 5020,
+      "query_available_delay_ms": 5060,
+      "query_after_mqtt_ms": 40,
+      "reference_corrected_delay_ms": 3643.1092596054077
+    },
+    {
+      "sample_id": "8d3c769b-000009fa",
+      "mqtt_received_raw_delay_ms": 4267,
+      "query_available_delay_ms": 4557,
+      "query_after_mqtt_ms": 290,
+      "reference_corrected_delay_ms": 3140.1092596054077
+    },
+    {
+      "sample_id": "8d3c769b-000009fc",
+      "mqtt_received_raw_delay_ms": 3005,
+      "query_available_delay_ms": 4526,
+      "query_after_mqtt_ms": 1521,
+      "reference_corrected_delay_ms": 3109.1092596054077
+    },
+    {
+      "sample_id": "8d3c769b-000009fe",
+      "mqtt_received_raw_delay_ms": 2973,
+      "query_available_delay_ms": 4755,
+      "query_after_mqtt_ms": 1782,
+      "reference_corrected_delay_ms": 3338.1092596054077
+    },
+    {
+      "sample_id": "8d3c769b-00000a00",
+      "mqtt_received_raw_delay_ms": 2939,
+      "query_available_delay_ms": 4706,
+      "query_after_mqtt_ms": 1767,
+      "reference_corrected_delay_ms": 3289.1092596054077
+    },
+    {
+      "sample_id": "8d3c769b-00000a02",
+      "mqtt_received_raw_delay_ms": 2909,
+      "query_available_delay_ms": 4711,
+      "query_after_mqtt_ms": 1802,
+      "reference_corrected_delay_ms": 3294.1092596054077
+    }
+  ],
+  "mean_ms": 4695.1,
+  "reference_offset_ms": -1416.8907403945923,
+  "reference_uncertainty_ms": 66.60163402557373,
+  "corrected_mean_ms": 3278.2092596054076,
+  "measured": 10,
+  "within_5s": true
+}

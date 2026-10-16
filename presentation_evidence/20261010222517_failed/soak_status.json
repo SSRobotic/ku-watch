@@ -1,0 +1,49 @@
+{
+  "boundary": "Read-only real MQTT telemetry; computer and device must remain powered; not a full-charge battery test",
+  "pid": 38304,
+  "status": "failed",
+  "started_utc": "2026-10-10T13:54:44.445Z",
+  "target_hours": 24,
+  "samples": 5413,
+  "malformed": 0,
+  "duplicates": 4,
+  "gaps": 0,
+  "missing_sequences": 0,
+  "sessions": 2,
+  "connections": 1,
+  "disconnects": 0,
+  "max_receive_gap_ms": 12096.843599999323,
+  "battery_start": 90,
+  "battery_latest": 90,
+  "battery_min": 90,
+  "low_battery_seen": false,
+  "versions": [
+    "2.0.8"
+  ],
+  "sensor_ready_counts": {
+    "env_live": 5412,
+    "pulse_live": 0,
+    "acc_live": 5413,
+    "mag_live": 5413,
+    "iaq_valid": 5411,
+    "battery_valid": 5413
+  },
+  "first_sample_utc": "2026-10-10T13:54:46.037Z",
+  "last_sample_utc": "2026-10-10T15:25:08.516Z",
+  "timing_basis": "Monotonic elapsed time; maximum gap includes leading/trailing silence",
+  "continuity_pass": false,
+  "stop_on_failure": true,
+  "backfill_samples": 5,
+  "last_backfill": {
+    "id": "436e4faa-00000002",
+    "timestamp": null,
+    "received_utc": "2026-10-10T15:25:08.040Z"
+  },
+  "last_live_sample_id": "436e4faa-00000004",
+  "gap_details": [],
+  "observed_hours": 1.5067009209999997,
+  "leading_receive_gap_ms": 1588.0497999999998,
+  "trailing_receive_gap_ms": 55.424599999561906,
+  "failure_reason": "Continuity criterion exceeded; stopped early and retained evidence",
+  "completed_utc": "2026-10-10T15:25:08.571Z"
+}

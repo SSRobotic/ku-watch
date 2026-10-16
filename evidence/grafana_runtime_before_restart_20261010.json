@@ -1,0 +1,21 @@
+{
+  "boundary": "Stored Grafana dashboards and health only; no browser paint claim",
+  "dashboards": {
+    "ku-watch-live": {
+      "found": true,
+      "refresh": "5s"
+    },
+    "ku-watch-friends": {
+      "found": true,
+      "refresh": "10s"
+    }
+  },
+  "health": {
+    "database": "ok"
+  },
+  "frontend": {
+    "http_status": 401
+  },
+  "live_refresh_loaded": false,
+  "service_restart_attempt": "Windows denied access to control the Grafana service; administrator restart pending"
+}

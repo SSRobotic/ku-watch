@@ -1,0 +1,701 @@
+{
+  "images": [
+    {
+      "path": "media/development/01-cad.png",
+      "caption": "Case design: V1 and V5 assembly comparison in SolidWorks",
+      "stage": "historical development; ordering by work stage, not inferred dates"
+    },
+    {
+      "path": "media/development/02-mcu.jpg",
+      "caption": "ESP32-S3 Super Mini controller selected for the watch",
+      "stage": "historical development; ordering by work stage, not inferred dates"
+    },
+    {
+      "path": "media/development/03-layout.jpg",
+      "caption": "Trial placement of sensor modules inside the printed case",
+      "stage": "historical development; ordering by work stage, not inferred dates"
+    },
+    {
+      "path": "media/development/04-battery.jpg",
+      "caption": "1000 mAh Li-Po battery and MAX30102 contact opening",
+      "stage": "historical development; ordering by work stage, not inferred dates"
+    },
+    {
+      "path": "media/development/05-assembly-wide.jpg",
+      "caption": "Powered watch with the case open and sensor wiring exposed",
+      "stage": "historical development; ordering by work stage, not inferred dates"
+    },
+    {
+      "path": "media/development/06-devices.jpg",
+      "caption": "Device discovery screen during bench integration",
+      "stage": "historical development; ordering by work stage, not inferred dates"
+    },
+    {
+      "path": "media/development/07-lcd-issue.jpg",
+      "caption": "Display fault observed during development",
+      "stage": "historical development; ordering by work stage, not inferred dates"
+    },
+    {
+      "path": "media/development/08-button.jpg",
+      "caption": "Physical navigation button and case clearance",
+      "stage": "historical development; ordering by work stage, not inferred dates"
+    },
+    {
+      "path": "media/development/09-usb-small.jpg",
+      "caption": "USB opening on the small watch case",
+      "stage": "historical development; ordering by work stage, not inferred dates"
+    },
+    {
+      "path": "media/development/10-slot.jpg",
+      "caption": "Mechanical slot clearance on the larger enclosure",
+      "stage": "historical development; ordering by work stage, not inferred dates"
+    },
+    {
+      "path": "media/development/11-usb-hub.jpg",
+      "caption": "USB cable access checked against the hub case",
+      "stage": "historical development; ordering by work stage, not inferred dates"
+    },
+    {
+      "path": "media/development/12-hub-marked.jpg",
+      "caption": "Waveshare hub board and enclosure fit inspection",
+      "stage": "historical development; ordering by work stage, not inferred dates"
+    },
+    {
+      "path": "media/development/13-hub-board.jpg",
+      "caption": "ESP32-S3-Touch-LCD-2.1 board installed in the hub case",
+      "stage": "historical development; ordering by work stage, not inferred dates"
+    },
+    {
+      "path": "media/development/14-hub-home.jpg",
+      "caption": "Early clock and step-count interface on the hub",
+      "stage": "historical development; ordering by work stage, not inferred dates"
+    },
+    {
+      "path": "media/development/15-hub-system.jpg",
+      "caption": "Hub system information and detected peripherals",
+      "stage": "historical development; ordering by work stage, not inferred dates"
+    },
+    {
+      "path": "media/development/16-hub-brightness.jpg",
+      "caption": "Touch-controlled brightness interface",
+      "stage": "historical development; ordering by work stage, not inferred dates"
+    },
+    {
+      "path": "media/development/17-environment.jpg",
+      "caption": "Environmental readings displayed on the small watch",
+      "stage": "historical development; ordering by work stage, not inferred dates"
+    },
+    {
+      "path": "media/development/18-open-home.jpg",
+      "caption": "Clock display with the prototype wiring visible",
+      "stage": "historical development; ordering by work stage, not inferred dates"
+    },
+    {
+      "path": "media/development/19-open-env.jpg",
+      "caption": "BME680 environmental screen during assembly",
+      "stage": "historical development; ordering by work stage, not inferred dates"
+    },
+    {
+      "path": "media/development/20-env-angle.jpg",
+      "caption": "Another view of the powered environmental prototype",
+      "stage": "historical development; ordering by work stage, not inferred dates"
+    },
+    {
+      "path": "media/development/21-env-wide.jpg",
+      "caption": "Full bench assembly with environmental measurements",
+      "stage": "historical development; ordering by work stage, not inferred dates"
+    },
+    {
+      "path": "media/development/22-backend-photo.jpg",
+      "caption": "Watch and first Node-RED integration running together",
+      "stage": "historical development; ordering by work stage, not inferred dates"
+    },
+    {
+      "path": "media/development/23-backend-screen.png",
+      "caption": "Early Node-RED dashboard and flow editor",
+      "stage": "historical development; ordering by work stage, not inferred dates"
+    },
+    {
+      "path": "media/hardware/prototype-in-use-01.jpg",
+      "caption": "Two-display prototype during an actual demonstration",
+      "stage": "demonstration"
+    },
+    {
+      "path": "media/hardware/prototype-in-use-02.jpg",
+      "caption": "Outdoor prototype test setup",
+      "stage": "demonstration"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_01.png",
+      "caption": "อุณหภูมิ",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_02.png",
+      "caption": "ความชื้น",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_03.png",
+      "caption": "ความดันอากาศ",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_04.png",
+      "caption": "ชีพจร",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_05.png",
+      "caption": "ดาวเทียม",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_06.png",
+      "caption": "ข้อมูลล่าสุด",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_08.png",
+      "caption": "แสงอินฟราเรด • IR",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_09.png",
+      "caption": "แสงสีแดง • RED",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_10.png",
+      "caption": "การวางนิ้ว",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_11.png",
+      "caption": "เซ็นเซอร์ชีพจร",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_12.png",
+      "caption": "ชีพจรย้อนหลัง",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_13.png",
+      "caption": "การเปลี่ยนแปลงแสง IR / RED",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_15.png",
+      "caption": "อุณหภูมิย้อนหลัง",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_16.png",
+      "caption": "ความชื้นย้อนหลัง",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_17.png",
+      "caption": "ความกดอากาศย้อนหลัง",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_19.png",
+      "caption": "เคลื่อนไหว X",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_20.png",
+      "caption": "เคลื่อนไหว Y",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_21.png",
+      "caption": "เคลื่อนไหว Z",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_22.png",
+      "caption": "แม่เหล็ก X",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_23.png",
+      "caption": "แม่เหล็ก Y",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_24.png",
+      "caption": "แม่เหล็ก Z",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_25.png",
+      "caption": "การเคลื่อนไหว 3 แกน • ค่าดิบ",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_26.png",
+      "caption": "สนามแม่เหล็ก 3 แกน • ค่าดิบ",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_28.png",
+      "caption": "สถานะตำแหน่ง",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_29.png",
+      "caption": "การรับข้อมูล GPS",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_30.png",
+      "caption": "ดาวเทียมที่ใช้คำนวณ",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_31.png",
+      "caption": "สัญญาณดาวเทียมสูงสุด",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_32.png",
+      "caption": "ละติจูด",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_33.png",
+      "caption": "ลองจิจูด",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_34.png",
+      "caption": "ความสูงจาก GPS",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_35.png",
+      "caption": "ความเร็วจาก GPS",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_36.png",
+      "caption": "จำนวนดาวเทียม • มองเห็น / ใช้คำนวณ",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_37.png",
+      "caption": "ระดับสัญญาณดาวเทียม",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_38.png",
+      "caption": "HDOP • ยิ่งต่ำยิ่งดี",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_39.png",
+      "caption": "อายุตำแหน่งล่าสุด",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_40.png",
+      "caption": "ข้อมูล GPS ที่รับแล้ว",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_41.png",
+      "caption": "ประโยค GPS ที่ตรวจไม่ผ่าน",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_43.png",
+      "caption": "สถานะกิจกรรม",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_44.png",
+      "caption": "ระยะทางสะสม",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_45.png",
+      "caption": "เวลาที่เดิน",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_46.png",
+      "caption": "จุดที่บันทึกแล้ว",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_47.png",
+      "caption": "ระยะทางสะสมย้อนหลัง",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_48.png",
+      "caption": "ความเร็วระหว่างเดิน",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_50.png",
+      "caption": "Wi-Fi",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_51.png",
+      "caption": "เวลาทำงาน",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_52.png",
+      "caption": "แรมว่าง",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_53.png",
+      "caption": "พื้นที่ว่าง",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_54.png",
+      "caption": "ส่งสำเร็จ",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_55.png",
+      "caption": "กิจกรรม #",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_56.png",
+      "caption": "สัญญาณ Wi-Fi ย้อนหลัง",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_57.png",
+      "caption": "หน่วยความจำบอร์ดที่เหลือ",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_58.png",
+      "caption": "BME68x",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_59.png",
+      "caption": "Accelerometer",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_60.png",
+      "caption": "Magnetometer",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_61.png",
+      "caption": "เกี่ยวกับข้อมูล",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_63.png",
+      "caption": "SpO₂ • ค่าทดลอง",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_64.png",
+      "caption": "สถานะการคำนวณ SpO₂",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_65.png",
+      "caption": "ความสอดคล้อง RED / IR",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_66.png",
+      "caption": "SpO₂ ย้อนหลัง • ค่าทดลอง",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_68.png",
+      "caption": "IAQ • Bosch",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_69.png",
+      "caption": "ระดับการเรียนรู้ IAQ",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_70.png",
+      "caption": "ฮีตเตอร์พร้อม",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_71.png",
+      "caption": "เซ็นเซอร์ผ่านช่วงเริ่มต้น",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_72.png",
+      "caption": "ความต้านทานก๊าซ",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_73.png",
+      "caption": "IAQ ผ่านเงื่อนไขแสดงผล",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_74.png",
+      "caption": "IAQ ย้อนหลัง",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_75.png",
+      "caption": "ความต้านทานก๊าซย้อนหลัง",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_77.png",
+      "caption": "แบตเตอรี่ • ประมาณ",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_78.png",
+      "caption": "แรงดันแบตเตอรี่",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_79.png",
+      "caption": "ตรวจพบ INA226",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_80.png",
+      "caption": "การอ่านแบตเตอรี่",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_81.png",
+      "caption": "เปอร์เซ็นต์แบตย้อนหลัง • ประมาณ",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_82.png",
+      "caption": "แรงดันแบตเตอรี่ย้อนหลัง",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_84.png",
+      "caption": "แจ้งเตือนอุณหภูมิ",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_85.png",
+      "caption": "แจ้งเตือน IAQ",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_87.png",
+      "caption": "เวอร์ชันเฟิร์มแวร์",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/grafana/Grafana_panel_88.png",
+      "caption": "เตือนแบตเตอรี่",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/node-red/NodeRED_group_02.png",
+      "caption": "NodeRED group 02",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/node-red/NodeRED_group_03.png",
+      "caption": "NodeRED group 03",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/node-red/NodeRED_group_04.png",
+      "caption": "NodeRED group 04",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/node-red/NodeRED_group_05.png",
+      "caption": "NodeRED group 05",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/node-red/NodeRED_group_06.png",
+      "caption": "NodeRED group 06",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/node-red/NodeRED_group_07.png",
+      "caption": "NodeRED group 07",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/node-red/NodeRED_group_08.png",
+      "caption": "NodeRED group 08",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/backend/Influx_counts.png",
+      "caption": "Influx counts",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/backend/Influx_rows.png",
+      "caption": "Influx rows",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/backend/NodeRED_flow_fit.png",
+      "caption": "NodeRED flow fit",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/backend/WatchPreview_original.jpg",
+      "caption": "WatchPreview original",
+      "stage": "actual screen capture, 2026-10-16; original UI language retained"
+    },
+    {
+      "path": "media/dashboards/session-2026-10-16/Grafana_acceleration.png",
+      "caption": "Grafana acceleration",
+      "stage": "actual screen capture, 2026-10-16"
+    },
+    {
+      "path": "media/dashboards/session-2026-10-16/Grafana_battery_voltage.png",
+      "caption": "Grafana battery voltage",
+      "stage": "actual screen capture, 2026-10-16"
+    },
+    {
+      "path": "media/dashboards/session-2026-10-16/Grafana_humidity.png",
+      "caption": "Grafana humidity",
+      "stage": "actual screen capture, 2026-10-16"
+    },
+    {
+      "path": "media/dashboards/session-2026-10-16/Grafana_iaq.png",
+      "caption": "Grafana iaq",
+      "stage": "actual screen capture, 2026-10-16"
+    },
+    {
+      "path": "media/dashboards/session-2026-10-16/Grafana_iaq_alert.png",
+      "caption": "Grafana iaq alert",
+      "stage": "actual screen capture, 2026-10-16"
+    },
+    {
+      "path": "media/dashboards/session-2026-10-16/Grafana_live_0s.png",
+      "caption": "Grafana live 0s",
+      "stage": "actual screen capture, 2026-10-16"
+    },
+    {
+      "path": "media/dashboards/session-2026-10-16/Grafana_live_50s.png",
+      "caption": "Grafana live 50s",
+      "stage": "actual screen capture, 2026-10-16"
+    },
+    {
+      "path": "media/dashboards/session-2026-10-16/Grafana_temperature.png",
+      "caption": "Grafana temperature",
+      "stage": "actual screen capture, 2026-10-16"
+    },
+    {
+      "path": "media/dashboards/session-2026-10-16/Influx_actual_counts.png",
+      "caption": "Influx actual counts",
+      "stage": "actual screen capture, 2026-10-16"
+    },
+    {
+      "path": "media/dashboards/session-2026-10-16/Influx_actual_rows.png",
+      "caption": "Influx actual rows",
+      "stage": "actual screen capture, 2026-10-16"
+    },
+    {
+      "path": "media/dashboards/session-2026-10-16/NodeRED_0s.png",
+      "caption": "NodeRED 0s",
+      "stage": "actual screen capture, 2026-10-16"
+    },
+    {
+      "path": "media/dashboards/session-2026-10-16/NodeRED_50s.png",
+      "caption": "NodeRED 50s",
+      "stage": "actual screen capture, 2026-10-16"
+    },
+    {
+      "path": "media/dashboards/session-2026-10-16/NodeRED_actual_flow.png",
+      "caption": "NodeRED actual flow",
+      "stage": "actual screen capture, 2026-10-16"
+    }
+  ],
+  "videos": [
+    {
+      "path": "media/videos/pulse-demo.mp4",
+      "poster": "media/video-posters/pulse-demo.jpg",
+      "caption": "Pulse estimate mirrored on both physical displays; demonstration, not clinical validation.",
+      "duration_s": 13.278333,
+      "source_sha256": "1f455bcda869bf218b80cffa64ee3cef929c00925da34f248df2a0693aeae51a"
+    },
+    {
+      "path": "media/videos/network-connection-demo.mp4",
+      "poster": "media/video-posters/network-connection-demo.jpg",
+      "caption": "Wi-Fi and MQTT connection status and local setup access; historical demonstration.",
+      "duration_s": 7.073333,
+      "source_sha256": "d24588fe40e149e2e1be3173a89308a2892a94076717561f6d424e617e524ac5"
+    },
+    {
+      "path": "media/videos/motion-demo.mp4",
+      "poster": "media/video-posters/motion-demo.jpg",
+      "caption": "Motion sensor values changing on the prototype.",
+      "duration_s": 8.841667,
+      "source_sha256": "c967f64950a686569b39819edb09f4ebe1f655d91235feafa3d84d75f36b339c"
+    },
+    {
+      "path": "media/videos/walking-and-gps-demo.mp4",
+      "poster": "media/video-posters/walking-and-gps-demo.jpg",
+      "caption": "Outdoor walking session and GPS-related operation; historical demonstration.",
+      "duration_s": 174.838333,
+      "source_sha256": "60694b2173655e6dd36f5368a7ffd79eb5763515ac39a931aee87de3980eec7e"
+    },
+    {
+      "path": "media/videos/environment-demo.mp4",
+      "poster": "media/video-posters/environment-demo.jpg",
+      "caption": "Environmental values displayed on both devices.",
+      "duration_s": 12.645,
+      "source_sha256": "27110c2296a85f294acce070741b2b3034fac9207867428f6f77c2f87f92505b"
+    },
+    {
+      "path": "media/videos/grafana-live-60s.mp4",
+      "poster": "media/video-posters/grafana-live-60s.jpg",
+      "caption": "Actual Grafana values and trends changing over approximately 60 seconds.",
+      "duration_s": 59.96,
+      "source_sha256": "de578953b575b79e2e5bbfae64772bcb21e68f8a403bb69d920d19e7a9b1bcff"
+    },
+    {
+      "path": "media/videos/node-red-recovery-60s.mp4",
+      "poster": "media/video-posters/node-red-recovery-60s.jpg",
+      "caption": "Actual Node-RED dashboard after online recovery, recorded for 60 seconds.",
+      "duration_s": 60.0,
+      "source_sha256": "a4cee54c9cd6f73b947a92b8a98f07366f4577304260e795396ebaa7b76907ea"
+    },
+    {
+      "path": "media/videos/development-prototype-30s.mp4",
+      "poster": "media/video-posters/development-prototype-30s.jpg",
+      "caption": "Earlier open-case prototype and initial backend integration.",
+      "duration_s": 30.233333,
+      "source_sha256": "67a98189f390596d608c9096d7efe6f15904e41a7bbdd5b369bc34a02ae83a36"
+    },
+    {
+      "path": "media/videos/fr06-alert-test-2.0.15.mp4",
+      "poster": "media/video-posters/fr06-alert-test-2.0.15.jpg",
+      "caption": "Actual browser response to explicitly simulated temperature and IAQ inputs on version 2.0.15.",
+      "duration_s": 22.32,
+      "source_sha256": "576f7682a385b77a0546028adcf8a8a197d84c6eeb5f07e112752891f62be6ae"
+    }
+  ],
+  "duplicate_policy": "Exact source duplicates are represented once. Original, uncropped images are retained.",
+  "historical_scope": "Historical user-supplied development images, not acceptance-test passes. Work stages are inferred from visible content, not from dates displayed on early firmware. No evidence image is cropped or generated."
+}

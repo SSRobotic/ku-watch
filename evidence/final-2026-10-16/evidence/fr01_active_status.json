@@ -1,0 +1,17 @@
+{
+  "pid": 48008,
+  "run_id": "2026-10-16T13-25-47-533Z",
+  "status": "stopped_without_acceptance",
+  "passed": false,
+  "started_utc": "2026-10-16T13:25:47.535Z",
+  "updated_utc": "2026-10-16T14:04:25.976Z",
+  "longest_ready_ms": 23184,
+  "candidate_samples": 8,
+  "result": "[original-workspace]\\output\\fr_completion_20261016\\fr01_runs\\2026-10-16T13-25-47-533Z\\result.json",
+  "reasons": {
+    "session_change_or_live_gap": 35,
+    "spo2_valid,pulse_estimates": 2073,
+    "no_fresh_live_data": 12,
+    "pulse_estimates": 1
+  }
+}

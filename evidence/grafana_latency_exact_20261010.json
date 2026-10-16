@@ -1,0 +1,50 @@
+{
+  "boundary": "telemetry capture UTC -> Grafana query response; browser refresh/paint not measured",
+  "identity_match": "Exact sample_id and capture UTC in the same Grafana response row",
+  "clock_resolution_ms": 1000,
+  "samples": [
+    {
+      "sample_id": "8d3c769b-000003ab",
+      "query_available_delay_ms": 10546
+    },
+    {
+      "sample_id": "8d3c769b-000003ae",
+      "query_available_delay_ms": 9745
+    },
+    {
+      "sample_id": "8d3c769b-000003b2",
+      "query_available_delay_ms": 7680
+    },
+    {
+      "sample_id": "8d3c769b-000003b5",
+      "query_available_delay_ms": 6637
+    },
+    {
+      "sample_id": "8d3c769b-000003b9",
+      "query_available_delay_ms": 5576
+    },
+    {
+      "sample_id": "8d3c769b-000003bc",
+      "query_available_delay_ms": 4570
+    },
+    {
+      "sample_id": "8d3c769b-000003be",
+      "query_available_delay_ms": 4736
+    },
+    {
+      "sample_id": "8d3c769b-000003c0",
+      "query_available_delay_ms": 4685
+    },
+    {
+      "sample_id": "8d3c769b-000003c2",
+      "query_available_delay_ms": 4755
+    },
+    {
+      "sample_id": "8d3c769b-000003c4",
+      "query_available_delay_ms": 4627
+    }
+  ],
+  "mean_ms": 6355.7,
+  "measured": 10,
+  "within_5s": false
+}

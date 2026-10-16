@@ -1,0 +1,30 @@
+{
+  "folder": "20261010222517_failed",
+  "captured_utc": "2026-10-10T15:25:17.318Z",
+  "captured_bangkok": "10 ต.ค. 2026 22:25:17",
+  "timezone": "Asia/Bangkok",
+  "audit_pid": 38304,
+  "status": "failed",
+  "observed_hours": 1.5067009209999997,
+  "samples": 5413,
+  "gaps": 0,
+  "disconnects": 0,
+  "continuity_pass": false,
+  "baseline_dropped": 26,
+  "sources": {
+    "soak_status.json": {
+      "sha256": "8b4bb71692a64625f341fe70718a6c8b52a77c9d7988d4145a86148165e9c4a8",
+      "bytes": 1459,
+      "source": "output/soak_audit/status.json",
+      "file_saved_utc": "2026-10-10T15:25:08.572Z"
+    }
+  },
+  "images": [
+    {
+      "file": "01_soak.png",
+      "sha256": "7f709d656ac1b26bad68ecc7b05a478f370bbbc38083297d1dfb507e5a2628d6"
+    }
+  ],
+  "boundary": "Rendered evidence reports from saved real JSON; not hardware photographs, Grafana screenshots, or browser-paint measurements",
+  "layout_verified": true
+}

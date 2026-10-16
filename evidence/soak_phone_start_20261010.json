@@ -1,0 +1,49 @@
+{
+  "boundary": "Read-only real MQTT telemetry; computer and device must remain powered; not a full-charge battery test",
+  "pid": 38304,
+  "status": "running",
+  "started_utc": "2026-10-10T13:54:44.445Z",
+  "target_hours": 24,
+  "samples": 99,
+  "malformed": 0,
+  "duplicates": 0,
+  "gaps": 0,
+  "missing_sequences": 0,
+  "sessions": 1,
+  "connections": 1,
+  "disconnects": 0,
+  "max_receive_gap_ms": 2244.3655999999974,
+  "battery_start": 90,
+  "battery_latest": 90,
+  "battery_min": 90,
+  "low_battery_seen": false,
+  "versions": [
+    "2.0.8"
+  ],
+  "sensor_ready_counts": {
+    "env_live": 99,
+    "pulse_live": 0,
+    "acc_live": 99,
+    "mag_live": 99,
+    "iaq_valid": 99,
+    "battery_valid": 99
+  },
+  "first_sample_utc": "2026-10-10T13:54:46.037Z",
+  "last_sample_utc": "2026-10-10T13:56:24.166Z",
+  "timing_basis": "Monotonic elapsed time; maximum gap includes leading/trailing silence",
+  "continuity_pass": false,
+  "stop_on_failure": true,
+  "backfill_samples": 0,
+  "last_backfill": null,
+  "last_live_sample_id": "8d3c769b-000014e9",
+  "gap_details": [],
+  "observed_hours": 0.027826134305555552,
+  "leading_receive_gap_ms": 1588.0497999999998,
+  "trailing_receive_gap_ms": 456.2942999999941,
+  "network_test_context": {
+    "watch_link": "Direct phone SS/2.4GHz",
+    "windows_hotspot": "Off",
+    "baseline_watch_dropped": 26,
+    "boundary": "Starts after backlog caught up; does not erase transition loss or prove full-charge battery runtime"
+  }
+}

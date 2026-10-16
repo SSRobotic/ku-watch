@@ -1,0 +1,119 @@
+{
+  "started_utc": "2026-10-16T13:12:02.933272+00:00",
+  "manual_otacheck_sent": false,
+  "firmware_uploaded_over_usb_in_this_test": false,
+  "lines": [
+    {
+      "elapsed_ms": 5031.0,
+      "received_utc": "2026-10-16T13:12:13.085813+00:00",
+      "text": "OTA version=2.0.11 current=app1 next=app0 state=2 confirmed=1 busy=0 server_configured=1 battery_allowed=1"
+    },
+    {
+      "elapsed_ms": 9281.0,
+      "received_utc": "2026-10-16T13:12:17.441438+00:00",
+      "text": "OTA AUTO CHECK version=2.0.11"
+    },
+    {
+      "elapsed_ms": 10063.0,
+      "received_utc": "2026-10-16T13:12:18.120583+00:00",
+      "text": "OTA version=2.0.11 current=app1 next=app0 state=2 confirmed=1 busy=1 server_configured=1 battery_allowed=1"
+    },
+    {
+      "elapsed_ms": 14547.0,
+      "received_utc": "2026-10-16T13:12:22.765053+00:00",
+      "text": "OTA MANIFEST HTTP status=200"
+    },
+    {
+      "elapsed_ms": 15125.0,
+      "received_utc": "2026-10-16T13:12:23.183107+00:00",
+      "text": "OTA version=2.0.11 current=app1 next=app0 state=2 confirmed=1 busy=1 server_configured=1 battery_allowed=1"
+    },
+    {
+      "elapsed_ms": 21156.0,
+      "received_utc": "2026-10-16T13:12:29.223332+00:00",
+      "text": "OTA version=2.0.11 current=app1 next=app0 state=2 confirmed=1 busy=1 server_configured=1 battery_allowed=1"
+    },
+    {
+      "elapsed_ms": 25860.0,
+      "received_utc": "2026-10-16T13:12:33.925349+00:00",
+      "text": "OTA version=2.0.11 current=app1 next=app0 state=2 confirmed=1 busy=1 server_configured=1 battery_allowed=1"
+    },
+    {
+      "elapsed_ms": 30516.0,
+      "received_utc": "2026-10-16T13:12:38.561615+00:00",
+      "text": "OTA version=2.0.11 current=app1 next=app0 state=2 confirmed=1 busy=1 server_configured=1 battery_allowed=1"
+    },
+    {
+      "elapsed_ms": 35578.0,
+      "received_utc": "2026-10-16T13:12:43.637039+00:00",
+      "text": "OTA version=2.0.11 current=app1 next=app0 state=2 confirmed=1 busy=1 server_configured=1 battery_allowed=1"
+    },
+    {
+      "elapsed_ms": 40750.0,
+      "received_utc": "2026-10-16T13:12:48.817693+00:00",
+      "text": "OTA version=2.0.11 current=app1 next=app0 state=2 confirmed=1 busy=1 server_configured=1 battery_allowed=1"
+    },
+    {
+      "elapsed_ms": 45922.0,
+      "received_utc": "2026-10-16T13:12:53.973329+00:00",
+      "text": "OTA version=2.0.11 current=app1 next=app0 state=2 confirmed=1 busy=1 server_configured=1 battery_allowed=1"
+    },
+    {
+      "elapsed_ms": 46531.0,
+      "received_utc": "2026-10-16T13:12:54.613820+00:00",
+      "text": "OTA VERIFIED version=2.0.12 sha256=6eb0e1bc81ae28bb85a5ed89662b2138cf377c81fd76359fac729afb75faee9e; RESTARTING"
+    },
+    {
+      "elapsed_ms": 46891.0,
+      "received_utc": "2026-10-16T13:12:54.942007+00:00",
+      "text": "ESP-ROM:esp32s3-20210327"
+    },
+    {
+      "elapsed_ms": 46906.0,
+      "received_utc": "2026-10-16T13:12:54.942913+00:00",
+      "text": "rst:0xc (RTC_SW_CPU_RST),boot:0x29 (SPI_FAST_FLASH_BOOT)"
+    },
+    {
+      "elapsed_ms": 50188.0,
+      "received_utc": "2026-10-16T13:12:58.225829+00:00",
+      "text": "SETTINGS ready=1 restored=1 version=2.0.12"
+    },
+    {
+      "elapsed_ms": 52125.0,
+      "received_utc": "2026-10-16T13:13:00.159095+00:00",
+      "text": "OTA version=2.0.12 current=app0 next=app1 state=2 confirmed=0 busy=0 server_configured=1 battery_allowed=0"
+    },
+    {
+      "elapsed_ms": 56266.0,
+      "received_utc": "2026-10-16T13:13:04.322360+00:00",
+      "text": "OTA version=2.0.12 current=app0 next=app1 state=2 confirmed=0 busy=0 server_configured=1 battery_allowed=1"
+    },
+    {
+      "elapsed_ms": 61360.0,
+      "received_utc": "2026-10-16T13:13:09.436203+00:00",
+      "text": "OTA version=2.0.12 current=app0 next=app1 state=2 confirmed=0 busy=0 server_configured=1 battery_allowed=1"
+    },
+    {
+      "elapsed_ms": 62110.0,
+      "received_utc": "2026-10-16T13:13:10.322591+00:00",
+      "text": "OTA BOOT HEALTH CONFIRMED"
+    },
+    {
+      "elapsed_ms": 66469.0,
+      "received_utc": "2026-10-16T13:13:14.512157+00:00",
+      "text": "OTA version=2.0.12 current=app0 next=app1 state=2 confirmed=1 busy=0 server_configured=1 battery_allowed=1"
+    },
+    {
+      "elapsed_ms": 71453.0,
+      "received_utc": "2026-10-16T13:13:19.498489+00:00",
+      "text": "OTA version=2.0.12 current=app0 next=app1 state=2 confirmed=1 busy=0 server_configured=1 battery_allowed=1"
+    }
+  ],
+  "from_version": "2.0.11",
+  "manifest_configured": true,
+  "completed_utc": "2026-10-16T13:13:20.578667+00:00",
+  "download_verified": true,
+  "new_version_boot_confirmed": true,
+  "target_version": "2.0.12",
+  "passed": true
+}

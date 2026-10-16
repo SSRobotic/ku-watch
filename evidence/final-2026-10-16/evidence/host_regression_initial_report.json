@@ -1,0 +1,54 @@
+{
+  "boundary": "Host-only regressions, never hardware acceptance or published telemetry",
+  "results": [
+    {
+      "name": "alert_fixture_build",
+      "passed": true
+    },
+    {
+      "name": "alert_fixture",
+      "passed": true
+    },
+    {
+      "name": "pulse_25hz_build",
+      "passed": false
+    },
+    {
+      "name": "alerts_build",
+      "passed": true
+    },
+    {
+      "name": "alerts",
+      "passed": true
+    },
+    {
+      "name": "watch_extensions_build",
+      "passed": true
+    },
+    {
+      "name": "watch_extensions",
+      "passed": true
+    },
+    {
+      "name": "sensors_build",
+      "passed": true
+    },
+    {
+      "name": "sensors",
+      "passed": true
+    },
+    {
+      "name": "environment_build",
+      "passed": true
+    },
+    {
+      "name": "environment",
+      "passed": true
+    },
+    {
+      "name": "ota_gateway",
+      "passed": true
+    }
+  ],
+  "passed": false
+}

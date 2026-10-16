@@ -1,0 +1,37 @@
+{
+  "boundary": "Chronological phone-network transition; initial PC-off/no-join, temporary PC rescue, then confirmed direct phone and steady live checks",
+  "windows_hotspot": {
+    "State": "Off",
+    "Ssid": "SS",
+    "Clients": 0
+  },
+  "last_observed_pending": 1,
+  "phone_network_join_confirmed": true,
+  "checked_host_utc_seconds": 1791639477.4300992,
+  "pc_hotspot_restored_temporarily": true,
+  "restore_reason": "Watch Wi-Fi=0 and configured SS not visible while queue grew to 563; restore existing PC hotspot to avoid bounded journal overflow",
+  "restore_host_utc_seconds": 1791639544.2690856,
+  "phone_comparison_valid": true,
+  "user_confirmed_phone_ssid_band": {
+    "ssid": "SS",
+    "band": "2.4 GHz"
+  },
+  "SS_24GHz_visible_after_reply": true,
+  "visible_bssid": "5e:ba:ea:87:0f:04",
+  "watch_current_rescue_dns_gateway": "192.168.137.1",
+  "pc_hotspot_paused_for_direct_phone_test": true,
+  "direct_phone_test_start_host_utc_seconds": 1791639796.3016024,
+  "reason_for_switch_before_full_drain": "Phone SS/2.4GHz is now visible; MQTT write timeout recurred on the PC rescue connection",
+  "phone_watch_dns_gateway": "172.20.10.1",
+  "windows_hotspot_off_for_direct_test": true,
+  "queue_peak_observed": 719,
+  "dropped_in_transition": 26,
+  "evidence_boundary": "Direct-phone board diagnostics show changed DHCP DNS gateway and PC hotspot is off; start-up loss and backlog drain are separate from steady live comparison",
+  "direct_phone_queue_caught_up": true,
+  "initial_watch_wifi_connected": false,
+  "watch_wifi_connected_at_final_check": true,
+  "final_watch_pending": 1,
+  "final_watch_dropped": 26,
+  "steady_live_proof": "live_phone_20261010.json",
+  "steady_query_proof": "grafana_latency_phone_20261010.json"
+}

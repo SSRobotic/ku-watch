@@ -1,0 +1,224 @@
+[
+  {
+    "id": "ku_cloud_gps_group",
+    "type": "ui-group",
+    "name": "GPS & Walk",
+    "page": "a47ef3e6e3d00b0d",
+    "width": "12",
+    "height": "3",
+    "order": 7,
+    "showTitle": true,
+    "className": "",
+    "visible": "true",
+    "disabled": "false",
+    "groupType": "default"
+  },
+  {
+    "id": "ku_cloud_gps_walk",
+    "type": "ui-template",
+    "z": "cc9b97703b178e72",
+    "group": "ku_cloud_gps_group",
+    "name": "GPS & walking live",
+    "order": 1,
+    "width": 0,
+    "height": 0,
+    "format": "<template>\n  <div class=\"ku-gps-walk\">\n    <div><small>ตำแหน่ง GPS</small><strong>{{ p.gps_fix ? 'รับตำแหน่งแล้ว' : 'รอสัญญาณดาวเทียม' }}</strong>\n      <span>{{ p.gps_fix && Number.isFinite(p.latitude) && Number.isFinite(p.longitude) ? p.latitude.toFixed(6)+', '+p.longitude.toFixed(6) : '—' }}</span></div>\n    <div><small>ดาวเทียม / สัญญาณ</small><strong>{{ formatReading(p.satellites_view) }} ดวง</strong><span>C/N0 {{ formatReading(p.gps_signal) }}</span></div>\n    <div><small>การเดิน</small><strong>{{ p.recording ? 'กำลังบันทึก' : 'หยุดบันทึก' }}</strong><span>{{ formatReading(p.elapsed_s) }} วินาที</span></div>\n    <div><small>ระยะทาง</small><strong>{{ Number.isFinite(p.distance_m) ? (p.distance_m/1000).toFixed(3) : '—' }} กม.</strong><span>{{ formatReading(p.speed_kmh) }} กม./ชม.</span></div>\n  </div>\n</template>\n<script>\nexport default {\n  computed: { p() { return this.msg?.payload||{}; } },\n  methods: { formatReading(v) { return typeof v==='number' && Number.isFinite(v) ? v : '—'; } }\n};\n</script>\n<style>\n.ku-gps-walk { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:20px; padding:20px; }\n.ku-gps-walk div { display:flex; flex-direction:column; gap:8px; border-left:3px solid #087f8c; padding-left:14px; }\n.ku-gps-walk small { color:#64748b; font-size:13px; }\n.ku-gps-walk strong { font-size:20px; color:#0f172a; }\n.ku-gps-walk span { font-size:14px; color:#475569; }\n</style>\n",
+    "storeOutMessages": true,
+    "passthru": false,
+    "resendOnRefresh": true,
+    "templateScope": "local",
+    "x": 660,
+    "y": 900,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "ku_cloud_tls",
+    "type": "tls-config",
+    "name": "Verify HiveMQ TLS",
+    "cert": "",
+    "key": "",
+    "ca": "",
+    "certname": "",
+    "keyname": "",
+    "caname": "",
+    "verifyservercert": true,
+    "alpnprotocol": "",
+    "servername": "4047191cd08c4f91b9c3274b30881bc6.s1.eu.hivemq.cloud"
+  },
+  {
+    "id": "ku_cloud_broker",
+    "type": "mqtt-broker",
+    "name": "HiveMQ Cloud KU Watch",
+    "broker": "4047191cd08c4f91b9c3274b30881bc6.s1.eu.hivemq.cloud",
+    "port": 8883,
+    "clientid": "ku-nodered-local",
+    "autoConnect": true,
+    "usetls": true,
+    "tls": "ku_cloud_tls",
+    "protocolVersion": "4",
+    "keepalive": "30",
+    "cleansession": false,
+    "credentials": {
+      "user": "${KU_MQTT_USER}",
+      "password": "${KU_MQTT_PASSWORD}"
+    }
+  },
+  {
+    "id": "ku_cloud_input",
+    "type": "mqtt in",
+    "z": "cc9b97703b178e72",
+    "name": "HiveMQ live",
+    "topic": "ku/iot/ku_watch/ku-watch-449205d4/env",
+    "qos": "1",
+    "datatype": "json",
+    "broker": "ku_cloud_broker",
+    "d": false,
+    "x": 390,
+    "y": 620,
+    "wires": [
+      [
+        "ku_cloud_replay_route"
+      ]
+    ]
+  },
+  {
+    "id": "ku_cloud_influx_format",
+    "type": "function",
+    "z": "cc9b97703b178e72",
+    "name": "KU Watch → InfluxDB iot",
+    "func": "// Node-RED Function body. Only actual, finite observations are written.\nconst p = msg.payload;\nif (!p || typeof p !== 'object' || Array.isArray(p)) return null;\n// Capture identity is part of the point's tag set. Two captures in the same\n// second remain separate; replay of the same capture retains the same key.\nconst hasId=Object.prototype.hasOwnProperty.call(p,'sample_id');\nif(hasId && (typeof p.sample_id!=='string' || !/^[a-f0-9]{8}-[a-f0-9]{8}$/i.test(p.sample_id)))return null;\nconst sampleId=hasId?p.sample_id.toLowerCase():null;\nconst trustedTime=Number.isSafeInteger(p.timestamp) && p.timestamp>=1704067200 && p.timestamp<=4102444799;\n// An old capture without a trusted clock must not be assigned today's time.\nif(p.backfill===true && !trustedTime) {\n    node.status({fill:'yellow',shape:'ring',text:'Historical sample has no capture time'});return null;\n}\nconst fields = [];\nconst numeric = ['temp','humidity','pressure','bpm','acc_x','acc_y','acc_z',\n    'mag_x','mag_y','mag_z','satellites','satellites_view','gps_signal',\n    'elapsed_s','distance_m','activity_id','uptime_ms','ir','red',\n    'gps_age_s','gps_chars','gps_checksum_errors','wifi_rssi','heap_free',\n    'storage_free','record_samples','mqtt_sent','spo2_status','spo2_quality',\n    'iaq_accuracy','bsec_status'];\nfor (const key of numeric) {\n    if (typeof p[key] === 'number' && Number.isFinite(p[key])) fields.push(key+'='+p[key]);\n}\n// Alert states originate in firmware after three distinct sensor readings.\n// Preserve WAITING (0), including IAQ run-in; never infer normal from null.\nfor(const key of ['alert_temp_state','alert_iaq_state']) {\n    if(Number.isInteger(p[key]) && p[key]>=0 && p[key]<=2)fields.push(key+'='+p[key]);\n}\nif(Number.isInteger(p.alert_mask) && p.alert_mask>=0 && p.alert_mask<=3)fields.push('alert_mask='+p.alert_mask);\nif(typeof p.alert_temp_limit==='number' && Number.isFinite(p.alert_temp_limit) && p.alert_temp_limit>=-20 && p.alert_temp_limit<=80)\n    fields.push('alert_temp_limit='+p.alert_temp_limit);\nif(typeof p.alert_iaq_limit==='number' && Number.isFinite(p.alert_iaq_limit) && p.alert_iaq_limit>=10 && p.alert_iaq_limit<=500)\n    fields.push('alert_iaq_limit='+p.alert_iaq_limit);\n// New estimates are only persisted with their readiness flags and valid ranges.\n// Missing/invalid readings stay null in queries, never substituted with zero.\nconst finiteRange = (key, lo, hi) => typeof p[key] === 'number'\n    && Number.isFinite(p[key]) && p[key]>=lo && p[key]<=hi;\nif (p.spo2_valid === true && p.pulse_live === true && p.finger === true\n    && finiteRange('spo2',70,100)) fields.push('spo2='+p.spo2);\nif (p.env_live === true && finiteRange('gas_ohms',1,1e9)) fields.push('gas_ohms='+p.gas_ohms);\nif (p.iaq_valid === true && p.env_live === true && p.iaq_stable === true && p.iaq_run_in === true\n    && finiteRange('iaq_accuracy',1,3) && finiteRange('iaq',0,500)) fields.push('iaq='+p.iaq);\nif (p.battery_valid === true && p.ina226_detected === true\n    && finiteRange('battery_voltage',2.5,4.25) && finiteRange('battery_percent',0,100)) {\n    fields.push('battery_voltage='+p.battery_voltage,'battery_percent='+p.battery_percent);\n    // Firmware owns hysteresis. Only persist a ready state with a valid reading.\n    if(p.alert_battery_state===1 || p.alert_battery_state===2)\n        fields.push('alert_battery_state='+p.alert_battery_state,'battery_low='+(p.alert_battery_state===2));\n}\nif(p.alert_battery_state===0)fields.push('alert_battery_state=0');\nif(typeof p.firmware==='string' && /^\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}$/.test(p.firmware))\n    fields.push('firmware=\"'+p.firmware+'\"');\nif(p.current_valid===true && finiteRange('battery_current_ma',-100000,100000) && finiteRange('battery_power_mw',-500000,500000))\n    fields.push('battery_current_ma='+p.battery_current_ma,'battery_power_mw='+p.battery_power_mw);\nif(finiteRange('heading',0,360))fields.push('heading='+p.heading);\nif (p.gps_fix === true && typeof p.latitude === 'number' && typeof p.longitude === 'number'\n    && Number.isFinite(p.latitude) && Number.isFinite(p.longitude)\n    && Math.abs(p.latitude)<=90 && Math.abs(p.longitude)<=180) {\n    for (const key of ['latitude','longitude','altitude','speed_kmh','gps_hdop']) {\n        if (typeof p[key] === 'number' && Number.isFinite(p[key])) fields.push(key+'='+p[key]);\n    }\n}\nfor (const key of ['gps_fix','recording','finger','pulse_live','env_live','acc_live','mag_live','gps_data',\n    'spo2_valid','iaq_valid','iaq_stable','iaq_run_in','battery_valid','ina226_detected']) {\n    if (typeof p[key] === 'boolean') fields.push(key+'='+p[key]);\n}\nif (!fields.length) return null;\nconst token = env.get('KU_INFLUX_TOKEN');\nif (!token) { node.status({fill:'yellow',shape:'ring',text:'Set Influx token'}); return null; }\nconst device = typeof p.device==='string' && /^[a-zA-Z0-9_-]{1,64}$/.test(p.device) ? p.device : 'ku-watch';\nlet line = 'ku_watch,device='+device+(sampleId?',sample_id='+sampleId:'')+' '+fields.join(',');\n// When the watch has no trusted clock, let InfluxDB timestamp reception.\nif (trustedTime) line+=' '+p.timestamp;\nreturn {payload:line, url:'http://127.0.0.1:8871/enqueue',\n    headers:{'X-KU-Write-Url':env.get('KU_INFLUX_URL')+'/api/v3/write_lp?db='+encodeURIComponent(env.get('KU_INFLUX_DATABASE')||'iot')+'&precision=second',\n        'Content-Type':'text/plain'}};\n",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 680,
+    "y": 780,
+    "wires": [
+      [
+        "ku_cloud_influx_http"
+      ]
+    ]
+  },
+  {
+    "id": "ku_cloud_influx_http",
+    "type": "http request",
+    "z": "cc9b97703b178e72",
+    "name": "Write real sensor data",
+    "method": "POST",
+    "ret": "txt",
+    "paytoqs": "ignore",
+    "url": "",
+    "tls": "",
+    "persist": false,
+    "proxy": "",
+    "insecureHTTPParser": false,
+    "authType": "",
+    "senderr": true,
+    "requestTimeout": "5000",
+    "x": 950,
+    "y": 780,
+    "wires": [
+      [
+        "ku_cloud_write_status"
+      ]
+    ]
+  },
+  {
+    "id": "ku_cloud_write_status",
+    "type": "function",
+    "z": "cc9b97703b178e72",
+    "name": "Durable DB queue receipt",
+    "func": "const ok=msg.statusCode===202; node.status({fill:ok?'green':'red',shape:ok?'dot':'ring',text:ok?'Saved to durable DB queue':'DB queue unavailable'}); return null;",
+    "outputs": 0,
+    "x": 1230,
+    "y": 780,
+    "wires": []
+  },
+  {
+    "id": "ku_cloud_http_error",
+    "type": "catch",
+    "z": "cc9b97703b178e72",
+    "name": "DB offline: retry in 30s",
+    "scope": [
+      "ku_cloud_influx_http"
+    ],
+    "uncaught": false,
+    "x": 960,
+    "y": 840,
+    "wires": [
+      [
+        "ku_cloud_write_status"
+      ]
+    ]
+  },
+  {
+    "id": "ku_cloud_note",
+    "type": "comment",
+    "z": "cc9b97703b178e72",
+    "name": "HiveMQ → Node-RED → InfluxDB iot → Grafana",
+    "info": "Cloud credentials are loaded locally by settings-ku-watch.js. Only one MQTT input is enabled. No fabricated GPS/BPM; invalid fields are omitted. Live MQTT is best-effort; walks remain in watch flash.",
+    "x": 730,
+    "y": 710,
+    "wires": []
+  },
+  {
+    "id": "ku_cloud_replay_route",
+    "type": "function",
+    "z": "cc9b97703b178e72",
+    "name": "Capture history / live view",
+    "func": "// Backfill belongs in history, never in live gauges or the current GPS marker.\nconst p=msg.payload;\nif(!p || typeof p!=='object' || Array.isArray(p))return null;\nreturn p.backfill===true ? [msg,null] : [msg,msg];\n",
+    "outputs": 2,
+    "x": 560,
+    "y": 650,
+    "wires": [
+      [
+        "ku_cloud_influx_format"
+      ],
+      [
+        "7b2eb8f8bcbc884c",
+        "9cc218e7be5c9bb6",
+        "5cd83dbefcc749c1",
+        "4028a21fd3ab97c5",
+        "77116cf0d7b1dcac",
+        "dcbf74bb96b97855",
+        "9110be3889e1f9f3",
+        "ku_cloud_gps_walk",
+        "ku_cloud_alert_card"
+      ]
+    ]
+  },
+  {
+    "id": "ku_cloud_alert_card",
+    "type": "ui-template",
+    "z": "cc9b97703b178e72",
+    "group": "ku_cloud_alert_group",
+    "name": "Environment alerts",
+    "order": 1,
+    "width": 0,
+    "height": 0,
+    "storeOutMessages": false,
+    "passthru": false,
+    "resendOnRefresh": true,
+    "templateScope": "local",
+    "x": 920,
+    "y": 960,
+    "wires": [
+      []
+    ],
+    "format": "<template>\n  <div class=\"ku-alerts\">\n    <h3>แจ้งเตือนและสถานะนาฬิกา</h3>\n    <div :class=\"level('alert_temp_state')\"><strong>อุณหภูมิ: {{ text('alert_temp_state') }}</strong>\n      <span>เกิน {{ number(p.alert_temp_limit) }} °C ติดต่อกัน 3 รอบ</span></div>\n    <div :class=\"level('alert_iaq_state')\"><strong>IAQ: {{ text('alert_iaq_state') }}</strong>\n      <span>เกิน {{ number(p.alert_iaq_limit) }} ติดต่อกัน 3 รอบ · รอ BSEC พร้อมก่อน</span></div>\n    <div :class=\"level('alert_battery_state')\"><strong>แบตเตอรี่: {{ batteryText }}</strong>\n      <span>{{ number(p.battery_percent) }}% โดยประมาณ · เตือนที่ ≤20% · ยกเลิกที่ ≥22%</span></div>\n    <small>เฟิร์มแวร์ {{ fresh && typeof p.firmware === 'string' ? p.firmware : '—' }}</small>\n    <small>สถานะจากนาฬิกา · อุณหภูมิบริเวณบอร์ด · ข้อมูลย้อนหลังไม่เปลี่ยนสถานะสด</small>\n  </div>\n</template>\n<script>\nexport default {\n  data(){return {now:Date.now(),timer:null};},\n  mounted(){this.timer=setInterval(()=>{this.now=Date.now();},1000);},\n  unmounted(){clearInterval(this.timer);},\n  computed:{p(){return this.msg?.payload||{};},fresh(){return this.p.backfill!==true && typeof this.p.timestamp==='number' && Math.abs(this.now/1000-this.p.timestamp)<=15;},batteryText(){return !this.fresh?'รอข้อมูลล่าสุด':['รอค่าแบตเตอรี่','ระดับแบตปกติ','แบตเตอรี่ต่ำ'][this.p.alert_battery_state]||'รอข้อมูล';}},\n  methods:{\n    text(key){if(!this.fresh)return 'รอข้อมูลล่าสุด';return ['รอเซ็นเซอร์พร้อม','ยังไม่ถึงเงื่อนไขเตือน','เกินเกณฑ์'][this.p[key]]||'รอข้อมูล';},\n    level(key){return this.fresh && this.p[key]===2?'high':this.fresh && this.p[key]===1?'normal':'waiting';},\n    number(v){return typeof v==='number' && Number.isFinite(v)?v:'—';}\n  }\n};\n</script>\n<style>\n.ku-alerts {padding:18px;display:grid;gap:12px;}\n.ku-alerts h3 {margin:0;}\n.ku-alerts div {padding:12px;border-left:4px solid #94a3b8;display:flex;flex-direction:column;gap:6px;}\n.ku-alerts .high {border-color:#ef4444;background:#ef44441a;}\n.ku-alerts .high strong {color:#ef4444;}\n.ku-alerts .normal {border-color:#22c55e;}\n.ku-alerts .waiting {border-color:#eab308;}\n.ku-alerts span,.ku-alerts small {font-size:13px;opacity:.85;}\n</style>\n"
+  },
+  {
+    "id": "ku_cloud_alert_group",
+    "type": "ui-group",
+    "name": "แจ้งเตือนสิ่งแวดล้อม",
+    "page": "a47ef3e6e3d00b0d",
+    "width": "12",
+    "height": "4",
+    "order": 8,
+    "showTitle": true,
+    "className": "",
+    "visible": "true",
+    "disabled": "false",
+    "groupType": "default"
+  }
+]

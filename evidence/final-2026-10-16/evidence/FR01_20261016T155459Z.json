@@ -1,0 +1,3176 @@
+{
+  "started_utc": "2026-10-16T15:54:59.367770+00:00",
+  "seconds": 12.0,
+  "expected_firmware": "2.0.15",
+  "display_update_method": "Version 2.0.15 compares each eight-row strip byte-for-byte with the previously sent PSRAM image and sends changed strips. A completed update means all pixels match the current rendered model; unchanged strips need no SPI write. Reset/page change/test forces a full frame.",
+  "frame_interval_proof": "For a faster display, several frames may finish between USB polls. The time between the bounding completed-frame timestamps is a conservative upper bound for every enclosed individual interval. Every such bound must remain <=1000 ms; the threshold is unchanged.",
+  "scope": "FR-01 display and sensor conversions measured at USB. MQTT receive latency is separately assessed under FR-03. No network behavior or acceptance thresholds are changed.",
+  "mode": "cadence_only_while_user_rests",
+  "full_acceptance_requires": "A continuous real 60 s window with finite BPM and displayed SpO2, quality status 3, no missed quality windows, matching healthy hub flags, no FIFO reset, pulse >=20 Hz, motion/display >=1 Hz and nominal BSEC 3 s conversions. No raw PPG persisted.",
+  "completed_utc": "2026-10-16T15:55:11.476456+00:00",
+  "metrics": {
+    "source_span_s": 11.571,
+    "incomplete_rate_responses": 0,
+    "pulse_sample_hz": 24.88981073373088,
+    "fifo_resets": 0,
+    "environment_conversions": 4,
+    "motion_read_hz": 1.8148820326678767,
+    "watch_completed_frame_hz": 6.395298591305851,
+    "largest_observed_frame_interval_ms": 1037,
+    "frames_not_individually_observed": 53,
+    "all_watch_health_page": false,
+    "all_hub_health_page": false,
+    "bsec_errors": 0
+  },
+  "cadence_pass": false,
+  "quality_observations": 24,
+  "valid_quality_observations": 0,
+  "longest_observed_valid_span_s": 0,
+  "unobserved_quality_windows": 0,
+  "best_observed_valid_span": null,
+  "fr01_full_pass": false,
+  "errors": [],
+  "optical_dc_level_summary": {
+    "observations": 12,
+    "ir_min": 32358,
+    "ir_max": 32385,
+    "red_min": 3307,
+    "red_max": 3353,
+    "ir_clipped": 0,
+    "red_clipped": 0,
+    "raw_level_time_series_saved": false
+  },
+  "observations": [
+    {
+      "role": "watch",
+      "host_s": 0.062000000034458935,
+      "line": "MAX30102 REG FF=15 FE=03 08=9F 09=03 0A=2F 0C=1F 0D=1F 04=09 05=00 06=09",
+      "values": {
+        "FF": 15,
+        "FE": 3,
+        "08": "9F",
+        "09": 3,
+        "0A": "2F",
+        "0C": "1F",
+        "0D": "1F",
+        "04": 9,
+        "05": 0,
+        "06": 9
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 0.062000000034458935,
+      "line": "OTA version=2.0.15 current=app1 next=app0 state=2 confirmed=1 busy=0 server_configured=1 battery_allowed=1",
+      "values": {
+        "version": "2.0.15",
+        "current": "app1",
+        "next": "app0",
+        "state": 2,
+        "confirmed": 1,
+        "busy": 0,
+        "server_configured": 1,
+        "battery_allowed": 1
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 0.062000000034458935,
+      "line": "RATES uptime_ms=367371 pulse_samples=8777 pulse_sample_ms=367344 pulse_dropped=242 env_sequence=120 env_sample_ms=365597 motion_reads=690 motion_ms=366866 frames=2393 paint_ms=367348 paint_max_gap_ms=1808",
+      "values": {
+        "uptime_ms": 367371,
+        "pulse_samples": 8777,
+        "pulse_sample_ms": 367344,
+        "pulse_dropped": 242,
+        "env_sequence": 120,
+        "env_sample_ms": 365597,
+        "motion_reads": 690,
+        "motion_ms": 366866,
+        "frames": 2393,
+        "paint_ms": 367348,
+        "paint_max_gap_ms": 1808
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 0.062000000034458935,
+      "line": "PPGQUALITY windows=348 signal=0 rhythm=0 oxygen_valid=0 candidate_spo2=-999 candidate_hr=-999 bpm=nan perfusion_ir=0.000318 perfusion_red=0.002435 good_status=2 reference_hr_agrees=0 period_corr=0.000000 period_ir=0.000000 period_red=0.000000",
+      "values": {
+        "windows": 348,
+        "signal": 0,
+        "rhythm": 0,
+        "oxygen_valid": 0,
+        "candidate_spo2": -999,
+        "candidate_hr": -999,
+        "bpm": null,
+        "perfusion_ir": 0.000318,
+        "perfusion_red": 0.002435,
+        "good_status": 2,
+        "reference_hr_agrees": 0,
+        "period_corr": 0,
+        "period_ir": 0,
+        "period_red": 0
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 0.062000000034458935,
+      "line": "SENSORS spo2=nan status=2 quality=0.014 gas=141350 iaq=105.1 accuracy=3 stable=1 runin=1 bsec=0 battery=4.007 percent=81 ina=1 heap=149028",
+      "values": {
+        "spo2": null,
+        "status": 2,
+        "quality": 0.014,
+        "gas": 141350,
+        "iaq": 105.1,
+        "accuracy": 3,
+        "stable": 1,
+        "runin": 1,
+        "bsec": 0,
+        "battery": 4.007,
+        "percent": 81,
+        "ina": 1,
+        "heap": 149028
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 0.062000000034458935,
+      "line": "SCREEN page=6 painted=6 frames=2393 body_pixels=977 button=1 rst=1 spi=2000000 render_us=11176 max_render_us=98918",
+      "values": {
+        "page": 6,
+        "painted": 6,
+        "frames": 2393,
+        "body_pixels": 977,
+        "button": 1,
+        "rst": 1,
+        "spi": 2000000,
+        "render_us": 11176,
+        "max_render_us": 98918
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 0.062000000034458935,
+      "line": "SCREEN alert_mask=1 alert_pixels=241",
+      "values": {
+        "alert_mask": 1,
+        "alert_pixels": 241
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 0.062000000034458935,
+      "line": "NETWORK cloud=1 wifi=1 mqtt=1 error=0 sent=375 heap=149028",
+      "values": {
+        "cloud": 1,
+        "wifi": 1,
+        "mqtt": 1,
+        "error": 0,
+        "sent": 375,
+        "heap": 149028
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 0.07800000003771856,
+      "line": "QUEUE ready=1 pending=1 acked=375 dropped=0 errors=0 max_encoded=469 capacity=768 reserve=131072",
+      "values": {
+        "ready": 1,
+        "pending": 1,
+        "acked": 375,
+        "dropped": 0,
+        "errors": 0,
+        "max_encoded": 469,
+        "capacity": 768,
+        "reserve": 131072
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 0.07800000003771856,
+      "line": "QUEUE write_max_us=1021098 mqtt_call_max_us=398 ingress=0 ingress_capacity=32 free=708608",
+      "values": {
+        "write_max_us": 1021098,
+        "mqtt_call_max_us": 398,
+        "ingress": 0,
+        "ingress_capacity": 32,
+        "free": 708608
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 0.10899999999674037,
+      "line": "HUBINFO version=1.0.8 mac=28:84:85:88:0B:0C lcd=1 frames=123410 touch=1 toucherr=0 receiver=1 ready=1 seq=1082 acks=6139 timeouts=6 page=5 watchpage=5 flags=3955 area=1 zoom=1 recording=0 rtc=1 rtcvalid=1 psram=6123312",
+      "values": {
+        "version": "1.0.8",
+        "mac": "28:84:85:88:0B:0C",
+        "lcd": 1,
+        "frames": 123410,
+        "touch": 1,
+        "toucherr": 0,
+        "receiver": 1,
+        "ready": 1,
+        "seq": 1082,
+        "acks": 6139,
+        "timeouts": 6,
+        "page": 5,
+        "watchpage": 5,
+        "flags": 3955,
+        "area": 1,
+        "zoom": 1,
+        "recording": 0,
+        "rtc": 1,
+        "rtcvalid": 1,
+        "psram": 6123312
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 0.10899999999674037,
+      "line": "HUB CLOCK utc=1792166097 age_ms=501 marked=1 watch_utc=1792166098 watch_from_hub=0 firmware=2.0.15",
+      "values": {
+        "utc": 1792166097,
+        "age_ms": 501,
+        "marked": 1,
+        "watch_utc": 1792166098,
+        "watch_from_hub": 0,
+        "firmware": "2.0.15"
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 0.6089999999967404,
+      "line": "HUBINFO version=1.0.8 mac=28:84:85:88:0B:0C lcd=1 frames=123412 touch=1 toucherr=0 receiver=1 ready=1 seq=1083 acks=6139 timeouts=6 page=5 watchpage=5 flags=3955 area=1 zoom=1 recording=0 rtc=1 rtcvalid=1 psram=6123312",
+      "values": {
+        "version": "1.0.8",
+        "mac": "28:84:85:88:0B:0C",
+        "lcd": 1,
+        "frames": 123412,
+        "touch": 1,
+        "toucherr": 0,
+        "receiver": 1,
+        "ready": 1,
+        "seq": 1083,
+        "acks": 6139,
+        "timeouts": 6,
+        "page": 5,
+        "watchpage": 5,
+        "flags": 3955,
+        "area": 1,
+        "zoom": 1,
+        "recording": 0,
+        "rtc": 1,
+        "rtcvalid": 1,
+        "psram": 6123312
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 0.6089999999967404,
+      "line": "HUB CLOCK utc=1792166098 age_ms=2 marked=1 watch_utc=1792166098 watch_from_hub=0 firmware=2.0.15",
+      "values": {
+        "utc": 1792166098,
+        "age_ms": 2,
+        "marked": 1,
+        "watch_utc": 1792166098,
+        "watch_from_hub": 0,
+        "firmware": "2.0.15"
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 0.625,
+      "line": "RATES uptime_ms=367940 pulse_samples=8791 pulse_sample_ms=367904 pulse_dropped=242 env_sequence=120 env_sample_ms=365597 motion_reads=691 motion_ms=367445 frames=2398 paint_ms=367826 paint_max_gap_ms=1808",
+      "values": {
+        "uptime_ms": 367940,
+        "pulse_samples": 8791,
+        "pulse_sample_ms": 367904,
+        "pulse_dropped": 242,
+        "env_sequence": 120,
+        "env_sample_ms": 365597,
+        "motion_reads": 691,
+        "motion_ms": 367445,
+        "frames": 2398,
+        "paint_ms": 367826,
+        "paint_max_gap_ms": 1808
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 0.6400000000139698,
+      "line": "PPGQUALITY windows=348 signal=0 rhythm=0 oxygen_valid=0 candidate_spo2=-999 candidate_hr=-999 bpm=nan perfusion_ir=0.000318 perfusion_red=0.002435 good_status=2 reference_hr_agrees=0 period_corr=0.000000 period_ir=0.000000 period_red=0.000000",
+      "values": {
+        "windows": 348,
+        "signal": 0,
+        "rhythm": 0,
+        "oxygen_valid": 0,
+        "candidate_spo2": -999,
+        "candidate_hr": -999,
+        "bpm": null,
+        "perfusion_ir": 0.000318,
+        "perfusion_red": 0.002435,
+        "good_status": 2,
+        "reference_hr_agrees": 0,
+        "period_corr": 0,
+        "period_ir": 0,
+        "period_red": 0
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 0.6400000000139698,
+      "line": "SENSORS spo2=nan status=2 quality=0.014 gas=141350 iaq=105.1 accuracy=3 stable=1 runin=1 bsec=0 battery=4.007 percent=81 ina=1 heap=147468",
+      "values": {
+        "spo2": null,
+        "status": 2,
+        "quality": 0.014,
+        "gas": 141350,
+        "iaq": 105.1,
+        "accuracy": 3,
+        "stable": 1,
+        "runin": 1,
+        "bsec": 0,
+        "battery": 4.007,
+        "percent": 81,
+        "ina": 1,
+        "heap": 147468
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 0.6400000000139698,
+      "line": "SCREEN page=6 painted=6 frames=2398 body_pixels=977 button=1 rst=1 spi=2000000 render_us=11384 max_render_us=98918",
+      "values": {
+        "page": 6,
+        "painted": 6,
+        "frames": 2398,
+        "body_pixels": 977,
+        "button": 1,
+        "rst": 1,
+        "spi": 2000000,
+        "render_us": 11384,
+        "max_render_us": 98918
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 0.6400000000139698,
+      "line": "SCREEN alert_mask=1 alert_pixels=241",
+      "values": {
+        "alert_mask": 1,
+        "alert_pixels": 241
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 1.062000000034459,
+      "line": "RATES uptime_ms=368362 pulse_samples=8802 pulse_sample_ms=368347 pulse_dropped=242 env_sequence=120 env_sample_ms=365597 motion_reads=692 motion_ms=367949 frames=2399 paint_ms=367976 paint_max_gap_ms=1808",
+      "values": {
+        "uptime_ms": 368362,
+        "pulse_samples": 8802,
+        "pulse_sample_ms": 368347,
+        "pulse_dropped": 242,
+        "env_sequence": 120,
+        "env_sample_ms": 365597,
+        "motion_reads": 692,
+        "motion_ms": 367949,
+        "frames": 2399,
+        "paint_ms": 367976,
+        "paint_max_gap_ms": 1808
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 1.062000000034459,
+      "line": "PPGQUALITY windows=349 signal=0 rhythm=0 oxygen_valid=0 candidate_spo2=-999 candidate_hr=-999 bpm=nan perfusion_ir=0.000307 perfusion_red=0.002388 good_status=2 reference_hr_agrees=0 period_corr=0.000000 period_ir=0.000000 period_red=0.000000",
+      "values": {
+        "windows": 349,
+        "signal": 0,
+        "rhythm": 0,
+        "oxygen_valid": 0,
+        "candidate_spo2": -999,
+        "candidate_hr": -999,
+        "bpm": null,
+        "perfusion_ir": 0.000307,
+        "perfusion_red": 0.002388,
+        "good_status": 2,
+        "reference_hr_agrees": 0,
+        "period_corr": 0,
+        "period_ir": 0,
+        "period_red": 0
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 1.062000000034459,
+      "line": "SENSORS spo2=nan status=2 quality=0.000 gas=141350 iaq=105.1 accuracy=3 stable=1 runin=1 bsec=0 battery=4.007 percent=81 ina=1 heap=149568",
+      "values": {
+        "spo2": null,
+        "status": 2,
+        "quality": 0,
+        "gas": 141350,
+        "iaq": 105.1,
+        "accuracy": 3,
+        "stable": 1,
+        "runin": 1,
+        "bsec": 0,
+        "battery": 4.007,
+        "percent": 81,
+        "ina": 1,
+        "heap": 149568
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 1.062000000034459,
+      "line": "SCREEN page=6 painted=6 frames=2399 body_pixels=977 button=1 rst=1 spi=2000000 render_us=11379 max_render_us=98918",
+      "values": {
+        "page": 6,
+        "painted": 6,
+        "frames": 2399,
+        "body_pixels": 977,
+        "button": 1,
+        "rst": 1,
+        "spi": 2000000,
+        "render_us": 11379,
+        "max_render_us": 98918
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 1.062000000034459,
+      "line": "SCREEN alert_mask=1 alert_pixels=241",
+      "values": {
+        "alert_mask": 1,
+        "alert_pixels": 241
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 1.1089999999967404,
+      "line": "HUBINFO version=1.0.8 mac=28:84:85:88:0B:0C lcd=1 frames=123414 touch=1 toucherr=0 receiver=1 ready=1 seq=1085 acks=6139 timeouts=6 page=5 watchpage=5 flags=3955 area=1 zoom=1 recording=0 rtc=1 rtcvalid=1 psram=6123312",
+      "values": {
+        "version": "1.0.8",
+        "mac": "28:84:85:88:0B:0C",
+        "lcd": 1,
+        "frames": 123414,
+        "touch": 1,
+        "toucherr": 0,
+        "receiver": 1,
+        "ready": 1,
+        "seq": 1085,
+        "acks": 6139,
+        "timeouts": 6,
+        "page": 5,
+        "watchpage": 5,
+        "flags": 3955,
+        "area": 1,
+        "zoom": 1,
+        "recording": 0,
+        "rtc": 1,
+        "rtcvalid": 1,
+        "psram": 6123312
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 1.1089999999967404,
+      "line": "HUB CLOCK utc=1792166098 age_ms=503 marked=1 watch_utc=1792166099 watch_from_hub=0 firmware=2.0.15",
+      "values": {
+        "utc": 1792166098,
+        "age_ms": 503,
+        "marked": 1,
+        "watch_utc": 1792166099,
+        "watch_from_hub": 0,
+        "firmware": "2.0.15"
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 1.6089999999967404,
+      "line": "HUBINFO version=1.0.8 mac=28:84:85:88:0B:0C lcd=1 frames=123416 touch=1 toucherr=0 receiver=1 ready=1 seq=1086 acks=6139 timeouts=6 page=5 watchpage=5 flags=3955 area=1 zoom=1 recording=0 rtc=1 rtcvalid=1 psram=6123312",
+      "values": {
+        "version": "1.0.8",
+        "mac": "28:84:85:88:0B:0C",
+        "lcd": 1,
+        "frames": 123416,
+        "touch": 1,
+        "toucherr": 0,
+        "receiver": 1,
+        "ready": 1,
+        "seq": 1086,
+        "acks": 6139,
+        "timeouts": 6,
+        "page": 5,
+        "watchpage": 5,
+        "flags": 3955,
+        "area": 1,
+        "zoom": 1,
+        "recording": 0,
+        "rtc": 1,
+        "rtcvalid": 1,
+        "psram": 6123312
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 1.6089999999967404,
+      "line": "HUB CLOCK utc=1792166099 age_ms=2 marked=1 watch_utc=1792166099 watch_from_hub=0 firmware=2.0.15",
+      "values": {
+        "utc": 1792166099,
+        "age_ms": 2,
+        "marked": 1,
+        "watch_utc": 1792166099,
+        "watch_from_hub": 0,
+        "firmware": "2.0.15"
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 1.625,
+      "line": "RATES uptime_ms=368930 pulse_samples=8816 pulse_sample_ms=368911 pulse_dropped=242 env_sequence=121 env_sample_ms=368597 motion_reads=693 motion_ms=368454 frames=2402 paint_ms=368751 paint_max_gap_ms=1808",
+      "values": {
+        "uptime_ms": 368930,
+        "pulse_samples": 8816,
+        "pulse_sample_ms": 368911,
+        "pulse_dropped": 242,
+        "env_sequence": 121,
+        "env_sample_ms": 368597,
+        "motion_reads": 693,
+        "motion_ms": 368454,
+        "frames": 2402,
+        "paint_ms": 368751,
+        "paint_max_gap_ms": 1808
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 1.625,
+      "line": "PPGQUALITY windows=349 signal=0 rhythm=0 oxygen_valid=0 candidate_spo2=-999 candidate_hr=-999 bpm=nan perfusion_ir=0.000307 perfusion_red=0.002388 good_status=2 reference_hr_agrees=0 period_corr=0.000000 period_ir=0.000000 period_red=0.000000",
+      "values": {
+        "windows": 349,
+        "signal": 0,
+        "rhythm": 0,
+        "oxygen_valid": 0,
+        "candidate_spo2": -999,
+        "candidate_hr": -999,
+        "bpm": null,
+        "perfusion_ir": 0.000307,
+        "perfusion_red": 0.002388,
+        "good_status": 2,
+        "reference_hr_agrees": 0,
+        "period_corr": 0,
+        "period_ir": 0,
+        "period_red": 0
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 1.625,
+      "line": "SENSORS spo2=nan status=2 quality=0.000 gas=141589 iaq=104.9 accuracy=3 stable=1 runin=1 bsec=0 battery=4.007 percent=81 ina=1 heap=149028",
+      "values": {
+        "spo2": null,
+        "status": 2,
+        "quality": 0,
+        "gas": 141589,
+        "iaq": 104.9,
+        "accuracy": 3,
+        "stable": 1,
+        "runin": 1,
+        "bsec": 0,
+        "battery": 4.007,
+        "percent": 81,
+        "ina": 1,
+        "heap": 149028
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 1.625,
+      "line": "SCREEN page=6 painted=6 frames=2402 body_pixels=977 button=1 rst=1 spi=2000000 render_us=11175 max_render_us=98918",
+      "values": {
+        "page": 6,
+        "painted": 6,
+        "frames": 2402,
+        "body_pixels": 977,
+        "button": 1,
+        "rst": 1,
+        "spi": 2000000,
+        "render_us": 11175,
+        "max_render_us": 98918
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 1.625,
+      "line": "SCREEN alert_mask=1 alert_pixels=241",
+      "values": {
+        "alert_mask": 1,
+        "alert_pixels": 241
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 2.0929999999934807,
+      "line": "RATES uptime_ms=369397 pulse_samples=8828 pulse_sample_ms=369391 pulse_dropped=242 env_sequence=121 env_sample_ms=368597 motion_reads=694 motion_ms=369314 frames=2403 paint_ms=369313 paint_max_gap_ms=1808",
+      "values": {
+        "uptime_ms": 369397,
+        "pulse_samples": 8828,
+        "pulse_sample_ms": 369391,
+        "pulse_dropped": 242,
+        "env_sequence": 121,
+        "env_sample_ms": 368597,
+        "motion_reads": 694,
+        "motion_ms": 369314,
+        "frames": 2403,
+        "paint_ms": 369313,
+        "paint_max_gap_ms": 1808
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 2.0929999999934807,
+      "line": "PPGQUALITY windows=350 signal=0 rhythm=0 oxygen_valid=0 candidate_spo2=-999 candidate_hr=-999 bpm=nan perfusion_ir=0.000232 perfusion_red=0.002547 good_status=2 reference_hr_agrees=0 period_corr=0.000000 period_ir=0.000000 period_red=0.000000",
+      "values": {
+        "windows": 350,
+        "signal": 0,
+        "rhythm": 0,
+        "oxygen_valid": 0,
+        "candidate_spo2": -999,
+        "candidate_hr": -999,
+        "bpm": null,
+        "perfusion_ir": 0.000232,
+        "perfusion_red": 0.002547,
+        "good_status": 2,
+        "reference_hr_agrees": 0,
+        "period_corr": 0,
+        "period_ir": 0,
+        "period_red": 0
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 2.0929999999934807,
+      "line": "SENSORS spo2=nan status=2 quality=0.000 gas=141589 iaq=104.9 accuracy=3 stable=1 runin=1 bsec=0 battery=4.007 percent=81 ina=1 heap=147468",
+      "values": {
+        "spo2": null,
+        "status": 2,
+        "quality": 0,
+        "gas": 141589,
+        "iaq": 104.9,
+        "accuracy": 3,
+        "stable": 1,
+        "runin": 1,
+        "bsec": 0,
+        "battery": 4.007,
+        "percent": 81,
+        "ina": 1,
+        "heap": 147468
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 2.1089999999967404,
+      "line": "HUBINFO version=1.0.8 mac=28:84:85:88:0B:0C lcd=1 frames=123418 touch=1 toucherr=0 receiver=1 ready=1 seq=1089 acks=6140 timeouts=6 page=5 watchpage=5 flags=3955 area=1 zoom=1 recording=0 rtc=1 rtcvalid=1 psram=6123312",
+      "values": {
+        "version": "1.0.8",
+        "mac": "28:84:85:88:0B:0C",
+        "lcd": 1,
+        "frames": 123418,
+        "touch": 1,
+        "toucherr": 0,
+        "receiver": 1,
+        "ready": 1,
+        "seq": 1089,
+        "acks": 6140,
+        "timeouts": 6,
+        "page": 5,
+        "watchpage": 5,
+        "flags": 3955,
+        "area": 1,
+        "zoom": 1,
+        "recording": 0,
+        "rtc": 1,
+        "rtcvalid": 1,
+        "psram": 6123312
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 2.1089999999967404,
+      "line": "HUB CLOCK utc=1792166099 age_ms=503 marked=1 watch_utc=1792166100 watch_from_hub=0 firmware=2.0.15",
+      "values": {
+        "utc": 1792166099,
+        "age_ms": 503,
+        "marked": 1,
+        "watch_utc": 1792166100,
+        "watch_from_hub": 0,
+        "firmware": "2.0.15"
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 2.125,
+      "line": "SCREEN page=6 painted=6 frames=2403 body_pixels=977 button=1 rst=1 spi=2000000 render_us=25498 max_render_us=98918",
+      "values": {
+        "page": 6,
+        "painted": 6,
+        "frames": 2403,
+        "body_pixels": 977,
+        "button": 1,
+        "rst": 1,
+        "spi": 2000000,
+        "render_us": 25498,
+        "max_render_us": 98918
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 2.125,
+      "line": "SCREEN alert_mask=1 alert_pixels=241",
+      "values": {
+        "alert_mask": 1,
+        "alert_pixels": 241
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 2.6089999999967404,
+      "line": "HUBINFO version=1.0.8 mac=28:84:85:88:0B:0C lcd=1 frames=123420 touch=1 toucherr=0 receiver=1 ready=1 seq=1091 acks=6140 timeouts=6 page=5 watchpage=5 flags=3955 area=1 zoom=1 recording=0 rtc=1 rtcvalid=1 psram=6123312",
+      "values": {
+        "version": "1.0.8",
+        "mac": "28:84:85:88:0B:0C",
+        "lcd": 1,
+        "frames": 123420,
+        "touch": 1,
+        "toucherr": 0,
+        "receiver": 1,
+        "ready": 1,
+        "seq": 1091,
+        "acks": 6140,
+        "timeouts": 6,
+        "page": 5,
+        "watchpage": 5,
+        "flags": 3955,
+        "area": 1,
+        "zoom": 1,
+        "recording": 0,
+        "rtc": 1,
+        "rtcvalid": 1,
+        "psram": 6123312
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 2.6089999999967404,
+      "line": "HUB CLOCK utc=1792166100 age_ms=2 marked=1 watch_utc=1792166101 watch_from_hub=0 firmware=2.0.15",
+      "values": {
+        "utc": 1792166100,
+        "age_ms": 2,
+        "marked": 1,
+        "watch_utc": 1792166101,
+        "watch_from_hub": 0,
+        "firmware": "2.0.15"
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 2.625,
+      "line": "RATES uptime_ms=369933 pulse_samples=8841 pulse_sample_ms=369912 pulse_dropped=242 env_sequence=121 env_sample_ms=368597 motion_reads=695 motion_ms=369815 frames=2408 paint_ms=369844 paint_max_gap_ms=1808",
+      "values": {
+        "uptime_ms": 369933,
+        "pulse_samples": 8841,
+        "pulse_sample_ms": 369912,
+        "pulse_dropped": 242,
+        "env_sequence": 121,
+        "env_sample_ms": 368597,
+        "motion_reads": 695,
+        "motion_ms": 369815,
+        "frames": 2408,
+        "paint_ms": 369844,
+        "paint_max_gap_ms": 1808
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 2.625,
+      "line": "PPGQUALITY windows=350 signal=0 rhythm=0 oxygen_valid=0 candidate_spo2=-999 candidate_hr=-999 bpm=nan perfusion_ir=0.000232 perfusion_red=0.002547 good_status=2 reference_hr_agrees=0 period_corr=0.000000 period_ir=0.000000 period_red=0.000000",
+      "values": {
+        "windows": 350,
+        "signal": 0,
+        "rhythm": 0,
+        "oxygen_valid": 0,
+        "candidate_spo2": -999,
+        "candidate_hr": -999,
+        "bpm": null,
+        "perfusion_ir": 0.000232,
+        "perfusion_red": 0.002547,
+        "good_status": 2,
+        "reference_hr_agrees": 0,
+        "period_corr": 0,
+        "period_ir": 0,
+        "period_red": 0
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 2.625,
+      "line": "SENSORS spo2=nan status=2 quality=0.000 gas=141589 iaq=104.9 accuracy=3 stable=1 runin=1 bsec=0 battery=4.007 percent=81 ina=1 heap=149028",
+      "values": {
+        "spo2": null,
+        "status": 2,
+        "quality": 0,
+        "gas": 141589,
+        "iaq": 104.9,
+        "accuracy": 3,
+        "stable": 1,
+        "runin": 1,
+        "bsec": 0,
+        "battery": 4.007,
+        "percent": 81,
+        "ina": 1,
+        "heap": 149028
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 2.625,
+      "line": "SCREEN page=6 painted=6 frames=2408 body_pixels=977 button=1 rst=1 spi=2000000 render_us=11224 max_render_us=98918",
+      "values": {
+        "page": 6,
+        "painted": 6,
+        "frames": 2408,
+        "body_pixels": 977,
+        "button": 1,
+        "rst": 1,
+        "spi": 2000000,
+        "render_us": 11224,
+        "max_render_us": 98918
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 2.625,
+      "line": "SCREEN alert_mask=1 alert_pixels=241",
+      "values": {
+        "alert_mask": 1,
+        "alert_pixels": 241
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 3.047000000020489,
+      "line": "RATES uptime_ms=370357 pulse_samples=8852 pulse_sample_ms=370352 pulse_dropped=242 env_sequence=121 env_sample_ms=368597 motion_reads=695 motion_ms=369815 frames=2408 paint_ms=369844 paint_max_gap_ms=1808",
+      "values": {
+        "uptime_ms": 370357,
+        "pulse_samples": 8852,
+        "pulse_sample_ms": 370352,
+        "pulse_dropped": 242,
+        "env_sequence": 121,
+        "env_sample_ms": 368597,
+        "motion_reads": 695,
+        "motion_ms": 369815,
+        "frames": 2408,
+        "paint_ms": 369844,
+        "paint_max_gap_ms": 1808
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 3.062000000034459,
+      "line": "PPGQUALITY windows=351 signal=0 rhythm=0 oxygen_valid=0 candidate_spo2=-999 candidate_hr=-999 bpm=nan perfusion_ir=0.000233 perfusion_red=0.002335 good_status=2 reference_hr_agrees=0 period_corr=0.000000 period_ir=0.000000 period_red=0.000000",
+      "values": {
+        "windows": 351,
+        "signal": 0,
+        "rhythm": 0,
+        "oxygen_valid": 0,
+        "candidate_spo2": -999,
+        "candidate_hr": -999,
+        "bpm": null,
+        "perfusion_ir": 0.000233,
+        "perfusion_red": 0.002335,
+        "good_status": 2,
+        "reference_hr_agrees": 0,
+        "period_corr": 0,
+        "period_ir": 0,
+        "period_red": 0
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 3.062000000034459,
+      "line": "SENSORS spo2=nan status=2 quality=0.035 gas=141589 iaq=104.9 accuracy=3 stable=1 runin=1 bsec=0 battery=4.007 percent=81 ina=1 heap=149028",
+      "values": {
+        "spo2": null,
+        "status": 2,
+        "quality": 0.035,
+        "gas": 141589,
+        "iaq": 104.9,
+        "accuracy": 3,
+        "stable": 1,
+        "runin": 1,
+        "bsec": 0,
+        "battery": 4.007,
+        "percent": 81,
+        "ina": 1,
+        "heap": 149028
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 3.0780000000377186,
+      "line": "SCREEN page=6 painted=6 frames=2408 body_pixels=977 button=1 rst=1 spi=2000000 render_us=56349 max_render_us=98918",
+      "values": {
+        "page": 6,
+        "painted": 6,
+        "frames": 2408,
+        "body_pixels": 977,
+        "button": 1,
+        "rst": 1,
+        "spi": 2000000,
+        "render_us": 56349,
+        "max_render_us": 98918
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 3.0780000000377186,
+      "line": "SCREEN alert_mask=1 alert_pixels=241",
+      "values": {
+        "alert_mask": 1,
+        "alert_pixels": 241
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 3.1089999999967404,
+      "line": "HUBINFO version=1.0.8 mac=28:84:85:88:0B:0C lcd=1 frames=123422 touch=1 toucherr=0 receiver=1 ready=1 seq=1091 acks=6140 timeouts=6 page=5 watchpage=5 flags=3955 area=1 zoom=1 recording=0 rtc=1 rtcvalid=1 psram=6123312",
+      "values": {
+        "version": "1.0.8",
+        "mac": "28:84:85:88:0B:0C",
+        "lcd": 1,
+        "frames": 123422,
+        "touch": 1,
+        "toucherr": 0,
+        "receiver": 1,
+        "ready": 1,
+        "seq": 1091,
+        "acks": 6140,
+        "timeouts": 6,
+        "page": 5,
+        "watchpage": 5,
+        "flags": 3955,
+        "area": 1,
+        "zoom": 1,
+        "recording": 0,
+        "rtc": 1,
+        "rtcvalid": 1,
+        "psram": 6123312
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 3.1089999999967404,
+      "line": "HUB CLOCK utc=1792166100 age_ms=502 marked=1 watch_utc=1792166101 watch_from_hub=0 firmware=2.0.15",
+      "values": {
+        "utc": 1792166100,
+        "age_ms": 502,
+        "marked": 1,
+        "watch_utc": 1792166101,
+        "watch_from_hub": 0,
+        "firmware": "2.0.15"
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 3.6089999999967404,
+      "line": "HUBINFO version=1.0.8 mac=28:84:85:88:0B:0C lcd=1 frames=123424 touch=1 toucherr=0 receiver=1 ready=1 seq=1092 acks=6140 timeouts=6 page=5 watchpage=5 flags=3955 area=1 zoom=1 recording=0 rtc=1 rtcvalid=1 psram=6123312",
+      "values": {
+        "version": "1.0.8",
+        "mac": "28:84:85:88:0B:0C",
+        "lcd": 1,
+        "frames": 123424,
+        "touch": 1,
+        "toucherr": 0,
+        "receiver": 1,
+        "ready": 1,
+        "seq": 1092,
+        "acks": 6140,
+        "timeouts": 6,
+        "page": 5,
+        "watchpage": 5,
+        "flags": 3955,
+        "area": 1,
+        "zoom": 1,
+        "recording": 0,
+        "rtc": 1,
+        "rtcvalid": 1,
+        "psram": 6123312
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 3.625,
+      "line": "HUB CLOCK utc=1792166101 age_ms=2 marked=1 watch_utc=1792166101 watch_from_hub=0 firmware=2.0.15",
+      "values": {
+        "utc": 1792166101,
+        "age_ms": 2,
+        "marked": 1,
+        "watch_utc": 1792166101,
+        "watch_from_hub": 0,
+        "firmware": "2.0.15"
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 3.64000000001397,
+      "line": "RATES uptime_ms=370945 pulse_samples=8866 pulse_sample_ms=370921 pulse_dropped=242 env_sequence=121 env_sample_ms=368597 motion_reads=696 motion_ms=370473 frames=2414 paint_ms=370881 paint_max_gap_ms=1808",
+      "values": {
+        "uptime_ms": 370945,
+        "pulse_samples": 8866,
+        "pulse_sample_ms": 370921,
+        "pulse_dropped": 242,
+        "env_sequence": 121,
+        "env_sample_ms": 368597,
+        "motion_reads": 696,
+        "motion_ms": 370473,
+        "frames": 2414,
+        "paint_ms": 370881,
+        "paint_max_gap_ms": 1808
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 3.64000000001397,
+      "line": "PPGQUALITY windows=351 signal=0 rhythm=0 oxygen_valid=0 candidate_spo2=-999 candidate_hr=-999 bpm=nan perfusion_ir=0.000233 perfusion_red=0.002335 good_status=2 reference_hr_agrees=0 period_corr=0.000000 period_ir=0.000000 period_red=0.000000",
+      "values": {
+        "windows": 351,
+        "signal": 0,
+        "rhythm": 0,
+        "oxygen_valid": 0,
+        "candidate_spo2": -999,
+        "candidate_hr": -999,
+        "bpm": null,
+        "perfusion_ir": 0.000233,
+        "perfusion_red": 0.002335,
+        "good_status": 2,
+        "reference_hr_agrees": 0,
+        "period_corr": 0,
+        "period_ir": 0,
+        "period_red": 0
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 3.64000000001397,
+      "line": "SENSORS spo2=nan status=2 quality=0.035 gas=141589 iaq=104.9 accuracy=3 stable=1 runin=1 bsec=0 battery=4.007 percent=81 ina=1 heap=147456",
+      "values": {
+        "spo2": null,
+        "status": 2,
+        "quality": 0.035,
+        "gas": 141589,
+        "iaq": 104.9,
+        "accuracy": 3,
+        "stable": 1,
+        "runin": 1,
+        "bsec": 0,
+        "battery": 4.007,
+        "percent": 81,
+        "ina": 1,
+        "heap": 147456
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 3.64000000001397,
+      "line": "SCREEN page=6 painted=6 frames=2414 body_pixels=977 button=1 rst=1 spi=2000000 render_us=11048 max_render_us=98918",
+      "values": {
+        "page": 6,
+        "painted": 6,
+        "frames": 2414,
+        "body_pixels": 977,
+        "button": 1,
+        "rst": 1,
+        "spi": 2000000,
+        "render_us": 11048,
+        "max_render_us": 98918
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 3.64000000001397,
+      "line": "SCREEN alert_mask=1 alert_pixels=241",
+      "values": {
+        "alert_mask": 1,
+        "alert_pixels": 241
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 4.062000000034459,
+      "line": "RATES uptime_ms=371372 pulse_samples=8877 pulse_sample_ms=371356 pulse_dropped=242 env_sequence=121 env_sample_ms=368597 motion_reads=697 motion_ms=370979 frames=2416 paint_ms=371179 paint_max_gap_ms=1808",
+      "values": {
+        "uptime_ms": 371372,
+        "pulse_samples": 8877,
+        "pulse_sample_ms": 371356,
+        "pulse_dropped": 242,
+        "env_sequence": 121,
+        "env_sample_ms": 368597,
+        "motion_reads": 697,
+        "motion_ms": 370979,
+        "frames": 2416,
+        "paint_ms": 371179,
+        "paint_max_gap_ms": 1808
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 4.078000000037719,
+      "line": "PPGQUALITY windows=352 signal=0 rhythm=0 oxygen_valid=0 candidate_spo2=-999 candidate_hr=-999 bpm=nan perfusion_ir=0.000239 perfusion_red=0.002180 good_status=2 reference_hr_agrees=0 period_corr=0.000000 period_ir=0.000000 period_red=0.000000",
+      "values": {
+        "windows": 352,
+        "signal": 0,
+        "rhythm": 0,
+        "oxygen_valid": 0,
+        "candidate_spo2": -999,
+        "candidate_hr": -999,
+        "bpm": null,
+        "perfusion_ir": 0.000239,
+        "perfusion_red": 0.00218,
+        "good_status": 2,
+        "reference_hr_agrees": 0,
+        "period_corr": 0,
+        "period_ir": 0,
+        "period_red": 0
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 4.078000000037719,
+      "line": "SENSORS spo2=nan status=2 quality=0.000 gas=141589 iaq=104.9 accuracy=3 stable=1 runin=1 bsec=0 battery=4.007 percent=81 ina=1 heap=150472",
+      "values": {
+        "spo2": null,
+        "status": 2,
+        "quality": 0,
+        "gas": 141589,
+        "iaq": 104.9,
+        "accuracy": 3,
+        "stable": 1,
+        "runin": 1,
+        "bsec": 0,
+        "battery": 4.007,
+        "percent": 81,
+        "ina": 1,
+        "heap": 150472
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 4.092999999993481,
+      "line": "SCREEN page=6 painted=6 frames=2416 body_pixels=948 button=1 rst=1 spi=2000000 render_us=11344 max_render_us=98918",
+      "values": {
+        "page": 6,
+        "painted": 6,
+        "frames": 2416,
+        "body_pixels": 948,
+        "button": 1,
+        "rst": 1,
+        "spi": 2000000,
+        "render_us": 11344,
+        "max_render_us": 98918
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 4.092999999993481,
+      "line": "SCREEN alert_mask=1 alert_pixels=241",
+      "values": {
+        "alert_mask": 1,
+        "alert_pixels": 241
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 4.10899999999674,
+      "line": "HUBINFO version=1.0.8 mac=28:84:85:88:0B:0C lcd=1 frames=123426 touch=1 toucherr=0 receiver=1 ready=1 seq=1094 acks=6140 timeouts=6 page=5 watchpage=5 flags=3955 area=1 zoom=1 recording=0 rtc=1 rtcvalid=1 psram=6123312",
+      "values": {
+        "version": "1.0.8",
+        "mac": "28:84:85:88:0B:0C",
+        "lcd": 1,
+        "frames": 123426,
+        "touch": 1,
+        "toucherr": 0,
+        "receiver": 1,
+        "ready": 1,
+        "seq": 1094,
+        "acks": 6140,
+        "timeouts": 6,
+        "page": 5,
+        "watchpage": 5,
+        "flags": 3955,
+        "area": 1,
+        "zoom": 1,
+        "recording": 0,
+        "rtc": 1,
+        "rtcvalid": 1,
+        "psram": 6123312
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 4.125,
+      "line": "HUB CLOCK utc=1792166101 age_ms=503 marked=1 watch_utc=1792166102 watch_from_hub=0 firmware=2.0.15",
+      "values": {
+        "utc": 1792166101,
+        "age_ms": 503,
+        "marked": 1,
+        "watch_utc": 1792166102,
+        "watch_from_hub": 0,
+        "firmware": "2.0.15"
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 4.625,
+      "line": "HUBINFO version=1.0.8 mac=28:84:85:88:0B:0C lcd=1 frames=123428 touch=1 toucherr=0 receiver=1 ready=1 seq=1095 acks=6140 timeouts=6 page=5 watchpage=5 flags=3955 area=1 zoom=1 recording=0 rtc=1 rtcvalid=1 psram=6123312",
+      "values": {
+        "version": "1.0.8",
+        "mac": "28:84:85:88:0B:0C",
+        "lcd": 1,
+        "frames": 123428,
+        "touch": 1,
+        "toucherr": 0,
+        "receiver": 1,
+        "ready": 1,
+        "seq": 1095,
+        "acks": 6140,
+        "timeouts": 6,
+        "page": 5,
+        "watchpage": 5,
+        "flags": 3955,
+        "area": 1,
+        "zoom": 1,
+        "recording": 0,
+        "rtc": 1,
+        "rtcvalid": 1,
+        "psram": 6123312
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 4.625,
+      "line": "RATES uptime_ms=371938 pulse_samples=8891 pulse_sample_ms=371925 pulse_dropped=242 env_sequence=122 env_sample_ms=371598 motion_reads=698 motion_ms=371535 frames=2421 paint_ms=371794 paint_max_gap_ms=1808",
+      "values": {
+        "uptime_ms": 371938,
+        "pulse_samples": 8891,
+        "pulse_sample_ms": 371925,
+        "pulse_dropped": 242,
+        "env_sequence": 122,
+        "env_sample_ms": 371598,
+        "motion_reads": 698,
+        "motion_ms": 371535,
+        "frames": 2421,
+        "paint_ms": 371794,
+        "paint_max_gap_ms": 1808
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 4.625,
+      "line": "PPGQUALITY windows=352 signal=0 rhythm=0 oxygen_valid=0 candidate_spo2=-999 candidate_hr=-999 bpm=nan perfusion_ir=0.000239 perfusion_red=0.002180 good_status=2 reference_hr_agrees=0 period_corr=0.000000 period_ir=0.000000 period_red=0.000000",
+      "values": {
+        "windows": 352,
+        "signal": 0,
+        "rhythm": 0,
+        "oxygen_valid": 0,
+        "candidate_spo2": -999,
+        "candidate_hr": -999,
+        "bpm": null,
+        "perfusion_ir": 0.000239,
+        "perfusion_red": 0.00218,
+        "good_status": 2,
+        "reference_hr_agrees": 0,
+        "period_corr": 0,
+        "period_ir": 0,
+        "period_red": 0
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 4.64000000001397,
+      "line": "SENSORS spo2=nan status=2 quality=0.000 gas=141112 iaq=105.0 accuracy=3 stable=1 runin=1 bsec=0 battery=4.007 percent=81 ina=1 heap=149028",
+      "values": {
+        "spo2": null,
+        "status": 2,
+        "quality": 0,
+        "gas": 141112,
+        "iaq": 105,
+        "accuracy": 3,
+        "stable": 1,
+        "runin": 1,
+        "bsec": 0,
+        "battery": 4.007,
+        "percent": 81,
+        "ina": 1,
+        "heap": 149028
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 4.64000000001397,
+      "line": "SCREEN page=6 painted=6 frames=2421 body_pixels=977 button=1 rst=1 spi=2000000 render_us=11386 max_render_us=98918",
+      "values": {
+        "page": 6,
+        "painted": 6,
+        "frames": 2421,
+        "body_pixels": 977,
+        "button": 1,
+        "rst": 1,
+        "spi": 2000000,
+        "render_us": 11386,
+        "max_render_us": 98918
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 4.64000000001397,
+      "line": "SCREEN alert_mask=1 alert_pixels=241",
+      "values": {
+        "alert_mask": 1,
+        "alert_pixels": 241
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 5.078000000037719,
+      "line": "RATES uptime_ms=372378 pulse_samples=8902 pulse_sample_ms=372364 pulse_dropped=242 env_sequence=122 env_sample_ms=371598 motion_reads=699 motion_ms=372123 frames=2423 paint_ms=372281 paint_max_gap_ms=1808",
+      "values": {
+        "uptime_ms": 372378,
+        "pulse_samples": 8902,
+        "pulse_sample_ms": 372364,
+        "pulse_dropped": 242,
+        "env_sequence": 122,
+        "env_sample_ms": 371598,
+        "motion_reads": 699,
+        "motion_ms": 372123,
+        "frames": 2423,
+        "paint_ms": 372281,
+        "paint_max_gap_ms": 1808
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 5.078000000037719,
+      "line": "PPGQUALITY windows=353 signal=0 rhythm=0 oxygen_valid=0 candidate_spo2=-999 candidate_hr=-999 bpm=nan perfusion_ir=0.000226 perfusion_red=0.002132 good_status=2 reference_hr_agrees=0 period_corr=0.000000 period_ir=0.000000 period_red=0.000000",
+      "values": {
+        "windows": 353,
+        "signal": 0,
+        "rhythm": 0,
+        "oxygen_valid": 0,
+        "candidate_spo2": -999,
+        "candidate_hr": -999,
+        "bpm": null,
+        "perfusion_ir": 0.000226,
+        "perfusion_red": 0.002132,
+        "good_status": 2,
+        "reference_hr_agrees": 0,
+        "period_corr": 0,
+        "period_ir": 0,
+        "period_red": 0
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 5.078000000037719,
+      "line": "SENSORS spo2=nan status=2 quality=0.022 gas=141112 iaq=105.0 accuracy=3 stable=1 runin=1 bsec=0 battery=4.007 percent=81 ina=1 heap=150428",
+      "values": {
+        "spo2": null,
+        "status": 2,
+        "quality": 0.022,
+        "gas": 141112,
+        "iaq": 105,
+        "accuracy": 3,
+        "stable": 1,
+        "runin": 1,
+        "bsec": 0,
+        "battery": 4.007,
+        "percent": 81,
+        "ina": 1,
+        "heap": 150428
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 5.078000000037719,
+      "line": "SCREEN page=6 painted=6 frames=2423 body_pixels=977 button=1 rst=1 spi=2000000 render_us=34678 max_render_us=98918",
+      "values": {
+        "page": 6,
+        "painted": 6,
+        "frames": 2423,
+        "body_pixels": 977,
+        "button": 1,
+        "rst": 1,
+        "spi": 2000000,
+        "render_us": 34678,
+        "max_render_us": 98918
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 5.078000000037719,
+      "line": "SCREEN alert_mask=1 alert_pixels=241",
+      "values": {
+        "alert_mask": 1,
+        "alert_pixels": 241
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 5.092999999993481,
+      "line": "NETWORK cloud=1 wifi=1 mqtt=1 error=0 sent=379 heap=150280",
+      "values": {
+        "cloud": 1,
+        "wifi": 1,
+        "mqtt": 1,
+        "error": 0,
+        "sent": 379,
+        "heap": 150280
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 5.092999999993481,
+      "line": "QUEUE ready=1 pending=1 acked=379 dropped=0 errors=0 max_encoded=469 capacity=768 reserve=131072",
+      "values": {
+        "ready": 1,
+        "pending": 1,
+        "acked": 379,
+        "dropped": 0,
+        "errors": 0,
+        "max_encoded": 469,
+        "capacity": 768,
+        "reserve": 131072
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 5.092999999993481,
+      "line": "QUEUE write_max_us=1021098 mqtt_call_max_us=398 ingress=0 ingress_capacity=32 free=704512",
+      "values": {
+        "write_max_us": 1021098,
+        "mqtt_call_max_us": 398,
+        "ingress": 0,
+        "ingress_capacity": 32,
+        "free": 704512
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 5.125,
+      "line": "HUBINFO version=1.0.8 mac=28:84:85:88:0B:0C lcd=1 frames=123430 touch=1 toucherr=0 receiver=1 ready=1 seq=1097 acks=6140 timeouts=6 page=5 watchpage=5 flags=3955 area=1 zoom=1 recording=0 rtc=1 rtcvalid=1 psram=6123312",
+      "values": {
+        "version": "1.0.8",
+        "mac": "28:84:85:88:0B:0C",
+        "lcd": 1,
+        "frames": 123430,
+        "touch": 1,
+        "toucherr": 0,
+        "receiver": 1,
+        "ready": 1,
+        "seq": 1097,
+        "acks": 6140,
+        "timeouts": 6,
+        "page": 5,
+        "watchpage": 5,
+        "flags": 3955,
+        "area": 1,
+        "zoom": 1,
+        "recording": 0,
+        "rtc": 1,
+        "rtcvalid": 1,
+        "psram": 6123312
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 5.125,
+      "line": "HUB CLOCK utc=1792166102 age_ms=502 marked=1 watch_utc=1792166103 watch_from_hub=0 firmware=2.0.15",
+      "values": {
+        "utc": 1792166102,
+        "age_ms": 502,
+        "marked": 1,
+        "watch_utc": 1792166103,
+        "watch_from_hub": 0,
+        "firmware": "2.0.15"
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 5.625,
+      "line": "HUBINFO version=1.0.8 mac=28:84:85:88:0B:0C lcd=1 frames=123432 touch=1 toucherr=0 receiver=1 ready=1 seq=1098 acks=6140 timeouts=6 page=5 watchpage=5 flags=3955 area=1 zoom=1 recording=0 rtc=1 rtcvalid=1 psram=6123312",
+      "values": {
+        "version": "1.0.8",
+        "mac": "28:84:85:88:0B:0C",
+        "lcd": 1,
+        "frames": 123432,
+        "touch": 1,
+        "toucherr": 0,
+        "receiver": 1,
+        "ready": 1,
+        "seq": 1098,
+        "acks": 6140,
+        "timeouts": 6,
+        "page": 5,
+        "watchpage": 5,
+        "flags": 3955,
+        "area": 1,
+        "zoom": 1,
+        "recording": 0,
+        "rtc": 1,
+        "rtcvalid": 1,
+        "psram": 6123312
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 5.625,
+      "line": "HUB CLOCK utc=1792166103 age_ms=1 marked=1 watch_utc=1792166103 watch_from_hub=0 firmware=2.0.15",
+      "values": {
+        "utc": 1792166103,
+        "age_ms": 1,
+        "marked": 1,
+        "watch_utc": 1792166103,
+        "watch_from_hub": 0,
+        "firmware": "2.0.15"
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 5.625,
+      "line": "RATES uptime_ms=372940 pulse_samples=8916 pulse_sample_ms=372927 pulse_dropped=242 env_sequence=122 env_sample_ms=371598 motion_reads=700 motion_ms=372627 frames=2428 paint_ms=372816 paint_max_gap_ms=1808",
+      "values": {
+        "uptime_ms": 372940,
+        "pulse_samples": 8916,
+        "pulse_sample_ms": 372927,
+        "pulse_dropped": 242,
+        "env_sequence": 122,
+        "env_sample_ms": 371598,
+        "motion_reads": 700,
+        "motion_ms": 372627,
+        "frames": 2428,
+        "paint_ms": 372816,
+        "paint_max_gap_ms": 1808
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 5.64000000001397,
+      "line": "PPGQUALITY windows=353 signal=0 rhythm=0 oxygen_valid=0 candidate_spo2=-999 candidate_hr=-999 bpm=nan perfusion_ir=0.000226 perfusion_red=0.002132 good_status=2 reference_hr_agrees=0 period_corr=0.000000 period_ir=0.000000 period_red=0.000000",
+      "values": {
+        "windows": 353,
+        "signal": 0,
+        "rhythm": 0,
+        "oxygen_valid": 0,
+        "candidate_spo2": -999,
+        "candidate_hr": -999,
+        "bpm": null,
+        "perfusion_ir": 0.000226,
+        "perfusion_red": 0.002132,
+        "good_status": 2,
+        "reference_hr_agrees": 0,
+        "period_corr": 0,
+        "period_ir": 0,
+        "period_red": 0
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 5.64000000001397,
+      "line": "SENSORS spo2=nan status=2 quality=0.022 gas=141112 iaq=105.0 accuracy=3 stable=1 runin=1 bsec=0 battery=4.007 percent=81 ina=1 heap=149028",
+      "values": {
+        "spo2": null,
+        "status": 2,
+        "quality": 0.022,
+        "gas": 141112,
+        "iaq": 105,
+        "accuracy": 3,
+        "stable": 1,
+        "runin": 1,
+        "bsec": 0,
+        "battery": 4.007,
+        "percent": 81,
+        "ina": 1,
+        "heap": 149028
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 5.64000000001397,
+      "line": "SCREEN page=6 painted=6 frames=2428 body_pixels=977 button=1 rst=1 spi=2000000 render_us=11415 max_render_us=98918",
+      "values": {
+        "page": 6,
+        "painted": 6,
+        "frames": 2428,
+        "body_pixels": 977,
+        "button": 1,
+        "rst": 1,
+        "spi": 2000000,
+        "render_us": 11415,
+        "max_render_us": 98918
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 5.64000000001397,
+      "line": "SCREEN alert_mask=1 alert_pixels=241",
+      "values": {
+        "alert_mask": 1,
+        "alert_pixels": 241
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 6.092999999993481,
+      "line": "RATES uptime_ms=373400 pulse_samples=8927 pulse_sample_ms=373388 pulse_dropped=242 env_sequence=122 env_sample_ms=371598 motion_reads=701 motion_ms=373127 frames=2429 paint_ms=373261 paint_max_gap_ms=1808",
+      "values": {
+        "uptime_ms": 373400,
+        "pulse_samples": 8927,
+        "pulse_sample_ms": 373388,
+        "pulse_dropped": 242,
+        "env_sequence": 122,
+        "env_sample_ms": 371598,
+        "motion_reads": 701,
+        "motion_ms": 373127,
+        "frames": 2429,
+        "paint_ms": 373261,
+        "paint_max_gap_ms": 1808
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 6.092999999993481,
+      "line": "PPGQUALITY windows=354 signal=0 rhythm=0 oxygen_valid=0 candidate_spo2=-999 candidate_hr=-999 bpm=nan perfusion_ir=0.000246 perfusion_red=0.002034 good_status=2 reference_hr_agrees=0 period_corr=0.000000 period_ir=0.000000 period_red=0.000000",
+      "values": {
+        "windows": 354,
+        "signal": 0,
+        "rhythm": 0,
+        "oxygen_valid": 0,
+        "candidate_spo2": -999,
+        "candidate_hr": -999,
+        "bpm": null,
+        "perfusion_ir": 0.000246,
+        "perfusion_red": 0.002034,
+        "good_status": 2,
+        "reference_hr_agrees": 0,
+        "period_corr": 0,
+        "period_ir": 0,
+        "period_red": 0
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 6.10899999999674,
+      "line": "SENSORS spo2=nan status=2 quality=0.106 gas=141112 iaq=105.0 accuracy=3 stable=1 runin=1 bsec=0 battery=4.007 percent=81 ina=1 heap=147468",
+      "values": {
+        "spo2": null,
+        "status": 2,
+        "quality": 0.106,
+        "gas": 141112,
+        "iaq": 105,
+        "accuracy": 3,
+        "stable": 1,
+        "runin": 1,
+        "bsec": 0,
+        "battery": 4.007,
+        "percent": 81,
+        "ina": 1,
+        "heap": 147468
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 6.10899999999674,
+      "line": "SCREEN page=6 painted=6 frames=2429 body_pixels=977 button=1 rst=1 spi=2000000 render_us=64285 max_render_us=98918",
+      "values": {
+        "page": 6,
+        "painted": 6,
+        "frames": 2429,
+        "body_pixels": 977,
+        "button": 1,
+        "rst": 1,
+        "spi": 2000000,
+        "render_us": 64285,
+        "max_render_us": 98918
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 6.10899999999674,
+      "line": "SCREEN alert_mask=1 alert_pixels=241",
+      "values": {
+        "alert_mask": 1,
+        "alert_pixels": 241
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 6.125,
+      "line": "HUBINFO version=1.0.8 mac=28:84:85:88:0B:0C lcd=1 frames=123434 touch=1 toucherr=0 receiver=1 ready=1 seq=1100 acks=6140 timeouts=6 page=5 watchpage=5 flags=3955 area=1 zoom=1 recording=0 rtc=1 rtcvalid=1 psram=6123312",
+      "values": {
+        "version": "1.0.8",
+        "mac": "28:84:85:88:0B:0C",
+        "lcd": 1,
+        "frames": 123434,
+        "touch": 1,
+        "toucherr": 0,
+        "receiver": 1,
+        "ready": 1,
+        "seq": 1100,
+        "acks": 6140,
+        "timeouts": 6,
+        "page": 5,
+        "watchpage": 5,
+        "flags": 3955,
+        "area": 1,
+        "zoom": 1,
+        "recording": 0,
+        "rtc": 1,
+        "rtcvalid": 1,
+        "psram": 6123312
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 6.125,
+      "line": "HUB CLOCK utc=1792166103 age_ms=504 marked=1 watch_utc=1792166104 watch_from_hub=0 firmware=2.0.15",
+      "values": {
+        "utc": 1792166103,
+        "age_ms": 504,
+        "marked": 1,
+        "watch_utc": 1792166104,
+        "watch_from_hub": 0,
+        "firmware": "2.0.15"
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 6.625,
+      "line": "HUBINFO version=1.0.8 mac=28:84:85:88:0B:0C lcd=1 frames=123436 touch=1 toucherr=0 receiver=1 ready=1 seq=1102 acks=6140 timeouts=6 page=5 watchpage=5 flags=3955 area=1 zoom=1 recording=0 rtc=1 rtcvalid=1 psram=6123312",
+      "values": {
+        "version": "1.0.8",
+        "mac": "28:84:85:88:0B:0C",
+        "lcd": 1,
+        "frames": 123436,
+        "touch": 1,
+        "toucherr": 0,
+        "receiver": 1,
+        "ready": 1,
+        "seq": 1102,
+        "acks": 6140,
+        "timeouts": 6,
+        "page": 5,
+        "watchpage": 5,
+        "flags": 3955,
+        "area": 1,
+        "zoom": 1,
+        "recording": 0,
+        "rtc": 1,
+        "rtcvalid": 1,
+        "psram": 6123312
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 6.625,
+      "line": "HUB CLOCK utc=1792166104 age_ms=2 marked=1 watch_utc=1792166105 watch_from_hub=0 firmware=2.0.15",
+      "values": {
+        "utc": 1792166104,
+        "age_ms": 2,
+        "marked": 1,
+        "watch_utc": 1792166105,
+        "watch_from_hub": 0,
+        "firmware": "2.0.15"
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 6.64000000001397,
+      "line": "RATES uptime_ms=373946 pulse_samples=8941 pulse_sample_ms=373927 pulse_dropped=242 env_sequence=122 env_sample_ms=371598 motion_reads=702 motion_ms=373627 frames=2435 paint_ms=373852 paint_max_gap_ms=1808",
+      "values": {
+        "uptime_ms": 373946,
+        "pulse_samples": 8941,
+        "pulse_sample_ms": 373927,
+        "pulse_dropped": 242,
+        "env_sequence": 122,
+        "env_sample_ms": 371598,
+        "motion_reads": 702,
+        "motion_ms": 373627,
+        "frames": 2435,
+        "paint_ms": 373852,
+        "paint_max_gap_ms": 1808
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 6.64000000001397,
+      "line": "PPGQUALITY windows=354 signal=0 rhythm=0 oxygen_valid=0 candidate_spo2=-999 candidate_hr=-999 bpm=nan perfusion_ir=0.000246 perfusion_red=0.002034 good_status=2 reference_hr_agrees=0 period_corr=0.000000 period_ir=0.000000 period_red=0.000000",
+      "values": {
+        "windows": 354,
+        "signal": 0,
+        "rhythm": 0,
+        "oxygen_valid": 0,
+        "candidate_spo2": -999,
+        "candidate_hr": -999,
+        "bpm": null,
+        "perfusion_ir": 0.000246,
+        "perfusion_red": 0.002034,
+        "good_status": 2,
+        "reference_hr_agrees": 0,
+        "period_corr": 0,
+        "period_ir": 0,
+        "period_red": 0
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 6.64000000001397,
+      "line": "SENSORS spo2=nan status=2 quality=0.106 gas=141112 iaq=105.0 accuracy=3 stable=1 runin=1 bsec=0 battery=4.006 percent=81 ina=1 heap=150472",
+      "values": {
+        "spo2": null,
+        "status": 2,
+        "quality": 0.106,
+        "gas": 141112,
+        "iaq": 105,
+        "accuracy": 3,
+        "stable": 1,
+        "runin": 1,
+        "bsec": 0,
+        "battery": 4.006,
+        "percent": 81,
+        "ina": 1,
+        "heap": 150472
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 6.64000000001397,
+      "line": "SCREEN page=6 painted=6 frames=2435 body_pixels=948 button=1 rst=1 spi=2000000 render_us=11271 max_render_us=98918",
+      "values": {
+        "page": 6,
+        "painted": 6,
+        "frames": 2435,
+        "body_pixels": 948,
+        "button": 1,
+        "rst": 1,
+        "spi": 2000000,
+        "render_us": 11271,
+        "max_render_us": 98918
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 6.64000000001397,
+      "line": "SCREEN alert_mask=1 alert_pixels=241",
+      "values": {
+        "alert_mask": 1,
+        "alert_pixels": 241
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 6.967999999993481,
+      "line": "HUBINFO version=1.0.8 mac=28:84:85:88:0B:0C lcd=1 frames=123437 touch=1 toucherr=0 receiver=1 ready=1 seq=1102 acks=6141 timeouts=6 page=5 watchpage=5 flags=3955 area=1 zoom=1 recording=0 rtc=1 rtcvalid=1 psram=6123312",
+      "values": {
+        "version": "1.0.8",
+        "mac": "28:84:85:88:0B:0C",
+        "lcd": 1,
+        "frames": 123437,
+        "touch": 1,
+        "toucherr": 0,
+        "receiver": 1,
+        "ready": 1,
+        "seq": 1102,
+        "acks": 6141,
+        "timeouts": 6,
+        "page": 5,
+        "watchpage": 5,
+        "flags": 3955,
+        "area": 1,
+        "zoom": 1,
+        "recording": 0,
+        "rtc": 1,
+        "rtcvalid": 1,
+        "psram": 6123312
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 6.967999999993481,
+      "line": "HUB CLOCK utc=1792166104 age_ms=339 marked=1 watch_utc=1792166105 watch_from_hub=0 firmware=2.0.15",
+      "values": {
+        "utc": 1792166104,
+        "age_ms": 339,
+        "marked": 1,
+        "watch_utc": 1792166105,
+        "watch_from_hub": 0,
+        "firmware": "2.0.15"
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 7.062000000034459,
+      "line": "RATES uptime_ms=374373 pulse_samples=8951 pulse_sample_ms=374360 pulse_dropped=242 env_sequence=122 env_sample_ms=371598 motion_reads=703 motion_ms=374127 frames=2437 paint_ms=374252 paint_max_gap_ms=1808",
+      "values": {
+        "uptime_ms": 374373,
+        "pulse_samples": 8951,
+        "pulse_sample_ms": 374360,
+        "pulse_dropped": 242,
+        "env_sequence": 122,
+        "env_sample_ms": 371598,
+        "motion_reads": 703,
+        "motion_ms": 374127,
+        "frames": 2437,
+        "paint_ms": 374252,
+        "paint_max_gap_ms": 1808
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 7.078000000037719,
+      "line": "PPGQUALITY windows=355 signal=0 rhythm=0 oxygen_valid=0 candidate_spo2=-999 candidate_hr=-999 bpm=nan perfusion_ir=0.000244 perfusion_red=0.002115 good_status=2 reference_hr_agrees=0 period_corr=0.000000 period_ir=0.000000 period_red=0.000000",
+      "values": {
+        "windows": 355,
+        "signal": 0,
+        "rhythm": 0,
+        "oxygen_valid": 0,
+        "candidate_spo2": -999,
+        "candidate_hr": -999,
+        "bpm": null,
+        "perfusion_ir": 0.000244,
+        "perfusion_red": 0.002115,
+        "good_status": 2,
+        "reference_hr_agrees": 0,
+        "period_corr": 0,
+        "period_ir": 0,
+        "period_red": 0
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 7.078000000037719,
+      "line": "SENSORS spo2=nan status=2 quality=0.071 gas=141112 iaq=105.0 accuracy=3 stable=1 runin=1 bsec=0 battery=4.006 percent=81 ina=1 heap=150472",
+      "values": {
+        "spo2": null,
+        "status": 2,
+        "quality": 0.071,
+        "gas": 141112,
+        "iaq": 105,
+        "accuracy": 3,
+        "stable": 1,
+        "runin": 1,
+        "bsec": 0,
+        "battery": 4.006,
+        "percent": 81,
+        "ina": 1,
+        "heap": 150472
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 7.092999999993481,
+      "line": "SCREEN page=6 painted=6 frames=2437 body_pixels=948 button=1 rst=1 spi=2000000 render_us=69865 max_render_us=98918",
+      "values": {
+        "page": 6,
+        "painted": 6,
+        "frames": 2437,
+        "body_pixels": 948,
+        "button": 1,
+        "rst": 1,
+        "spi": 2000000,
+        "render_us": 69865,
+        "max_render_us": 98918
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 7.092999999993481,
+      "line": "SCREEN alert_mask=1 alert_pixels=241",
+      "values": {
+        "alert_mask": 1,
+        "alert_pixels": 241
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 7.39000000001397,
+      "line": "HUBINFO version=1.0.8 mac=28:84:85:88:0B:0C lcd=1 frames=123439 touch=1 toucherr=0 receiver=1 ready=1 seq=1104 acks=6141 timeouts=6 page=5 watchpage=5 flags=3955 area=1 zoom=1 recording=0 rtc=1 rtcvalid=1 psram=6123312",
+      "values": {
+        "version": "1.0.8",
+        "mac": "28:84:85:88:0B:0C",
+        "lcd": 1,
+        "frames": 123439,
+        "touch": 1,
+        "toucherr": 0,
+        "receiver": 1,
+        "ready": 1,
+        "seq": 1104,
+        "acks": 6141,
+        "timeouts": 6,
+        "page": 5,
+        "watchpage": 5,
+        "flags": 3955,
+        "area": 1,
+        "zoom": 1,
+        "recording": 0,
+        "rtc": 1,
+        "rtcvalid": 1,
+        "psram": 6123312
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 7.625,
+      "line": "RATES uptime_ms=374940 pulse_samples=8966 pulse_sample_ms=374933 pulse_dropped=242 env_sequence=123 env_sample_ms=374600 motion_reads=704 motion_ms=374628 frames=2443 paint_ms=374782 paint_max_gap_ms=1808",
+      "values": {
+        "uptime_ms": 374940,
+        "pulse_samples": 8966,
+        "pulse_sample_ms": 374933,
+        "pulse_dropped": 242,
+        "env_sequence": 123,
+        "env_sample_ms": 374600,
+        "motion_reads": 704,
+        "motion_ms": 374628,
+        "frames": 2443,
+        "paint_ms": 374782,
+        "paint_max_gap_ms": 1808
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 7.64000000001397,
+      "line": "PPGQUALITY windows=355 signal=0 rhythm=0 oxygen_valid=0 candidate_spo2=-999 candidate_hr=-999 bpm=nan perfusion_ir=0.000244 perfusion_red=0.002115 good_status=2 reference_hr_agrees=0 period_corr=0.000000 period_ir=0.000000 period_red=0.000000",
+      "values": {
+        "windows": 355,
+        "signal": 0,
+        "rhythm": 0,
+        "oxygen_valid": 0,
+        "candidate_spo2": -999,
+        "candidate_hr": -999,
+        "bpm": null,
+        "perfusion_ir": 0.000244,
+        "perfusion_red": 0.002115,
+        "good_status": 2,
+        "reference_hr_agrees": 0,
+        "period_corr": 0,
+        "period_ir": 0,
+        "period_red": 0
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 7.64000000001397,
+      "line": "SENSORS spo2=nan status=2 quality=0.071 gas=141589 iaq=104.9 accuracy=3 stable=1 runin=1 bsec=0 battery=4.006 percent=81 ina=1 heap=147468",
+      "values": {
+        "spo2": null,
+        "status": 2,
+        "quality": 0.071,
+        "gas": 141589,
+        "iaq": 104.9,
+        "accuracy": 3,
+        "stable": 1,
+        "runin": 1,
+        "bsec": 0,
+        "battery": 4.006,
+        "percent": 81,
+        "ina": 1,
+        "heap": 147468
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 7.64000000001397,
+      "line": "SCREEN page=6 painted=6 frames=2443 body_pixels=977 button=1 rst=1 spi=2000000 render_us=11044 max_render_us=98918",
+      "values": {
+        "page": 6,
+        "painted": 6,
+        "frames": 2443,
+        "body_pixels": 977,
+        "button": 1,
+        "rst": 1,
+        "spi": 2000000,
+        "render_us": 11044,
+        "max_render_us": 98918
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 7.64000000001397,
+      "line": "SCREEN alert_mask=1 alert_pixels=241",
+      "values": {
+        "alert_mask": 1,
+        "alert_pixels": 241
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 7.875,
+      "line": "HUBINFO version=1.0.8 mac=28:84:85:88:0B:0C lcd=1 frames=123441 touch=1 toucherr=0 receiver=1 ready=1 seq=1106 acks=6141 timeouts=6 page=5 watchpage=5 flags=3955 area=1 zoom=1 recording=0 rtc=1 rtcvalid=1 psram=6123312",
+      "values": {
+        "version": "1.0.8",
+        "mac": "28:84:85:88:0B:0C",
+        "lcd": 1,
+        "frames": 123441,
+        "touch": 1,
+        "toucherr": 0,
+        "receiver": 1,
+        "ready": 1,
+        "seq": 1106,
+        "acks": 6141,
+        "timeouts": 6,
+        "page": 5,
+        "watchpage": 5,
+        "flags": 3955,
+        "area": 1,
+        "zoom": 1,
+        "recording": 0,
+        "rtc": 1,
+        "rtcvalid": 1,
+        "psram": 6123312
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 8.062000000034459,
+      "line": "RATES uptime_ms=375362 pulse_samples=8976 pulse_sample_ms=375338 pulse_dropped=242 env_sequence=123 env_sample_ms=374600 motion_reads=705 motion_ms=375129 frames=2445 paint_ms=375269 paint_max_gap_ms=1808",
+      "values": {
+        "uptime_ms": 375362,
+        "pulse_samples": 8976,
+        "pulse_sample_ms": 375338,
+        "pulse_dropped": 242,
+        "env_sequence": 123,
+        "env_sample_ms": 374600,
+        "motion_reads": 705,
+        "motion_ms": 375129,
+        "frames": 2445,
+        "paint_ms": 375269,
+        "paint_max_gap_ms": 1808
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 8.062000000034459,
+      "line": "PPGQUALITY windows=356 signal=0 rhythm=0 oxygen_valid=0 candidate_spo2=-999 candidate_hr=-999 bpm=nan perfusion_ir=0.000241 perfusion_red=0.002208 good_status=2 reference_hr_agrees=0 period_corr=0.000000 period_ir=0.000000 period_red=0.000000",
+      "values": {
+        "windows": 356,
+        "signal": 0,
+        "rhythm": 0,
+        "oxygen_valid": 0,
+        "candidate_spo2": -999,
+        "candidate_hr": -999,
+        "bpm": null,
+        "perfusion_ir": 0.000241,
+        "perfusion_red": 0.002208,
+        "good_status": 2,
+        "reference_hr_agrees": 0,
+        "period_corr": 0,
+        "period_ir": 0,
+        "period_red": 0
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 8.062000000034459,
+      "line": "SENSORS spo2=nan status=2 quality=0.000 gas=141589 iaq=104.9 accuracy=3 stable=1 runin=1 bsec=0 battery=4.006 percent=81 ina=1 heap=150472",
+      "values": {
+        "spo2": null,
+        "status": 2,
+        "quality": 0,
+        "gas": 141589,
+        "iaq": 104.9,
+        "accuracy": 3,
+        "stable": 1,
+        "runin": 1,
+        "bsec": 0,
+        "battery": 4.006,
+        "percent": 81,
+        "ina": 1,
+        "heap": 150472
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 8.078000000037719,
+      "line": "SCREEN page=6 painted=6 frames=2445 body_pixels=977 button=1 rst=1 spi=2000000 render_us=47307 max_render_us=98918",
+      "values": {
+        "page": 6,
+        "painted": 6,
+        "frames": 2445,
+        "body_pixels": 977,
+        "button": 1,
+        "rst": 1,
+        "spi": 2000000,
+        "render_us": 47307,
+        "max_render_us": 98918
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 8.078000000037719,
+      "line": "SCREEN alert_mask=1 alert_pixels=241",
+      "values": {
+        "alert_mask": 1,
+        "alert_pixels": 241
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 8.375,
+      "line": "HUBINFO version=1.0.8 mac=28:84:85:88:0B:0C lcd=1 frames=123443 touch=1 toucherr=0 receiver=1 ready=1 seq=1107 acks=6141 timeouts=6 page=5 watchpage=5 flags=3955 area=1 zoom=1 recording=0 rtc=1 rtcvalid=1 psram=6123312",
+      "values": {
+        "version": "1.0.8",
+        "mac": "28:84:85:88:0B:0C",
+        "lcd": 1,
+        "frames": 123443,
+        "touch": 1,
+        "toucherr": 0,
+        "receiver": 1,
+        "ready": 1,
+        "seq": 1107,
+        "acks": 6141,
+        "timeouts": 6,
+        "page": 5,
+        "watchpage": 5,
+        "flags": 3955,
+        "area": 1,
+        "zoom": 1,
+        "recording": 0,
+        "rtc": 1,
+        "rtcvalid": 1,
+        "psram": 6123312
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 8.375,
+      "line": "HUB CLOCK utc=1792166105 age_ms=751 marked=1 watch_utc=1792166106 watch_from_hub=0 firmware=2.0.15",
+      "values": {
+        "utc": 1792166105,
+        "age_ms": 751,
+        "marked": 1,
+        "watch_utc": 1792166106,
+        "watch_from_hub": 0,
+        "firmware": "2.0.15"
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 8.625,
+      "line": "RATES uptime_ms=375934 pulse_samples=8990 pulse_sample_ms=375893 pulse_dropped=242 env_sequence=123 env_sample_ms=374600 motion_reads=706 motion_ms=375733 frames=2448 paint_ms=375833 paint_max_gap_ms=1808",
+      "values": {
+        "uptime_ms": 375934,
+        "pulse_samples": 8990,
+        "pulse_sample_ms": 375893,
+        "pulse_dropped": 242,
+        "env_sequence": 123,
+        "env_sample_ms": 374600,
+        "motion_reads": 706,
+        "motion_ms": 375733,
+        "frames": 2448,
+        "paint_ms": 375833,
+        "paint_max_gap_ms": 1808
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 8.625,
+      "line": "PPGQUALITY windows=356 signal=0 rhythm=0 oxygen_valid=0 candidate_spo2=-999 candidate_hr=-999 bpm=nan perfusion_ir=0.000241 perfusion_red=0.002208 good_status=2 reference_hr_agrees=0 period_corr=0.000000 period_ir=0.000000 period_red=0.000000",
+      "values": {
+        "windows": 356,
+        "signal": 0,
+        "rhythm": 0,
+        "oxygen_valid": 0,
+        "candidate_spo2": -999,
+        "candidate_hr": -999,
+        "bpm": null,
+        "perfusion_ir": 0.000241,
+        "perfusion_red": 0.002208,
+        "good_status": 2,
+        "reference_hr_agrees": 0,
+        "period_corr": 0,
+        "period_ir": 0,
+        "period_red": 0
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 8.625,
+      "line": "SENSORS spo2=nan status=2 quality=0.000 gas=141589 iaq=104.9 accuracy=3 stable=1 runin=1 bsec=0 battery=4.006 percent=81 ina=1 heap=149028",
+      "values": {
+        "spo2": null,
+        "status": 2,
+        "quality": 0,
+        "gas": 141589,
+        "iaq": 104.9,
+        "accuracy": 3,
+        "stable": 1,
+        "runin": 1,
+        "bsec": 0,
+        "battery": 4.006,
+        "percent": 81,
+        "ina": 1,
+        "heap": 149028
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 8.625,
+      "line": "SCREEN page=6 painted=6 frames=2448 body_pixels=977 button=1 rst=1 spi=2000000 render_us=10984 max_render_us=98918",
+      "values": {
+        "page": 6,
+        "painted": 6,
+        "frames": 2448,
+        "body_pixels": 977,
+        "button": 1,
+        "rst": 1,
+        "spi": 2000000,
+        "render_us": 10984,
+        "max_render_us": 98918
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 8.625,
+      "line": "SCREEN alert_mask=1 alert_pixels=241",
+      "values": {
+        "alert_mask": 1,
+        "alert_pixels": 241
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 8.875,
+      "line": "HUBINFO version=1.0.8 mac=28:84:85:88:0B:0C lcd=1 frames=123445 touch=1 toucherr=0 receiver=1 ready=1 seq=1109 acks=6141 timeouts=6 page=5 watchpage=5 flags=3955 area=1 zoom=1 recording=0 rtc=1 rtcvalid=1 psram=6123312",
+      "values": {
+        "version": "1.0.8",
+        "mac": "28:84:85:88:0B:0C",
+        "lcd": 1,
+        "frames": 123445,
+        "touch": 1,
+        "toucherr": 0,
+        "receiver": 1,
+        "ready": 1,
+        "seq": 1109,
+        "acks": 6141,
+        "timeouts": 6,
+        "page": 5,
+        "watchpage": 5,
+        "flags": 3955,
+        "area": 1,
+        "zoom": 1,
+        "recording": 0,
+        "rtc": 1,
+        "rtcvalid": 1,
+        "psram": 6123312
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 9.047000000020489,
+      "line": "RATES uptime_ms=376353 pulse_samples=9001 pulse_sample_ms=376338 pulse_dropped=242 env_sequence=123 env_sample_ms=374600 motion_reads=706 motion_ms=375733 frames=2448 paint_ms=375833 paint_max_gap_ms=1808",
+      "values": {
+        "uptime_ms": 376353,
+        "pulse_samples": 9001,
+        "pulse_sample_ms": 376338,
+        "pulse_dropped": 242,
+        "env_sequence": 123,
+        "env_sample_ms": 374600,
+        "motion_reads": 706,
+        "motion_ms": 375733,
+        "frames": 2448,
+        "paint_ms": 375833,
+        "paint_max_gap_ms": 1808
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 9.062000000034459,
+      "line": "PPGQUALITY windows=357 signal=0 rhythm=0 oxygen_valid=0 candidate_spo2=-999 candidate_hr=-999 bpm=nan perfusion_ir=0.000258 perfusion_red=0.002310 good_status=2 reference_hr_agrees=0 period_corr=0.000000 period_ir=0.000000 period_red=0.000000",
+      "values": {
+        "windows": 357,
+        "signal": 0,
+        "rhythm": 0,
+        "oxygen_valid": 0,
+        "candidate_spo2": -999,
+        "candidate_hr": -999,
+        "bpm": null,
+        "perfusion_ir": 0.000258,
+        "perfusion_red": 0.00231,
+        "good_status": 2,
+        "reference_hr_agrees": 0,
+        "period_corr": 0,
+        "period_ir": 0,
+        "period_red": 0
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 9.062000000034459,
+      "line": "SENSORS spo2=nan status=2 quality=0.021 gas=141589 iaq=104.9 accuracy=3 stable=1 runin=1 bsec=0 battery=4.006 percent=81 ina=1 heap=147048",
+      "values": {
+        "spo2": null,
+        "status": 2,
+        "quality": 0.021,
+        "gas": 141589,
+        "iaq": 104.9,
+        "accuracy": 3,
+        "stable": 1,
+        "runin": 1,
+        "bsec": 0,
+        "battery": 4.006,
+        "percent": 81,
+        "ina": 1,
+        "heap": 147048
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 9.078000000037719,
+      "line": "SCREEN page=6 painted=6 frames=2448 body_pixels=977 button=1 rst=1 spi=2000000 render_us=77662 max_render_us=98918",
+      "values": {
+        "page": 6,
+        "painted": 6,
+        "frames": 2448,
+        "body_pixels": 977,
+        "button": 1,
+        "rst": 1,
+        "spi": 2000000,
+        "render_us": 77662,
+        "max_render_us": 98918
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 9.078000000037719,
+      "line": "SCREEN alert_mask=1 alert_pixels=241",
+      "values": {
+        "alert_mask": 1,
+        "alert_pixels": 241
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 9.125,
+      "line": "HUBINFO version=1.0.8 mac=28:84:85:88:0B:0C lcd=1 frames=123446 touch=1 toucherr=0 receiver=1 ready=1 seq=1109 acks=6141 timeouts=6 page=5 watchpage=5 flags=3955 area=1 zoom=1 recording=0 rtc=1 rtcvalid=1 psram=6123312",
+      "values": {
+        "version": "1.0.8",
+        "mac": "28:84:85:88:0B:0C",
+        "lcd": 1,
+        "frames": 123446,
+        "touch": 1,
+        "toucherr": 0,
+        "receiver": 1,
+        "ready": 1,
+        "seq": 1109,
+        "acks": 6141,
+        "timeouts": 6,
+        "page": 5,
+        "watchpage": 5,
+        "flags": 3955,
+        "area": 1,
+        "zoom": 1,
+        "recording": 0,
+        "rtc": 1,
+        "rtcvalid": 1,
+        "psram": 6123312
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 9.125,
+      "line": "HUB CLOCK utc=1792166106 age_ms=499 marked=1 watch_utc=1792166107 watch_from_hub=0 firmware=2.0.15",
+      "values": {
+        "utc": 1792166106,
+        "age_ms": 499,
+        "marked": 1,
+        "watch_utc": 1792166107,
+        "watch_from_hub": 0,
+        "firmware": "2.0.15"
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 9.375,
+      "line": "HUBINFO version=1.0.8 mac=28:84:85:88:0B:0C lcd=1 frames=123447 touch=1 toucherr=0 receiver=1 ready=1 seq=1110 acks=6141 timeouts=6 page=5 watchpage=5 flags=3955 area=1 zoom=1 recording=0 rtc=1 rtcvalid=1 psram=6123312",
+      "values": {
+        "version": "1.0.8",
+        "mac": "28:84:85:88:0B:0C",
+        "lcd": 1,
+        "frames": 123447,
+        "touch": 1,
+        "toucherr": 0,
+        "receiver": 1,
+        "ready": 1,
+        "seq": 1110,
+        "acks": 6141,
+        "timeouts": 6,
+        "page": 5,
+        "watchpage": 5,
+        "flags": 3955,
+        "area": 1,
+        "zoom": 1,
+        "recording": 0,
+        "rtc": 1,
+        "rtcvalid": 1,
+        "psram": 6123312
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 9.625,
+      "line": "RATES uptime_ms=376931 pulse_samples=9015 pulse_sample_ms=376904 pulse_dropped=242 env_sequence=123 env_sample_ms=374600 motion_reads=707 motion_ms=376495 frames=2454 paint_ms=376830 paint_max_gap_ms=1808",
+      "values": {
+        "uptime_ms": 376931,
+        "pulse_samples": 9015,
+        "pulse_sample_ms": 376904,
+        "pulse_dropped": 242,
+        "env_sequence": 123,
+        "env_sample_ms": 374600,
+        "motion_reads": 707,
+        "motion_ms": 376495,
+        "frames": 2454,
+        "paint_ms": 376830,
+        "paint_max_gap_ms": 1808
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 9.625,
+      "line": "PPGQUALITY windows=357 signal=0 rhythm=0 oxygen_valid=0 candidate_spo2=-999 candidate_hr=-999 bpm=nan perfusion_ir=0.000258 perfusion_red=0.002310 good_status=2 reference_hr_agrees=0 period_corr=0.000000 period_ir=0.000000 period_red=0.000000",
+      "values": {
+        "windows": 357,
+        "signal": 0,
+        "rhythm": 0,
+        "oxygen_valid": 0,
+        "candidate_spo2": -999,
+        "candidate_hr": -999,
+        "bpm": null,
+        "perfusion_ir": 0.000258,
+        "perfusion_red": 0.00231,
+        "good_status": 2,
+        "reference_hr_agrees": 0,
+        "period_corr": 0,
+        "period_ir": 0,
+        "period_red": 0
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 9.625,
+      "line": "SENSORS spo2=nan status=2 quality=0.021 gas=141589 iaq=104.9 accuracy=3 stable=1 runin=1 bsec=0 battery=4.006 percent=81 ina=1 heap=149028",
+      "values": {
+        "spo2": null,
+        "status": 2,
+        "quality": 0.021,
+        "gas": 141589,
+        "iaq": 104.9,
+        "accuracy": 3,
+        "stable": 1,
+        "runin": 1,
+        "bsec": 0,
+        "battery": 4.006,
+        "percent": 81,
+        "ina": 1,
+        "heap": 149028
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 9.625,
+      "line": "SCREEN page=6 painted=6 frames=2454 body_pixels=977 button=1 rst=1 spi=2000000 render_us=11372 max_render_us=98918",
+      "values": {
+        "page": 6,
+        "painted": 6,
+        "frames": 2454,
+        "body_pixels": 977,
+        "button": 1,
+        "rst": 1,
+        "spi": 2000000,
+        "render_us": 11372,
+        "max_render_us": 98918
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 9.625,
+      "line": "SCREEN alert_mask=1 alert_pixels=241",
+      "values": {
+        "alert_mask": 1,
+        "alert_pixels": 241
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 9.875,
+      "line": "HUBINFO version=1.0.8 mac=28:84:85:88:0B:0C lcd=1 frames=123449 touch=1 toucherr=0 receiver=1 ready=1 seq=1112 acks=6141 timeouts=6 page=5 watchpage=5 flags=3955 area=1 zoom=1 recording=0 rtc=1 rtcvalid=1 psram=6123312",
+      "values": {
+        "version": "1.0.8",
+        "mac": "28:84:85:88:0B:0C",
+        "lcd": 1,
+        "frames": 123449,
+        "touch": 1,
+        "toucherr": 0,
+        "receiver": 1,
+        "ready": 1,
+        "seq": 1112,
+        "acks": 6141,
+        "timeouts": 6,
+        "page": 5,
+        "watchpage": 5,
+        "flags": 3955,
+        "area": 1,
+        "zoom": 1,
+        "recording": 0,
+        "rtc": 1,
+        "rtcvalid": 1,
+        "psram": 6123312
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 9.89000000001397,
+      "line": "HUB CLOCK utc=1792166107 age_ms=251 marked=1 watch_utc=1792166108 watch_from_hub=0 firmware=2.0.15",
+      "values": {
+        "utc": 1792166107,
+        "age_ms": 251,
+        "marked": 1,
+        "watch_utc": 1792166108,
+        "watch_from_hub": 0,
+        "firmware": "2.0.15"
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 10.062000000034459,
+      "line": "RATES uptime_ms=377364 pulse_samples=9026 pulse_sample_ms=377338 pulse_dropped=242 env_sequence=123 env_sample_ms=374600 motion_reads=708 motion_ms=376996 frames=2455 paint_ms=377023 paint_max_gap_ms=1808",
+      "values": {
+        "uptime_ms": 377364,
+        "pulse_samples": 9026,
+        "pulse_sample_ms": 377338,
+        "pulse_dropped": 242,
+        "env_sequence": 123,
+        "env_sample_ms": 374600,
+        "motion_reads": 708,
+        "motion_ms": 376996,
+        "frames": 2455,
+        "paint_ms": 377023,
+        "paint_max_gap_ms": 1808
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 10.062000000034459,
+      "line": "PPGQUALITY windows=358 signal=0 rhythm=0 oxygen_valid=0 candidate_spo2=-999 candidate_hr=-999 bpm=nan perfusion_ir=0.000239 perfusion_red=0.002323 good_status=2 reference_hr_agrees=0 period_corr=0.000000 period_ir=0.000000 period_red=0.000000",
+      "values": {
+        "windows": 358,
+        "signal": 0,
+        "rhythm": 0,
+        "oxygen_valid": 0,
+        "candidate_spo2": -999,
+        "candidate_hr": -999,
+        "bpm": null,
+        "perfusion_ir": 0.000239,
+        "perfusion_red": 0.002323,
+        "good_status": 2,
+        "reference_hr_agrees": 0,
+        "period_corr": 0,
+        "period_ir": 0,
+        "period_red": 0
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 10.062000000034459,
+      "line": "SENSORS spo2=nan status=2 quality=0.000 gas=141589 iaq=104.9 accuracy=3 stable=1 runin=1 bsec=0 battery=4.006 percent=81 ina=1 heap=147572",
+      "values": {
+        "spo2": null,
+        "status": 2,
+        "quality": 0,
+        "gas": 141589,
+        "iaq": 104.9,
+        "accuracy": 3,
+        "stable": 1,
+        "runin": 1,
+        "bsec": 0,
+        "battery": 4.006,
+        "percent": 81,
+        "ina": 1,
+        "heap": 147572
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 10.062000000034459,
+      "line": "SCREEN page=6 painted=6 frames=2455 body_pixels=981 button=1 rst=1 spi=2000000 render_us=11100 max_render_us=98918",
+      "values": {
+        "page": 6,
+        "painted": 6,
+        "frames": 2455,
+        "body_pixels": 981,
+        "button": 1,
+        "rst": 1,
+        "spi": 2000000,
+        "render_us": 11100,
+        "max_render_us": 98918
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 10.062000000034459,
+      "line": "SCREEN alert_mask=1 alert_pixels=241",
+      "values": {
+        "alert_mask": 1,
+        "alert_pixels": 241
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 10.062000000034459,
+      "line": "NETWORK cloud=1 wifi=1 mqtt=1 error=0 sent=384 heap=147572",
+      "values": {
+        "cloud": 1,
+        "wifi": 1,
+        "mqtt": 1,
+        "error": 0,
+        "sent": 384,
+        "heap": 147572
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 10.062000000034459,
+      "line": "QUEUE ready=1 pending=2 acked=384 dropped=0 errors=0 max_encoded=469 capacity=768 reserve=131072",
+      "values": {
+        "ready": 1,
+        "pending": 2,
+        "acked": 384,
+        "dropped": 0,
+        "errors": 0,
+        "max_encoded": 469,
+        "capacity": 768,
+        "reserve": 131072
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 10.062000000034459,
+      "line": "QUEUE write_max_us=1021098 mqtt_call_max_us=398 ingress=0 ingress_capacity=32 free=749568",
+      "values": {
+        "write_max_us": 1021098,
+        "mqtt_call_max_us": 398,
+        "ingress": 0,
+        "ingress_capacity": 32,
+        "free": 749568
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 10.375,
+      "line": "HUBINFO version=1.0.8 mac=28:84:85:88:0B:0C lcd=1 frames=123451 touch=1 toucherr=0 receiver=1 ready=1 seq=1113 acks=6141 timeouts=6 page=5 watchpage=5 flags=3955 area=1 zoom=1 recording=0 rtc=1 rtcvalid=1 psram=6123312",
+      "values": {
+        "version": "1.0.8",
+        "mac": "28:84:85:88:0B:0C",
+        "lcd": 1,
+        "frames": 123451,
+        "touch": 1,
+        "toucherr": 0,
+        "receiver": 1,
+        "ready": 1,
+        "seq": 1113,
+        "acks": 6141,
+        "timeouts": 6,
+        "page": 5,
+        "watchpage": 5,
+        "flags": 3955,
+        "area": 1,
+        "zoom": 1,
+        "recording": 0,
+        "rtc": 1,
+        "rtcvalid": 1,
+        "psram": 6123312
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 10.39000000001397,
+      "line": "HUB CLOCK utc=1792166107 age_ms=752 marked=1 watch_utc=1792166108 watch_from_hub=0 firmware=2.0.15",
+      "values": {
+        "utc": 1792166107,
+        "age_ms": 752,
+        "marked": 1,
+        "watch_utc": 1792166108,
+        "watch_from_hub": 0,
+        "firmware": "2.0.15"
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 10.625,
+      "line": "RATES uptime_ms=377939 pulse_samples=9040 pulse_sample_ms=377900 pulse_dropped=242 env_sequence=124 env_sample_ms=377601 motion_reads=709 motion_ms=377498 frames=2460 paint_ms=377801 paint_max_gap_ms=1808",
+      "values": {
+        "uptime_ms": 377939,
+        "pulse_samples": 9040,
+        "pulse_sample_ms": 377900,
+        "pulse_dropped": 242,
+        "env_sequence": 124,
+        "env_sample_ms": 377601,
+        "motion_reads": 709,
+        "motion_ms": 377498,
+        "frames": 2460,
+        "paint_ms": 377801,
+        "paint_max_gap_ms": 1808
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 10.625,
+      "line": "PPGQUALITY windows=358 signal=0 rhythm=0 oxygen_valid=0 candidate_spo2=-999 candidate_hr=-999 bpm=nan perfusion_ir=0.000239 perfusion_red=0.002323 good_status=2 reference_hr_agrees=0 period_corr=0.000000 period_ir=0.000000 period_red=0.000000",
+      "values": {
+        "windows": 358,
+        "signal": 0,
+        "rhythm": 0,
+        "oxygen_valid": 0,
+        "candidate_spo2": -999,
+        "candidate_hr": -999,
+        "bpm": null,
+        "perfusion_ir": 0.000239,
+        "perfusion_red": 0.002323,
+        "good_status": 2,
+        "reference_hr_agrees": 0,
+        "period_corr": 0,
+        "period_ir": 0,
+        "period_red": 0
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 10.64000000001397,
+      "line": "SENSORS spo2=nan status=2 quality=0.000 gas=141949 iaq=104.7 accuracy=3 stable=1 runin=1 bsec=0 battery=4.006 percent=81 ina=1 heap=147468",
+      "values": {
+        "spo2": null,
+        "status": 2,
+        "quality": 0,
+        "gas": 141949,
+        "iaq": 104.7,
+        "accuracy": 3,
+        "stable": 1,
+        "runin": 1,
+        "bsec": 0,
+        "battery": 4.006,
+        "percent": 81,
+        "ina": 1,
+        "heap": 147468
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 10.64000000001397,
+      "line": "SCREEN page=6 painted=6 frames=2460 body_pixels=977 button=1 rst=1 spi=2000000 render_us=11051 max_render_us=98918",
+      "values": {
+        "page": 6,
+        "painted": 6,
+        "frames": 2460,
+        "body_pixels": 977,
+        "button": 1,
+        "rst": 1,
+        "spi": 2000000,
+        "render_us": 11051,
+        "max_render_us": 98918
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 10.64000000001397,
+      "line": "SCREEN alert_mask=1 alert_pixels=241",
+      "values": {
+        "alert_mask": 1,
+        "alert_pixels": 241
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 10.89000000001397,
+      "line": "HUBINFO version=1.0.8 mac=28:84:85:88:0B:0C lcd=1 frames=123453 touch=1 toucherr=0 receiver=1 ready=1 seq=1115 acks=6141 timeouts=6 page=5 watchpage=5 flags=3955 area=1 zoom=1 recording=0 rtc=1 rtcvalid=1 psram=6123312",
+      "values": {
+        "version": "1.0.8",
+        "mac": "28:84:85:88:0B:0C",
+        "lcd": 1,
+        "frames": 123453,
+        "touch": 1,
+        "toucherr": 0,
+        "receiver": 1,
+        "ready": 1,
+        "seq": 1115,
+        "acks": 6141,
+        "timeouts": 6,
+        "page": 5,
+        "watchpage": 5,
+        "flags": 3955,
+        "area": 1,
+        "zoom": 1,
+        "recording": 0,
+        "rtc": 1,
+        "rtcvalid": 1,
+        "psram": 6123312
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 11.062000000034459,
+      "line": "RATES uptime_ms=378362 pulse_samples=9051 pulse_sample_ms=378347 pulse_dropped=242 env_sequence=124 env_sample_ms=377601 motion_reads=710 motion_ms=377998 frames=2461 paint_ms=378091 paint_max_gap_ms=1808",
+      "values": {
+        "uptime_ms": 378362,
+        "pulse_samples": 9051,
+        "pulse_sample_ms": 378347,
+        "pulse_dropped": 242,
+        "env_sequence": 124,
+        "env_sample_ms": 377601,
+        "motion_reads": 710,
+        "motion_ms": 377998,
+        "frames": 2461,
+        "paint_ms": 378091,
+        "paint_max_gap_ms": 1808
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 11.062000000034459,
+      "line": "PPGQUALITY windows=359 signal=0 rhythm=0 oxygen_valid=0 candidate_spo2=-999 candidate_hr=-999 bpm=nan perfusion_ir=0.000250 perfusion_red=0.002321 good_status=2 reference_hr_agrees=0 period_corr=0.000000 period_ir=0.000000 period_red=0.000000",
+      "values": {
+        "windows": 359,
+        "signal": 0,
+        "rhythm": 0,
+        "oxygen_valid": 0,
+        "candidate_spo2": -999,
+        "candidate_hr": -999,
+        "bpm": null,
+        "perfusion_ir": 0.00025,
+        "perfusion_red": 0.002321,
+        "good_status": 2,
+        "reference_hr_agrees": 0,
+        "period_corr": 0,
+        "period_ir": 0,
+        "period_red": 0
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 11.062000000034459,
+      "line": "SENSORS spo2=nan status=2 quality=0.000 gas=141949 iaq=104.7 accuracy=3 stable=1 runin=1 bsec=0 battery=4.006 percent=81 ina=1 heap=150472",
+      "values": {
+        "spo2": null,
+        "status": 2,
+        "quality": 0,
+        "gas": 141949,
+        "iaq": 104.7,
+        "accuracy": 3,
+        "stable": 1,
+        "runin": 1,
+        "bsec": 0,
+        "battery": 4.006,
+        "percent": 81,
+        "ina": 1,
+        "heap": 150472
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 11.078000000037719,
+      "line": "SCREEN page=6 painted=6 frames=2461 body_pixels=948 button=1 rst=1 spi=2000000 render_us=10729 max_render_us=98918",
+      "values": {
+        "page": 6,
+        "painted": 6,
+        "frames": 2461,
+        "body_pixels": 948,
+        "button": 1,
+        "rst": 1,
+        "spi": 2000000,
+        "render_us": 10729,
+        "max_render_us": 98918
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 11.078000000037719,
+      "line": "SCREEN alert_mask=1 alert_pixels=241",
+      "values": {
+        "alert_mask": 1,
+        "alert_pixels": 241
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 11.39000000001397,
+      "line": "HUBINFO version=1.0.8 mac=28:84:85:88:0B:0C lcd=1 frames=123455 touch=1 toucherr=0 receiver=1 ready=1 seq=1116 acks=6141 timeouts=6 page=5 watchpage=5 flags=3955 area=1 zoom=1 recording=0 rtc=1 rtcvalid=1 psram=6123312",
+      "values": {
+        "version": "1.0.8",
+        "mac": "28:84:85:88:0B:0C",
+        "lcd": 1,
+        "frames": 123455,
+        "touch": 1,
+        "toucherr": 0,
+        "receiver": 1,
+        "ready": 1,
+        "seq": 1116,
+        "acks": 6141,
+        "timeouts": 6,
+        "page": 5,
+        "watchpage": 5,
+        "flags": 3955,
+        "area": 1,
+        "zoom": 1,
+        "recording": 0,
+        "rtc": 1,
+        "rtcvalid": 1,
+        "psram": 6123312
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 11.39000000001397,
+      "line": "HUB CLOCK utc=1792166108 age_ms=752 marked=1 watch_utc=1792166109 watch_from_hub=0 firmware=2.0.15",
+      "values": {
+        "utc": 1792166108,
+        "age_ms": 752,
+        "marked": 1,
+        "watch_utc": 1792166109,
+        "watch_from_hub": 0,
+        "firmware": "2.0.15"
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 11.64000000001397,
+      "line": "RATES uptime_ms=378942 pulse_samples=9065 pulse_sample_ms=378912 pulse_dropped=242 env_sequence=124 env_sample_ms=377601 motion_reads=711 motion_ms=378500 frames=2467 paint_ms=378818 paint_max_gap_ms=1808",
+      "values": {
+        "uptime_ms": 378942,
+        "pulse_samples": 9065,
+        "pulse_sample_ms": 378912,
+        "pulse_dropped": 242,
+        "env_sequence": 124,
+        "env_sample_ms": 377601,
+        "motion_reads": 711,
+        "motion_ms": 378500,
+        "frames": 2467,
+        "paint_ms": 378818,
+        "paint_max_gap_ms": 1808
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 11.64000000001397,
+      "line": "PPGQUALITY windows=359 signal=0 rhythm=0 oxygen_valid=0 candidate_spo2=-999 candidate_hr=-999 bpm=nan perfusion_ir=0.000250 perfusion_red=0.002321 good_status=2 reference_hr_agrees=0 period_corr=0.000000 period_ir=0.000000 period_red=0.000000",
+      "values": {
+        "windows": 359,
+        "signal": 0,
+        "rhythm": 0,
+        "oxygen_valid": 0,
+        "candidate_spo2": -999,
+        "candidate_hr": -999,
+        "bpm": null,
+        "perfusion_ir": 0.00025,
+        "perfusion_red": 0.002321,
+        "good_status": 2,
+        "reference_hr_agrees": 0,
+        "period_corr": 0,
+        "period_ir": 0,
+        "period_red": 0
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 11.64000000001397,
+      "line": "SENSORS spo2=nan status=2 quality=0.000 gas=141949 iaq=104.7 accuracy=3 stable=1 runin=1 bsec=0 battery=4.006 percent=81 ina=1 heap=149028",
+      "values": {
+        "spo2": null,
+        "status": 2,
+        "quality": 0,
+        "gas": 141949,
+        "iaq": 104.7,
+        "accuracy": 3,
+        "stable": 1,
+        "runin": 1,
+        "bsec": 0,
+        "battery": 4.006,
+        "percent": 81,
+        "ina": 1,
+        "heap": 149028
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 11.64000000001397,
+      "line": "SCREEN page=6 painted=6 frames=2467 body_pixels=977 button=1 rst=1 spi=2000000 render_us=11045 max_render_us=98918",
+      "values": {
+        "page": 6,
+        "painted": 6,
+        "frames": 2467,
+        "body_pixels": 977,
+        "button": 1,
+        "rst": 1,
+        "spi": 2000000,
+        "render_us": 11045,
+        "max_render_us": 98918
+      }
+    },
+    {
+      "role": "watch",
+      "host_s": 11.64000000001397,
+      "line": "SCREEN alert_mask=1 alert_pixels=241",
+      "values": {
+        "alert_mask": 1,
+        "alert_pixels": 241
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 11.89000000001397,
+      "line": "HUBINFO version=1.0.8 mac=28:84:85:88:0B:0C lcd=1 frames=123457 touch=1 toucherr=0 receiver=1 ready=1 seq=1118 acks=6141 timeouts=6 page=5 watchpage=5 flags=3955 area=1 zoom=1 recording=0 rtc=1 rtcvalid=1 psram=6123312",
+      "values": {
+        "version": "1.0.8",
+        "mac": "28:84:85:88:0B:0C",
+        "lcd": 1,
+        "frames": 123457,
+        "touch": 1,
+        "toucherr": 0,
+        "receiver": 1,
+        "ready": 1,
+        "seq": 1118,
+        "acks": 6141,
+        "timeouts": 6,
+        "page": 5,
+        "watchpage": 5,
+        "flags": 3955,
+        "area": 1,
+        "zoom": 1,
+        "recording": 0,
+        "rtc": 1,
+        "rtcvalid": 1,
+        "psram": 6123312
+      }
+    },
+    {
+      "role": "hub",
+      "host_s": 11.89000000001397,
+      "line": "HUB CLOCK utc=1792166109 age_ms=251 marked=1 watch_utc=1792166110 watch_from_hub=0 firmware=2.0.15",
+      "values": {
+        "utc": 1792166109,
+        "age_ms": 251,
+        "marked": 1,
+        "watch_utc": 1792166110,
+        "watch_from_hub": 0,
+        "firmware": "2.0.15"
+      }
+    }
+  ],
+  "firmware_identity_verified": true
+}

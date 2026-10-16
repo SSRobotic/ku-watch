@@ -1,0 +1,11 @@
+{
+  "recorded_utc": "2026-10-16T16:34:08.788101+00:00",
+  "target": "display_first",
+  "watch_version": "2.0.15",
+  "result": "SUCCESS",
+  "duration_s": 70.211,
+  "ram_bytes": 77408,
+  "flash_bytes": 1268165,
+  "source": "Actual fresh PlatformIO build in the sanitized private checkout with blank cloud defaults and a new ignored ESP-NOW key. No firmware image is committed and no device is flashed.",
+  "scope": "Compile validation only, not a repeat hardware acceptance run."
+}

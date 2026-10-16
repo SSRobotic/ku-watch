@@ -1,0 +1,119 @@
+{
+  "started_utc": "2026-10-16T08:05:54.755510+00:00",
+  "boundary": "Real settings form + two software reboots, not OTA power-cut/rollback testing",
+  "activity_check_boundary": "File IDs and byte sizes only; no raw coordinates saved or content hash claimed",
+  "passed": true,
+  "before_status": {
+    "firmware": "2.0.9",
+    "uptime_ms": 53494,
+    "recording": 0,
+    "ota_allowed": true,
+    "wifi": true,
+    "mqtt": true,
+    "pending": 1,
+    "dropped": 0,
+    "storage_errors": 0,
+    "environment_sequence": 16,
+    "clock_source": "NET TIME",
+    "utc": 1792137954
+  },
+  "before_activities": {
+    "3": {
+      "bytes": 672
+    },
+    "6": {
+      "bytes": 896
+    },
+    "7": {
+      "bytes": 352
+    },
+    "8": {
+      "bytes": 192
+    },
+    "9": {
+      "bytes": 3136
+    },
+    "10": {
+      "bytes": 2912
+    }
+  },
+  "original_settings_sha256": "72b95c73eaa43cda07cefcb93cde0e409a8d5d535358c82573f892b3199e7988",
+  "changed_fields": [
+    "MQTT topic from coordinated migration",
+    "temperature_limit",
+    "iaq_limit"
+  ],
+  "after_change_status": {
+    "firmware": "2.0.9",
+    "uptime_ms": 56294,
+    "recording": 0,
+    "ota_allowed": true,
+    "wifi": true,
+    "mqtt": true,
+    "pending": 1,
+    "dropped": 0,
+    "storage_errors": 0,
+    "environment_sequence": 16,
+    "clock_source": "NET TIME",
+    "utc": 1792137957
+  },
+  "first_reboot": {
+    "firmware": "2.0.9",
+    "uptime_ms": 16832,
+    "recording": 0,
+    "ota_allowed": true,
+    "wifi": true,
+    "mqtt": true,
+    "pending": 29,
+    "dropped": 0,
+    "storage_errors": 0,
+    "environment_sequence": 3,
+    "clock_source": "NET TIME",
+    "utc": 1792137974
+  },
+  "changed_limits_persisted": true,
+  "network_settings_persisted": true,
+  "second_reboot": {
+    "firmware": "2.0.9",
+    "uptime_ms": 17137,
+    "recording": 0,
+    "ota_allowed": true,
+    "wifi": true,
+    "mqtt": true,
+    "pending": 44,
+    "dropped": 0,
+    "storage_errors": 0,
+    "environment_sequence": 3,
+    "clock_source": "NET TIME",
+    "utc": 1792137994
+  },
+  "restored_original_settings": true,
+  "after_activities": {
+    "3": {
+      "bytes": 672
+    },
+    "6": {
+      "bytes": 896
+    },
+    "7": {
+      "bytes": 352
+    },
+    "8": {
+      "bytes": 192
+    },
+    "9": {
+      "bytes": 3136
+    },
+    "10": {
+      "bytes": 2912
+    }
+  },
+  "activities_unchanged": true,
+  "diagnostics": [
+    "SETTINGS restored=1 led=63 red=63 averaging=1 idle=0 csv=1 shunt=0.00000 compass=0",
+    "ALERT temp_limit=35.00 iaq_limit=150.00 temp_state=2 iaq_state=0 mask=1 temp_count=0 iaq_count=0 storage=1 saved=1 loaded=1",
+    "CLOCK utc=1792137998 valid=1 source=NET TIME restored=1 sync_utc=1792137987 checkpoint=1792137980 uptime=21099"
+  ],
+  "restored": true,
+  "finished_utc": "2026-10-16T08:06:40.557878+00:00"
+}

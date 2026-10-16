@@ -1,0 +1,62 @@
+{
+  "boundary": "Syntax checks for changed observer scripts and existing production-flow regression checks; not hardware acceptance",
+  "checks": [
+    {
+      "name": "mqtt_topic.cjs",
+      "passed": true
+    },
+    {
+      "name": "accumulated_soak.cjs",
+      "passed": true
+    },
+    {
+      "name": "capture_sensor_comparison.cjs",
+      "passed": true
+    },
+    {
+      "name": "observe_outdoor_link.cjs",
+      "passed": true
+    },
+    {
+      "name": "observe_replay.cjs",
+      "passed": true
+    },
+    {
+      "name": "requirements_sensor_audit.cjs",
+      "passed": true
+    },
+    {
+      "name": "soak_audit.cjs",
+      "passed": true
+    },
+    {
+      "name": "requirements_grafana_latency.cjs",
+      "passed": true
+    },
+    {
+      "name": "requirements_mqtt_audit.cjs",
+      "passed": true
+    },
+    {
+      "name": "test_cloud_connection.cjs",
+      "passed": true
+    },
+    {
+      "name": "verify_capture_storage.cjs",
+      "passed": true
+    },
+    {
+      "name": "wait_configured_topic.cjs",
+      "passed": true
+    },
+    {
+      "name": "test_influx_flow.cjs",
+      "passed": true
+    },
+    {
+      "name": "test_telemetry_audit_coverage.cjs",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

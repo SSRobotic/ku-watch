@@ -1,0 +1,404 @@
+{
+  "boundary": "Real MQTT readiness over 65 seconds; does not measure optical accuracy or conversion cadence",
+  "duration_s": 65,
+  "live": 65,
+  "malformed": 0,
+  "disconnects": 0,
+  "sessions": [
+    "17f02ea7"
+  ],
+  "versions": [
+    "2.0.9"
+  ],
+  "readiness": {
+    "env_live": {
+      "true": 65,
+      "false": 0,
+      "missing": 0
+    },
+    "pulse_live": {
+      "true": 65,
+      "false": 0,
+      "missing": 0
+    },
+    "acc_live": {
+      "true": 65,
+      "false": 0,
+      "missing": 0
+    },
+    "mag_live": {
+      "true": 65,
+      "false": 0,
+      "missing": 0
+    },
+    "battery_valid": {
+      "true": 65,
+      "false": 0,
+      "missing": 0
+    },
+    "ina226_detected": {
+      "true": 65,
+      "false": 0,
+      "missing": 0
+    },
+    "iaq_valid": {
+      "true": 65,
+      "false": 0,
+      "missing": 0
+    },
+    "spo2_valid": {
+      "true": 43,
+      "false": 22,
+      "missing": 0
+    },
+    "finger": {
+      "true": 65,
+      "false": 0,
+      "missing": 0
+    },
+    "current_valid": {
+      "true": 0,
+      "false": 65,
+      "missing": 0
+    },
+    "gps_fix": {
+      "true": 65,
+      "false": 0,
+      "missing": 0
+    }
+  },
+  "bsec_errors": 0,
+  "invalid_env": 0,
+  "samples": [
+    {
+      "received_ms": 177,
+      "uptime_ms": 15772301,
+      "id": "17f02ea7-00003d90"
+    },
+    {
+      "received_ms": 711,
+      "uptime_ms": 15773082,
+      "id": "17f02ea7-00003d91"
+    },
+    {
+      "received_ms": 2278,
+      "uptime_ms": 15774489,
+      "id": "17f02ea7-00003d92"
+    },
+    {
+      "received_ms": 3846,
+      "uptime_ms": 15775289,
+      "id": "17f02ea7-00003d93"
+    },
+    {
+      "received_ms": 4409,
+      "uptime_ms": 15776068,
+      "id": "17f02ea7-00003d94"
+    },
+    {
+      "received_ms": 5963,
+      "uptime_ms": 15777533,
+      "id": "17f02ea7-00003d95"
+    },
+    {
+      "received_ms": 6514,
+      "uptime_ms": 15778319,
+      "id": "17f02ea7-00003d96"
+    },
+    {
+      "received_ms": 7145,
+      "uptime_ms": 15779247,
+      "id": "17f02ea7-00003d97"
+    },
+    {
+      "received_ms": 7658,
+      "uptime_ms": 15780026,
+      "id": "17f02ea7-00003d98"
+    },
+    {
+      "received_ms": 9222,
+      "uptime_ms": 15781322,
+      "id": "17f02ea7-00003d99"
+    },
+    {
+      "received_ms": 9767,
+      "uptime_ms": 15782118,
+      "id": "17f02ea7-00003d9a"
+    },
+    {
+      "received_ms": 11470,
+      "uptime_ms": 15783474,
+      "id": "17f02ea7-00003d9b"
+    },
+    {
+      "received_ms": 11993,
+      "uptime_ms": 15784237,
+      "id": "17f02ea7-00003d9c"
+    },
+    {
+      "received_ms": 13548,
+      "uptime_ms": 15785028,
+      "id": "17f02ea7-00003d9d"
+    },
+    {
+      "received_ms": 15102,
+      "uptime_ms": 15786349,
+      "id": "17f02ea7-00003d9e"
+    },
+    {
+      "received_ms": 15662,
+      "uptime_ms": 15787200,
+      "id": "17f02ea7-00003d9f"
+    },
+    {
+      "received_ms": 17242,
+      "uptime_ms": 15788594,
+      "id": "17f02ea7-00003da0"
+    },
+    {
+      "received_ms": 17805,
+      "uptime_ms": 15789406,
+      "id": "17f02ea7-00003da1"
+    },
+    {
+      "received_ms": 18352,
+      "uptime_ms": 15790220,
+      "id": "17f02ea7-00003da2"
+    },
+    {
+      "received_ms": 19926,
+      "uptime_ms": 15791053,
+      "id": "17f02ea7-00003da3"
+    },
+    {
+      "received_ms": 20481,
+      "uptime_ms": 15792044,
+      "id": "17f02ea7-00003da4"
+    },
+    {
+      "received_ms": 22044,
+      "uptime_ms": 15793560,
+      "id": "17f02ea7-00003da5"
+    },
+    {
+      "received_ms": 22604,
+      "uptime_ms": 15794275,
+      "id": "17f02ea7-00003da6"
+    },
+    {
+      "received_ms": 23150,
+      "uptime_ms": 15795012,
+      "id": "17f02ea7-00003da7"
+    },
+    {
+      "received_ms": 24706,
+      "uptime_ms": 15796378,
+      "id": "17f02ea7-00003da8"
+    },
+    {
+      "received_ms": 25243,
+      "uptime_ms": 15797215,
+      "id": "17f02ea7-00003da9"
+    },
+    {
+      "received_ms": 26816,
+      "uptime_ms": 15798596,
+      "id": "17f02ea7-00003daa"
+    },
+    {
+      "received_ms": 27362,
+      "uptime_ms": 15799348,
+      "id": "17f02ea7-00003dab"
+    },
+    {
+      "received_ms": 27915,
+      "uptime_ms": 15800112,
+      "id": "17f02ea7-00003dac"
+    },
+    {
+      "received_ms": 29472,
+      "uptime_ms": 15801524,
+      "id": "17f02ea7-00003dad"
+    },
+    {
+      "received_ms": 30009,
+      "uptime_ms": 15802403,
+      "id": "17f02ea7-00003dae"
+    },
+    {
+      "received_ms": 31552,
+      "uptime_ms": 15803181,
+      "id": "17f02ea7-00003daf"
+    },
+    {
+      "received_ms": 33121,
+      "uptime_ms": 15804560,
+      "id": "17f02ea7-00003db0"
+    },
+    {
+      "received_ms": 33669,
+      "uptime_ms": 15805359,
+      "id": "17f02ea7-00003db1"
+    },
+    {
+      "received_ms": 34213,
+      "uptime_ms": 15806171,
+      "id": "17f02ea7-00003db2"
+    },
+    {
+      "received_ms": 34749,
+      "uptime_ms": 15807187,
+      "id": "17f02ea7-00003db3"
+    },
+    {
+      "received_ms": 36306,
+      "uptime_ms": 15808516,
+      "id": "17f02ea7-00003db4"
+    },
+    {
+      "received_ms": 36842,
+      "uptime_ms": 15809247,
+      "id": "17f02ea7-00003db5"
+    },
+    {
+      "received_ms": 38448,
+      "uptime_ms": 15810590,
+      "id": "17f02ea7-00003db6"
+    },
+    {
+      "received_ms": 40016,
+      "uptime_ms": 15811326,
+      "id": "17f02ea7-00003db7"
+    },
+    {
+      "received_ms": 40586,
+      "uptime_ms": 15812169,
+      "id": "17f02ea7-00003db8"
+    },
+    {
+      "received_ms": 41128,
+      "uptime_ms": 15813525,
+      "id": "17f02ea7-00003db9"
+    },
+    {
+      "received_ms": 42687,
+      "uptime_ms": 15814310,
+      "id": "17f02ea7-00003dba"
+    },
+    {
+      "received_ms": 43209,
+      "uptime_ms": 15815090,
+      "id": "17f02ea7-00003dbb"
+    },
+    {
+      "received_ms": 45475,
+      "uptime_ms": 15816478,
+      "id": "17f02ea7-00003dbc"
+    },
+    {
+      "received_ms": 46478,
+      "uptime_ms": 15817398,
+      "id": "17f02ea7-00003dbd"
+    },
+    {
+      "received_ms": 46686,
+      "uptime_ms": 15818190,
+      "id": "17f02ea7-00003dbe"
+    },
+    {
+      "received_ms": 48256,
+      "uptime_ms": 15819600,
+      "id": "17f02ea7-00003dbf"
+    },
+    {
+      "received_ms": 48802,
+      "uptime_ms": 15820436,
+      "id": "17f02ea7-00003dc0"
+    },
+    {
+      "received_ms": 49353,
+      "uptime_ms": 15821351,
+      "id": "17f02ea7-00003dc1"
+    },
+    {
+      "received_ms": 49882,
+      "uptime_ms": 15822165,
+      "id": "17f02ea7-00003dc2"
+    },
+    {
+      "received_ms": 51672,
+      "uptime_ms": 15823499,
+      "id": "17f02ea7-00003dc3"
+    },
+    {
+      "received_ms": 52092,
+      "uptime_ms": 15824234,
+      "id": "17f02ea7-00003dc4"
+    },
+    {
+      "received_ms": 53668,
+      "uptime_ms": 15825599,
+      "id": "17f02ea7-00003dc5"
+    },
+    {
+      "received_ms": 54218,
+      "uptime_ms": 15826320,
+      "id": "17f02ea7-00003dc6"
+    },
+    {
+      "received_ms": 55776,
+      "uptime_ms": 15827169,
+      "id": "17f02ea7-00003dc7"
+    },
+    {
+      "received_ms": 56324,
+      "uptime_ms": 15828558,
+      "id": "17f02ea7-00003dc8"
+    },
+    {
+      "received_ms": 57915,
+      "uptime_ms": 15829354,
+      "id": "17f02ea7-00003dc9"
+    },
+    {
+      "received_ms": 58484,
+      "uptime_ms": 15830162,
+      "id": "17f02ea7-00003dca"
+    },
+    {
+      "received_ms": 60073,
+      "uptime_ms": 15831552,
+      "id": "17f02ea7-00003dcb"
+    },
+    {
+      "received_ms": 60591,
+      "uptime_ms": 15832413,
+      "id": "17f02ea7-00003dcc"
+    },
+    {
+      "received_ms": 61136,
+      "uptime_ms": 15833251,
+      "id": "17f02ea7-00003dcd"
+    },
+    {
+      "received_ms": 61699,
+      "uptime_ms": 15834187,
+      "id": "17f02ea7-00003dce"
+    },
+    {
+      "received_ms": 63263,
+      "uptime_ms": 15835521,
+      "id": "17f02ea7-00003dcf"
+    },
+    {
+      "received_ms": 64858,
+      "uptime_ms": 15836236,
+      "id": "17f02ea7-00003dd0"
+    }
+  ],
+  "observed_s": 65.01,
+  "mean_interval_ms": 1010.640625,
+  "max_interval_ms": 2266,
+  "transport_pass": true,
+  "required_sensors_live": true
+}

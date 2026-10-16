@@ -1,0 +1,404 @@
+{
+  "boundary": "Real MQTT readiness over 65 seconds; does not measure optical accuracy or conversion cadence",
+  "duration_s": 65,
+  "live": 65,
+  "malformed": 0,
+  "disconnects": 0,
+  "sessions": [
+    "17f02ea7"
+  ],
+  "versions": [
+    "2.0.9"
+  ],
+  "readiness": {
+    "env_live": {
+      "true": 65,
+      "false": 0,
+      "missing": 0
+    },
+    "pulse_live": {
+      "true": 65,
+      "false": 0,
+      "missing": 0
+    },
+    "acc_live": {
+      "true": 65,
+      "false": 0,
+      "missing": 0
+    },
+    "mag_live": {
+      "true": 65,
+      "false": 0,
+      "missing": 0
+    },
+    "battery_valid": {
+      "true": 65,
+      "false": 0,
+      "missing": 0
+    },
+    "ina226_detected": {
+      "true": 65,
+      "false": 0,
+      "missing": 0
+    },
+    "iaq_valid": {
+      "true": 65,
+      "false": 0,
+      "missing": 0
+    },
+    "spo2_valid": {
+      "true": 0,
+      "false": 65,
+      "missing": 0
+    },
+    "finger": {
+      "true": 65,
+      "false": 0,
+      "missing": 0
+    },
+    "current_valid": {
+      "true": 0,
+      "false": 65,
+      "missing": 0
+    },
+    "gps_fix": {
+      "true": 0,
+      "false": 65,
+      "missing": 0
+    }
+  },
+  "bsec_errors": 0,
+  "invalid_env": 0,
+  "samples": [
+    {
+      "received_ms": 747,
+      "uptime_ms": 938058,
+      "id": "17f02ea7-000003a3"
+    },
+    {
+      "received_ms": 2026,
+      "uptime_ms": 939364,
+      "id": "17f02ea7-000003a4"
+    },
+    {
+      "received_ms": 2274,
+      "uptime_ms": 940134,
+      "id": "17f02ea7-000003a5"
+    },
+    {
+      "received_ms": 3531,
+      "uptime_ms": 941039,
+      "id": "17f02ea7-000003a6"
+    },
+    {
+      "received_ms": 4798,
+      "uptime_ms": 942317,
+      "id": "17f02ea7-000003a7"
+    },
+    {
+      "received_ms": 5081,
+      "uptime_ms": 943003,
+      "id": "17f02ea7-000003a8"
+    },
+    {
+      "received_ms": 6360,
+      "uptime_ms": 944279,
+      "id": "17f02ea7-000003a9"
+    },
+    {
+      "received_ms": 7603,
+      "uptime_ms": 945561,
+      "id": "17f02ea7-000003aa"
+    },
+    {
+      "received_ms": 8878,
+      "uptime_ms": 946280,
+      "id": "17f02ea7-000003ab"
+    },
+    {
+      "received_ms": 9190,
+      "uptime_ms": 947126,
+      "id": "17f02ea7-000003ac"
+    },
+    {
+      "received_ms": 10443,
+      "uptime_ms": 948430,
+      "id": "17f02ea7-000003ad"
+    },
+    {
+      "received_ms": 11711,
+      "uptime_ms": 949164,
+      "id": "17f02ea7-000003ae"
+    },
+    {
+      "received_ms": 12973,
+      "uptime_ms": 950500,
+      "id": "17f02ea7-000003af"
+    },
+    {
+      "received_ms": 14244,
+      "uptime_ms": 951253,
+      "id": "17f02ea7-000003b0"
+    },
+    {
+      "received_ms": 14502,
+      "uptime_ms": 952107,
+      "id": "17f02ea7-000003b1"
+    },
+    {
+      "received_ms": 15791,
+      "uptime_ms": 953465,
+      "id": "17f02ea7-000003b2"
+    },
+    {
+      "received_ms": 17060,
+      "uptime_ms": 954241,
+      "id": "17f02ea7-000003b3"
+    },
+    {
+      "received_ms": 17355,
+      "uptime_ms": 955102,
+      "id": "17f02ea7-000003b4"
+    },
+    {
+      "received_ms": 18607,
+      "uptime_ms": 956373,
+      "id": "17f02ea7-000003b5"
+    },
+    {
+      "received_ms": 18902,
+      "uptime_ms": 957144,
+      "id": "17f02ea7-000003b6"
+    },
+    {
+      "received_ms": 20178,
+      "uptime_ms": 958409,
+      "id": "17f02ea7-000003b7"
+    },
+    {
+      "received_ms": 21441,
+      "uptime_ms": 959142,
+      "id": "17f02ea7-000003b8"
+    },
+    {
+      "received_ms": 22721,
+      "uptime_ms": 960402,
+      "id": "17f02ea7-000003b9"
+    },
+    {
+      "received_ms": 24001,
+      "uptime_ms": 961158,
+      "id": "17f02ea7-000003ba"
+    },
+    {
+      "received_ms": 25278,
+      "uptime_ms": 962561,
+      "id": "17f02ea7-000003bb"
+    },
+    {
+      "received_ms": 25536,
+      "uptime_ms": 963310,
+      "id": "17f02ea7-000003bc"
+    },
+    {
+      "received_ms": 26800,
+      "uptime_ms": 964042,
+      "id": "17f02ea7-000003bd"
+    },
+    {
+      "received_ms": 28077,
+      "uptime_ms": 965360,
+      "id": "17f02ea7-000003be"
+    },
+    {
+      "received_ms": 28323,
+      "uptime_ms": 966138,
+      "id": "17f02ea7-000003bf"
+    },
+    {
+      "received_ms": 29641,
+      "uptime_ms": 967576,
+      "id": "17f02ea7-000003c0"
+    },
+    {
+      "received_ms": 30880,
+      "uptime_ms": 968383,
+      "id": "17f02ea7-000003c1"
+    },
+    {
+      "received_ms": 31156,
+      "uptime_ms": 969265,
+      "id": "17f02ea7-000003c2"
+    },
+    {
+      "received_ms": 32404,
+      "uptime_ms": 970549,
+      "id": "17f02ea7-000003c3"
+    },
+    {
+      "received_ms": 33695,
+      "uptime_ms": 971270,
+      "id": "17f02ea7-000003c4"
+    },
+    {
+      "received_ms": 33953,
+      "uptime_ms": 972032,
+      "id": "17f02ea7-000003c5"
+    },
+    {
+      "received_ms": 35223,
+      "uptime_ms": 973360,
+      "id": "17f02ea7-000003c6"
+    },
+    {
+      "received_ms": 36509,
+      "uptime_ms": 974094,
+      "id": "17f02ea7-000003c7"
+    },
+    {
+      "received_ms": 37765,
+      "uptime_ms": 975382,
+      "id": "17f02ea7-000003c8"
+    },
+    {
+      "received_ms": 39075,
+      "uptime_ms": 976100,
+      "id": "17f02ea7-000003c9"
+    },
+    {
+      "received_ms": 39463,
+      "uptime_ms": 977506,
+      "id": "17f02ea7-000003ca"
+    },
+    {
+      "received_ms": 40735,
+      "uptime_ms": 978285,
+      "id": "17f02ea7-000003cb"
+    },
+    {
+      "received_ms": 40997,
+      "uptime_ms": 979066,
+      "id": "17f02ea7-000003cc"
+    },
+    {
+      "received_ms": 42275,
+      "uptime_ms": 980403,
+      "id": "17f02ea7-000003cd"
+    },
+    {
+      "received_ms": 43530,
+      "uptime_ms": 981212,
+      "id": "17f02ea7-000003ce"
+    },
+    {
+      "received_ms": 43793,
+      "uptime_ms": 982107,
+      "id": "17f02ea7-000003cf"
+    },
+    {
+      "received_ms": 46079,
+      "uptime_ms": 983388,
+      "id": "17f02ea7-000003d0"
+    },
+    {
+      "received_ms": 46335,
+      "uptime_ms": 984097,
+      "id": "17f02ea7-000003d1"
+    },
+    {
+      "received_ms": 47610,
+      "uptime_ms": 985380,
+      "id": "17f02ea7-000003d2"
+    },
+    {
+      "received_ms": 48881,
+      "uptime_ms": 986096,
+      "id": "17f02ea7-000003d3"
+    },
+    {
+      "received_ms": 50222,
+      "uptime_ms": 987407,
+      "id": "17f02ea7-000003d4"
+    },
+    {
+      "received_ms": 50641,
+      "uptime_ms": 988126,
+      "id": "17f02ea7-000003d5"
+    },
+    {
+      "received_ms": 52068,
+      "uptime_ms": 989483,
+      "id": "17f02ea7-000003d6"
+    },
+    {
+      "received_ms": 52382,
+      "uptime_ms": 990231,
+      "id": "17f02ea7-000003d7"
+    },
+    {
+      "received_ms": 54510,
+      "uptime_ms": 991563,
+      "id": "17f02ea7-000003d8"
+    },
+    {
+      "received_ms": 54817,
+      "uptime_ms": 992402,
+      "id": "17f02ea7-000003d9"
+    },
+    {
+      "received_ms": 56079,
+      "uptime_ms": 993174,
+      "id": "17f02ea7-000003da"
+    },
+    {
+      "received_ms": 57364,
+      "uptime_ms": 994510,
+      "id": "17f02ea7-000003db"
+    },
+    {
+      "received_ms": 57620,
+      "uptime_ms": 995307,
+      "id": "17f02ea7-000003dc"
+    },
+    {
+      "received_ms": 58892,
+      "uptime_ms": 996181,
+      "id": "17f02ea7-000003dd"
+    },
+    {
+      "received_ms": 60168,
+      "uptime_ms": 997464,
+      "id": "17f02ea7-000003de"
+    },
+    {
+      "received_ms": 60506,
+      "uptime_ms": 998164,
+      "id": "17f02ea7-000003df"
+    },
+    {
+      "received_ms": 61686,
+      "uptime_ms": 999439,
+      "id": "17f02ea7-000003e0"
+    },
+    {
+      "received_ms": 61950,
+      "uptime_ms": 1000196,
+      "id": "17f02ea7-000003e1"
+    },
+    {
+      "received_ms": 64215,
+      "uptime_ms": 1001485,
+      "id": "17f02ea7-000003e2"
+    },
+    {
+      "received_ms": 64496,
+      "uptime_ms": 1002260,
+      "id": "17f02ea7-000003e3"
+    }
+  ],
+  "observed_s": 65.007,
+  "mean_interval_ms": 996.078125,
+  "max_interval_ms": 2286,
+  "transport_pass": true,
+  "required_sensors_live": true
+}

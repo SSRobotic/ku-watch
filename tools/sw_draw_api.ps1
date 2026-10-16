@@ -1,0 +1,4 @@
+Add-Type -Path 'C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS (2)\api\redist\SolidWorks.Interop.sldworks.dll'
+Add-Type -Path 'C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS (2)\api\redist\SolidWorks.Interop.swconst.dll'
+foreach($n in @('ISldWorks','IDrawingDoc','IView','ITextFormat','IBody2','IEntity','IBomTableAnnotation','ISheet')){ $n; ([type]('SolidWorks.Interop.sldworks.'+$n)).GetMethods() | Where-Object Name -Match 'NewDocument|ActivateDoc3|VisibleComp|SelectEntity|ModelToView|GetExtreme|Select4|GetComponents|GetRows|GetTable|GetNotes|Template|CharHeight|Typeface|Bold|CreateLine|GetNextView|GetFirstView|GetName|SetName' | ForEach-Object ToString }
+foreach($n in @('swDwgTemplates_e','swBalloonStyle_e','swBalloonFit_e','swBalloonTextContent_e','swTableRowColSizeChangeBehavior_e','swDrawingViewEntityFilter_e')){ $n;$t=[type]('SolidWorks.Interop.swconst.'+$n);[Enum]::GetNames($t)|ForEach-Object{$_+'='+[int][Enum]::Parse($t,$_)} }

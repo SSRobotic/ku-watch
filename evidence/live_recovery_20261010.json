@@ -1,0 +1,10 @@
+{
+  "boundary": "Actual MQTT sample IDs after backlog recovery; does not certify DOM paint latency",
+  "samples": 624,
+  "backfill": 547,
+  "live": 77,
+  "live_seconds": 69.959,
+  "missing_live_sequences": 0,
+  "max_live_receive_gap_ms": 1966,
+  "passed": true
+}

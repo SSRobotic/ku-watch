@@ -1,0 +1,23 @@
+Connectivity checks against firmware + explicit draft constraints
+
+PASS LCD_SCK: [('DS1', 'SCK'), ('U1', 'GPIO10')]
+PASS LCD_MOSI: [('DS1', 'MOSI'), ('U1', 'GPIO11')]
+PASS LCD_CS: [('DS1', 'CS'), ('U1', 'GPIO6')]
+PASS LCD_DC: [('DS1', 'DC'), ('U1', 'GPIO7')]
+PASS LCD_RST: [('DS1', 'RST'), ('U1', 'GPIO5')]
+PASS I2C_SDA: [('U1', 'GPIO8'), ('U2', 'SDA'), ('U3', 'SDA'), ('U4', 'SDA'), ('U5', 'SDA')]
+PASS I2C_SCL: [('U1', 'GPIO9'), ('U2', 'SCL'), ('U3', 'SCL'), ('U4', 'SCL'), ('U5', 'SCL')]
+PASS MENU: [('SW1', '1'), ('U1', 'GPIO4')]
+PASS AUDIO_OFF: [('J1', '1'), ('U1', 'GPIO2')]
+PASS GPS_TX_TO_RX12: [('U1', 'GPIO12'), ('U6', 'TXD')]
+PASS GPS_RX_FROM_TX13: [('U1', 'GPIO13'), ('U6', 'RXD')]
+PASS +3V3: [('DS1', 'VCC'), ('U1', '3V3'), ('U2', 'CS'), ('U2', 'VCC'), ('U3', 'VCC'), ('U4', 'VCC'), ('U5', 'VCC'), ('U6', 'VCC')]
+PASS GND: [('DS1', 'GND'), ('J1', '2'), ('SW1', '2'), ('U1', 'GND'), ('U2', 'GND'), ('U2', 'SDO'), ('U3', 'GND'), ('U4', 'GND'), ('U5', 'GND'), ('U6', 'GND')]
+PASS GNSS_RF: [('AE1', '1'), ('U6', 'ANT')]
+PASS BT1: every lead isolated
+PASS J2: every lead isolated
+PASS LS1: every lead isolated
+PASS remote board has no wired connection to Super Mini
+PASS 14 schematic items plus power symbols; old SD module absent
+
+PASS. Hardware identities, VIN ratings, footprints and battery power stage remain unverified.

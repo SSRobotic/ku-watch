@@ -1,0 +1,20 @@
+{
+  "boundary": "Stored Grafana dashboards and health only; no browser paint claim",
+  "dashboards": {
+    "ku-watch-live": {
+      "found": true,
+      "refresh": "1s"
+    },
+    "ku-watch-friends": {
+      "found": true,
+      "refresh": "10s"
+    }
+  },
+  "health": {
+    "database": "ok"
+  },
+  "frontend": {
+    "http_status": 401
+  },
+  "live_refresh_loaded": true
+}

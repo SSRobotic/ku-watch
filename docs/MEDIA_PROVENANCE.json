@@ -1,0 +1,842 @@
+[
+  {
+    "path": "evidence/final-2026-10-16/host-regressions-assertions-enabled.json",
+    "source_name": "report.json",
+    "source_sha256": "4cca7f8e9edad8577e25043221662677b6990e1bd9ecd8548f1776690a9ce79f",
+    "repository_sha256": "4cca7f8e9edad8577e25043221662677b6990e1bd9ecd8548f1776690a9ce79f"
+  },
+  {
+    "path": "media/development/01-cad.png",
+    "source_name": "Screenshot_2026-08-16_085113.png",
+    "source_sha256": "e855eaf2ab71bcac352e090c90c45313b59052b6abc194de8e9b6bd03aab4f18",
+    "repository_sha256": "e855eaf2ab71bcac352e090c90c45313b59052b6abc194de8e9b6bd03aab4f18"
+  },
+  {
+    "path": "media/development/02-mcu.jpg",
+    "source_name": "791720806_2445588969298646_3046954013581369543_n.jpg",
+    "source_sha256": "b2ca1d4764a0a1923fd722ffe5afeeb62140f35b8441b829ca2b5189ef1f7ee8",
+    "repository_sha256": "b2ca1d4764a0a1923fd722ffe5afeeb62140f35b8441b829ca2b5189ef1f7ee8"
+  },
+  {
+    "path": "media/development/03-layout.jpg",
+    "source_name": "795696844_1073419405074088_3344000959176444967_n.jpg",
+    "source_sha256": "49c6fdc4bc0d7daa93ff697a4394e2cd1775315c9c627c913249e4ba984fdb34",
+    "repository_sha256": "49c6fdc4bc0d7daa93ff697a4394e2cd1775315c9c627c913249e4ba984fdb34"
+  },
+  {
+    "path": "media/development/04-battery.jpg",
+    "source_name": "791957796_1858566745204959_5500116975208088457_n.jpg",
+    "source_sha256": "d893bc9b1c12edd6a08ce84b955316a3c15dc5de03ad9696bf20c42dc53fbac5",
+    "repository_sha256": "d893bc9b1c12edd6a08ce84b955316a3c15dc5de03ad9696bf20c42dc53fbac5"
+  },
+  {
+    "path": "media/development/05-assembly-wide.jpg",
+    "source_name": "797990821_28924668957141189_2118068080910346534_n.jpg",
+    "source_sha256": "6743793212350d114bad31fcf59734574efb5db836facbbd8aaec227535b401a",
+    "repository_sha256": "6743793212350d114bad31fcf59734574efb5db836facbbd8aaec227535b401a"
+  },
+  {
+    "path": "media/development/06-devices.jpg",
+    "source_name": "800924183_897757213193143_7601139544988815272_n.jpg",
+    "source_sha256": "c5ec8f9bc36c8bdc8f67a06864550229f7c8f0e981a118893bf87be161b26807",
+    "repository_sha256": "c5ec8f9bc36c8bdc8f67a06864550229f7c8f0e981a118893bf87be161b26807"
+  },
+  {
+    "path": "media/development/07-lcd-issue.jpg",
+    "source_name": "796525415_1066924072983712_4767972447123320485_n.jpg",
+    "source_sha256": "4e1c8a8ca132d9be35fca4e51e386f33829d154cac4ab3d810a154831a6daa4a",
+    "repository_sha256": "4e1c8a8ca132d9be35fca4e51e386f33829d154cac4ab3d810a154831a6daa4a"
+  },
+  {
+    "path": "media/development/08-button.jpg",
+    "source_name": "798261185_1643273724081390_2659566595390626202_n.jpg",
+    "source_sha256": "0ca16be33f1ff3c99b5b6df53620896873da3cef2c29f2194d49b4197950a801",
+    "repository_sha256": "0ca16be33f1ff3c99b5b6df53620896873da3cef2c29f2194d49b4197950a801"
+  },
+  {
+    "path": "media/development/09-usb-small.jpg",
+    "source_name": "775404917_957792600676297_2537321507527061915_n.jpg",
+    "source_sha256": "c20adeaf5da787bbe4f5593f1cba482e138d557da888f2001533d982b1d2f373",
+    "repository_sha256": "c20adeaf5da787bbe4f5593f1cba482e138d557da888f2001533d982b1d2f373"
+  },
+  {
+    "path": "media/development/10-slot.jpg",
+    "source_name": "777664036_1595265672382878_3405743276269853523_n.jpg",
+    "source_sha256": "83a6776d61b1038e3ab7710a5f7510efea90a6837867715bcb830682853381ab",
+    "repository_sha256": "83a6776d61b1038e3ab7710a5f7510efea90a6837867715bcb830682853381ab"
+  },
+  {
+    "path": "media/development/11-usb-hub.jpg",
+    "source_name": "780949188_1968225717204040_8097722767150619649_n.jpg",
+    "source_sha256": "58f0db4cc9f35ac8e8e2423a898dace1f3670e89673f540403138c497e11dffa",
+    "repository_sha256": "58f0db4cc9f35ac8e8e2423a898dace1f3670e89673f540403138c497e11dffa"
+  },
+  {
+    "path": "media/development/12-hub-marked.jpg",
+    "source_name": "775468132_1614136690435499_192791476956378090_n.jpg",
+    "source_sha256": "9935ecab758b41ad15610b98fe875170153095bc7aaf2fff57e25500fde56ee9",
+    "repository_sha256": "9935ecab758b41ad15610b98fe875170153095bc7aaf2fff57e25500fde56ee9"
+  },
+  {
+    "path": "media/development/13-hub-board.jpg",
+    "source_name": "792999551_1379349154344908_1489685847380201928_n.jpg",
+    "source_sha256": "131f429637dbb03c9451d22c6496efec47b3817a24c365dd7803fa6b3b9bca8d",
+    "repository_sha256": "131f429637dbb03c9451d22c6496efec47b3817a24c365dd7803fa6b3b9bca8d"
+  },
+  {
+    "path": "media/development/14-hub-home.jpg",
+    "source_name": "778230763_2537578636713856_7597434287269071384_n.jpg",
+    "source_sha256": "87735610534f06abd79df863f851d64db7e151e73f9ceeb335ce5df3902add5a",
+    "repository_sha256": "87735610534f06abd79df863f851d64db7e151e73f9ceeb335ce5df3902add5a"
+  },
+  {
+    "path": "media/development/15-hub-system.jpg",
+    "source_name": "782447063_2514403358983168_5643186517549526312_n.jpg",
+    "source_sha256": "38a91e5b0818247d56c468a2a3c0c8d09e3061da3940fc811626b7acd3b74021",
+    "repository_sha256": "38a91e5b0818247d56c468a2a3c0c8d09e3061da3940fc811626b7acd3b74021"
+  },
+  {
+    "path": "media/development/16-hub-brightness.jpg",
+    "source_name": "778659746_1291817602890222_3836565738572622969_n.jpg",
+    "source_sha256": "a4e0b521733682b5319652fc31f78b9d9dc51911a26247f3d061de3fa67c95ca",
+    "repository_sha256": "a4e0b521733682b5319652fc31f78b9d9dc51911a26247f3d061de3fa67c95ca"
+  },
+  {
+    "path": "media/development/17-environment.jpg",
+    "source_name": "799777349_1427362126265470_5405579252750891170_n.jpg",
+    "source_sha256": "3d882fd845d51c066c07680e58c9152db8006c1e23aee8d1fd8f2d967e0fd702",
+    "repository_sha256": "3d882fd845d51c066c07680e58c9152db8006c1e23aee8d1fd8f2d967e0fd702"
+  },
+  {
+    "path": "media/development/18-open-home.jpg",
+    "source_name": "793900109_2008143866512784_4478929358220714283_n.jpg",
+    "source_sha256": "ff01fb6337116e87d618a1dbc30d2769dc7dc08a5cdf64fd1b9cc073b1b10329",
+    "repository_sha256": "ff01fb6337116e87d618a1dbc30d2769dc7dc08a5cdf64fd1b9cc073b1b10329"
+  },
+  {
+    "path": "media/development/19-open-env.jpg",
+    "source_name": "794645826_38654322554181059_3092646121873405581_n.jpg",
+    "source_sha256": "16cd972e2b4d5579d6f000abd296b5abf58f2a4a11f6a385fa18c5105f1f4d99",
+    "repository_sha256": "16cd972e2b4d5579d6f000abd296b5abf58f2a4a11f6a385fa18c5105f1f4d99"
+  },
+  {
+    "path": "media/development/20-env-angle.jpg",
+    "source_name": "798261185_1594153032443739_2201259088266148663_n.jpg",
+    "source_sha256": "eca8bfd026e846e5128f464437f346e20bdd1af9360ed2630726ad70517e1a1c",
+    "repository_sha256": "eca8bfd026e846e5128f464437f346e20bdd1af9360ed2630726ad70517e1a1c"
+  },
+  {
+    "path": "media/development/21-env-wide.jpg",
+    "source_name": "799427167_1065171629839536_888359591120652766_n.jpg",
+    "source_sha256": "fa0f6462862b39129b46bb43c8467701f9ac83574aef2ee4f9e22669be423cab",
+    "repository_sha256": "fa0f6462862b39129b46bb43c8467701f9ac83574aef2ee4f9e22669be423cab"
+  },
+  {
+    "path": "media/development/22-backend-photo.jpg",
+    "source_name": "795580942_2209165816600053_4658965607603286614_n.jpg",
+    "source_sha256": "a0ca53ecf7326236cfef512e219c439373cd7f488c0bde04f8266225cd7e5ce6",
+    "repository_sha256": "a0ca53ecf7326236cfef512e219c439373cd7f488c0bde04f8266225cd7e5ce6"
+  },
+  {
+    "path": "media/development/23-backend-screen.png",
+    "source_name": "image.png",
+    "source_sha256": "cd6b31fb9b46ab8c526c8cdf2ffaa714a98d7b94763a9c8e991d217c37492f90",
+    "repository_sha256": "cd6b31fb9b46ab8c526c8cdf2ffaa714a98d7b94763a9c8e991d217c37492f90"
+  },
+  {
+    "path": "media/hardware/prototype-in-use-01.jpg",
+    "source_name": "user_photo_1.jpg",
+    "source_sha256": "533b82111244461e7e410d55c8f3e97b88977e3a78db099565bf6bd6f052eace",
+    "repository_sha256": "533b82111244461e7e410d55c8f3e97b88977e3a78db099565bf6bd6f052eace"
+  },
+  {
+    "path": "media/hardware/prototype-in-use-02.jpg",
+    "source_name": "user_photo_2.jpg",
+    "source_sha256": "99a65adfc4da77518c000c592f9a477860e0af2d15ae86b870b662c75e82c31e",
+    "repository_sha256": "99a65adfc4da77518c000c592f9a477860e0af2d15ae86b870b662c75e82c31e"
+  },
+  {
+    "path": "hardware/design-records/drawing.png",
+    "source_name": "drawing.png",
+    "source_sha256": "e670cdd8d03f8ef5a00c979c820cce25d401b3ced823e924a1b91c72be2ff399",
+    "repository_sha256": "e670cdd8d03f8ef5a00c979c820cce25d401b3ced823e924a1b91c72be2ff399"
+  },
+  {
+    "path": "hardware/design-records/KU_Watch_Drawing.PDF",
+    "source_name": "KU_Watch_Drawing.PDF",
+    "source_sha256": "3984681199f68929959d5944c8fa5121ee2755d73bd247bebc71a3ff49325245",
+    "repository_sha256": "3984681199f68929959d5944c8fa5121ee2755d73bd247bebc71a3ff49325245"
+  },
+  {
+    "path": "hardware/design-records/KU_Watch_Schematic.pdf",
+    "source_name": "KU_Watch_Schematic.pdf",
+    "source_sha256": "2680916f5f74d604aca7a9d393a9a9bec5d4763133abaa456bc6746f40ae007a",
+    "repository_sha256": "2680916f5f74d604aca7a9d393a9a9bec5d4763133abaa456bc6746f40ae007a"
+  },
+  {
+    "path": "hardware/design-records/schematic.png",
+    "source_name": "schematic.png",
+    "source_sha256": "8ce65a1c15af0628ddfc1a8514b33cf445a12f4efb7b76248e436a47dc292e4e",
+    "repository_sha256": "8ce65a1c15af0628ddfc1a8514b33cf445a12f4efb7b76248e436a47dc292e4e"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_01.png",
+    "source_name": "Grafana_panel_01.png",
+    "source_sha256": "c51841fce7d629a9b9964193adad8ef52684ab700f98160c2d54855d9b0e8b05",
+    "repository_sha256": "c51841fce7d629a9b9964193adad8ef52684ab700f98160c2d54855d9b0e8b05"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_02.png",
+    "source_name": "Grafana_panel_02.png",
+    "source_sha256": "086f9ec1392c93d5e3a3bed9e16defecc398725c4bf673d094e6cda88a8a7063",
+    "repository_sha256": "086f9ec1392c93d5e3a3bed9e16defecc398725c4bf673d094e6cda88a8a7063"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_03.png",
+    "source_name": "Grafana_panel_03.png",
+    "source_sha256": "0e3f618a9cac611a5037018ee408cb1534fae9d2c3ebe1c774cac5318e8fa73e",
+    "repository_sha256": "0e3f618a9cac611a5037018ee408cb1534fae9d2c3ebe1c774cac5318e8fa73e"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_04.png",
+    "source_name": "Grafana_panel_04.png",
+    "source_sha256": "0f699e45b94a073f5f89eaa3ef5ad2e30ffb92f2860d86f72bd34f5c13f85e53",
+    "repository_sha256": "0f699e45b94a073f5f89eaa3ef5ad2e30ffb92f2860d86f72bd34f5c13f85e53"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_05.png",
+    "source_name": "Grafana_panel_05.png",
+    "source_sha256": "6a08107a1c9a85ef82e934576c9b168e3ae7a933feac5fefb2f417ccd6c29488",
+    "repository_sha256": "6a08107a1c9a85ef82e934576c9b168e3ae7a933feac5fefb2f417ccd6c29488"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_06.png",
+    "source_name": "Grafana_panel_06.png",
+    "source_sha256": "28756b1201ff6cf53e80470fe9806300ba1ff7bd97836784838ea867be844a8f",
+    "repository_sha256": "28756b1201ff6cf53e80470fe9806300ba1ff7bd97836784838ea867be844a8f"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_08.png",
+    "source_name": "Grafana_panel_08.png",
+    "source_sha256": "3ebce4ba0e8f1ac57889245433d05b3653f555a23fe785a5aa1e9215f4ffa10b",
+    "repository_sha256": "3ebce4ba0e8f1ac57889245433d05b3653f555a23fe785a5aa1e9215f4ffa10b"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_09.png",
+    "source_name": "Grafana_panel_09.png",
+    "source_sha256": "6377b83759dd904fb7ae62a5f3c94ca6cd65d7ba3369ca8aaea21b19f14773de",
+    "repository_sha256": "6377b83759dd904fb7ae62a5f3c94ca6cd65d7ba3369ca8aaea21b19f14773de"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_10.png",
+    "source_name": "Grafana_panel_10.png",
+    "source_sha256": "8197b1ba923ab37eec7020909243a15c356161ff20f70a937ab15a0e82f6eed5",
+    "repository_sha256": "8197b1ba923ab37eec7020909243a15c356161ff20f70a937ab15a0e82f6eed5"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_11.png",
+    "source_name": "Grafana_panel_11.png",
+    "source_sha256": "4036b02052c2ee5d5220bbe5113108d940fc72bf181065b368b3d9f1def4215f",
+    "repository_sha256": "4036b02052c2ee5d5220bbe5113108d940fc72bf181065b368b3d9f1def4215f"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_12.png",
+    "source_name": "Grafana_panel_12.png",
+    "source_sha256": "e32e06b3bc517e7e3aa5d3c478d9ff2d7ab1d71c6c8b4af426a5acd899ae5acb",
+    "repository_sha256": "e32e06b3bc517e7e3aa5d3c478d9ff2d7ab1d71c6c8b4af426a5acd899ae5acb"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_13.png",
+    "source_name": "Grafana_panel_13.png",
+    "source_sha256": "5dc8dd463f7e16a51a0a99de86d132f9675630cded317480fcaea5b8c1a5af7a",
+    "repository_sha256": "5dc8dd463f7e16a51a0a99de86d132f9675630cded317480fcaea5b8c1a5af7a"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_15.png",
+    "source_name": "Grafana_panel_15.png",
+    "source_sha256": "5b0fef76372673115954f649ff5c42c242c2e377ee75bbbc9c253f91e29892da",
+    "repository_sha256": "5b0fef76372673115954f649ff5c42c242c2e377ee75bbbc9c253f91e29892da"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_16.png",
+    "source_name": "Grafana_panel_16.png",
+    "source_sha256": "d2aa17f67b10b8e2a35330009a360a7d5a19b5fec392c057b1a1f7a9c5affd38",
+    "repository_sha256": "d2aa17f67b10b8e2a35330009a360a7d5a19b5fec392c057b1a1f7a9c5affd38"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_17.png",
+    "source_name": "Grafana_panel_17.png",
+    "source_sha256": "73f443776ff75d16cb4cdea358c4f813bde65ff7234a8434934b642ed731bc7d",
+    "repository_sha256": "73f443776ff75d16cb4cdea358c4f813bde65ff7234a8434934b642ed731bc7d"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_19.png",
+    "source_name": "Grafana_panel_19.png",
+    "source_sha256": "05ddc1a1bccd11ee73bd7f2c55425f18e64ed5d35cb17f5072dd03b49f40b386",
+    "repository_sha256": "05ddc1a1bccd11ee73bd7f2c55425f18e64ed5d35cb17f5072dd03b49f40b386"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_20.png",
+    "source_name": "Grafana_panel_20.png",
+    "source_sha256": "efdea6e4d62c3956c50851df19627d5daabc82d3229650ca7f3e5c0b6fee7900",
+    "repository_sha256": "efdea6e4d62c3956c50851df19627d5daabc82d3229650ca7f3e5c0b6fee7900"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_21.png",
+    "source_name": "Grafana_panel_21.png",
+    "source_sha256": "ae66bcd672be5737cb65908f3b60b478427372f6c0344e8352af2e8e068db9ec",
+    "repository_sha256": "ae66bcd672be5737cb65908f3b60b478427372f6c0344e8352af2e8e068db9ec"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_22.png",
+    "source_name": "Grafana_panel_22.png",
+    "source_sha256": "07b9833fdfa526cda69ee63e318b3a38c86f94ea41eb529da2e2d906a825fbf7",
+    "repository_sha256": "07b9833fdfa526cda69ee63e318b3a38c86f94ea41eb529da2e2d906a825fbf7"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_23.png",
+    "source_name": "Grafana_panel_23.png",
+    "source_sha256": "52c1a3e0ea4b54113e9cb418c002e9069ac298f670b9ad9260c5527b77a8638e",
+    "repository_sha256": "52c1a3e0ea4b54113e9cb418c002e9069ac298f670b9ad9260c5527b77a8638e"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_24.png",
+    "source_name": "Grafana_panel_24.png",
+    "source_sha256": "70ff8c57edc257d19de4e3e7884a895cdc39cf48c4dbd6700b0863b7d605cccf",
+    "repository_sha256": "70ff8c57edc257d19de4e3e7884a895cdc39cf48c4dbd6700b0863b7d605cccf"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_25.png",
+    "source_name": "Grafana_panel_25.png",
+    "source_sha256": "7733b1b9b40dc5feee5d63fd2722198a3f1688523ea4966a1ff15f719ea6bec9",
+    "repository_sha256": "7733b1b9b40dc5feee5d63fd2722198a3f1688523ea4966a1ff15f719ea6bec9"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_26.png",
+    "source_name": "Grafana_panel_26.png",
+    "source_sha256": "f0a80dcae76e3decf72dc09ac09ab1e925c3b335cf1ac9d79112760e9588aaac",
+    "repository_sha256": "f0a80dcae76e3decf72dc09ac09ab1e925c3b335cf1ac9d79112760e9588aaac"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_28.png",
+    "source_name": "Grafana_panel_28.png",
+    "source_sha256": "ba839229c88f097b50c61a375c66c2bb1aec9ea15f2ee12493d2a3ba54e856ee",
+    "repository_sha256": "ba839229c88f097b50c61a375c66c2bb1aec9ea15f2ee12493d2a3ba54e856ee"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_29.png",
+    "source_name": "Grafana_panel_29.png",
+    "source_sha256": "656bb237fb0fba242309f9af937063a08f75d4d1ab775c9aad5c5c575926e3d9",
+    "repository_sha256": "656bb237fb0fba242309f9af937063a08f75d4d1ab775c9aad5c5c575926e3d9"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_30.png",
+    "source_name": "Grafana_panel_30.png",
+    "source_sha256": "0f6a6e6faa0cb28e83a9652875355762ddb9e21a84cd64236b2f8b00e89aec1f",
+    "repository_sha256": "0f6a6e6faa0cb28e83a9652875355762ddb9e21a84cd64236b2f8b00e89aec1f"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_31.png",
+    "source_name": "Grafana_panel_31.png",
+    "source_sha256": "2ba80ea7eb583d885ae7e94f266e2d0a8b1ea2ccf12c8a38ab2340ba4774cb22",
+    "repository_sha256": "2ba80ea7eb583d885ae7e94f266e2d0a8b1ea2ccf12c8a38ab2340ba4774cb22"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_32.png",
+    "source_name": "Grafana_panel_32.png",
+    "source_sha256": "89d23bbd0626e36c0d241ba2ebae2fb0b1c8aa5ac8f6537828d9eac426115d92",
+    "repository_sha256": "89d23bbd0626e36c0d241ba2ebae2fb0b1c8aa5ac8f6537828d9eac426115d92"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_33.png",
+    "source_name": "Grafana_panel_33.png",
+    "source_sha256": "4bb7917179a2e9452eb388bd398ede02470417bde7665544cd66d24a4f312901",
+    "repository_sha256": "4bb7917179a2e9452eb388bd398ede02470417bde7665544cd66d24a4f312901"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_34.png",
+    "source_name": "Grafana_panel_34.png",
+    "source_sha256": "dd5ead7c3ae714debdb399806504dacb257d7bf73aef7a9052740b77481a21f4",
+    "repository_sha256": "dd5ead7c3ae714debdb399806504dacb257d7bf73aef7a9052740b77481a21f4"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_35.png",
+    "source_name": "Grafana_panel_35.png",
+    "source_sha256": "44e4fd7abda1fe88194e97f0f6c55712dec03ad7fa07534c44c879263db19aa5",
+    "repository_sha256": "44e4fd7abda1fe88194e97f0f6c55712dec03ad7fa07534c44c879263db19aa5"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_36.png",
+    "source_name": "Grafana_panel_36.png",
+    "source_sha256": "bb0fff25a55182bb6043fe6dda8e83f2adc88d96de9807b63dca474ef3edc3bd",
+    "repository_sha256": "bb0fff25a55182bb6043fe6dda8e83f2adc88d96de9807b63dca474ef3edc3bd"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_37.png",
+    "source_name": "Grafana_panel_37.png",
+    "source_sha256": "e9ec188bedad130ce59ccdcad949a5492bb4e97168338bf1f07d7995288b0426",
+    "repository_sha256": "e9ec188bedad130ce59ccdcad949a5492bb4e97168338bf1f07d7995288b0426"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_38.png",
+    "source_name": "Grafana_panel_38.png",
+    "source_sha256": "887b922d7525795e7004bb2adf223a1e30710e22b5358e0d88fe55d1fedeb7ad",
+    "repository_sha256": "887b922d7525795e7004bb2adf223a1e30710e22b5358e0d88fe55d1fedeb7ad"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_39.png",
+    "source_name": "Grafana_panel_39.png",
+    "source_sha256": "1dda598909e9029f7bb2fe73f9d29d1c0f426dd38afa79748154845d3c2b5489",
+    "repository_sha256": "1dda598909e9029f7bb2fe73f9d29d1c0f426dd38afa79748154845d3c2b5489"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_40.png",
+    "source_name": "Grafana_panel_40.png",
+    "source_sha256": "5b8a74edaa1df20594bcacba3af31af63b21aba8e886e871de995f53b9e788c3",
+    "repository_sha256": "5b8a74edaa1df20594bcacba3af31af63b21aba8e886e871de995f53b9e788c3"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_41.png",
+    "source_name": "Grafana_panel_41.png",
+    "source_sha256": "f9d2305a43073cc5e2567e2d600dcaa9ade09b4395be6b1e06c50a108328c430",
+    "repository_sha256": "f9d2305a43073cc5e2567e2d600dcaa9ade09b4395be6b1e06c50a108328c430"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_43.png",
+    "source_name": "Grafana_panel_43.png",
+    "source_sha256": "711c2d5225416281df719b3ff1a2e65afb5efa476670dbcd165b75e7f38eea83",
+    "repository_sha256": "711c2d5225416281df719b3ff1a2e65afb5efa476670dbcd165b75e7f38eea83"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_44.png",
+    "source_name": "Grafana_panel_44.png",
+    "source_sha256": "fc90d9d49d6ca5336b117d1d73c8b288ae03a031be0d2f7a357b08770f714b3c",
+    "repository_sha256": "fc90d9d49d6ca5336b117d1d73c8b288ae03a031be0d2f7a357b08770f714b3c"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_45.png",
+    "source_name": "Grafana_panel_45.png",
+    "source_sha256": "2ada3fe48f74c3f68860d4aebf679382a47b4a32a2284bcff2212233dcd2a877",
+    "repository_sha256": "2ada3fe48f74c3f68860d4aebf679382a47b4a32a2284bcff2212233dcd2a877"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_46.png",
+    "source_name": "Grafana_panel_46.png",
+    "source_sha256": "991e1f83fe986f62d5f75f9fe0959d61f1f4425e5678b6a26ae183c324bbea99",
+    "repository_sha256": "991e1f83fe986f62d5f75f9fe0959d61f1f4425e5678b6a26ae183c324bbea99"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_47.png",
+    "source_name": "Grafana_panel_47.png",
+    "source_sha256": "ea81d48f2f8350e1b2959211e3fac9f64336ddc3623aa5e727cbe133fbe294ec",
+    "repository_sha256": "ea81d48f2f8350e1b2959211e3fac9f64336ddc3623aa5e727cbe133fbe294ec"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_48.png",
+    "source_name": "Grafana_panel_48.png",
+    "source_sha256": "979ccc538a9806b7571b11f21bea5b7082c96409adb53488f72336a0bfbda02d",
+    "repository_sha256": "979ccc538a9806b7571b11f21bea5b7082c96409adb53488f72336a0bfbda02d"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_50.png",
+    "source_name": "Grafana_panel_50.png",
+    "source_sha256": "d2774bb23bb42fbe129575a7248c50a7721762b2e436445bc60ef620a54eb905",
+    "repository_sha256": "d2774bb23bb42fbe129575a7248c50a7721762b2e436445bc60ef620a54eb905"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_51.png",
+    "source_name": "Grafana_panel_51.png",
+    "source_sha256": "c45c5a80f1405eab32c478e0344f03c918fcfa9633979567244b0f11f505e325",
+    "repository_sha256": "c45c5a80f1405eab32c478e0344f03c918fcfa9633979567244b0f11f505e325"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_52.png",
+    "source_name": "Grafana_panel_52.png",
+    "source_sha256": "1f35fb4beb97afc6bd4244be7cf512ee24cf5db04fd8d43abcc4a1372709d34e",
+    "repository_sha256": "1f35fb4beb97afc6bd4244be7cf512ee24cf5db04fd8d43abcc4a1372709d34e"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_53.png",
+    "source_name": "Grafana_panel_53.png",
+    "source_sha256": "5ab6fce132c4edb9d7a9fa0b3bd8f8ceb2057493e125da9c08875e53c43ad2ef",
+    "repository_sha256": "5ab6fce132c4edb9d7a9fa0b3bd8f8ceb2057493e125da9c08875e53c43ad2ef"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_54.png",
+    "source_name": "Grafana_panel_54.png",
+    "source_sha256": "4294f52f301a1bea3424e0eb23c35be13e848cdbbe09778cef8cf612725edb2d",
+    "repository_sha256": "4294f52f301a1bea3424e0eb23c35be13e848cdbbe09778cef8cf612725edb2d"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_55.png",
+    "source_name": "Grafana_panel_55.png",
+    "source_sha256": "1d6ee479c49749d5b570e3b8681e5806608858a68369a34c6a27c429df49f000",
+    "repository_sha256": "1d6ee479c49749d5b570e3b8681e5806608858a68369a34c6a27c429df49f000"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_56.png",
+    "source_name": "Grafana_panel_56.png",
+    "source_sha256": "24ca61d75d61261a3d5e0d83048013a58b9a30ced9a425746db7a840b18a6757",
+    "repository_sha256": "24ca61d75d61261a3d5e0d83048013a58b9a30ced9a425746db7a840b18a6757"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_57.png",
+    "source_name": "Grafana_panel_57.png",
+    "source_sha256": "88a8751dc322171f78345fabdc2b069a9941c9a4caf580b7209914ac8d696935",
+    "repository_sha256": "88a8751dc322171f78345fabdc2b069a9941c9a4caf580b7209914ac8d696935"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_58.png",
+    "source_name": "Grafana_panel_58.png",
+    "source_sha256": "db31b7d24928ae3566059417ab221d0ca26834992b59f9d43b7a08cf2346b186",
+    "repository_sha256": "db31b7d24928ae3566059417ab221d0ca26834992b59f9d43b7a08cf2346b186"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_59.png",
+    "source_name": "Grafana_panel_59.png",
+    "source_sha256": "db780ba0e76aed6b6f43ad5b821623a4c428295da4c488b967509022282c5e82",
+    "repository_sha256": "db780ba0e76aed6b6f43ad5b821623a4c428295da4c488b967509022282c5e82"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_60.png",
+    "source_name": "Grafana_panel_60.png",
+    "source_sha256": "ba26d3446b36e07a4da628cbc7566995d7e3db4f34708570c83cb407cf237605",
+    "repository_sha256": "ba26d3446b36e07a4da628cbc7566995d7e3db4f34708570c83cb407cf237605"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_61.png",
+    "source_name": "Grafana_panel_61.png",
+    "source_sha256": "31f6289b57802aeb815ec2fca5089168b38654664ca8058231aae351f3c325e7",
+    "repository_sha256": "31f6289b57802aeb815ec2fca5089168b38654664ca8058231aae351f3c325e7"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_63.png",
+    "source_name": "Grafana_panel_63.png",
+    "source_sha256": "c11c7d44b990001b7b0e975dfe85d0751701f328384527e742bc4f0ef6cd886d",
+    "repository_sha256": "c11c7d44b990001b7b0e975dfe85d0751701f328384527e742bc4f0ef6cd886d"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_64.png",
+    "source_name": "Grafana_panel_64.png",
+    "source_sha256": "7aae54d0fceece25440a295b2ed8d55c5370092a222cb5d7f09f2be7ba134aab",
+    "repository_sha256": "7aae54d0fceece25440a295b2ed8d55c5370092a222cb5d7f09f2be7ba134aab"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_65.png",
+    "source_name": "Grafana_panel_65.png",
+    "source_sha256": "955d272c70a540d9d5787b881b7dc7c937782fd73ad6742c32f2a408c695704c",
+    "repository_sha256": "955d272c70a540d9d5787b881b7dc7c937782fd73ad6742c32f2a408c695704c"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_66.png",
+    "source_name": "Grafana_panel_66.png",
+    "source_sha256": "4537c6dcdcab1f8fe3eb89d9246d604e450140f31dac684f487ce747ce48c599",
+    "repository_sha256": "4537c6dcdcab1f8fe3eb89d9246d604e450140f31dac684f487ce747ce48c599"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_68.png",
+    "source_name": "Grafana_panel_68.png",
+    "source_sha256": "a84f517fe8989e57ca1cce505556d0c185953408e4aaebfa3aa7dc8ae2af1080",
+    "repository_sha256": "a84f517fe8989e57ca1cce505556d0c185953408e4aaebfa3aa7dc8ae2af1080"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_69.png",
+    "source_name": "Grafana_panel_69.png",
+    "source_sha256": "4cbb52cbf0ddd8c56f42aa0c56dbf0a3ad7af1fb75a67cd6e00d46bca086fe23",
+    "repository_sha256": "4cbb52cbf0ddd8c56f42aa0c56dbf0a3ad7af1fb75a67cd6e00d46bca086fe23"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_70.png",
+    "source_name": "Grafana_panel_70.png",
+    "source_sha256": "5820198fbf73fa379739a270c2b83426abf99df0f6e8d5434788b174935e177e",
+    "repository_sha256": "5820198fbf73fa379739a270c2b83426abf99df0f6e8d5434788b174935e177e"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_71.png",
+    "source_name": "Grafana_panel_71.png",
+    "source_sha256": "84c34f29cd79373668c09fa8f05240fc5b3385a7d580397f66e385df788e436e",
+    "repository_sha256": "84c34f29cd79373668c09fa8f05240fc5b3385a7d580397f66e385df788e436e"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_72.png",
+    "source_name": "Grafana_panel_72.png",
+    "source_sha256": "6bbeeb821dd32dc016a0ea38a9d7d853319dcb3e5033717d42b0c043317a9f3f",
+    "repository_sha256": "6bbeeb821dd32dc016a0ea38a9d7d853319dcb3e5033717d42b0c043317a9f3f"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_73.png",
+    "source_name": "Grafana_panel_73.png",
+    "source_sha256": "60dd359eb4c64461f8c0e65f910f3d0cfda0f75ab3d78fb65986b81300789509",
+    "repository_sha256": "60dd359eb4c64461f8c0e65f910f3d0cfda0f75ab3d78fb65986b81300789509"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_74.png",
+    "source_name": "Grafana_panel_74.png",
+    "source_sha256": "5a5c96ad794f7f91e30f305491bb6f8bff63a1ddcb884e4b6212e4128e5b78e9",
+    "repository_sha256": "5a5c96ad794f7f91e30f305491bb6f8bff63a1ddcb884e4b6212e4128e5b78e9"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_75.png",
+    "source_name": "Grafana_panel_75.png",
+    "source_sha256": "d6c80d6c73abd561b40f73d88cb9cb3431b9df3a8adccb8d591a66e0a5128336",
+    "repository_sha256": "d6c80d6c73abd561b40f73d88cb9cb3431b9df3a8adccb8d591a66e0a5128336"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_77.png",
+    "source_name": "Grafana_panel_77.png",
+    "source_sha256": "86981e144e18a3d9b00f6bc2a7c6bddddac718fc0930f0019f2b2c1e09bbd9ce",
+    "repository_sha256": "86981e144e18a3d9b00f6bc2a7c6bddddac718fc0930f0019f2b2c1e09bbd9ce"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_78.png",
+    "source_name": "Grafana_panel_78.png",
+    "source_sha256": "13993c2fbba7541995bcc0cf6a2ccde0b770b36056d264df9c80cf0ac7fda5cc",
+    "repository_sha256": "13993c2fbba7541995bcc0cf6a2ccde0b770b36056d264df9c80cf0ac7fda5cc"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_79.png",
+    "source_name": "Grafana_panel_79.png",
+    "source_sha256": "6886a83ddb53f3e0ac04059cb306cf6f47b6f2575070146decf1ba4bdcd8bc6e",
+    "repository_sha256": "6886a83ddb53f3e0ac04059cb306cf6f47b6f2575070146decf1ba4bdcd8bc6e"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_80.png",
+    "source_name": "Grafana_panel_80.png",
+    "source_sha256": "b06c7f119488cd7ce11c4f22e87b82a21b5c1bd2a78b3215bdefab5cd261872b",
+    "repository_sha256": "b06c7f119488cd7ce11c4f22e87b82a21b5c1bd2a78b3215bdefab5cd261872b"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_81.png",
+    "source_name": "Grafana_panel_81.png",
+    "source_sha256": "0326ddec3b39e8266a39466dbe559bde0e574203c3585254ed41f671e25609e2",
+    "repository_sha256": "0326ddec3b39e8266a39466dbe559bde0e574203c3585254ed41f671e25609e2"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_82.png",
+    "source_name": "Grafana_panel_82.png",
+    "source_sha256": "26fb9a6a8dc17a1e4f127b10e4205ce81e1d179492a4c940ecca4a10612a387d",
+    "repository_sha256": "26fb9a6a8dc17a1e4f127b10e4205ce81e1d179492a4c940ecca4a10612a387d"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_84.png",
+    "source_name": "Grafana_panel_84.png",
+    "source_sha256": "a4652938118598672fef46d5f29a97de73705cc47698a95a7d3b8d0fbf48f7e5",
+    "repository_sha256": "a4652938118598672fef46d5f29a97de73705cc47698a95a7d3b8d0fbf48f7e5"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_85.png",
+    "source_name": "Grafana_panel_85.png",
+    "source_sha256": "c1c9fe62285189cd5563f5c3ca9d631f9980f3ec5f7116ec6403b8e60c554030",
+    "repository_sha256": "c1c9fe62285189cd5563f5c3ca9d631f9980f3ec5f7116ec6403b8e60c554030"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_87.png",
+    "source_name": "Grafana_panel_87.png",
+    "source_sha256": "dd48762ad4420779a777fbdaabd0280a7e512c54f9ee4c369e34d409c7a7da36",
+    "repository_sha256": "dd48762ad4420779a777fbdaabd0280a7e512c54f9ee4c369e34d409c7a7da36"
+  },
+  {
+    "path": "media/dashboards/grafana/Grafana_panel_88.png",
+    "source_name": "Grafana_panel_88.png",
+    "source_sha256": "d4a99ef55e15417f709246cfb90ba872ba5ac62da53af8be5a0a5cec3789776f",
+    "repository_sha256": "d4a99ef55e15417f709246cfb90ba872ba5ac62da53af8be5a0a5cec3789776f"
+  },
+  {
+    "path": "media/dashboards/node-red/NodeRED_group_02.png",
+    "source_name": "NodeRED_group_02.png",
+    "source_sha256": "49c586c398bc1672bdf56fd0dde62f8471a6577888705f3d27475bbd799271bb",
+    "repository_sha256": "49c586c398bc1672bdf56fd0dde62f8471a6577888705f3d27475bbd799271bb"
+  },
+  {
+    "path": "media/dashboards/node-red/NodeRED_group_03.png",
+    "source_name": "NodeRED_group_03.png",
+    "source_sha256": "1fe059ada5ad842a28fd361ea05d9ae8f697ae2176d3e8ed870cff1ce500fcc5",
+    "repository_sha256": "1fe059ada5ad842a28fd361ea05d9ae8f697ae2176d3e8ed870cff1ce500fcc5"
+  },
+  {
+    "path": "media/dashboards/node-red/NodeRED_group_04.png",
+    "source_name": "NodeRED_group_04.png",
+    "source_sha256": "08f26e815b04019e1dfd679be0d3e6ce219dd60e5b8f6329a37b29bb31c4f27d",
+    "repository_sha256": "08f26e815b04019e1dfd679be0d3e6ce219dd60e5b8f6329a37b29bb31c4f27d"
+  },
+  {
+    "path": "media/dashboards/node-red/NodeRED_group_05.png",
+    "source_name": "NodeRED_group_05.png",
+    "source_sha256": "44402d324ca175544b3fa0506ee1489633ce2bdb22d33a10ef90683f3a017c35",
+    "repository_sha256": "44402d324ca175544b3fa0506ee1489633ce2bdb22d33a10ef90683f3a017c35"
+  },
+  {
+    "path": "media/dashboards/node-red/NodeRED_group_06.png",
+    "source_name": "NodeRED_group_06.png",
+    "source_sha256": "7d780b4a47c953f62468f73cbfef866f076ea7cf3a5964d8b465654e70a4b60a",
+    "repository_sha256": "7d780b4a47c953f62468f73cbfef866f076ea7cf3a5964d8b465654e70a4b60a"
+  },
+  {
+    "path": "media/dashboards/node-red/NodeRED_group_07.png",
+    "source_name": "NodeRED_group_07.png",
+    "source_sha256": "cb98f9da6f3060b34556830bbf55918ae653d44b6ef0f66a05cb1e9d273254b7",
+    "repository_sha256": "cb98f9da6f3060b34556830bbf55918ae653d44b6ef0f66a05cb1e9d273254b7"
+  },
+  {
+    "path": "media/dashboards/node-red/NodeRED_group_08.png",
+    "source_name": "NodeRED_group_08.png",
+    "source_sha256": "ca8f47ac77f7fb9177f05141ff7838cad39f50984c37dec4741c2514993b26d1",
+    "repository_sha256": "ca8f47ac77f7fb9177f05141ff7838cad39f50984c37dec4741c2514993b26d1"
+  },
+  {
+    "path": "media/dashboards/backend/Influx_counts.png",
+    "source_name": "Influx_counts.png",
+    "source_sha256": "d222a8bfa1c4fd4bd8ce087130dd2b20909e3b7708c81f621c2005e23f1f9d8c",
+    "repository_sha256": "d222a8bfa1c4fd4bd8ce087130dd2b20909e3b7708c81f621c2005e23f1f9d8c"
+  },
+  {
+    "path": "media/dashboards/backend/Influx_rows.png",
+    "source_name": "Influx_rows.png",
+    "source_sha256": "6e8af84743ffe3ed3fea43a604aa399154f0b6557e5d44cadfd13fe49295242d",
+    "repository_sha256": "6e8af84743ffe3ed3fea43a604aa399154f0b6557e5d44cadfd13fe49295242d"
+  },
+  {
+    "path": "media/dashboards/backend/NodeRED_flow_fit.png",
+    "source_name": "NodeRED_flow_fit.png",
+    "source_sha256": "0c3acf0b70958623dd9b654654febdcd718659d49e4c819dc237dbf944c8a36b",
+    "repository_sha256": "0c3acf0b70958623dd9b654654febdcd718659d49e4c819dc237dbf944c8a36b"
+  },
+  {
+    "path": "media/dashboards/backend/WatchPreview_original.jpg",
+    "source_name": "WatchPreview_original.jpg",
+    "source_sha256": "a64b3e9c96db2dd6469e849b8b0597082439cd328b5cb16689877e5dc7a3b1a3",
+    "repository_sha256": "a64b3e9c96db2dd6469e849b8b0597082439cd328b5cb16689877e5dc7a3b1a3"
+  },
+  {
+    "path": "media/dashboards/session-2026-10-16/Grafana_acceleration.png",
+    "source_name": "Grafana_acceleration.png",
+    "source_sha256": "d42eb48fd3c4101e232e96089001c0c46e9cca281f8a232f6015901855ebde3e",
+    "repository_sha256": "d42eb48fd3c4101e232e96089001c0c46e9cca281f8a232f6015901855ebde3e"
+  },
+  {
+    "path": "media/dashboards/session-2026-10-16/Grafana_battery_voltage.png",
+    "source_name": "Grafana_battery_voltage.png",
+    "source_sha256": "90039f5efdd91500f89505c2303d10b23502a7cc241f76cf294ee76f1f622e94",
+    "repository_sha256": "90039f5efdd91500f89505c2303d10b23502a7cc241f76cf294ee76f1f622e94"
+  },
+  {
+    "path": "media/dashboards/session-2026-10-16/Grafana_humidity.png",
+    "source_name": "Grafana_humidity.png",
+    "source_sha256": "016e8c3f0ec91edc6092430728d261ca5bce8ee9913f1ebe42700b4a1571b24a",
+    "repository_sha256": "016e8c3f0ec91edc6092430728d261ca5bce8ee9913f1ebe42700b4a1571b24a"
+  },
+  {
+    "path": "media/dashboards/session-2026-10-16/Grafana_iaq.png",
+    "source_name": "Grafana_iaq.png",
+    "source_sha256": "8397a943fa2c2356213bb7cb17aab40fece12feeb433138ef6f3561539c64ddb",
+    "repository_sha256": "8397a943fa2c2356213bb7cb17aab40fece12feeb433138ef6f3561539c64ddb"
+  },
+  {
+    "path": "media/dashboards/session-2026-10-16/Grafana_iaq_alert.png",
+    "source_name": "Grafana_iaq_alert.png",
+    "source_sha256": "9c0194067ade1f06b8fd52f4f2d88dfa0d7c8b4ed4ed79c5e4bcc52899dd7ebd",
+    "repository_sha256": "9c0194067ade1f06b8fd52f4f2d88dfa0d7c8b4ed4ed79c5e4bcc52899dd7ebd"
+  },
+  {
+    "path": "media/dashboards/session-2026-10-16/Grafana_live_0s.png",
+    "source_name": "Grafana_live_0s.png",
+    "source_sha256": "012db40d7c49da1f250ff57f4402ef25bfd254828007b920b09162de1621cab1",
+    "repository_sha256": "012db40d7c49da1f250ff57f4402ef25bfd254828007b920b09162de1621cab1"
+  },
+  {
+    "path": "media/dashboards/session-2026-10-16/Grafana_live_50s.png",
+    "source_name": "Grafana_live_50s.png",
+    "source_sha256": "0d34f2252d1faf229bb3026e64b31683b319f265c77a65627facce9e65f83125",
+    "repository_sha256": "0d34f2252d1faf229bb3026e64b31683b319f265c77a65627facce9e65f83125"
+  },
+  {
+    "path": "media/dashboards/session-2026-10-16/Grafana_temperature.png",
+    "source_name": "Grafana_temperature.png",
+    "source_sha256": "42a6542f99c405dbf4e3162b1d24c457545b5774b85911207a511de340657964",
+    "repository_sha256": "42a6542f99c405dbf4e3162b1d24c457545b5774b85911207a511de340657964"
+  },
+  {
+    "path": "media/dashboards/session-2026-10-16/Influx_actual_counts.png",
+    "source_name": "Influx_actual_counts.png",
+    "source_sha256": "0449f645e812b3b7d748050a86bdfe9cb9a34042ee8f1cd5fae4931076f627a9",
+    "repository_sha256": "0449f645e812b3b7d748050a86bdfe9cb9a34042ee8f1cd5fae4931076f627a9"
+  },
+  {
+    "path": "media/dashboards/session-2026-10-16/Influx_actual_rows.png",
+    "source_name": "Influx_actual_rows.png",
+    "source_sha256": "e5ce25ab636f9f238e0284e600807a834779af1c2000491cffc4735ca9902c07",
+    "repository_sha256": "e5ce25ab636f9f238e0284e600807a834779af1c2000491cffc4735ca9902c07"
+  },
+  {
+    "path": "media/dashboards/session-2026-10-16/NodeRED_0s.png",
+    "source_name": "NodeRED_0s.png",
+    "source_sha256": "ec61270f8f78f3e56bc1c3c6385af5cc5bb22d0539735c690fde9b2b90baf283",
+    "repository_sha256": "ec61270f8f78f3e56bc1c3c6385af5cc5bb22d0539735c690fde9b2b90baf283"
+  },
+  {
+    "path": "media/dashboards/session-2026-10-16/NodeRED_50s.png",
+    "source_name": "NodeRED_50s.png",
+    "source_sha256": "823b654e85cd33a5e1284317d729e6db16c287e0f1c4e70b9eae1258f4f9be16",
+    "repository_sha256": "823b654e85cd33a5e1284317d729e6db16c287e0f1c4e70b9eae1258f4f9be16"
+  },
+  {
+    "path": "media/dashboards/session-2026-10-16/NodeRED_actual_flow.png",
+    "source_name": "NodeRED_actual_flow.png",
+    "source_sha256": "e976db5aa564bfae86722b0d4d60232447aad3cb5c71beb62054ed0bccc4e35c",
+    "repository_sha256": "e976db5aa564bfae86722b0d4d60232447aad3cb5c71beb62054ed0bccc4e35c"
+  },
+  {
+    "path": "media/videos/pulse-demo.mp4",
+    "source_name": "ทดสอบค่าBPM.mp4",
+    "source_sha256": "1f455bcda869bf218b80cffa64ee3cef929c00925da34f248df2a0693aeae51a",
+    "repository_sha256": "1f455bcda869bf218b80cffa64ee3cef929c00925da34f248df2a0693aeae51a"
+  },
+  {
+    "path": "media/videos/network-connection-demo.mp4",
+    "source_name": "ทดสอบเน็ต (เช็คว่ามันเชื่อมต่อกันได้มั้ยพร้อมตั้งค่าได้ผ่านip.mp4",
+    "source_sha256": "d24588fe40e149e2e1be3173a89308a2892a94076717561f6d424e617e524ac5",
+    "repository_sha256": "d24588fe40e149e2e1be3173a89308a2892a94076717561f6d424e617e524ac5"
+  },
+  {
+    "path": "media/videos/motion-demo.mp4",
+    "source_name": "ทดสอบไจโรเซ็นเซอร์.mp4",
+    "source_sha256": "c967f64950a686569b39819edb09f4ebe1f655d91235feafa3d84d75f36b339c",
+    "repository_sha256": "c967f64950a686569b39819edb09f4ebe1f655d91235feafa3d84d75f36b339c"
+  },
+  {
+    "path": "media/videos/walking-and-gps-demo.mp4",
+    "source_name": "สุดท้ายเป็นทดสอบการเดิน+GPSมีเก็บแมพ.mp4",
+    "source_sha256": "60694b2173655e6dd36f5368a7ffd79eb5763515ac39a931aee87de3980eec7e",
+    "repository_sha256": "60694b2173655e6dd36f5368a7ffd79eb5763515ac39a931aee87de3980eec7e"
+  },
+  {
+    "path": "media/videos/environment-demo.mp4",
+    "source_name": "เช็คอุณหภูมิต่าง.mp4",
+    "source_sha256": "27110c2296a85f294acce070741b2b3034fac9207867428f6f77c2f87f92505b",
+    "repository_sha256": "27110c2296a85f294acce070741b2b3034fac9207867428f6f77c2f87f92505b"
+  },
+  {
+    "path": "media/videos/grafana-live-60s.mp4",
+    "source_name": "Grafana_สด_16ตุลา2569_60วินาที.mp4",
+    "source_sha256": "de578953b575b79e2e5bbfae64772bcb21e68f8a403bb69d920d19e7a9b1bcff",
+    "repository_sha256": "de578953b575b79e2e5bbfae64772bcb21e68f8a403bb69d920d19e7a9b1bcff"
+  },
+  {
+    "path": "media/videos/node-red-recovery-60s.mp4",
+    "source_name": "NodeRED_หลังกลับออนไลน์_16ตุลา2569_60วินาที.mp4",
+    "source_sha256": "a4cee54c9cd6f73b947a92b8a98f07366f4577304260e795396ebaa7b76907ea",
+    "repository_sha256": "a4cee54c9cd6f73b947a92b8a98f07366f4577304260e795396ebaa7b76907ea"
+  },
+  {
+    "path": "media/videos/development-prototype-30s.mp4",
+    "source_name": "KU_Watch_ต้นแบบระหว่างพัฒนา_30วินาที.mp4",
+    "source_sha256": "67a98189f390596d608c9096d7efe6f15904e41a7bbdd5b369bc34a02ae83a36",
+    "repository_sha256": "67a98189f390596d608c9096d7efe6f15904e41a7bbdd5b369bc34a02ae83a36"
+  },
+  {
+    "path": "media/videos/fr06-alert-test-2.0.15.mp4",
+    "source_name": "FR06_2.0.15_Actual_Browser_Test.mp4",
+    "source_sha256": "576f7682a385b77a0546028adcf8a8a197d84c6eeb5f07e112752891f62be6ae",
+    "repository_sha256": "576f7682a385b77a0546028adcf8a8a197d84c6eeb5f07e112752891f62be6ae"
+  }
+]

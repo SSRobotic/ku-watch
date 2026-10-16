@@ -1,0 +1,43 @@
+{
+  "boundary": "Read-only real MQTT telemetry; computer and device must remain powered; not a full-charge battery test",
+  "pid": 38304,
+  "status": "running",
+  "started_utc": "2026-10-10T13:54:44.445Z",
+  "target_hours": 24,
+  "samples": 4163,
+  "malformed": 0,
+  "duplicates": 1,
+  "gaps": 0,
+  "missing_sequences": 0,
+  "sessions": 1,
+  "connections": 1,
+  "disconnects": 0,
+  "max_receive_gap_ms": 3696.3563999999315,
+  "battery_start": 90,
+  "battery_latest": 90,
+  "battery_min": 90,
+  "low_battery_seen": false,
+  "versions": [
+    "2.0.8"
+  ],
+  "sensor_ready_counts": {
+    "env_live": 4163,
+    "pulse_live": 0,
+    "acc_live": 4163,
+    "mag_live": 4163,
+    "iaq_valid": 4163,
+    "battery_valid": 4163
+  },
+  "first_sample_utc": "2026-10-10T13:54:46.037Z",
+  "last_sample_utc": "2026-10-10T15:04:07.456Z",
+  "timing_basis": "Monotonic elapsed time; maximum gap includes leading/trailing silence",
+  "continuity_pass": false,
+  "stop_on_failure": true,
+  "backfill_samples": 0,
+  "last_backfill": null,
+  "last_live_sample_id": "8d3c769b-000024c9",
+  "gap_details": [],
+  "observed_hours": 1.15644108625,
+  "leading_receive_gap_ms": 1588.0497999999998,
+  "trailing_receive_gap_ms": 180.91600000020117
+}

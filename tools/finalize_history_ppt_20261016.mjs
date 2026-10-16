@@ -1,0 +1,12 @@
+import fs from 'node:fs/promises';import path from 'node:path';import {pathToFileURL} from 'node:url';import crypto from 'node:crypto';
+const root='C:/Users/pomma/OneDrive/Desktop/02_Projects/KU_Watch_Display_First';
+const runtime='C:/Users/pomma/.cache/codex-runtimes/codex-primary-runtime/dependencies';
+const skill='C:/Users/pomma/.codex/plugins/cache/openai-primary-runtime/presentations/26.1013.11914/skills/presentations';
+process.env.RUNTIME_NODE_MODULES=path.join(runtime,'node/node_modules');
+const {finalizePresentation}=await import(pathToFileURL(path.join(skill,'container_tools/artifact_tool_utils.mjs')).href);
+const base=path.join(root,'output/ppt_history_v2_20261016'),build=path.join(base,'build'),out=path.join(base,'deliverable');await fs.mkdir(out,{recursive:true});
+const plan=JSON.parse(await fs.readFile(path.join(build,'additions_plan.json'),'utf8'));
+const tables=[3,6,7,13,14,30,31,32,66];
+const final=path.join(out,'KU_Watch_นำเสนอพร้อมภาพพัฒนาการ_v2.pptx');
+const result=await finalizePresentation({workspaceDir:root,candidatePath:path.join(build,'normalized_candidate.pptx'),finalPath:final,pythonExecutable:path.join(runtime,'python/python.exe'),integrityValidatorPath:path.join(skill,'container_tools/inspect_presentation_package_integrity.py'),layoutValidatorPath:path.join(skill,'container_tools/inspect_presentation_layout_geometry.py'),layoutArgs:['--expected-slide-size-emu','18288000,10287000','--validate-heading-fit',...tables.flatMap(n=>['--require-native-table-slide',String(n)])],fontPolicy:{basis:'reference',families:['Leelawadee UI'],referencePath:plan.source,referenceSha256:crypto.createHash('sha256').update(await fs.readFile(plan.source)).digest('hex')},explicitTotalSlideCount:plan.total_slides,requiredNativeTableOwnerSlides:tables,verifyArtifactToolImport:true,receiptPath:path.join(build,'final_validation_ready.json')});
+console.log(JSON.stringify({final,slides:result.presentationLayout.slide_count,sha256:result.finalSha256,package_findings:result.packageIntegrity.findingCount,layout_findings:result.presentationLayout.findingCount,import_passed:result.firstPartyImport.passed}));

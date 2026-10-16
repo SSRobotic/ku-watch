@@ -1,0 +1,31 @@
+{
+  "boundary": "Five real trusted captures; identical first capture re-enqueued twice; actual SQL distinct point counts",
+  "sample_count": 5,
+  "replay_statuses": [
+    202,
+    202
+  ],
+  "rows": [
+    {
+      "sample_id": "55bc900d-000007c5",
+      "rows": 1
+    },
+    {
+      "sample_id": "55bc900d-000007c9",
+      "rows": 1
+    },
+    {
+      "sample_id": "55bc900d-000007c6",
+      "rows": 1
+    },
+    {
+      "sample_id": "55bc900d-000007c8",
+      "rows": 1
+    },
+    {
+      "sample_id": "55bc900d-000007c7",
+      "rows": 1
+    }
+  ],
+  "passed": true
+}

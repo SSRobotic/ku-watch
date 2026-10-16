@@ -1,0 +1,2133 @@
+{
+  "requirement": "FR-03",
+  "duration_s": 300,
+  "topic": "ku/iot/ku_watch/ku-watch-449205d4/env",
+  "subscription_qos": 1,
+  "connected": true,
+  "packets": 300,
+  "live": 300,
+  "backfill": 0,
+  "duplicates": 0,
+  "malformed": 0,
+  "disconnects": 0,
+  "sequence_gaps": 0,
+  "sessions": 1,
+  "status_versions": [
+    "2.0.9"
+  ],
+  "samples": [
+    {
+      "id": "17f02ea7-00000398",
+      "receive_ms": 229,
+      "uptime_ms": 927068,
+      "capture_utc": 1792138904,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000399",
+      "receive_ms": 515,
+      "uptime_ms": 928303,
+      "capture_utc": 1792138905,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000039a",
+      "receive_ms": 1534,
+      "uptime_ms": 929016,
+      "capture_utc": 1792138906,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000039b",
+      "receive_ms": 2816,
+      "uptime_ms": 930266,
+      "capture_utc": 1792138907,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000039c",
+      "receive_ms": 4098,
+      "uptime_ms": 931008,
+      "capture_utc": 1792138908,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000039d",
+      "receive_ms": 4347,
+      "uptime_ms": 932321,
+      "capture_utc": 1792138909,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000039e",
+      "receive_ms": 5661,
+      "uptime_ms": 933046,
+      "capture_utc": 1792138910,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000039f",
+      "receive_ms": 6908,
+      "uptime_ms": 934349,
+      "capture_utc": 1792138911,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003a0",
+      "receive_ms": 8175,
+      "uptime_ms": 935128,
+      "capture_utc": 1792138912,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003a1",
+      "receive_ms": 9472,
+      "uptime_ms": 936446,
+      "capture_utc": 1792138914,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003a2",
+      "receive_ms": 9720,
+      "uptime_ms": 937283,
+      "capture_utc": 1792138914,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003a3",
+      "receive_ms": 11005,
+      "uptime_ms": 938058,
+      "capture_utc": 1792138915,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003a4",
+      "receive_ms": 12275,
+      "uptime_ms": 939364,
+      "capture_utc": 1792138916,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003a5",
+      "receive_ms": 12528,
+      "uptime_ms": 940134,
+      "capture_utc": 1792138917,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003a6",
+      "receive_ms": 13788,
+      "uptime_ms": 941039,
+      "capture_utc": 1792138918,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003a7",
+      "receive_ms": 15057,
+      "uptime_ms": 942317,
+      "capture_utc": 1792138919,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003a8",
+      "receive_ms": 15341,
+      "uptime_ms": 943003,
+      "capture_utc": 1792138920,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003a9",
+      "receive_ms": 16598,
+      "uptime_ms": 944279,
+      "capture_utc": 1792138921,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003aa",
+      "receive_ms": 17872,
+      "uptime_ms": 945561,
+      "capture_utc": 1792138923,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003ab",
+      "receive_ms": 19169,
+      "uptime_ms": 946280,
+      "capture_utc": 1792138923,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003ac",
+      "receive_ms": 19436,
+      "uptime_ms": 947126,
+      "capture_utc": 1792138924,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003ad",
+      "receive_ms": 20709,
+      "uptime_ms": 948430,
+      "capture_utc": 1792138926,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003ae",
+      "receive_ms": 21964,
+      "uptime_ms": 949164,
+      "capture_utc": 1792138926,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003af",
+      "receive_ms": 23244,
+      "uptime_ms": 950500,
+      "capture_utc": 1792138928,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003b0",
+      "receive_ms": 24501,
+      "uptime_ms": 951253,
+      "capture_utc": 1792138928,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003b1",
+      "receive_ms": 24761,
+      "uptime_ms": 952107,
+      "capture_utc": 1792138929,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003b2",
+      "receive_ms": 26053,
+      "uptime_ms": 953465,
+      "capture_utc": 1792138931,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003b3",
+      "receive_ms": 27320,
+      "uptime_ms": 954241,
+      "capture_utc": 1792138931,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003b4",
+      "receive_ms": 27589,
+      "uptime_ms": 955102,
+      "capture_utc": 1792138932,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003b5",
+      "receive_ms": 28860,
+      "uptime_ms": 956373,
+      "capture_utc": 1792138933,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003b6",
+      "receive_ms": 29157,
+      "uptime_ms": 957144,
+      "capture_utc": 1792138934,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003b7",
+      "receive_ms": 30437,
+      "uptime_ms": 958409,
+      "capture_utc": 1792138936,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003b8",
+      "receive_ms": 31694,
+      "uptime_ms": 959142,
+      "capture_utc": 1792138936,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003b9",
+      "receive_ms": 32977,
+      "uptime_ms": 960402,
+      "capture_utc": 1792138937,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003ba",
+      "receive_ms": 34257,
+      "uptime_ms": 961158,
+      "capture_utc": 1792138938,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003bb",
+      "receive_ms": 35537,
+      "uptime_ms": 962561,
+      "capture_utc": 1792138940,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003bc",
+      "receive_ms": 35792,
+      "uptime_ms": 963310,
+      "capture_utc": 1792138940,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003bd",
+      "receive_ms": 37060,
+      "uptime_ms": 964042,
+      "capture_utc": 1792138941,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003be",
+      "receive_ms": 38328,
+      "uptime_ms": 965360,
+      "capture_utc": 1792138942,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003bf",
+      "receive_ms": 38582,
+      "uptime_ms": 966138,
+      "capture_utc": 1792138943,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003c0",
+      "receive_ms": 39900,
+      "uptime_ms": 967576,
+      "capture_utc": 1792138945,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003c1",
+      "receive_ms": 41141,
+      "uptime_ms": 968383,
+      "capture_utc": 1792138945,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003c2",
+      "receive_ms": 41415,
+      "uptime_ms": 969265,
+      "capture_utc": 1792138946,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003c3",
+      "receive_ms": 42663,
+      "uptime_ms": 970549,
+      "capture_utc": 1792138948,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003c4",
+      "receive_ms": 43950,
+      "uptime_ms": 971270,
+      "capture_utc": 1792138948,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003c5",
+      "receive_ms": 44200,
+      "uptime_ms": 972032,
+      "capture_utc": 1792138949,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003c6",
+      "receive_ms": 45465,
+      "uptime_ms": 973360,
+      "capture_utc": 1792138950,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003c7",
+      "receive_ms": 46759,
+      "uptime_ms": 974094,
+      "capture_utc": 1792138951,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003c8",
+      "receive_ms": 48023,
+      "uptime_ms": 975382,
+      "capture_utc": 1792138952,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003c9",
+      "receive_ms": 49349,
+      "uptime_ms": 976100,
+      "capture_utc": 1792138953,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003ca",
+      "receive_ms": 49728,
+      "uptime_ms": 977506,
+      "capture_utc": 1792138955,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003cb",
+      "receive_ms": 51000,
+      "uptime_ms": 978285,
+      "capture_utc": 1792138955,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003cc",
+      "receive_ms": 51248,
+      "uptime_ms": 979066,
+      "capture_utc": 1792138956,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003cd",
+      "receive_ms": 52526,
+      "uptime_ms": 980403,
+      "capture_utc": 1792138958,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003ce",
+      "receive_ms": 53794,
+      "uptime_ms": 981212,
+      "capture_utc": 1792138958,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003cf",
+      "receive_ms": 54048,
+      "uptime_ms": 982107,
+      "capture_utc": 1792138959,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003d0",
+      "receive_ms": 56339,
+      "uptime_ms": 983388,
+      "capture_utc": 1792138960,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003d1",
+      "receive_ms": 56595,
+      "uptime_ms": 984097,
+      "capture_utc": 1792138961,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003d2",
+      "receive_ms": 57869,
+      "uptime_ms": 985380,
+      "capture_utc": 1792138962,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003d3",
+      "receive_ms": 59133,
+      "uptime_ms": 986096,
+      "capture_utc": 1792138963,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003d4",
+      "receive_ms": 60481,
+      "uptime_ms": 987407,
+      "capture_utc": 1792138965,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003d5",
+      "receive_ms": 60900,
+      "uptime_ms": 988126,
+      "capture_utc": 1792138965,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003d6",
+      "receive_ms": 62327,
+      "uptime_ms": 989483,
+      "capture_utc": 1792138967,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003d7",
+      "receive_ms": 62641,
+      "uptime_ms": 990231,
+      "capture_utc": 1792138967,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003d8",
+      "receive_ms": 64769,
+      "uptime_ms": 991563,
+      "capture_utc": 1792138969,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003d9",
+      "receive_ms": 65076,
+      "uptime_ms": 992402,
+      "capture_utc": 1792138969,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003da",
+      "receive_ms": 66334,
+      "uptime_ms": 993174,
+      "capture_utc": 1792138970,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003db",
+      "receive_ms": 67624,
+      "uptime_ms": 994510,
+      "capture_utc": 1792138972,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003dc",
+      "receive_ms": 67879,
+      "uptime_ms": 995307,
+      "capture_utc": 1792138972,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003dd",
+      "receive_ms": 69137,
+      "uptime_ms": 996181,
+      "capture_utc": 1792138973,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003de",
+      "receive_ms": 70419,
+      "uptime_ms": 997464,
+      "capture_utc": 1792138975,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003df",
+      "receive_ms": 70683,
+      "uptime_ms": 998164,
+      "capture_utc": 1792138975,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003e0",
+      "receive_ms": 71945,
+      "uptime_ms": 999439,
+      "capture_utc": 1792138977,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003e1",
+      "receive_ms": 72205,
+      "uptime_ms": 1000196,
+      "capture_utc": 1792138977,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003e2",
+      "receive_ms": 74474,
+      "uptime_ms": 1001485,
+      "capture_utc": 1792138979,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003e3",
+      "receive_ms": 74755,
+      "uptime_ms": 1002260,
+      "capture_utc": 1792138979,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003e4",
+      "receive_ms": 76029,
+      "uptime_ms": 1003607,
+      "capture_utc": 1792138981,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003e5",
+      "receive_ms": 77307,
+      "uptime_ms": 1004355,
+      "capture_utc": 1792138981,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003e6",
+      "receive_ms": 77572,
+      "uptime_ms": 1005153,
+      "capture_utc": 1792138982,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003e7",
+      "receive_ms": 78839,
+      "uptime_ms": 1006465,
+      "capture_utc": 1792138984,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003e8",
+      "receive_ms": 80111,
+      "uptime_ms": 1007294,
+      "capture_utc": 1792138984,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003e9",
+      "receive_ms": 80373,
+      "uptime_ms": 1008072,
+      "capture_utc": 1792138985,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003ea",
+      "receive_ms": 82662,
+      "uptime_ms": 1009394,
+      "capture_utc": 1792138986,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003eb",
+      "receive_ms": 82987,
+      "uptime_ms": 1010274,
+      "capture_utc": 1792138987,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003ec",
+      "receive_ms": 84248,
+      "uptime_ms": 1011589,
+      "capture_utc": 1792138989,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003ed",
+      "receive_ms": 84560,
+      "uptime_ms": 1012310,
+      "capture_utc": 1792138989,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003ee",
+      "receive_ms": 85779,
+      "uptime_ms": 1013061,
+      "capture_utc": 1792138990,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003ef",
+      "receive_ms": 87076,
+      "uptime_ms": 1014324,
+      "capture_utc": 1792138991,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003f0",
+      "receive_ms": 87360,
+      "uptime_ms": 1015041,
+      "capture_utc": 1792138992,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003f1",
+      "receive_ms": 88686,
+      "uptime_ms": 1016385,
+      "capture_utc": 1792138993,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003f2",
+      "receive_ms": 89968,
+      "uptime_ms": 1017179,
+      "capture_utc": 1792138994,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003f3",
+      "receive_ms": 91251,
+      "uptime_ms": 1018472,
+      "capture_utc": 1792138996,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003f4",
+      "receive_ms": 91536,
+      "uptime_ms": 1019224,
+      "capture_utc": 1792138996,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003f5",
+      "receive_ms": 92810,
+      "uptime_ms": 1020552,
+      "capture_utc": 1792138998,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003f6",
+      "receive_ms": 94264,
+      "uptime_ms": 1021335,
+      "capture_utc": 1792138998,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003f7",
+      "receive_ms": 94530,
+      "uptime_ms": 1022208,
+      "capture_utc": 1792138999,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003f8",
+      "receive_ms": 96815,
+      "uptime_ms": 1023580,
+      "capture_utc": 1792139001,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003f9",
+      "receive_ms": 97060,
+      "uptime_ms": 1024413,
+      "capture_utc": 1792139002,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003fa",
+      "receive_ms": 97319,
+      "uptime_ms": 1025110,
+      "capture_utc": 1792139002,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003fb",
+      "receive_ms": 98580,
+      "uptime_ms": 1026400,
+      "capture_utc": 1792139003,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003fc",
+      "receive_ms": 99872,
+      "uptime_ms": 1027192,
+      "capture_utc": 1792139004,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003fd",
+      "receive_ms": 101145,
+      "uptime_ms": 1028464,
+      "capture_utc": 1792139006,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003fe",
+      "receive_ms": 101413,
+      "uptime_ms": 1029187,
+      "capture_utc": 1792139006,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000003ff",
+      "receive_ms": 102736,
+      "uptime_ms": 1030486,
+      "capture_utc": 1792139008,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000400",
+      "receive_ms": 104014,
+      "uptime_ms": 1031242,
+      "capture_utc": 1792139008,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000401",
+      "receive_ms": 104266,
+      "uptime_ms": 1032104,
+      "capture_utc": 1792139009,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000402",
+      "receive_ms": 105544,
+      "uptime_ms": 1033435,
+      "capture_utc": 1792139011,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000403",
+      "receive_ms": 106811,
+      "uptime_ms": 1034197,
+      "capture_utc": 1792139011,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000404",
+      "receive_ms": 108097,
+      "uptime_ms": 1035513,
+      "capture_utc": 1792139013,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000405",
+      "receive_ms": 109370,
+      "uptime_ms": 1036257,
+      "capture_utc": 1792139013,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000406",
+      "receive_ms": 109623,
+      "uptime_ms": 1037176,
+      "capture_utc": 1792139014,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000407",
+      "receive_ms": 110893,
+      "uptime_ms": 1038575,
+      "capture_utc": 1792139016,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000408",
+      "receive_ms": 112171,
+      "uptime_ms": 1039254,
+      "capture_utc": 1792139016,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000409",
+      "receive_ms": 113433,
+      "uptime_ms": 1040548,
+      "capture_utc": 1792139018,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000040a",
+      "receive_ms": 113835,
+      "uptime_ms": 1041264,
+      "capture_utc": 1792139018,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000040b",
+      "receive_ms": 115040,
+      "uptime_ms": 1042069,
+      "capture_utc": 1792139019,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000040c",
+      "receive_ms": 116321,
+      "uptime_ms": 1043384,
+      "capture_utc": 1792139020,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000040d",
+      "receive_ms": 116591,
+      "uptime_ms": 1044119,
+      "capture_utc": 1792139021,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000040e",
+      "receive_ms": 117840,
+      "uptime_ms": 1045407,
+      "capture_utc": 1792139023,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000040f",
+      "receive_ms": 119141,
+      "uptime_ms": 1046155,
+      "capture_utc": 1792139023,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000410",
+      "receive_ms": 119406,
+      "uptime_ms": 1047013,
+      "capture_utc": 1792139024,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000411",
+      "receive_ms": 120687,
+      "uptime_ms": 1048386,
+      "capture_utc": 1792139025,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000412",
+      "receive_ms": 121972,
+      "uptime_ms": 1049170,
+      "capture_utc": 1792139026,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000413",
+      "receive_ms": 123257,
+      "uptime_ms": 1050526,
+      "capture_utc": 1792139028,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000414",
+      "receive_ms": 123534,
+      "uptime_ms": 1051368,
+      "capture_utc": 1792139028,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000415",
+      "receive_ms": 124797,
+      "uptime_ms": 1052144,
+      "capture_utc": 1792139029,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000416",
+      "receive_ms": 126092,
+      "uptime_ms": 1053444,
+      "capture_utc": 1792139031,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000417",
+      "receive_ms": 126430,
+      "uptime_ms": 1054153,
+      "capture_utc": 1792139031,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000418",
+      "receive_ms": 127616,
+      "uptime_ms": 1055442,
+      "capture_utc": 1792139033,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000419",
+      "receive_ms": 128885,
+      "uptime_ms": 1056153,
+      "capture_utc": 1792139033,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000041a",
+      "receive_ms": 130180,
+      "uptime_ms": 1057518,
+      "capture_utc": 1792139035,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000041b",
+      "receive_ms": 130465,
+      "uptime_ms": 1058261,
+      "capture_utc": 1792139035,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000041c",
+      "receive_ms": 131748,
+      "uptime_ms": 1059028,
+      "capture_utc": 1792139036,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000041d",
+      "receive_ms": 132990,
+      "uptime_ms": 1060303,
+      "capture_utc": 1792139037,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000041e",
+      "receive_ms": 134295,
+      "uptime_ms": 1061046,
+      "capture_utc": 1792139038,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000041f",
+      "receive_ms": 135566,
+      "uptime_ms": 1062452,
+      "capture_utc": 1792139040,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000420",
+      "receive_ms": 136751,
+      "uptime_ms": 1063216,
+      "capture_utc": 1792139040,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000421",
+      "receive_ms": 136988,
+      "uptime_ms": 1064027,
+      "capture_utc": 1792139041,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000422",
+      "receive_ms": 137938,
+      "uptime_ms": 1065453,
+      "capture_utc": 1792139043,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000423",
+      "receive_ms": 138185,
+      "uptime_ms": 1066114,
+      "capture_utc": 1792139043,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000424",
+      "receive_ms": 139468,
+      "uptime_ms": 1067428,
+      "capture_utc": 1792139045,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000425",
+      "receive_ms": 140731,
+      "uptime_ms": 1068147,
+      "capture_utc": 1792139045,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000426",
+      "receive_ms": 142014,
+      "uptime_ms": 1069453,
+      "capture_utc": 1792139047,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000427",
+      "receive_ms": 142272,
+      "uptime_ms": 1070152,
+      "capture_utc": 1792139047,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000428",
+      "receive_ms": 144573,
+      "uptime_ms": 1071488,
+      "capture_utc": 1792139049,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000429",
+      "receive_ms": 144814,
+      "uptime_ms": 1072308,
+      "capture_utc": 1792139049,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000042a",
+      "receive_ms": 146091,
+      "uptime_ms": 1073058,
+      "capture_utc": 1792139050,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000042b",
+      "receive_ms": 147374,
+      "uptime_ms": 1074374,
+      "capture_utc": 1792139051,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000042c",
+      "receive_ms": 147632,
+      "uptime_ms": 1075155,
+      "capture_utc": 1792139052,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000042d",
+      "receive_ms": 149004,
+      "uptime_ms": 1076511,
+      "capture_utc": 1792139054,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000042e",
+      "receive_ms": 150293,
+      "uptime_ms": 1077354,
+      "capture_utc": 1792139054,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000042f",
+      "receive_ms": 150532,
+      "uptime_ms": 1078168,
+      "capture_utc": 1792139055,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000430",
+      "receive_ms": 151817,
+      "uptime_ms": 1079024,
+      "capture_utc": 1792139056,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000431",
+      "receive_ms": 153093,
+      "uptime_ms": 1080311,
+      "capture_utc": 1792139057,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000432",
+      "receive_ms": 153381,
+      "uptime_ms": 1081006,
+      "capture_utc": 1792139058,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000433",
+      "receive_ms": 154687,
+      "uptime_ms": 1082324,
+      "capture_utc": 1792139059,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000434",
+      "receive_ms": 156073,
+      "uptime_ms": 1083029,
+      "capture_utc": 1792139060,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000435",
+      "receive_ms": 157353,
+      "uptime_ms": 1084309,
+      "capture_utc": 1792139061,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000436",
+      "receive_ms": 157599,
+      "uptime_ms": 1085072,
+      "capture_utc": 1792139062,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000437",
+      "receive_ms": 158819,
+      "uptime_ms": 1086420,
+      "capture_utc": 1792139064,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000438",
+      "receive_ms": 160088,
+      "uptime_ms": 1087218,
+      "capture_utc": 1792139064,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000439",
+      "receive_ms": 161353,
+      "uptime_ms": 1088572,
+      "capture_utc": 1792139066,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000043a",
+      "receive_ms": 161650,
+      "uptime_ms": 1089315,
+      "capture_utc": 1792139066,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000043b",
+      "receive_ms": 162901,
+      "uptime_ms": 1090076,
+      "capture_utc": 1792139067,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000043c",
+      "receive_ms": 164209,
+      "uptime_ms": 1091475,
+      "capture_utc": 1792139069,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000043d",
+      "receive_ms": 165524,
+      "uptime_ms": 1092311,
+      "capture_utc": 1792139069,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000043e",
+      "receive_ms": 165781,
+      "uptime_ms": 1093166,
+      "capture_utc": 1792139070,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000043f",
+      "receive_ms": 167069,
+      "uptime_ms": 1094453,
+      "capture_utc": 1792139072,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000440",
+      "receive_ms": 167338,
+      "uptime_ms": 1095141,
+      "capture_utc": 1792139072,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000441",
+      "receive_ms": 168660,
+      "uptime_ms": 1096445,
+      "capture_utc": 1792139074,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000442",
+      "receive_ms": 169911,
+      "uptime_ms": 1097221,
+      "capture_utc": 1792139074,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000443",
+      "receive_ms": 171179,
+      "uptime_ms": 1098508,
+      "capture_utc": 1792139076,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000444",
+      "receive_ms": 171453,
+      "uptime_ms": 1099234,
+      "capture_utc": 1792139076,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000445",
+      "receive_ms": 172734,
+      "uptime_ms": 1100609,
+      "capture_utc": 1792139078,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000446",
+      "receive_ms": 174047,
+      "uptime_ms": 1101352,
+      "capture_utc": 1792139078,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000447",
+      "receive_ms": 174307,
+      "uptime_ms": 1102161,
+      "capture_utc": 1792139079,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000448",
+      "receive_ms": 175629,
+      "uptime_ms": 1103523,
+      "capture_utc": 1792139081,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000449",
+      "receive_ms": 176914,
+      "uptime_ms": 1104264,
+      "capture_utc": 1792139081,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000044a",
+      "receive_ms": 178179,
+      "uptime_ms": 1105018,
+      "capture_utc": 1792139082,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000044b",
+      "receive_ms": 179459,
+      "uptime_ms": 1106392,
+      "capture_utc": 1792139083,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000044c",
+      "receive_ms": 179724,
+      "uptime_ms": 1107146,
+      "capture_utc": 1792139084,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000044d",
+      "receive_ms": 180997,
+      "uptime_ms": 1108407,
+      "capture_utc": 1792139086,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000044e",
+      "receive_ms": 181252,
+      "uptime_ms": 1109113,
+      "capture_utc": 1792139086,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000044f",
+      "receive_ms": 182689,
+      "uptime_ms": 1110402,
+      "capture_utc": 1792139087,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000450",
+      "receive_ms": 183964,
+      "uptime_ms": 1111104,
+      "capture_utc": 1792139088,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000451",
+      "receive_ms": 185250,
+      "uptime_ms": 1112478,
+      "capture_utc": 1792139090,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000452",
+      "receive_ms": 185521,
+      "uptime_ms": 1113224,
+      "capture_utc": 1792139090,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000453",
+      "receive_ms": 186794,
+      "uptime_ms": 1114530,
+      "capture_utc": 1792139092,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000454",
+      "receive_ms": 188129,
+      "uptime_ms": 1115248,
+      "capture_utc": 1792139092,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000455",
+      "receive_ms": 188413,
+      "uptime_ms": 1116003,
+      "capture_utc": 1792139093,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000456",
+      "receive_ms": 189719,
+      "uptime_ms": 1117455,
+      "capture_utc": 1792139095,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000457",
+      "receive_ms": 190998,
+      "uptime_ms": 1118213,
+      "capture_utc": 1792139095,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000458",
+      "receive_ms": 192277,
+      "uptime_ms": 1119582,
+      "capture_utc": 1792139097,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000459",
+      "receive_ms": 192585,
+      "uptime_ms": 1120387,
+      "capture_utc": 1792139097,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000045a",
+      "receive_ms": 193856,
+      "uptime_ms": 1121071,
+      "capture_utc": 1792139098,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000045b",
+      "receive_ms": 195139,
+      "uptime_ms": 1122376,
+      "capture_utc": 1792139099,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000045c",
+      "receive_ms": 195402,
+      "uptime_ms": 1123140,
+      "capture_utc": 1792139100,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000045d",
+      "receive_ms": 196669,
+      "uptime_ms": 1124453,
+      "capture_utc": 1792139102,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000045e",
+      "receive_ms": 197951,
+      "uptime_ms": 1125174,
+      "capture_utc": 1792139102,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000045f",
+      "receive_ms": 199210,
+      "uptime_ms": 1126443,
+      "capture_utc": 1792139104,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000460",
+      "receive_ms": 200050,
+      "uptime_ms": 1127232,
+      "capture_utc": 1792139104,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000461",
+      "receive_ms": 200887,
+      "uptime_ms": 1128005,
+      "capture_utc": 1792139105,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000462",
+      "receive_ms": 202182,
+      "uptime_ms": 1129277,
+      "capture_utc": 1792139106,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000463",
+      "receive_ms": 202435,
+      "uptime_ms": 1130016,
+      "capture_utc": 1792139107,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000464",
+      "receive_ms": 203718,
+      "uptime_ms": 1131354,
+      "capture_utc": 1792139108,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000465",
+      "receive_ms": 205007,
+      "uptime_ms": 1132191,
+      "capture_utc": 1792139109,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000466",
+      "receive_ms": 206325,
+      "uptime_ms": 1133568,
+      "capture_utc": 1792139111,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000467",
+      "receive_ms": 206592,
+      "uptime_ms": 1134388,
+      "capture_utc": 1792139111,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000468",
+      "receive_ms": 207863,
+      "uptime_ms": 1135070,
+      "capture_utc": 1792139112,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000469",
+      "receive_ms": 209156,
+      "uptime_ms": 1136319,
+      "capture_utc": 1792139113,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000046a",
+      "receive_ms": 209408,
+      "uptime_ms": 1137085,
+      "capture_utc": 1792139114,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000046b",
+      "receive_ms": 210682,
+      "uptime_ms": 1138376,
+      "capture_utc": 1792139115,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000046c",
+      "receive_ms": 211989,
+      "uptime_ms": 1139125,
+      "capture_utc": 1792139116,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000046d",
+      "receive_ms": 213266,
+      "uptime_ms": 1140422,
+      "capture_utc": 1792139118,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000046e",
+      "receive_ms": 213542,
+      "uptime_ms": 1141170,
+      "capture_utc": 1792139118,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000046f",
+      "receive_ms": 214828,
+      "uptime_ms": 1142572,
+      "capture_utc": 1792139120,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000470",
+      "receive_ms": 216108,
+      "uptime_ms": 1143300,
+      "capture_utc": 1792139120,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000471",
+      "receive_ms": 216374,
+      "uptime_ms": 1144074,
+      "capture_utc": 1792139121,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000472",
+      "receive_ms": 217656,
+      "uptime_ms": 1145404,
+      "capture_utc": 1792139123,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000473",
+      "receive_ms": 218938,
+      "uptime_ms": 1146188,
+      "capture_utc": 1792139123,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000474",
+      "receive_ms": 220216,
+      "uptime_ms": 1147040,
+      "capture_utc": 1792139124,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000475",
+      "receive_ms": 220480,
+      "uptime_ms": 1148440,
+      "capture_utc": 1792139126,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000476",
+      "receive_ms": 221738,
+      "uptime_ms": 1149181,
+      "capture_utc": 1792139126,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000477",
+      "receive_ms": 223030,
+      "uptime_ms": 1150444,
+      "capture_utc": 1792139128,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000478",
+      "receive_ms": 223278,
+      "uptime_ms": 1151152,
+      "capture_utc": 1792139128,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000479",
+      "receive_ms": 224538,
+      "uptime_ms": 1152521,
+      "capture_utc": 1792139130,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000047a",
+      "receive_ms": 225811,
+      "uptime_ms": 1153243,
+      "capture_utc": 1792139130,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000047b",
+      "receive_ms": 227077,
+      "uptime_ms": 1154525,
+      "capture_utc": 1792139132,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000047c",
+      "receive_ms": 227332,
+      "uptime_ms": 1155277,
+      "capture_utc": 1792139132,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000047d",
+      "receive_ms": 228590,
+      "uptime_ms": 1156018,
+      "capture_utc": 1792139133,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000047e",
+      "receive_ms": 229876,
+      "uptime_ms": 1157376,
+      "capture_utc": 1792139134,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000047f",
+      "receive_ms": 231136,
+      "uptime_ms": 1158141,
+      "capture_utc": 1792139135,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000480",
+      "receive_ms": 232424,
+      "uptime_ms": 1159469,
+      "capture_utc": 1792139137,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000481",
+      "receive_ms": 232685,
+      "uptime_ms": 1160244,
+      "capture_utc": 1792139137,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000482",
+      "receive_ms": 233945,
+      "uptime_ms": 1161040,
+      "capture_utc": 1792139138,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000483",
+      "receive_ms": 235248,
+      "uptime_ms": 1162487,
+      "capture_utc": 1792139140,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000484",
+      "receive_ms": 235526,
+      "uptime_ms": 1163192,
+      "capture_utc": 1792139140,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000485",
+      "receive_ms": 236810,
+      "uptime_ms": 1164491,
+      "capture_utc": 1792139142,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000486",
+      "receive_ms": 238104,
+      "uptime_ms": 1165223,
+      "capture_utc": 1792139142,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000487",
+      "receive_ms": 239483,
+      "uptime_ms": 1166501,
+      "capture_utc": 1792139144,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000488",
+      "receive_ms": 239750,
+      "uptime_ms": 1167315,
+      "capture_utc": 1792139144,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000489",
+      "receive_ms": 240919,
+      "uptime_ms": 1168051,
+      "capture_utc": 1792139145,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000048a",
+      "receive_ms": 242203,
+      "uptime_ms": 1169324,
+      "capture_utc": 1792139146,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000048b",
+      "receive_ms": 242554,
+      "uptime_ms": 1170068,
+      "capture_utc": 1792139147,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000048c",
+      "receive_ms": 243783,
+      "uptime_ms": 1171426,
+      "capture_utc": 1792139149,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000048d",
+      "receive_ms": 245059,
+      "uptime_ms": 1172239,
+      "capture_utc": 1792139149,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000048e",
+      "receive_ms": 245323,
+      "uptime_ms": 1173003,
+      "capture_utc": 1792139150,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000048f",
+      "receive_ms": 247607,
+      "uptime_ms": 1174342,
+      "capture_utc": 1792139151,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000490",
+      "receive_ms": 247879,
+      "uptime_ms": 1175199,
+      "capture_utc": 1792139152,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000491",
+      "receive_ms": 249141,
+      "uptime_ms": 1176488,
+      "capture_utc": 1792139154,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000492",
+      "receive_ms": 249407,
+      "uptime_ms": 1177236,
+      "capture_utc": 1792139154,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000493",
+      "receive_ms": 250677,
+      "uptime_ms": 1178509,
+      "capture_utc": 1792139156,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000494",
+      "receive_ms": 251937,
+      "uptime_ms": 1179224,
+      "capture_utc": 1792139156,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000495",
+      "receive_ms": 253206,
+      "uptime_ms": 1180503,
+      "capture_utc": 1792139158,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000496",
+      "receive_ms": 253475,
+      "uptime_ms": 1181253,
+      "capture_utc": 1792139158,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000497",
+      "receive_ms": 254763,
+      "uptime_ms": 1182089,
+      "capture_utc": 1792139159,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000498",
+      "receive_ms": 256071,
+      "uptime_ms": 1183374,
+      "capture_utc": 1792139160,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-00000499",
+      "receive_ms": 256319,
+      "uptime_ms": 1184128,
+      "capture_utc": 1792139161,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000049a",
+      "receive_ms": 258581,
+      "uptime_ms": 1185468,
+      "capture_utc": 1792139163,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000049b",
+      "receive_ms": 258827,
+      "uptime_ms": 1186232,
+      "capture_utc": 1792139163,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000049c",
+      "receive_ms": 260094,
+      "uptime_ms": 1187000,
+      "capture_utc": 1792139164,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000049d",
+      "receive_ms": 261377,
+      "uptime_ms": 1188121,
+      "capture_utc": 1792139165,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000049e",
+      "receive_ms": 261631,
+      "uptime_ms": 1189361,
+      "capture_utc": 1792139166,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-0000049f",
+      "receive_ms": 262912,
+      "uptime_ms": 1190076,
+      "capture_utc": 1792139167,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004a0",
+      "receive_ms": 264209,
+      "uptime_ms": 1191552,
+      "capture_utc": 1792139169,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004a1",
+      "receive_ms": 264459,
+      "uptime_ms": 1192299,
+      "capture_utc": 1792139169,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004a2",
+      "receive_ms": 265725,
+      "uptime_ms": 1193025,
+      "capture_utc": 1792139170,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004a3",
+      "receive_ms": 266989,
+      "uptime_ms": 1194312,
+      "capture_utc": 1792139171,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004a4",
+      "receive_ms": 267259,
+      "uptime_ms": 1195010,
+      "capture_utc": 1792139172,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004a5",
+      "receive_ms": 269540,
+      "uptime_ms": 1196299,
+      "capture_utc": 1792139173,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004a6",
+      "receive_ms": 269811,
+      "uptime_ms": 1197186,
+      "capture_utc": 1792139174,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004a7",
+      "receive_ms": 271079,
+      "uptime_ms": 1198499,
+      "capture_utc": 1792139176,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004a8",
+      "receive_ms": 272353,
+      "uptime_ms": 1199233,
+      "capture_utc": 1792139176,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004a9",
+      "receive_ms": 273630,
+      "uptime_ms": 1200572,
+      "capture_utc": 1792139178,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004aa",
+      "receive_ms": 274914,
+      "uptime_ms": 1201308,
+      "capture_utc": 1792139178,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004ab",
+      "receive_ms": 275203,
+      "uptime_ms": 1202296,
+      "capture_utc": 1792139179,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004ac",
+      "receive_ms": 275451,
+      "uptime_ms": 1203092,
+      "capture_utc": 1792139180,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004ad",
+      "receive_ms": 276741,
+      "uptime_ms": 1204402,
+      "capture_utc": 1792139182,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004ae",
+      "receive_ms": 278088,
+      "uptime_ms": 1205104,
+      "capture_utc": 1792139182,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004af",
+      "receive_ms": 279275,
+      "uptime_ms": 1206416,
+      "capture_utc": 1792139184,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004b0",
+      "receive_ms": 279630,
+      "uptime_ms": 1207226,
+      "capture_utc": 1792139184,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004b1",
+      "receive_ms": 280815,
+      "uptime_ms": 1208006,
+      "capture_utc": 1792139185,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004b2",
+      "receive_ms": 282116,
+      "uptime_ms": 1209324,
+      "capture_utc": 1792139186,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004b3",
+      "receive_ms": 282374,
+      "uptime_ms": 1210073,
+      "capture_utc": 1792139187,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004b4",
+      "receive_ms": 284705,
+      "uptime_ms": 1211388,
+      "capture_utc": 1792139188,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004b5",
+      "receive_ms": 284959,
+      "uptime_ms": 1212253,
+      "capture_utc": 1792139189,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004b6",
+      "receive_ms": 285256,
+      "uptime_ms": 1213132,
+      "capture_utc": 1792139190,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004b7",
+      "receive_ms": 286441,
+      "uptime_ms": 1214378,
+      "capture_utc": 1792139191,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004b8",
+      "receive_ms": 287723,
+      "uptime_ms": 1215085,
+      "capture_utc": 1792139192,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004b9",
+      "receive_ms": 289010,
+      "uptime_ms": 1216336,
+      "capture_utc": 1792139193,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004ba",
+      "receive_ms": 289248,
+      "uptime_ms": 1217083,
+      "capture_utc": 1792139194,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004bb",
+      "receive_ms": 290524,
+      "uptime_ms": 1218406,
+      "capture_utc": 1792139196,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004bc",
+      "receive_ms": 291793,
+      "uptime_ms": 1219154,
+      "capture_utc": 1792139196,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004bd",
+      "receive_ms": 293075,
+      "uptime_ms": 1220457,
+      "capture_utc": 1792139198,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004be",
+      "receive_ms": 294367,
+      "uptime_ms": 1221200,
+      "capture_utc": 1792139198,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004bf",
+      "receive_ms": 294642,
+      "uptime_ms": 1222012,
+      "capture_utc": 1792139199,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004c0",
+      "receive_ms": 295952,
+      "uptime_ms": 1223353,
+      "capture_utc": 1792139200,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004c1",
+      "receive_ms": 297220,
+      "uptime_ms": 1224141,
+      "capture_utc": 1792139201,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004c2",
+      "receive_ms": 298495,
+      "uptime_ms": 1225462,
+      "capture_utc": 1792139203,
+      "qos": 1
+    },
+    {
+      "id": "17f02ea7-000004c3",
+      "receive_ms": 298778,
+      "uptime_ms": 1226222,
+      "capture_utc": 1792139203,
+      "qos": 1
+    }
+  ],
+  "start_utc": "2026-10-16T08:21:47.130Z",
+  "observed_s": 300.002,
+  "max_receive_gap_ms": 2331,
+  "mean_receive_interval_ms": 998.4916387959867,
+  "full_duration": true,
+  "pass": true,
+  "topic_matches_original_requirement": true,
+  "transport_pass": true,
+  "qos1_observed": true,
+  "count_matches_1hz": true,
+  "lwt_offline_verified": true,
+  "lwt_evidence_sha256": "bf840b4374a80b0afee289113977344127615884957ec435eb20719edf60ebf2",
+  "full_requirement_pass": true
+}

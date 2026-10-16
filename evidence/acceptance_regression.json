@@ -1,0 +1,171 @@
+{
+  "boundary": "Offline production-code regressions; fixtures never published to devices or databases",
+  "results": [
+    {
+      "name": "alerts_build",
+      "passed": true,
+      "seconds": 5.01
+    },
+    {
+      "name": "alerts",
+      "passed": true,
+      "seconds": 0.02
+    },
+    {
+      "name": "alert_acceptance_build",
+      "passed": true,
+      "seconds": 4.69
+    },
+    {
+      "name": "alert_acceptance",
+      "passed": true,
+      "seconds": 2.03
+    },
+    {
+      "name": "battery_alert_build",
+      "passed": true,
+      "seconds": 10.09
+    },
+    {
+      "name": "battery_alert",
+      "passed": true,
+      "seconds": 0.02
+    },
+    {
+      "name": "clock_build",
+      "passed": true,
+      "seconds": 6.53
+    },
+    {
+      "name": "clock",
+      "passed": true,
+      "seconds": 0.02
+    },
+    {
+      "name": "hub_build",
+      "passed": true,
+      "seconds": 12.12
+    },
+    {
+      "name": "hub",
+      "passed": true,
+      "seconds": 0.03
+    },
+    {
+      "name": "map_selection_build",
+      "passed": true,
+      "seconds": 0.77
+    },
+    {
+      "name": "map_selection",
+      "passed": true,
+      "seconds": 0.03
+    },
+    {
+      "name": "robot_build",
+      "passed": true,
+      "seconds": 4.62
+    },
+    {
+      "name": "robot",
+      "passed": true,
+      "seconds": 0.05
+    },
+    {
+      "name": "telemetry_build",
+      "passed": true,
+      "seconds": 3.02
+    },
+    {
+      "name": "telemetry",
+      "passed": true,
+      "seconds": 0.03
+    },
+    {
+      "name": "telemetry_window_build",
+      "passed": true,
+      "seconds": 6.5
+    },
+    {
+      "name": "telemetry_window",
+      "passed": true,
+      "seconds": 0.01
+    },
+    {
+      "name": "watch_extensions_build",
+      "passed": true,
+      "seconds": 6.5
+    },
+    {
+      "name": "watch_extensions",
+      "passed": true,
+      "seconds": 0.02
+    },
+    {
+      "name": "maps_build",
+      "passed": true,
+      "seconds": 6.92
+    },
+    {
+      "name": "maps",
+      "passed": true,
+      "seconds": 0.03
+    },
+    {
+      "name": "hub_rtc_build",
+      "passed": true,
+      "seconds": 6.49
+    },
+    {
+      "name": "hub_rtc",
+      "passed": true,
+      "seconds": 0.01
+    },
+    {
+      "name": "telemetry_store_build",
+      "passed": true,
+      "seconds": 4.14
+    },
+    {
+      "name": "telemetry_store",
+      "passed": true,
+      "seconds": 0.03
+    },
+    {
+      "name": "environment_build",
+      "passed": true,
+      "seconds": 3.28
+    },
+    {
+      "name": "environment",
+      "passed": true,
+      "seconds": 0.03
+    },
+    {
+      "name": "sensors_build",
+      "passed": true,
+      "seconds": 8.88
+    },
+    {
+      "name": "sensors",
+      "passed": true,
+      "seconds": 0.06
+    },
+    {
+      "name": "python",
+      "passed": true,
+      "seconds": 2.08
+    },
+    {
+      "name": "test_influx_flow",
+      "passed": true,
+      "seconds": 0.06
+    },
+    {
+      "name": "test_alert_dashboard",
+      "passed": true,
+      "seconds": 0.06
+    }
+  ],
+  "passed": true
+}
