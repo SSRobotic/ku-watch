@@ -1,0 +1,65 @@
+{
+  "checked_utc": "2026-10-20T12:35:03.756727+00:00",
+  "owner_authorized_publication": true,
+  "repository": "https://github.com/SSRobotic/ku-watch",
+  "visibility_before": "private",
+  "history_blob_count": 818,
+  "history_commits": 3,
+  "scanned_payloads": 3378,
+  "archive_members": 2545,
+  "local_links": 205,
+  "release_assets": [
+    {
+      "name": "KU_Watch_Demo_6min.mp4",
+      "bytes": 20725171,
+      "sha256": "0c1642e0a355d3488cef7cd8bc12e4e88b89af4a47ed111858ee7ea73f4da7c0",
+      "github_digest": "sha256:0c1642e0a355d3488cef7cd8bc12e4e88b89af4a47ed111858ee7ea73f4da7c0"
+    },
+    {
+      "name": "KU_Watch_Final.pdf",
+      "bytes": 3727317,
+      "sha256": "6853f0c7da6e305279c33f104f53cc5b97df68e17cf745e33b75997e346f0f9d",
+      "github_digest": "sha256:6853f0c7da6e305279c33f104f53cc5b97df68e17cf745e33b75997e346f0f9d"
+    },
+    {
+      "name": "KU_Watch_Final.pptx",
+      "bytes": 12352480,
+      "sha256": "04d5ee495776bf920a71262f229f5b993debfa225f85cc259675718448cc74a0",
+      "github_digest": "sha256:04d5ee495776bf920a71262f229f5b993debfa225f85cc259675718448cc74a0"
+    },
+    {
+      "name": "KU_Watch_Final_Submission_2026-10-20.zip",
+      "bytes": 116255308,
+      "sha256": "f0b13e343863193517b06179b250a9de7794eca8abb7ef24e685b3e7e737d313",
+      "github_digest": "sha256:f0b13e343863193517b06179b250a9de7794eca8abb7ef24e685b3e7e737d313"
+    },
+    {
+      "name": "Requirements_V2_Checked.docx",
+      "bytes": 42878,
+      "sha256": "0a61472ad2a88203b509aeac4661175a7fef2e22126043a232bea2da81febc89",
+      "github_digest": "sha256:0a61472ad2a88203b509aeac4661175a7fef2e22126043a232bea2da81febc89"
+    },
+    {
+      "name": "KU-Watch-Academic-Presentation-2026-10-16-Original-Thai.pptx",
+      "bytes": 65998104,
+      "sha256": "6f88ca1ec0048fb8e778907ac8511689537c0dddc83ec18faed3ec4669b4deb2",
+      "github_digest": "sha256:6f88ca1ec0048fb8e778907ac8511689537c0dddc83ec18faed3ec4669b4deb2"
+    },
+    {
+      "name": "KU-Watch-Development-Presentation-2026-10-16-Original-Thai.pptx",
+      "bytes": 81131460,
+      "sha256": "99781da34e0db30aae4e2c1a5bba1565ebe1f340eb42312d6e7f4182c4353246",
+      "github_digest": "sha256:99781da34e0db30aae4e2c1a5bba1565ebe1f340eb42312d6e7f4182c4353246"
+    },
+    {
+      "name": "KU-Watch-Functional-Evidence-2.0.15.zip",
+      "bytes": 6253532,
+      "sha256": "d0e3f1c4caf2caa1db2f2b3fa479539325231aea6a8416951247415067673ff1",
+      "github_digest": "sha256:d0e3f1c4caf2caa1db2f2b3fa479539325231aea6a8416951247415067673ff1"
+    }
+  ],
+  "credential_values_recorded": false,
+  "issues": [],
+  "passed": true,
+  "boundary": "Known credentials and private-key/token patterns; original evidence and submission files unchanged. This does not add a hardware acceptance result."
+}

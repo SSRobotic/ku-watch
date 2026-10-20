@@ -16,6 +16,6 @@ Exported Node-RED flows use environment references such as `KU_MQTT_USER`, `KU_M
 
 Automatic OTA requires a reachable HTTPS server and its trust configuration. The original lab server was on the phone-hotspot LAN. Moving the PC to another network can make that endpoint unreachable even when MQTT remains connected. Configure your own reachable endpoint; do not reuse a capability URL from a device dump.
 
-The private handoff excludes live credentials, private TLS keys, credential-bearing firmware/flash backups and raw personal activity exports. Public CA certificates are included as trust anchors. Before any future public release, repeat credential and media review; private visibility is not a substitute for secret management.
+The repository and release files exclude live credentials, private TLS keys, credential-bearing firmware/flash backups and raw personal activity exports. Public CA certificates are included as trust anchors. The publication preflight repeats credential checks across Git history and the release payloads. Repeat the review before publishing future changes.
 
 Original evidence is preserved locally. Any repository redaction or portable-path copy is listed by the repository audit and does not turn a failed result into a pass.

@@ -7,7 +7,7 @@ The final functional-acceptance handoff is watch 2.0.15 / hub 1.0.8, dated 16 Oc
 1. Read the root README for scope and system structure.
 2. Browse the project journey and video index.
 3. Check the acceptance matrix against linked dated JSON evidence.
-4. Open the original presentations in the private review release. These retain their original Thai language and precede the final firmware acceptance updates; the English matrix is the current technical status guide.
+4. Open the original presentations in the original review release. These retain their original Thai language and precede the final firmware acceptance updates; the English matrix is the current technical status guide.
 5. Inspect the firmware, hardware and integration directories before reproducing the setup.
 
 ## Included
@@ -30,4 +30,4 @@ The sanitized watch checkout compiled successfully with PlatformIO. All eight ho
 
 ## Final course submission, 20 October 2026
 
-The [final guide](FINAL_SUBMISSION.md) lists the 29-slide deck, six-minute video, original and checked requirements, and offline evidence page. The complete ZIP is in the private final release. Earlier archives remain intact.
+The [final guide](FINAL_SUBMISSION.md) lists the 29-slide deck, six-minute video, original and checked requirements, and offline evidence page. The complete ZIP is in the final release. Earlier archives remain intact.

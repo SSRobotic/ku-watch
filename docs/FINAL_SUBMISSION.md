@@ -4,7 +4,7 @@ Prepared 20 October 2026 for the Final Presentation Submission assignment: prese
 
 ## Opening instructions
 
-Download the ZIP from the [private final release](https://github.com/SSRobotic/ku-watch/releases/tag/v2.0.15-final-submission), use Windows **Extract All**, then open OPEN_SUBMISSION.cmd or START_HERE.html inside the extracted folder. Do not open the page from a ZIP preview.
+Download the ZIP from the [final release](https://github.com/SSRobotic/ku-watch/releases/tag/v2.0.15-final-submission), use Windows **Extract All**, then open OPEN_SUBMISSION.cmd or START_HERE.html inside the extracted folder. Do not open the page from a ZIP preview.
 
 The offline pages need a browser. Slides need PowerPoint or a PDF viewer; editable requirements need Word or compatible software. The six-minute H.264 MP4 has on-screen explanations, without synthesized narration.
 

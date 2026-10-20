@@ -2,13 +2,13 @@
 
 KU Watch is a student IoT project combining a wearable sensor node, a companion touch display and a local dashboard stack. This repository contains the firmware, enclosure records, integration code, original photographs and dated acceptance evidence.
 
-Watch **2.0.15**, hub **1.0.8**. The final submission was assembled on **20 October 2026**; integrated hardware acceptance recordings are dated **16 October 2026**. This repository remains **private**.
+Watch **2.0.15**, hub **1.0.8**. The final submission was assembled on **20 October 2026**; integrated hardware acceptance recordings are dated **16 October 2026**. This repository is **public** for final-project review.
 
 ![KU Watch prototype and companion display](media/hardware/prototype-in-use-01.jpg)
 
 ## Final presentation submission
 
-Download the [final submission ZIP from the private release](https://github.com/SSRobotic/ku-watch/releases/tag/v2.0.15-final-submission). Use Windows **Extract All**, then open OPEN_SUBMISSION.cmd or START_HERE.html. The evidence pages and saved recordings work offline.
+Download the [final submission ZIP from the release](https://github.com/SSRobotic/ku-watch/releases/tag/v2.0.15-final-submission). Use Windows **Extract All**, then open OPEN_SUBMISSION.cmd or START_HERE.html. The evidence pages and saved recordings work offline.
 
 - 29-slide PowerPoint: 20 main slides and nine reference slides, with three embedded recordings.
 - PDF copy of the slides and a six-minute demonstration video.
@@ -82,7 +82,7 @@ See [architecture and data boundaries](docs/ARCHITECTURE.md) for the distinction
 | FR-03 MQTT reception | **300 / 300** live records over **300 s**; no missing IDs or disconnects | Latest five-minute run; receiver on home Wi-Fi |
 | FR-05 outage recovery | **614.0 s** actual Wi-Fi outage; **852** backfilled IDs; **877** complete database IDs in the checked window | Dated 2.0.9 acceptance evidence retained |
 | FR-06 alerts | **2 / 2** scenarios passed; worst observed display **2.95 s**, browser **2.66 s** | Explicitly simulated inputs, as allowed by the requirement |
-| FR-08 automatic OTA | **2.0.14 2.0.15**, approximately **88 s**, SHA-256 verified | Automatic Wi-Fi update and user confirmation on both displays |
+| FR-08 automatic OTA | **2.0.14 to 2.0.15**, approximately **88 s**, SHA-256 verified | Automatic Wi-Fi update and user confirmation on both displays |
 
 All eight functional requirements have scoped acceptance evidence. NFR-02 and NFR-05 are also accepted within their recorded scope; six non-functional criteria remain incomplete. **This does not mean that every non-functional requirement is complete.** Battery endurance, calibration, continuous 24-hour operation and power-interruption rollback tests remain separate. The saved snapshot records 30.32 h accumulated MQTT reception and an 8.17 h longest continuous interval. Neither figure establishes continuous 24-hour operation, battery life or a whole-system pass.
 
@@ -113,10 +113,10 @@ The pulse and SpO2 values are experimental estimates. The accepted fingertip tes
 | [`docs/`](docs/) | English engineering documentation and media guides |
 | [`archive/`](archive/) | Original project acceptance documents and dated material |
 
-Start with [build and setup](docs/BUILD_AND_SETUP.md), [hardware wiring](docs/HARDWARE.md), [testing](docs/TESTING.md), and [handoff notes](docs/HANDOFF.md). Large original presentations and the verified handoff ZIP are listed in the [private review release](https://github.com/SSRobotic/ku-watch/releases/tag/v2.0.15-private-review).
+Start with [build and setup](docs/BUILD_AND_SETUP.md), [hardware wiring](docs/HARDWARE.md), [testing](docs/TESTING.md), and [handoff notes](docs/HANDOFF.md). Large original presentations and the verified handoff ZIP are listed in the [original review release](https://github.com/SSRobotic/ku-watch/releases/tag/v2.0.15-private-review).
 
 ## Configuration and ownership
 
 The repository contains templates and references, not live credentials, private TLS keys, device flash backups or raw personal activity exports. Follow [configuration and security](docs/CONFIGURATION.md) before compiling for your own devices. Historical maintenance scripts may contain workstation-specific paths and verified device MAC guards; inspect them before reuse.
 
-Copyright (c) 2026 **SSRobotics**. Original project materials are reserved for private review. See [ownership](COPYRIGHT.md) and [third-party notices](THIRD_PARTY_NOTICES.md).
+Copyright (c) 2026 **SSRobotics**. Original project materials remain under the stated copyright. See [ownership](COPYRIGHT.md) and [third-party notices](THIRD_PARTY_NOTICES.md).
