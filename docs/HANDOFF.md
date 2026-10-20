@@ -27,3 +27,7 @@ No collaborator invitations, public visibility, Pages site or automatic deployme
 ## Fresh import checks
 
 The sanitized watch checkout compiled successfully with PlatformIO. All eight host C++ suites and the OTA gateway checks passed again with assertions enabled. These checks did not flash either connected device. See `evidence/private-import-watch-build.json` and `evidence/private-import-host-regressions.json`.
+
+## Final course submission, 20 October 2026
+
+The [final guide](FINAL_SUBMISSION.md) lists the 29-slide deck, six-minute video, original and checked requirements, and offline evidence page. The complete ZIP is in the private final release. Earlier archives remain intact.

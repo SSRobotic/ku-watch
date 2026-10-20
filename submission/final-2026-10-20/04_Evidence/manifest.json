@@ -1,0 +1,202 @@
+{
+  "created_utc": "2026-10-18T04:23:16.413591+00:00",
+  "format": "portable-offline-evidence-v1",
+  "scope": "Portable offline evidence desk. Historical evidence only, not a live dashboard or a new test. Original linked files are copied byte-for-byte with SHA-256 verification.",
+  "entrypoint": "index.html",
+  "windows_launcher": "OPEN_DEMO.cmd",
+  "requirements": [
+    {
+      "id": "FR-01",
+      "title": "อ่านเซ็นเซอร์และอัปเดตจอ",
+      "accepted": true,
+      "source_count": 2,
+      "media_count": 1
+    },
+    {
+      "id": "FR-02",
+      "title": "จอ เวลา แบต และการสั่งงาน",
+      "accepted": true,
+      "source_count": 3,
+      "media_count": 1
+    },
+    {
+      "id": "FR-03",
+      "title": "MQTT ทุก 1 s, QoS1, LWT",
+      "accepted": true,
+      "source_count": 2,
+      "media_count": 1
+    },
+    {
+      "id": "FR-04",
+      "title": "CSV ทุก 5 s และเปิด Excel",
+      "accepted": true,
+      "source_count": 3,
+      "media_count": 0
+    },
+    {
+      "id": "FR-05",
+      "title": "ออฟไลน์ 10 นาทีและส่งย้อนหลัง",
+      "accepted": true,
+      "source_count": 1,
+      "media_count": 1
+    },
+    {
+      "id": "FR-06",
+      "title": "เตือนเมื่อเกินเกณฑ์ตามเวลาที่กำหนด",
+      "accepted": true,
+      "source_count": 3,
+      "media_count": 1
+    },
+    {
+      "id": "FR-07",
+      "title": "ตั้งค่า NVS และคงค่าหลังรีบูต",
+      "accepted": true,
+      "source_count": 1,
+      "media_count": 0
+    },
+    {
+      "id": "FR-08",
+      "title": "OTA อัตโนมัติ",
+      "accepted": true,
+      "source_count": 3,
+      "media_count": 0
+    }
+  ],
+  "source_index_sha256": "48f87024ab3d083593734ad02f87b312e1717c033d04b23634f93ecf6ef4501a",
+  "index_sha256": "60f0530c44997e07c1ca827e0aad2bc200ad705c6000540623e582da8851c923",
+  "original_files_unchanged": true,
+  "original_files": [
+    {
+      "file": "files/FR01_sensor_display.json",
+      "bytes": 696960,
+      "sha256": "8183b75700e285c242492260858d23ad0fe5e6f969cb5601ffa3d81dcb35230e",
+      "original_project_relative_path": "output/fr_completion_20261016/fr01_local_runs/20261016T160220Z/result.json"
+    },
+    {
+      "file": "files/FR02_pages.json",
+      "bytes": 7844,
+      "sha256": "fccc6ad09d6e79ace7d189a105a6cffdc9ff965d9bd8b42d860b8e633a540597",
+      "original_project_relative_path": "output/final_acceptance_20261016/hub_pages.json"
+    },
+    {
+      "file": "files/Display_confirmation_2.0.15.json",
+      "bytes": 378,
+      "sha256": "34cb1706f1d44d0ebbdadcff7ae9217a70d95bda99adcbcbefdf2c3725979b17",
+      "original_project_relative_path": "output/fr_completion_20261016/user_visual_confirmation_2.0.15.json"
+    },
+    {
+      "file": "files/FR03_mqtt_5min.json",
+      "bytes": 47373,
+      "sha256": "661419f7f15d2f33a37b54bd34093e8f98bd708cbf4255dc97aac9da4dad24b3",
+      "original_project_relative_path": "output/fr_completion_20261016/mqtt_2.0.15_pc_home_5min.json"
+    },
+    {
+      "file": "files/FR04_csv_audit.json",
+      "bytes": 1271,
+      "sha256": "76a0f554ae28b478686c1d7a75aec93646ae4f164e5950985109e72e1d6e73ce",
+      "original_project_relative_path": "output/presentation_media_20261016/current_sd_export/env_1792135219_2f3b6084.csv.audit.json"
+    },
+    {
+      "file": "files/FR04_excel_open.json",
+      "bytes": 625,
+      "sha256": "dba1c8601eedd30f92f364891ab6a2ad3284481853b06506bad41ab13211eeff",
+      "original_project_relative_path": "output/presentation_media_20261016/current_sd_export/excel_open.json"
+    },
+    {
+      "file": "files/FR05_offline_10min.json",
+      "bytes": 69122,
+      "sha256": "bf840b4374a80b0afee289113977344127615884957ec435eb20719edf60ebf2",
+      "original_project_relative_path": "output/final_acceptance_20261016/offline_10min/result.json"
+    },
+    {
+      "file": "files/FR06_alert_test.json",
+      "bytes": 18550,
+      "sha256": "f546e9cb4162f9d9a6169a01f035c633c1ab383ff57c10308312e7c5a16a37d9",
+      "original_project_relative_path": "output/fr_completion_20261016/fr06_runs/2026-10-16T16-04-02-772Z/fr06_hardware_browser.json"
+    },
+    {
+      "file": "files/FR07_nvs_reboot.json",
+      "bytes": 2912,
+      "sha256": "25c7000bc577a57f7d911b19a8e1dee1e3d970060f1f4168a8a3392d0cdec975",
+      "original_project_relative_path": "output/final_acceptance_20261016/nvs_reboot.json"
+    },
+    {
+      "file": "files/FR08_automatic_ota.json",
+      "bytes": 5214,
+      "sha256": "567766ff3514506a5ce00d23804c472a6112ce5042a32fc6c7310bd00e22d849",
+      "original_project_relative_path": "output/fr_completion_20261016/fr08_auto_update_2.0.15.json"
+    },
+    {
+      "file": "files/FR08_mqtt_version.json",
+      "bytes": 7507,
+      "sha256": "c7e8ba0f7c9e80a386966858615337aef64b73a9057deb9eafdaf9aa784cb545",
+      "original_project_relative_path": "output/fr_completion_20261016/fr08_mqtt_version_2.0.15.json"
+    },
+    {
+      "file": "files/FR_acceptance_comparison.json",
+      "bytes": 22861,
+      "sha256": "2203807e83d674aef878aeb8085cf5e5cad87c4c82a5b25fdc2a125bafb7e300",
+      "original_project_relative_path": "output/fr_completion_20261016/deliverable/ready15/comparison.json"
+    },
+    {
+      "file": "files/FR01_FR03_final_confirmation.json",
+      "bytes": 650,
+      "sha256": "3a9f00228ceb26958fdc309ea53f659ca08f9a066e3141542daece8054c35f25",
+      "original_project_relative_path": "output/fr_completion_20261016/fr01_fr03_confirmed_2.0.15.json"
+    },
+    {
+      "file": "media/FR01_bpm_demo.mp4",
+      "bytes": 3028233,
+      "sha256": "1f455bcda869bf218b80cffa64ee3cef929c00925da34f248df2a0693aeae51a",
+      "original_project_relative_path": "output/ppt_history_v2_20261016/deliverable/KU_Watch_พร้อมนำเสนอ_v2/ภาพและคลิป/05_คลิปผู้ใช้/ทดสอบค่าBPM.mp4"
+    },
+    {
+      "file": "media/FR02_two_displays.jpg",
+      "bytes": 296390,
+      "sha256": "533b82111244461e7e410d55c8f3e97b88977e3a78db099565bf6bd6f052eace",
+      "original_project_relative_path": "output/ppt_history_v2_20261016/deliverable/KU_Watch_พร้อมนำเสนอ_v2/ภาพและคลิป/04_ภาพตัวเครื่อง/user_photo_1.jpg"
+    },
+    {
+      "file": "media/FR03_grafana_demo.mp4",
+      "bytes": 2250918,
+      "sha256": "de578953b575b79e2e5bbfae64772bcb21e68f8a403bb69d920d19e7a9b1bcff",
+      "original_project_relative_path": "output/ppt_history_v2_20261016/deliverable/KU_Watch_พร้อมนำเสนอ_v2/ภาพและคลิป/06_คลิปแดชบอร์ด/Grafana_สด_16ตุลา2569_60วินาที.mp4"
+    },
+    {
+      "file": "files/FR04_sd_export.csv",
+      "bytes": 8669,
+      "sha256": "c77b127c0a126871aadee2333ba240f2b660d1d9a6dd9f699d1bb3ee25905f5e",
+      "original_project_relative_path": "output/presentation_media_20261016/current_sd_export/env_1792135219_2f3b6084.csv"
+    },
+    {
+      "file": "media/FR05_reconnection_demo.mp4",
+      "bytes": 1678625,
+      "sha256": "a4cee54c9cd6f73b947a92b8a98f07366f4577304260e795396ebaa7b76907ea",
+      "original_project_relative_path": "output/ppt_history_v2_20261016/deliverable/KU_Watch_พร้อมนำเสนอ_v2/ภาพและคลิป/06_คลิปแดชบอร์ด/NodeRED_หลังกลับออนไลน์_16ตุลา2569_60วินาที.mp4"
+    },
+    {
+      "file": "media/FR06_temperature_alert.png",
+      "bytes": 39251,
+      "sha256": "77021ab1377f68aa630cc64706c364683200b7d495febd25041df4c286ae0c69",
+      "original_project_relative_path": "output/fr_completion_20261016/fr06_runs/2026-10-16T16-04-02-772Z/FR06_TEMP_166645718.png"
+    },
+    {
+      "file": "media/FR06_iaq_alert.png",
+      "bytes": 39281,
+      "sha256": "7fb3390c0bcd1b51f37743425a34cce7e9cb339ed5016be305bb91158ecc7674",
+      "original_project_relative_path": "output/fr_completion_20261016/fr06_runs/2026-10-16T16-04-02-772Z/FR06_IAQ_166655106.png"
+    },
+    {
+      "file": "media/FR06_alert_demo.mp4",
+      "bytes": 315804,
+      "sha256": "576f7682a385b77a0546028adcf8a8a197d84c6eeb5f07e112752891f62be6ae",
+      "original_project_relative_path": "output/fr_completion_20261016/deliverable/media/FR06_2.0.15_Actual_Browser_Test.mp4"
+    },
+    {
+      "file": "docs/KU_Watch_FR_Status_2.0.15.docx",
+      "bytes": 44562,
+      "sha256": "20a41a5d50e377dec61a847494304747beb1d7ef7e14f79eb7b553c4f5a82ed6",
+      "original_project_relative_path": "output/fr_completion_20261016/deliverable/ready15/KU_Watch_FR_Status_2.0.15_ready15.docx"
+    }
+  ]
+}

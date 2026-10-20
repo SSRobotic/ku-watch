@@ -1,0 +1,12 @@
+{
+  "checked_utc": "2026-10-20T10:52:40.645641+00:00",
+  "scope": "Actual staged Git blobs and recursive final-release ZIP; no credential values are recorded. Dated file/evidence checks are separate from hardware acceptance.",
+  "tracked_files": 1009,
+  "scanned_payloads": 1761,
+  "archive_members": 751,
+  "local_document_links": 212,
+  "submission_manifest_files": 190,
+  "final_zip_sha256": "f0b13e343863193517b06179b250a9de7794eca8abb7ef24e685b3e7e737d313",
+  "issues": [],
+  "passed": true
+}

@@ -1,0 +1,158 @@
+{
+  "scope": "Edited historical demonstration with original source clips. Captions identify the dates and simulated inputs. No synthetic telemetry or reconstructed acceptance run.",
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "KU Watch",
+      "start_s": 0,
+      "duration_s": 8,
+      "source_name": "slide-01.png",
+      "source_start_s": 0,
+      "caption": "Project demonstration. Watch 2.0.15 and hub 1.0.8.\nOriginal project recordings and dated test results."
+    },
+    {
+      "chapter": 2,
+      "title": "Enclosure design",
+      "start_s": 8,
+      "duration_s": 10,
+      "source_name": "slide-05.png",
+      "source_start_s": 0,
+      "caption": "CAD comparison from the development record.\nThe enclosure changed to fit the display and sensor layout."
+    },
+    {
+      "chapter": 3,
+      "title": "Assembly and wiring",
+      "start_s": 18,
+      "duration_s": 10,
+      "source_name": "slide-06.png",
+      "source_start_s": 0,
+      "caption": "Actual sensor modules, battery and wiring before closing the case.\nThe original photographs are included in the submission."
+    },
+    {
+      "chapter": 4,
+      "title": "Prototype during development",
+      "start_s": 28,
+      "duration_s": 30,
+      "source_name": "development-prototype-30s.mp4",
+      "source_start_s": 0,
+      "caption": "Original development footage.\nThis shows assembly progress, not a final acceptance measurement."
+    },
+    {
+      "chapter": 5,
+      "title": "Environmental readings on both displays",
+      "start_s": 58,
+      "duration_s": 12.6,
+      "source_name": "environment-demo.mp4",
+      "source_start_s": 0,
+      "caption": "Temperature, humidity and pressure from the original hardware demonstration.\nThe two displays show the same device data."
+    },
+    {
+      "chapter": 6,
+      "title": "Motion input",
+      "start_s": 70.6,
+      "duration_s": 8.8,
+      "source_name": "motion-demo.mp4",
+      "source_start_s": 0,
+      "caption": "Motion values change as the device moves.\nThis watch uses GY-51 acceleration and magnetic-field inputs."
+    },
+    {
+      "chapter": 7,
+      "title": "Optical pulse estimate",
+      "start_s": 79.4,
+      "duration_s": 13.25,
+      "source_name": "pulse-demo.mp4",
+      "source_start_s": 0,
+      "caption": "Original demonstration of BPM on both displays.\nPulse and SpO2 are experimental estimates, not medical measurements."
+    },
+    {
+      "chapter": 8,
+      "title": "Network status and settings",
+      "start_s": 92.65,
+      "duration_s": 7.05,
+      "source_name": "network-connection-demo.mp4",
+      "source_start_s": 0,
+      "caption": "Original network demonstration.\nThe NVS reboot test separately verifies settings persistence."
+    },
+    {
+      "chapter": 9,
+      "title": "Walking and GPS recording",
+      "start_s": 99.7,
+      "duration_s": 30,
+      "source_name": "walking-and-gps-demo.mp4",
+      "source_start_s": 10,
+      "caption": "Excerpt from the original outdoor recording.\nThe watch starts an activity and displays its recording status."
+    },
+    {
+      "chapter": 10,
+      "title": "Map screen",
+      "start_s": 129.7,
+      "duration_s": 15,
+      "source_name": "walking-and-gps-demo.mp4",
+      "source_start_s": 150,
+      "caption": "Later excerpt from the same original recording.\nThe map view is shown on the devices. The full clip is included."
+    },
+    {
+      "chapter": 11,
+      "title": "Node-RED after reconnection",
+      "start_s": 144.7,
+      "duration_s": 60,
+      "source_name": "node-red-recovery-60s.mp4",
+      "source_start_s": 0,
+      "caption": "Recorded on 16 October 2026 after reconnecting.\nLive readings update widgets. Backfill follows a separate storage path."
+    },
+    {
+      "chapter": 12,
+      "title": "InfluxDB stored records",
+      "start_s": 204.7,
+      "duration_s": 20,
+      "source_name": "slide-10.png",
+      "source_start_s": 0,
+      "caption": "Actual saved query responses from 16 October 2026.\nTimestamps and sample IDs connect the sensor captures to stored records."
+    },
+    {
+      "chapter": 13,
+      "title": "Grafana dashboard",
+      "start_s": 224.7,
+      "duration_s": 59.95,
+      "source_name": "grafana-live-60s.mp4",
+      "source_start_s": 0,
+      "caption": "Actual dashboard recording from 16 October 2026.\nThese are recorded live updates, not a connection running during playback."
+    },
+    {
+      "chapter": 14,
+      "title": "MicroSD CSV and Excel",
+      "start_s": 284.65,
+      "duration_s": 20,
+      "source_name": "slide-13.png",
+      "source_start_s": 0,
+      "caption": "The checked export contains 61 rows and 26 columns over 301 seconds.\nThe original CSV and the Excel read-only verification are included."
+    },
+    {
+      "chapter": 15,
+      "title": "Alert test with simulated inputs",
+      "start_s": 304.65,
+      "duration_s": 22.3,
+      "source_name": "fr06-alert-test-2.0.15.mp4",
+      "source_start_s": 0,
+      "caption": "TEST inputs are separate from real sensor history.\nBoth temperature and IAQ cases alert within the recorded five-second limit."
+    },
+    {
+      "chapter": 16,
+      "title": "Automatic Wi-Fi firmware update",
+      "start_s": 326.95,
+      "duration_s": 18,
+      "source_name": "slide-15.png",
+      "source_start_s": 0,
+      "caption": "Recorded serial-log result: 2.0.14 updated automatically to 2.0.15.\nHash verification and boot confirmation completed in about 88.4 seconds."
+    },
+    {
+      "chapter": 17,
+      "title": "Final results and remaining validation",
+      "start_s": 344.95,
+      "duration_s": 15.05,
+      "source_name": "slide-19.png",
+      "source_start_s": 0,
+      "caption": "All eight functional requirements have scoped evidence.\nContinuous 24-hour operation, battery and the remaining NFR tests stay open."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+    "checked_utc":  "2026-10-16T07:26:50.1192571Z",
+    "tool":  "Microsoft Excel COM - actual CSV opened read-only",
+    "excel_version":  "16.0",
+    "file":  "C:\\Users\\pomma\\OneDrive\\Desktop\\02_Projects\\KU_Watch_Display_First\\output\\presentation_media_20261016\\current_sd_export\\env_1792135219_2f3b6084.csv",
+    "rows_including_header":  62,
+    "columns":  26,
+    "first_header":  "rtc_utc",
+    "last_header":  "hub_fw",
+    "first_rtc_utc":  1792135219,
+    "sha256":  "c77b127c0a126871aadee2333ba240f2b660d1d9a6dd9f699d1bb3ee25905f5e",
+    "passed":  true,
+    "file_unchanged":  true
+}

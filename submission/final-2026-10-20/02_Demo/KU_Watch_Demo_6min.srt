@@ -1,0 +1,101 @@
+1
+00:00:00,000 --> 00:00:08,000
+KU Watch
+Project demonstration. Watch 2.0.15 and hub 1.0.8.
+Original project recordings and dated test results.
+
+2
+00:00:08,000 --> 00:00:18,000
+Enclosure design
+CAD comparison from the development record.
+The enclosure changed to fit the display and sensor layout.
+
+3
+00:00:18,000 --> 00:00:28,000
+Assembly and wiring
+Actual sensor modules, battery and wiring before closing the case.
+The original photographs are included in the submission.
+
+4
+00:00:28,000 --> 00:00:58,000
+Prototype during development
+Original development footage.
+This shows assembly progress, not a final acceptance measurement.
+
+5
+00:00:58,000 --> 00:01:10,600
+Environmental readings on both displays
+Temperature, humidity and pressure from the original hardware demonstration.
+The two displays show the same device data.
+
+6
+00:01:10,600 --> 00:01:19,400
+Motion input
+Motion values change as the device moves.
+This watch uses GY-51 acceleration and magnetic-field inputs.
+
+7
+00:01:19,400 --> 00:01:32,650
+Optical pulse estimate
+Original demonstration of BPM on both displays.
+Pulse and SpO2 are experimental estimates, not medical measurements.
+
+8
+00:01:32,650 --> 00:01:39,700
+Network status and settings
+Original network demonstration.
+The NVS reboot test separately verifies settings persistence.
+
+9
+00:01:39,700 --> 00:02:09,700
+Walking and GPS recording
+Excerpt from the original outdoor recording.
+The watch starts an activity and displays its recording status.
+
+10
+00:02:09,700 --> 00:02:24,700
+Map screen
+Later excerpt from the same original recording.
+The map view is shown on the devices. The full clip is included.
+
+11
+00:02:24,700 --> 00:03:24,700
+Node-RED after reconnection
+Recorded on 16 October 2026 after reconnecting.
+Live readings update widgets. Backfill follows a separate storage path.
+
+12
+00:03:24,700 --> 00:03:44,700
+InfluxDB stored records
+Actual saved query responses from 16 October 2026.
+Timestamps and sample IDs connect the sensor captures to stored records.
+
+13
+00:03:44,700 --> 00:04:44,650
+Grafana dashboard
+Actual dashboard recording from 16 October 2026.
+These are recorded live updates, not a connection running during playback.
+
+14
+00:04:44,650 --> 00:05:04,650
+MicroSD CSV and Excel
+The checked export contains 61 rows and 26 columns over 301 seconds.
+The original CSV and the Excel read-only verification are included.
+
+15
+00:05:04,650 --> 00:05:26,950
+Alert test with simulated inputs
+TEST inputs are separate from real sensor history.
+Both temperature and IAQ cases alert within the recorded five-second limit.
+
+16
+00:05:26,950 --> 00:05:44,950
+Automatic Wi-Fi firmware update
+Recorded serial-log result: 2.0.14 updated automatically to 2.0.15.
+Hash verification and boot confirmation completed in about 88.4 seconds.
+
+17
+00:05:44,950 --> 00:06:00,000
+Final results and remaining validation
+All eight functional requirements have scoped evidence.
+Continuous 24-hour operation, battery and the remaining NFR tests stay open.

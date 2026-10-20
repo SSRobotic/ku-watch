@@ -21,7 +21,7 @@ The original watch-side QMI8658/MicroSD specification was implemented with repor
 
 | ID | Original target | Current status |
 |---|---|---|
-| NFR-01 | Continuous 24 h operation without manual reboot or lock-up | **Incomplete.** More than 29 h accumulated MQTT reception, longest continuous interval approximately 8 h 10 min at the final handoff. Accumulated time is not 24 h continuous operation, battery life or whole-system acceptance |
+| NFR-01 | Continuous 24 h operation without manual reboot or lock-up | **Incomplete.** 30.32 h accumulated MQTT reception, longest continuous interval 8.17 h in the saved 20 October submission snapshot. Accumulated time is not 24 h continuous operation, battery life or whole-system acceptance |
 | NFR-02 | Survive a 10 min network/broker outage and reconnect automatically with backoff | **Accepted in the recorded outage test.** Watch kept running during actual 614 s Wi-Fi interruption and recovered automatically |
 | NFR-03 | Online sensor-to-Grafana <=5 s and touch response <=300 ms; 10 timing observations | **Incomplete.** Some query-latency observations exist; full physical sensor-to-painted-browser and quantitative touch boundary are not established |
 | NFR-04 | 1000 mAh Li-Po operation >=6 h, measured until 20% | **Not tested.** Bench tests used USB. Portable use and estimated battery percentage do not establish endurance |
@@ -29,6 +29,8 @@ The original watch-side QMI8658/MicroSD specification was implemented with repor
 | NFR-06 | Temperature within +/-3 C of reference over 10 points; label health values preliminary | Health estimates are labeled experimental. **Calibration incomplete:** no 10-point reference-temperature dataset supplied |
 | NFR-07 | Actual complete hardware BOM <=3,000 THB | **Incomplete.** Actual purchase prices have not been filled for a verified total |
 | NFR-08 | Modular code, A/B rollback and OTA battery gate; 3 power-cut recovery trials | Modules and A/B OTA are implemented; successful updates observed. **Power-cut acceptance incomplete:** three interruption/rollback trials have not been performed |
+
+The [20 October final submission](FINAL_SUBMISSION.md) preserves the unchanged original Requirements Plan V2 and a checked copy with all original criterion text.
 
 ## Evidence entry points
 

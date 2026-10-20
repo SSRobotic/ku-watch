@@ -1,0 +1,22 @@
+{
+  "duration_s": 360.0,
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "nb_frames": "7200"
+      }
+    ],
+    "format": {
+      "duration": "360.000000"
+    }
+  },
+  "chapters": 17,
+  "bytes": 20725171,
+  "source_video_count": 9,
+  "created_utc": "2026-10-20T10:27:24.489210+00:00"
+}

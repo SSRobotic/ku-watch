@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "windows_expand_archive": true,
+  "manifest_hashes_verified": 190,
+  "home_links": true,
+  "demo_seconds": 360,
+  "video_playback_seek_positions": [
+    0,
+    70,
+    155,
+    235,
+    313,
+    350
+  ],
+  "photos": 139,
+  "offline": true,
+  "javascript_errors": []
+}

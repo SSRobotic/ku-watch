@@ -1,0 +1,60 @@
+{
+  "checked_utc": "2026-10-20T10:43:44.743Z",
+  "passed": true,
+  "extracted_location": "C:\\Users\\pomma\\AppData\\Local\\Temp\\KU_Watch_Final_QA_20261020T104235Z\\KU_Watch_Final_Submission\\04_Evidence",
+  "offline": true,
+  "original_files": 22,
+  "original_hashes_verified": true,
+  "all_checksums_verified": true,
+  "requirements": [
+    {
+      "id": "FR-01",
+      "source_links": 3,
+      "video_seconds": 13.278333,
+      "playback_verified": true
+    },
+    {
+      "id": "FR-02",
+      "source_links": 5,
+      "image": true
+    },
+    {
+      "id": "FR-03",
+      "source_links": 3,
+      "video_seconds": 59.96,
+      "playback_verified": true
+    },
+    {
+      "id": "FR-04",
+      "source_links": 3
+    },
+    {
+      "id": "FR-05",
+      "source_links": 2,
+      "video_seconds": 60,
+      "playback_verified": true
+    },
+    {
+      "id": "FR-06",
+      "source_links": 4,
+      "video_seconds": 22.32,
+      "playback_verified": true
+    },
+    {
+      "id": "FR-07",
+      "source_links": 1
+    },
+    {
+      "id": "FR-08",
+      "source_links": 3
+    }
+  ],
+  "source_json_opens": true,
+  "keyboard_and_projection_verified": true,
+  "csv": {
+    "rows": 61,
+    "columns": 26
+  },
+  "outside_package_requests": 0,
+  "javascript_errors": []
+}
